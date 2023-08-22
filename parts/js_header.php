@@ -1,9 +1,10 @@
-<?php
-    // wp_enqueue_style('style', get_template_directory_uri() . '/styles/johnstone.css');
-    
-?>
+<html>
+<head>
+    <title>Johnstone Tools</title>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/styles/johnstone.css">
+</head>
 
-<link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/styles/johnstone.css">
+<body>
 
 <div class="js_entire_wrap">
 
