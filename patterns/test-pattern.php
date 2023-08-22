@@ -8,4 +8,13 @@
  */
 ?>
 
-test
+<div class="test_class">
+    test
+</div>
+
+<style>
+    .test_class {
+        font-size: 45px;
+        color: dodgerblue;
+    }
+</style>
