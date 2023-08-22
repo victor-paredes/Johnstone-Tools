@@ -65,3 +65,21 @@ add_action( 'wp_enqueue_scripts', 'twentytwentytwo_styles' );
 
 // Add block patterns
 require get_template_directory() . '/inc/block-patterns.php';
+
+
+
+
+
+
+/**
+ * Hooks the WP cpt_post_types filter 
+ *
+ * @param array $post_types An array of post type names that the templates be used by
+ * @return array The array of post type names that the templates be used by
+ **/
+function my_cpt_post_types( $post_types ) {
+    $post_types[] = 'landing-page';
+    $post_types[] = 'next';
+    return $post_types;
+}
+add_filter( 'cpt_post_types', 'my_cpt_post_types' );
