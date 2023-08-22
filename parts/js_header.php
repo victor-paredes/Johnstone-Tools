@@ -9,6 +9,7 @@
 
     <img src="http://victorpared.es/js/wp-content/uploads/2023/08/johnstone_header_v1.png" 
         style="
-        width: 100%;    
+        width: 100%;
+        margin-bottom: 15px;    
     ">
     <br>
