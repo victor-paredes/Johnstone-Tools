@@ -14,23 +14,9 @@ get_template_part( 'parts/js_header' );
 
 
 
+    get_template_part( 'sections/standard_template_product_cards' );
 
-
-    /* Start the Loop */
-    while ( have_posts() ) :
-        the_post();
-
-        // ACF - Flexible Content fields.
-        $sections = get_field( 'standard_template_blocks' );
-
-        if ( $sections ) :
-            foreach ( $sections as $section ) :
-                echo 'test';
-                get_template_part( 'sections/standard_template_product_cards' );
-            endforeach;
-        endif;
-
-    endwhile; // End of the loop.
+    
 
 
 
