@@ -18,6 +18,7 @@
 
 
             <?php if( get_row_layout() == 'standard_template_product_cards' ): ?>
+                try: 
                 <?php the_sub_field('product_title'); ?>
             <?php endif; ?>
 
