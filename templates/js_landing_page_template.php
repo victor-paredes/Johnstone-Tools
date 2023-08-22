@@ -4,12 +4,11 @@ Template Name: Johnstone Template
 Template Post Type: landing-page
 */
 
-?>
+// echo the_content();
 
-<br />
-<?php // echo the_content(); ?>
+wp_enqueue_style('bootstrap', get_template_directory_uri() . '/styles/johnstone.css');
 
-<?php 
+
 
 /* Start the Loop */
 while ( have_posts() ) :

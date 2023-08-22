@@ -71,6 +71,14 @@ require get_template_directory() . '/inc/block-patterns.php';
 
 
 
+
+
+
+
+
+
+
+
 /**
  * Hooks the WP cpt_post_types filter 
  *
