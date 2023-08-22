@@ -1,9 +1,11 @@
 
 <div class="standard_template_product_cards_wrap">
 
+    <div class="card-deck">
+
     
 
-<?php
+        <?php
 
 
         // ACF - Flexible Content fields.
@@ -14,7 +16,7 @@
                 echo 'test';
 
 
-                ?>
+        ?>
 
 
 
@@ -60,17 +62,17 @@
 
 
 
-<?php
+        <?php
 
                 
             endforeach;
         endif;
 
 
-?>
+        ?>
 
 
- 
+    </div>
 
 
 
