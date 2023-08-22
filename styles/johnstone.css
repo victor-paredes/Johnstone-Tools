@@ -1,4 +1,9 @@
 
+body {
+    margin: 0;
+}
+
+
 .js_entire_wrap {
     margin: 0 auto;
     width: 1140px;
