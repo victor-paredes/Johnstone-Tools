@@ -4,3 +4,9 @@
     width: 1140px;
     max-width: 90%;
 }
+
+.js_footer_wrap {
+    background-color: #242936;
+    height: 350px;
+    width: 100%;
+}
