@@ -2,7 +2,7 @@
 /**
  * Title: Test Pattern
  * Slug: twentytwentythree/test-pattern
- * Categories: test
+ * Categories: Uncategorized
  * Keywords: test
  * Block Types: core/buttons
  */
