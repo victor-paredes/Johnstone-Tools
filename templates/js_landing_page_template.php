@@ -6,7 +6,7 @@ Template Post Type: landing-page
 
 // echo the_content();
 
-wp_enqueue_style(get_template_directory_uri() . '/styles/johnstone.css');
+wp_enqueue_style('style', get_template_directory_uri() . '/styles/johnstone.css');
 
 get_template_part( 'parts/js_header' );
 
