@@ -20,7 +20,7 @@ while ( have_posts() ) :
 
     if ( $sections ) :
         foreach ( $sections as $section ) :
-            test
+            echo 'test';
             //get_template_part( 'flexible-content/sections/' . $template, '', $section );
         endforeach;
     endif;
