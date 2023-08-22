@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: TEST TEMPLte
+Template Name: Johnstone Template
 Template Post Type: landing-page
 */
 
