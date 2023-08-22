@@ -7,14 +7,11 @@
 
         <?php
 
-
         // ACF - Flexible Content fields.
         $sections = get_field( 'standard_template_blocks' );
 
         if ( $sections ) :
             foreach ( $sections as $section ) :
-                echo 'test';
-
 
         ?>
 
@@ -63,20 +60,13 @@
 
 
         <?php
-
                 
             endforeach;
         endif;
 
-
         ?>
 
 
-    </div>
-
-
-
-
-    
+    </div> <!-- card-deck -->
   
-</div>
+</div> <!-- standard_template_product_cards_wrap -->
