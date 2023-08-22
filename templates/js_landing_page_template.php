@@ -20,7 +20,7 @@ while ( have_posts() ) :
     if ( $sections ) :
         foreach ( $sections as $section ) :
             echo 'test';
-            //get_template_part( 'flexible-content/sections/' . $template, '', $section );
+            get_template_part( 'sections/standard_template_product_cards' );
         endforeach;
     endif;
 
