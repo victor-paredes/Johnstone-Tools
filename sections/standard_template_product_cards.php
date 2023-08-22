@@ -16,9 +16,7 @@
                 
             <div class="card">
                 <div align="center" style="min-height:260px">
-                
-                <?php if (true) { ?>
-                    answer: <?php echo get_sub_field( 'featured_product' ); ?>
+                <?php if (get_sub_field( 'featured_product' ) == true) { ?>
                     <h4 style="background-color: #1F3962; color: #fff">Featured Product</h4>
                 <?php } ?>
 
