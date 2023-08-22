@@ -75,7 +75,6 @@ require get_template_directory() . '/inc/block-patterns.php';
 
 
 
-wp_enqueue_style('style', get_template_directory_uri() . '/styles/johnstone.css');
 
 
 
