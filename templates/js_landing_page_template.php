@@ -9,4 +9,4 @@ echo 'test';
 ?>
 
 <br />
-<!-- wp:post-content /-->
+<!-- wp:post-content {"layout":{"inherit":true}} /-->
