@@ -11,7 +11,7 @@
         
 
         if( have_rows('standard_template_blocks') ):
-            while( have_rows('repeater_field_name') ) : the_row();
+            while( have_rows('standard_template_product_cards') ) : the_row();
 
         ?>
 
