@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Full-width layout
+Template Name: TEST TEMPLte
 Template Post Type: post, page, product
 */
 
