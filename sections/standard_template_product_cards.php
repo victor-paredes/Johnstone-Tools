@@ -8,10 +8,10 @@
         <?php
 
         // ACF - Flexible Content fields.
-        $sections = get_field( 'standard_template_blocks' );
+        
 
-        if ( $sections ) :
-            foreach ( $sections as $section ) :
+        if( have_rows('standard_template_blocks') ):
+            while( have_rows('repeater_field_name') ) : the_row();
 
         ?>
 
@@ -26,7 +26,7 @@
                 <div align="center" style="min-height:260px">
                 
                 <?php if (true) { ?>
-                    answer: <?php $section['product_title']; ?>
+                    answer: <?php echo get_sub_field( 'product_title' ); ?>
                     <h4 style="background-color: #1F3962; color: #fff">Featured Product</h4>
                 <?php } ?>
 
@@ -66,7 +66,7 @@
 
         <?php
                 
-            endforeach;
+                endwhile;
         endif;
 
         ?>
