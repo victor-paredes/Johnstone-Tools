@@ -1,7 +1,7 @@
 <?php
 /*
 Template Name: TEST TEMPLte
-Template Post Type: post, page, product
+Template Post Type: landing-page
 */
 
 echo 'test';
