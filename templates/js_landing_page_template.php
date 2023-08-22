@@ -8,7 +8,7 @@ Template Post Type: landing-page
 
 wp_enqueue_style('bootstrap', get_template_directory_uri() . '/styles/johnstone.css');
 
-get_template_part( 'parts/js_header.php' );
+get_template_part( 'parts/js_header' );
 
 
 
@@ -43,7 +43,7 @@ get_template_part( 'parts/js_header.php' );
 
 
 
-get_template_part( 'parts/js_footer.php' );
+get_template_part( 'parts/js_footer' );
 
 
 
