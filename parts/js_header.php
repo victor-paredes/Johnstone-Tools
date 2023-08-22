@@ -7,5 +7,8 @@
 
 <div class="js_entire_wrap">
 
-    <img src="http://victorpared.es/js/wp-content/uploads/2023/08/johnstone_header_v1.png">
+    <img src="http://victorpared.es/js/wp-content/uploads/2023/08/johnstone_header_v1.png" 
+        style="
+        width: 100%;    
+    ">
     <br>
