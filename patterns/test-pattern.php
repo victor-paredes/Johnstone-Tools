@@ -14,7 +14,7 @@
 
 <style>
     .test_class {
-        font-size: 45px;
-        color: red;
+        font-size: 45px !important;
+        color: dodgerblue !important;
     }
 </style>
