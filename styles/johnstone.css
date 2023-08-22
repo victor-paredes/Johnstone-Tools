@@ -10,6 +10,10 @@ body {
     width: 1140px;
     max-width: 90%;
 }
+.js_header_image {
+    width: 100%;
+    margin-bottom: 15px;
+}
 
 .js_footer_wrap {
     margin-top: 15px;
