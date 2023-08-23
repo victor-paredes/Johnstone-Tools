@@ -20,8 +20,8 @@ if ( have_rows('standard_template_blocks') == true ) { ?>
                 the_row();
                 $current_layout = get_row_layout();
 
-                if ( $current_layout == 'header' ) {
-                    get_template_part( 'sections/standard_template_header' );
+                if ( $current_layout == 'ad' ) {
+                    get_template_part( 'sections/standard_template_ad' );
                 } elseif ( $current_layout == 'about_section' ) {
                     get_template_part( 'sections/standard_template_about_section' );
                 } elseif ( $current_layout == 'standard_template_product_cards' ) {
