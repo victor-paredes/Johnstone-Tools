@@ -1,1 +1,1 @@
-<img class="product_image" src="<?php the_sub_field('product_image'); ?>">
+<img class="product_image" src="<?php the_sub_field('image'); ?>">
