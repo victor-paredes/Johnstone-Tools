@@ -18,7 +18,7 @@ if ( have_rows('standard_template_blocks') == true ) {
         $current_layout = get_row_layout();
 
         if ( $current_layout == 'header_image' ) {
-            echo 'header';
+            get_template_part( 'sections/standard_template_header' );
         } elseif ( $current_layout == 'about_section' ) {
             echo 'about_section';
         } elseif ( $current_layout == 'standard_template_product_cards' ) {
