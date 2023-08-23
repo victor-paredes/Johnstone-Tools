@@ -170,7 +170,7 @@ echo '
 
                         <?php echo'
                         " target="_blank">
-                            <img src="';
+                            <img src="'; ?>
                             
                             <?php the_sub_field('image_url'); ?>
                             
