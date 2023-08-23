@@ -37,8 +37,8 @@
                             </h4>
                         <?php } ?>
 
-                        <a href="<?php the_sub_field('product_link'); ?>" target="_blank">
-                            <img src="<?php the_sub_field('image_url'); ?>" style="width: 80%; max-height: 150px;" /> 
+                        <a href="<?php the_sub_field('product_link'); ?>" target="_blank" style="display: block;">
+                            <img src="<?php the_sub_field('image_url'); ?>" style="width: 80%;" /> 
                         </a>
                     </div>
 
