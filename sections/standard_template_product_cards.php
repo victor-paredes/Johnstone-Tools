@@ -1,5 +1,5 @@
 
-<div class="standard_template_product_cards_wrap">
+<div class="standard_template_product_cards_wrap container">
     <div class="card-deck">
 
     
