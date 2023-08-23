@@ -32,14 +32,12 @@ if ( have_rows('standard_template_blocks') == true ) {
 
         } elseif ( $current_layout == 'standard_template_product_cards' ) {
 
-            echo 'standard_template_product_cards .';
-            //get_template_part( 'sections/standard_template_product_cards' );
+            //echo 'standard_template_product_cards .';
+            get_template_part( 'sections/standard_template_product_cards' );
 
         }
 
-
         echo '<br>';
-    
 
     }
 

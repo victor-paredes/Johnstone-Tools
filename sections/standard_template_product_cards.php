@@ -5,11 +5,6 @@
 
     
 
-   
-
-        
-    <?php if( have_rows('standard_template_blocks') ): ?>
-    <?php while( have_rows('standard_template_blocks') ): the_row(); ?>
 
         <?php if( get_row_layout() == 'standard_template_product_cards' ): ?>
             
@@ -59,8 +54,7 @@
             
 
         <?php endif; ?>
-    <?php endwhile; ?>
-<?php endif; ?>
+
 
                 
 
