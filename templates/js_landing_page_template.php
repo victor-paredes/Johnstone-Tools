@@ -11,7 +11,7 @@ get_template_part( 'parts/js_header' );
 
 
 
-if ( have_rows('standard_template_blocks') == true ) {
+if ( have_rows('standard_template_blocks') == true ) { ?>
 
     <div class="COPY THIS CONTAINER TO BLOOMREACH">
 
@@ -33,7 +33,7 @@ if ( have_rows('standard_template_blocks') == true ) {
 
     </div>
     
-} else {
+<?php } else {
     echo 'no rows';
 }
 
