@@ -16,21 +16,23 @@ if ( have_rows('standard_template_blocks') == true ) {
     while( have_rows('standard_template_blocks') ) {
         the_row();
 
-        if ( get_row_layout() == 'header' ) {
+        echo get_row_layout();
 
-            echo 'header';
-            //get_template_part( 'sections/standard_template_product_cards' );
+        // if ( get_row_layout() == 'header' ) {
 
-        } elseif ( get_row_layout() == 'about_section' ) {
+        //     echo 'header';
+        //     //get_template_part( 'sections/standard_template_product_cards' );
 
-            echo 'about_section';
-            //get_template_part( 'sections/standard_template_product_cards' );
+        // } elseif ( get_row_layout() == 'about_section' ) {
 
-        } elseif ( get_row_layout() == 'standard_template_product_cards' ) {
+        //     echo 'about_section';
+        //     //get_template_part( 'sections/standard_template_product_cards' );
 
-            get_template_part( 'sections/standard_template_product_cards' );
+        // } elseif ( get_row_layout() == 'standard_template_product_cards' ) {
 
-        }
+        //     get_template_part( 'sections/standard_template_product_cards' );
+
+        // }
 
         echo '<br>';
     
