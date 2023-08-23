@@ -11,7 +11,7 @@ get_template_part( 'parts/js_header' );
 
 
 
-if ( has_rows('standard_template_blocks') == true ) {
+if ( get_field('standard_template_blocks') == true ) {
     echo 'true';
 } else {
     echo 'false';
