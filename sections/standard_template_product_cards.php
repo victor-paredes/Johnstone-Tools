@@ -47,10 +47,7 @@
 
 
 
-        <?php else: 
-            echo 'none';
-        ?>
-            
+     
 
      
 
