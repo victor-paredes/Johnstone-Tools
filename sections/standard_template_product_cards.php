@@ -147,7 +147,7 @@ echo '
 
 
 
-<?php echo '
+<?php print '
 
                 <div class="card">
 
