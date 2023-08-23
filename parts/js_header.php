@@ -9,4 +9,6 @@
 
 <div class="js_entire_wrap">
 
-    <img class="container js_header_image" src="http://victorpared.es/js/wp-content/uploads/2023/08/johnstone_header_v1.png">
+    <div class="container">
+        <img class="js_header_image" src="http://victorpared.es/js/wp-content/uploads/2023/08/johnstone_header_v1.png">
+</div>
