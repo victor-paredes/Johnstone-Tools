@@ -30,6 +30,9 @@ h2 {
 
 
 
+.COPY_THIS_CONTAINER_TO_BLOOMREACH {
+    width: auto;
+}
 .header_image_wrap {
     margin-top: 15px !important;
     width: 100%;
