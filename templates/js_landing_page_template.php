@@ -21,9 +21,11 @@ get_template_part( 'sections/standard_template_product_cards' );
 
     
 
-
+ 
 
 get_template_part( 'parts/js_footer' );
+
+//test
 
 
 
