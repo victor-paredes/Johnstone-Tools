@@ -12,7 +12,7 @@
 
 
 
-    
+
         <?php
             while( have_rows('product_cards') ){ 
                 the_row(); 
@@ -60,7 +60,9 @@
                         </ul>
                         
                         <p style="margin:0in 0in 8pt"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="line-height:107%"></span></span></span></span></span></p>
-                        <a class="btn btn-primary mt-auto" href="https://www.johnstonesupply.com/search/go?w=B76-099,%20B76-100,%20B76-101,%20B76-102,%20B76-107,%20B76-108,%20B76-109,%20B76-110,%20B76-103,%20B76-111,%20B76-104,%20B76-112,%20B76-105,%20B76-113,%20B76-106,%20B76-114" role="button" target="_blank">Learn More </a></div>
+                        <a class="btn btn-primary mt-auto" href="https://www.johnstonesupply.com/search/go?w=B76-099,%20B76-100,%20B76-101,%20B76-102,%20B76-107,%20B76-108,%20B76-109,%20B76-110,%20B76-103,%20B76-111,%20B76-104,%20B76-112,%20B76-105,%20B76-113,%20B76-106,%20B76-114" role="button" target="_blank">
+                            Learn More 
+                        </a>
                     </div>
                 </div>
 
