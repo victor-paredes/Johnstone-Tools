@@ -86,7 +86,7 @@ require get_template_directory() . '/inc/block-patterns.php';
  **/
 function my_cpt_post_types( $post_types ) {
     $post_types[] = 'landing-page';
-    $post_types[] = 'next';
+    //$post_types[] = 'another-type';
     return $post_types;
 }
 add_filter( 'cpt_post_types', 'my_cpt_post_types' );
