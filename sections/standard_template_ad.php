@@ -1,5 +1,5 @@
 
-<?php $ad_link = get_sub_field(ad_link); ?>
+<?php $ad_link = get_sub_field('ad_link'); ?>
 
 <div class="header_image_wrap container">
     <?php if ( $ad_link ) { ?>
