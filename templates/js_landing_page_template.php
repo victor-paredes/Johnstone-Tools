@@ -21,6 +21,8 @@ if ( have_rows('standard_template_blocks') == true ) {
         } else {
             echo 'not';
         }
+
+        echo '<br>';
         //get_template_part( 'sections/standard_template_product_cards' );
     
 
