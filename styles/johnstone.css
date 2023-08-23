@@ -14,6 +14,10 @@ body {
     width: 100%;
     margin-bottom: 15px;
 }
+.text-darkblue {
+    color: #004a90;
+}
+
 
 .js_footer_wrap {
     margin-top: 15px;

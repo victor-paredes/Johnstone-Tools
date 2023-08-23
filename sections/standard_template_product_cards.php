@@ -32,7 +32,7 @@
 
                     <div align="center" style="min-height:260px">
                         <?php if ( get_sub_field( 'featured' ) == true) { ?>
-                            <h4 style="background-color: #1F3962; color: #fff">
+                            <h4 class="featured_product_wrap" style="background-color: #1F3962; color: #fff">
                                 Featured Product
                             </h4>
                         <?php } ?>
