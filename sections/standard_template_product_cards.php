@@ -174,7 +174,7 @@ echo '
                             
                             <?php the_sub_field('image_url'); ?>
                             
-                            </php echo '" style="width: 80%"'; ?>
+                            <?php echo '" style="width: 80%"'; ?>
                             
                             <?php echo '/> 
                         </a>
