@@ -43,22 +43,29 @@
 
 
 
-
                     <section class="contain_js">
 
+
+                            <div class="addl-resources">
+                                <p style="font-family: Helvetica, Arial, sans-serif; color: #fff; font-weight: bold; font-size: 14pt;">
+                                    Additional Resources
+                                </p>
+                            </div>
 
                         <?php 
                             while( have_rows('resource') ){ 
                                 the_row(); 
                         ?>
+
                             <div class="addl-resources">
-                                <p style="font-family: Helvetica, Arial, sans-serif; color: #fff; font-weight: bold; font-size: 14pt;">
+                                <p style="font-family: Helvetica, Arial, sans-serif; color: #fff; padding-left: 0px;">
+                                <a class="js" href="https://www.johnstonesupply.com/mini-split-selector" target="_blank">
                                     <?php the_sub_field('resource_title'); ?>
-                                </p>
+                                </a></p>
                             </div>
                                 
                         <?php
-                            }
+                        }
                         ?>
 
 
