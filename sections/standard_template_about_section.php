@@ -38,7 +38,7 @@
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jt8fsxbdGEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
                     </div>
                 </div>
-            </div>
+            
         </div>
     </div>
 </div>
