@@ -164,7 +164,8 @@ echo '
                         <?php } ?>
 
                         <?php echo '
-                        <a href="'; 
+                        <a href="'; ?>
+
                         <?php the_sub_field('product_link'); ?>
 
                         <?php echo'
