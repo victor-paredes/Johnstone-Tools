@@ -4,19 +4,28 @@ body {
 }
 
 
+/* bootstrap */
+.text-darkblue {
+    color: #004a90;
+}
+
+
+
+
 .js_entire_wrap {
     margin: 0 auto;
     margin-top: 30px;
     width: 1140px;
     max-width: 90%;
 }
-.header_image {
+.header_image_wrap {
     width: 100%;
     margin-bottom: 15px;
 }
-.text-darkblue {
-    color: #004a90;
+.header_image_wrap img {
+    width: 100%;
 }
+
 
 
 .js_footer_wrap {
