@@ -1,7 +1,7 @@
 
 <?php $ad_link = get_sub_field('ad_link'); ?>
 
-<div class="header_image_wrap container">
+<div class="header_image_wrap">
     <?php if ( $ad_link ) { ?>
         <a href="<?php echo $ad_link; ?>">
     <?php } ?>
