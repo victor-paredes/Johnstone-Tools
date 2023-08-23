@@ -28,8 +28,9 @@
 
 
                 <div class="card">
-                    <div align="center" style="min-height:260px">
 
+
+                    <div align="center" style="min-height:260px">
                         <?php if (get_sub_field( 'featured_product' ) == true) { ?>
                             <h4 style="background-color: #1F3962; color: #fff">
                                 Featured Product
@@ -37,12 +38,12 @@
                         <?php } ?>
 
                         <a href="https://www.johnstonesupply.com/product-view?pID=H28-669">
-                            <img data-type="hippogallery:original" data-uuid="5b9744fb-51d0-4b00-b7b8-819c66bd195f" src="binaries/content/gallery/johnstonesupplypages/friedrich-product-offering/ptac-front_2000.jpg/ptac-front_2000.jpg/hippogallery:original" style="width: 80%" /> 
+                            <img src="<?php the_sub_field('image_url'); ?>" style="width: 80%" /> 
                         </a>
                     </div>
 
+
                     <div class="card-body d-flex flex-column">
-                        
                         <h5 class="text-darkblue" style="text-align: center;">
                             <?php the_sub_field('product_title'); ?>
                         </h5>
@@ -64,7 +65,9 @@
                             Learn More 
                         </a>
                     </div>
-                </div>
+
+
+                </div> <!-- END .card -->
 
 
 
