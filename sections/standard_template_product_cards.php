@@ -37,7 +37,7 @@
                             </h4>
                         <?php } ?>
 
-                        <a href="https://www.johnstonesupply.com/product-view?pID=H28-669">
+                        <a href="<?php the_sub_field('product_link'); ?>">
                             <img src="<?php the_sub_field('image_url'); ?>" style="width: 80%" /> 
                         </a>
                     </div>
@@ -54,9 +54,7 @@
 
                         <?php the_sub_field('product_description'); ?>
                         
-                        
-                        <p style="margin:0in 0in 8pt"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="line-height:107%"></span></span></span></span></span></p>
-                        <a class="btn btn-primary mt-auto" href="https://www.johnstonesupply.com/search/go?w=B76-099,%20B76-100,%20B76-101,%20B76-102,%20B76-107,%20B76-108,%20B76-109,%20B76-110,%20B76-103,%20B76-111,%20B76-104,%20B76-112,%20B76-105,%20B76-113,%20B76-106,%20B76-114" role="button" target="_blank">
+                        <a class="btn btn-primary mt-auto" href="<?php the_sub_field('product_link'); ?>" role="button" target="_blank">
                             Learn More 
                         </a>
                     </div>
