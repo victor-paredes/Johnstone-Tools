@@ -1,9 +1,14 @@
 
 <div class="standard_template_product_cards_wrap">
-
     <div class="card-deck">
 
     
+        <?php
+            while( have_rows('product_cards') ){ 
+                the_row(); 
+                echo 'row <br>';
+            }
+        ?>
 
 
             
@@ -67,5 +72,4 @@
 
 
     </div> <!-- card-deck -->
-  
 </div> <!-- standard_template_product_cards_wrap -->
