@@ -30,6 +30,7 @@
                 </div>
 
                 <div class="card-body d-flex flex-column">
+                    
                     <h5 class="text-darkblue" style="text-align: center;">
                         <?php the_sub_field('product_title'); ?>
                     </h5>
