@@ -27,6 +27,7 @@ body {
 .header_image_wrap {
     margin-bottom: 10px;
     margin-top: 10px;
+    width: 100%;
 }
 .header_image_wrap img {
     
