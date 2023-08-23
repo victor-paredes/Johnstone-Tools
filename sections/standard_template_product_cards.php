@@ -38,7 +38,7 @@
                         <?php } ?>
 
                         <a href="<?php the_sub_field('product_link'); ?>" target="_blank">
-                            <img src="<?php the_sub_field('image_url'); ?>" style="width: 80%" /> 
+                            <img src="<?php the_sub_field('image_url'); ?>" style="width: 80%; max-height: 150px;" /> 
                         </a>
                     </div>
 
