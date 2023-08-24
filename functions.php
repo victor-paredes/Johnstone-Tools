@@ -82,7 +82,7 @@ function admin_css() {
   echo '<style>
     * {
 		color: red;
-    } 
+    }
   </style>';
 }
 
