@@ -11,7 +11,7 @@ get_template_part( 'parts/js_header' ); ?>
 
 <div class="container">
 
-<?php
+    <?php
     if ( have_rows('standard_template_blocks') == true ) { ?>
 
         <div class="COPY_THIS_CONTAINER_TO_BLOOMREACH">
@@ -58,7 +58,7 @@ get_template_part( 'parts/js_header' ); ?>
     } ?>
 
 
-</div>
+</div> <!-- end -->
 
 
 
