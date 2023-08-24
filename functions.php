@@ -75,6 +75,16 @@ require get_template_directory() . '/inc/block-patterns.php';
 
 
 
+/* admin CSS */
+add_action('admin_head', 'admin_css');
+
+function admin_css() {
+  echo '<style>
+    * {
+		color: red;
+    } 
+  </style>';
+}
 
 
 
