@@ -50,8 +50,8 @@ get_template_part( 'parts/js_header' ); ?>
 
 
 
-
-        </div> <!-- end COPY_THIS_CONTAINER_TO_BLOOMREACH -->
+            <!-- end COPY_THIS_CONTAINER_TO_BLOOMREACH -->
+        </div> 
         
     <?php } else {
         echo 'no rows';
