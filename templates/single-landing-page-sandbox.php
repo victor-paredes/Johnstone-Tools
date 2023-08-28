@@ -56,14 +56,38 @@ get_template_part( 'parts/js_header' ); ?>
 
     
 
-        var range = document.createRange();
-        range.selectNode( document.getElementById("COPY_THIS_CONTAINER_TO_BLOOMREACH") ); //changed here
-        window.getSelection().removeAllRanges(); 
-        window.getSelection().addRange(range); 
-        document.execCommand("copy");
-        window.getSelection().removeAllRanges();
-        alert("data copied");
-        console.log(containerid);
+        // Find the div element with the specified ID
+const container = document.querySelector('#COPY_THIS_CONTAINER_TO_BLOOMREACH');
+
+// Check if the container element was found
+if (container) {
+  // Create a range to select the content of the container
+  const range = document.createRange();
+  range.selectNode(container);
+
+  // Create a selection to hold the range
+  const selection = window.getSelection();
+  selection.removeAllRanges();
+  selection.addRange(range);
+
+  // Copy the selected content to the clipboard
+  try {
+    const success = document.execCommand('copy');
+    if (success) {
+      console.log('Content copied to clipboard');
+    } else {
+      console.error('Copying failed');
+    }
+  } catch (err) {
+    console.error('Error copying to clipboard:', err);
+  }
+
+  // Clear the selection
+  selection.removeAllRanges();
+} else {
+  console.error('Container element not found');
+}
+
 
 </script>
 
