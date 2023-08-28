@@ -35,6 +35,13 @@ get_template_part( 'parts/js_header' ); ?>
             ?>
 
 
+
+<button id="copyButton">Copy to Clipboard</button>
+
+
+
+
+
             
         </div> <!-- end COPY_THIS_CONTAINER_TO_BLOOMREACH -->
         
@@ -56,38 +63,37 @@ get_template_part( 'parts/js_header' ); ?>
 
     
 
-        // Find the div element with the specified ID
-const container = document.querySelector('#COPY_THIS_CONTAINER_TO_BLOOMREACH');
+    document.addEventListener('DOMContentLoaded', function() {
+  const copyButton = document.getElementById('copyButton');
+  const container = document.getElementById('COPY_THIS_CONTAINER_TO_BLOOMREACH');
 
-// Check if the container element was found
-if (container) {
-  // Create a range to select the content of the container
-  const range = document.createRange();
-  range.selectNode(container);
-  console.log('ok ' + container)''
+  copyButton.addEventListener('click', function() {
+    if (container) {
+      const range = document.createRange();
+      range.selectNode(container);
 
-  // Create a selection to hold the range
-  const selection = window.getSelection();
-  selection.removeAllRanges();
-  selection.addRange(range);
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
 
-  // Copy the selected content to the clipboard
-  try {
-    const success = document.execCommand('copy');
-    if (success) {
-      console.log('Content copied to clipboard');
+      try {
+        const success = document.execCommand('copy');
+        if (success) {
+          console.log('Content copied to clipboard');
+        } else {
+          console.error('Copying failed');
+        }
+      } catch (err) {
+        console.error('Error copying to clipboard:', err);
+      }
+
+      selection.removeAllRanges();
     } else {
-      console.error('Copying failed');
+      console.error('Container element not found');
     }
-  } catch (err) {
-    console.error('Error copying to clipboard:', err);
-  }
+  });
+});
 
-  // Clear the selection
-  selection.removeAllRanges();
-} else {
-  console.error('Container element not found');
-}
 
 
 </script>
