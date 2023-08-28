@@ -64,6 +64,7 @@ get_template_part( 'parts/js_header' ); ?>
         document.execCommand("copy");
         window.getSelection().removeAllRanges();
         alert("data copied");
+        console.log(containerid);
     }
 </script>
 
