@@ -64,6 +64,7 @@ if (container) {
   // Create a range to select the content of the container
   const range = document.createRange();
   range.selectNode(container);
+  console.log('ok ' + container)''
 
   // Create a selection to hold the range
   const selection = window.getSelection();
