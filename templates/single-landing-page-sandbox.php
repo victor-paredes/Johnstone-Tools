@@ -55,49 +55,38 @@ get_template_part( 'parts/js_header' ); ?>
 
 
 <script>
-    let BRcode = document.getElementById("COPY_THIS_CONTAINER_TO_BLOOMREACH");
-    console.log(BRcode);
-    //let BRcode_string = JSON.parse(JSON.stringify(BRcode));
-    //navigator.clipboard.writeText(BRcode);
-    //navigator.clipboard.writeText(BRcode);
-
-    
-
+    // copy content to clipboard
     document.addEventListener('DOMContentLoaded', function() {
-  const copyButton = document.getElementById('copyButton');
-  const container = document.getElementById('COPY_THIS_CONTAINER_TO_BLOOMREACH');
+    const copyButton = document.getElementById('copyButton');
+    const container = document.getElementById('COPY_THIS_CONTAINER_TO_BLOOMREACH');
 
-  copyButton.addEventListener('click', function() {
-    if (container) {
-      const htmlContent = container.outerHTML;
+    copyButton.addEventListener('click', function() {
+        if (container) {
+        const htmlContent = container.outerHTML;
 
-      const tempTextArea = document.createElement('textarea');
-      tempTextArea.value = htmlContent;
+        const tempTextArea = document.createElement('textarea');
+        tempTextArea.value = htmlContent;
 
-      document.body.appendChild(tempTextArea);
-      tempTextArea.select();
+        document.body.appendChild(tempTextArea);
+        tempTextArea.select();
 
-      try {
-        const success = document.execCommand('copy');
-        if (success) {
-          console.log('Content and surrounding HTML copied to clipboard');
-        } else {
-          console.error('Copying failed');
+        try {
+            const success = document.execCommand('copy');
+            if (success) {
+            console.log('Content and surrounding HTML copied to clipboard');
+            } else {
+            console.error('Copying failed');
+            }
+        } catch (err) {
+            console.error('Error copying to clipboard:', err);
         }
-      } catch (err) {
-        console.error('Error copying to clipboard:', err);
-      }
 
-      document.body.removeChild(tempTextArea);
-    } else {
-      console.error('Container element not found');
-    }
-  });
-});
-
-
-
-
+        document.body.removeChild(tempTextArea);
+        } else {
+        console.error('Container element not found');
+        }
+    });
+    });
 </script>
 
 
