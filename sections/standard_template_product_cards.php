@@ -30,14 +30,14 @@
                 <div class="card" style="background-color: transparent;">
 
 
-                    <div align="center" style="min-height:260px;margin-top: 10px;">
+                    <div align="center" style="min-height:260px;">
                         <?php if ( get_sub_field( 'featured' ) == true) { ?>
                             <h4 class="featured_product_label" style="background-color: #1F3962; color: #fff; margin-bottom: -25px;">
                                 Featured Product
                             </h4>
                         <?php } ?>
 
-                        <a href="<?php the_sub_field('product_link'); ?>" target="_blank" style="display:flex; height:100%; align-items:center; justify-content:center; position:relative; z-index: -1;">
+                        <a href="<?php the_sub_field('product_link'); ?>" target="_blank" style="display:flex; height:100%; align-items:center; justify-content:center; position:relative; z-index: -1;padding-top: 10px;">
                             <img src="<?php the_sub_field('image_url'); ?>" style="width: 80%;" /> 
                         </a>
                     </div>
