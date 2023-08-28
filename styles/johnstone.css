@@ -68,5 +68,5 @@ h2 {
     border-radius: 9999px;
 }
 #copybutton:hover {
-    background-color: #156dba;
+    background-color: #156dba !important;
 }
