@@ -15,11 +15,7 @@
 
 
 <div class="js_footer_wrap"></div>
-<div class="js_bottom_wrap">
-    <center>
-        <button id="copyButton">Copy code for Bloomreach</button>
-    </center>
-</div>
+<div class="js_bottom_wrap"></div>
 
 
 
