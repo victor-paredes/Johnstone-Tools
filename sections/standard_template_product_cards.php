@@ -104,7 +104,13 @@
 
 
 
-
+<style>
+    @media ( max-width: 575px ) {
+        .featured_product_label {
+            margin-bottom: 0 !important;
+        }
+    }
+</style>
 
 
 
@@ -116,10 +122,3 @@
 </div> <!-- standard_template_product_cards_wrap -->
 
 
-<style>
-    @media ( max-width: 575px ) {
-        .featured_product_label {
-            margin-bottom: 0 !important;
-        }
-    }
-</style>
