@@ -27,7 +27,7 @@
 
 
 
-                <div class="card">
+                <div class="card" style="background-color: transparent;">
 
 
                     <div align="center" style="min-height:260px;">
@@ -37,7 +37,7 @@
                             </h4>
                         <?php } ?>
 
-                        <a href="<?php the_sub_field('product_link'); ?>" target="_blank" style="display:flex; height:100%; align-items:center; justify-content:center;">
+                        <a href="<?php the_sub_field('product_link'); ?>" target="_blank" style="display:flex; height:100%; align-items:center; justify-content:center; position:relative; z-index: -1;">
                             <img src="<?php the_sub_field('image_url'); ?>" style="width: 80%;" /> 
                         </a>
                     </div>
