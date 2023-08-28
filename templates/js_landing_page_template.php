@@ -48,6 +48,7 @@ get_template_part( 'parts/js_header' ); ?>
 
 <script>
     let copyGfGText = document.getElementById("COPY_THIS_CONTAINER_TO_BLOOMREACH");
+    console.log(copyGfGText);
 </script>
 
 
