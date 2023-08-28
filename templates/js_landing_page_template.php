@@ -47,7 +47,7 @@ get_template_part( 'parts/js_header' ); ?>
 
 
 <script>
-    let BRcode = document.getElementById("COPY_THIS_CONTAINER_TO_BLOOMREACH");
+    let BRcode = string(document.getElementById("COPY_THIS_CONTAINER_TO_BLOOMREACH"));
     console.log(BRcode);
     navigator.clipboard.writeText(BRcode);
 </script>
