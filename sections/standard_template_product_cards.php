@@ -47,11 +47,11 @@
                         <h5 class="text-darkblue" style="text-align: center;">
                             <?php the_sub_field('product_title'); ?>
                         </h5>
-                       
-                            <h6>
-                                <?php the_sub_field('product_subtitle'); ?>
-                            </h6>
-               
+                        
+                        
+                        <h6>
+                            <?php the_sub_field('product_subtitle'); ?>
+                        </h6>
 
                         <?php the_sub_field('product_description'); ?>
                         
