@@ -38,7 +38,7 @@ get_template_part( 'parts/js_header' ); ?>
         </div> <!-- end COPY_THIS_CONTAINER_TO_BLOOMREACH -->
 
 
-        <button id="copyButton">Copy to Clipboard</button>
+        <center><button id="copyButton">Copy to Clipboard</button></center>
         
     <?php } else {
         echo 'no rows';
