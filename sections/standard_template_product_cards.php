@@ -30,35 +30,29 @@
                 <div class="card">
 
 
-                    <div align="center" style="height:260px;">
+                    <div align="center" style="min-height:260px">
                         <?php if ( get_sub_field( 'featured' ) == true) { ?>
-                            <h4 style="position:absolute;background-color: #1F3962; color: #fff;height: 30px;width:100%;">
+                            <h4 style="background-color: #1F3962; color: #fff">
                                 Featured Product
                             </h4>
                         <?php } ?>
 
-
-                        <div style="display:flex;height:100%;">
-                            <div style="display:flex;align-items:center;padding:10%;width: 100%;">
-                                <a href="<?php the_sub_field('product_link'); ?>" target="_blank" style="display: block;">
-                                    <img src="<?php the_sub_field('image_url'); ?>" style="width: 80%;" /> 
-                                </a>
-                            </div>
-                        </div>
-
-                        
+                        <a href="<?php the_sub_field('product_link'); ?>" target="_blank" style="display: block;">
+                            <img src="<?php the_sub_field('image_url'); ?>" style="width: 80%;" /> 
+                        </a>
                     </div>
 
-                    
 
                     <div class="card-body d-flex flex-column">
                         <h5 class="text-darkblue" style="text-align: center;">
                             <?php the_sub_field('product_title'); ?>
                         </h5>
                         
-                        <h6>
-                            <?php the_sub_field('product_subtitle'); ?>
-                        </h6>
+                        <?php if ( get_sub_field('product_subtitle') ) { ?>
+                            <h6>
+                                <?php the_sub_field('product_subtitle'); ?>
+                            </h6>
+                        <?php } ?>
 
                         <?php the_sub_field('product_description'); ?>
                         
@@ -120,20 +114,5 @@
 
     </div> <!-- card-deck -->
 </div> <!-- standard_template_product_cards_wrap -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
