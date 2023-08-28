@@ -81,7 +81,8 @@ add_action('admin_head', 'admin_css');
 function admin_css() {
   echo '<style>
 	
-	.user-profile-picture {
+	/* Remove profile elements */
+	.user-rich-editing-wrap, .user-admin-color-wrap, .show-admin-bar, .user-comment-shortcuts-wrap, .user-profile-picture {
 		display:none;
 	}
 	
