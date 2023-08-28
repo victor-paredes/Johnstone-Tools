@@ -97,6 +97,9 @@ function admin_css() {
 	#wpadminbar {
 		background: #0f3465;
 	}
+	#adminmenuback {
+		background: #166fbc;
+	}
 	
   </style>';
 }
