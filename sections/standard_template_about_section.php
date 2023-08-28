@@ -18,15 +18,18 @@
 
 <div class="card-body">
 
-<?php if ( get_sub_field('tagline') ) { ?>
-    <h2 style="margin: 0in 0in 10pt; text-align: left; line-height: 112%; font-size: 12pt; font-family: Arial, Helvetica, sans-serif;" type="text/css">
-        <strong>
-            <?php the_sub_field('tagline'); ?>
-        </strong>
-    </h2>
-<?php } ?>
+    <?php if ( get_sub_field('tagline') ) { ?>
+        <h2 style="margin: 0in 0in 10pt; text-align: left; line-height: 112%; font-size: 12pt; font-family: Arial, Helvetica, sans-serif;" type="text/css">
+            <strong>
+                <?php the_sub_field('tagline'); ?>
+            </strong>
+        </h2>
+    <?php } ?>
 
-<p style="margin: 0in 0in 10pt; text-align: left; line-height:112%;font-size:14pt;color:#000;font-family:Calibri,sans-serif" type="text/css"><?php the_sub_field('about_us_description'); ?></p>
+    <p style="margin: 0in 0in 10pt; text-align: left; line-height:112%;font-size:14pt;color:#000;font-family:Calibri,sans-serif" type="text/css">
+        <?php the_sub_field('about_us_description'); ?>
+    </p>
+
 </div>
 <span style="" type="text/css"> </span></div>
 </div>
