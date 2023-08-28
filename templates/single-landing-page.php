@@ -46,24 +46,7 @@ get_template_part( 'parts/js_header' ); ?>
 </div> <!-- end -->
 
 
-<script>
-    let BRcode = document.getElementById("COPY_THIS_CONTAINER_TO_BLOOMREACH");
-    console.log(BRcode);
-    //let BRcode_string = JSON.parse(JSON.stringify(BRcode));
-    //navigator.clipboard.writeText(BRcode);
 
-    copy_data("COPY_THIS_CONTAINER_TO_BLOOMREACH");
-
-    function copy_data(containerid) {
-        var range = document.createRange();
-        range.selectNode(containerid); //changed here
-        window.getSelection().removeAllRanges(); 
-        window.getSelection().addRange(range); 
-        document.execCommand("copy");
-        window.getSelection().removeAllRanges();
-        alert("data copied");
-    }
-</script>
 
 
 
