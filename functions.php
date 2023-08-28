@@ -93,6 +93,10 @@ function admin_css() {
 	.application-passwords {
 		display:none;
 	}
+
+	#wpadminbar {
+		background: #0f3465;
+	}
 	
   </style>';
 }
