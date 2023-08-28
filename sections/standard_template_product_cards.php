@@ -48,9 +48,11 @@
                             <?php the_sub_field('product_title'); ?>
                         </h5>
                         
-                        <h6>
-                            <?php the_sub_field('product_subtitle'); ?>
-                        </h6>
+                        <?php if ( get_sub_field('product_subtitle') ) { ?>
+                            <h6>
+                                <?php the_sub_field('product_subtitle'); ?>
+                            </h6>
+                        <?php } ?>
 
                         <?php the_sub_field('product_description'); ?>
                         
