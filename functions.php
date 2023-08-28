@@ -94,12 +94,13 @@ function admin_css() {
 		display:none;
 	}
 
-	#wpadminbar {
+	#wpadminbar, #adminmenu li.menu-top:hover {
 		background: #0f3465;
 	}
 	#adminmenu, #adminmenuback, #adminmenuwrap, #adminmenu .wp-submenu {
 		background: #05588f;
 	}
+
 	
   </style>';
 }
