@@ -63,6 +63,8 @@ h2 {
     transform: rotate(90deg);
     background-color: #1f3962;
     color: white;
+    border: 0;
+    padding: 4px;
 }
 #copybutton:hover {
     background-color: #156dba;
