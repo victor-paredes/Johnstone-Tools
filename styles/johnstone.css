@@ -57,7 +57,7 @@ h2 {
 }
 
 #copyButton {
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 50%;
     transform: rotate(90deg);

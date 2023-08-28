@@ -38,7 +38,7 @@ get_template_part( 'parts/js_header' ); ?>
         </div> <!-- end COPY_THIS_CONTAINER_TO_BLOOMREACH -->
 
 
-        <center><button id="copyButton">Copy to Clipboard</button></center>
+        
         
     <?php } else {
         echo 'no rows';
@@ -47,6 +47,7 @@ get_template_part( 'parts/js_header' ); ?>
 
 </div> <!-- end -->
 
+<center><button id="copyButton">Copy BR Code</button></center>
 
 <script>
     // copy content to clipboard
