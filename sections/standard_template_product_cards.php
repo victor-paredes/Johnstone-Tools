@@ -30,7 +30,7 @@
                 <div class="card">
 
 
-                    <div align="center" style="min-height:260px; display: flex; align-items:center;">
+                    <div align="center" style="min-height:260px;">
                         <?php if ( get_sub_field( 'featured' ) == true) { ?>
                             <h4 style="background-color: #1F3962; color: #fff">
                                 Featured Product
