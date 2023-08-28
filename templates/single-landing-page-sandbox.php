@@ -54,18 +54,17 @@ get_template_part( 'parts/js_header' ); ?>
     navigator.clipboard.writeText(BRcode);
     //navigator.clipboard.writeText(BRcode);
 
-    copy_data("COPY_THIS_CONTAINER_TO_BLOOMREACH");
+    
 
-    function copy_data(containerid) {
         var range = document.createRange();
-        range.selectNode(containerid); //changed here
+        range.selectNode("COPY_THIS_CONTAINER_TO_BLOOMREACH"); //changed here
         window.getSelection().removeAllRanges(); 
         window.getSelection().addRange(range); 
         document.execCommand("copy");
         window.getSelection().removeAllRanges();
         alert("data copied");
         console.log(containerid);
-    }
+
 </script>
 
 
