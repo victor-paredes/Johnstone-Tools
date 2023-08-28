@@ -82,7 +82,7 @@ function admin_css() {
   echo '<style>
 	
 	/* Remove profile elements */
-	.dashboard-widgets-wrap,
+	#dashboard-widgets-wrap,
 	.user-rich-editing-wrap, 
 	.user-admin-color-wrap, 
 	.show-admin-bar, 
