@@ -69,17 +69,18 @@ get_template_part( 'parts/js_header' ); ?>
 
   copyButton.addEventListener('click', function() {
     if (container) {
-      const range = document.createRange();
-      range.selectNode(container);
+      const htmlContent = container.outerHTML;
 
-      const selection = window.getSelection();
-      selection.removeAllRanges();
-      selection.addRange(range);
+      const tempTextArea = document.createElement('textarea');
+      tempTextArea.value = htmlContent;
+
+      document.body.appendChild(tempTextArea);
+      tempTextArea.select();
 
       try {
         const success = document.execCommand('copy');
         if (success) {
-          console.log('Content copied to clipboard');
+          console.log('Content and surrounding HTML copied to clipboard');
         } else {
           console.error('Copying failed');
         }
@@ -87,12 +88,13 @@ get_template_part( 'parts/js_header' ); ?>
         console.error('Error copying to clipboard:', err);
       }
 
-      selection.removeAllRanges();
+      document.body.removeChild(tempTextArea);
     } else {
       console.error('Container element not found');
     }
   });
 });
+
 
 
 
