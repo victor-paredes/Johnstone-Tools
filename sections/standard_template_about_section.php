@@ -13,6 +13,7 @@
 <div class="card-deck">
 <div class="card" style="">
 <div align="center">
+    <?php the_sub_field('title_background_color'); ?>
 <h1 style="background-color: #005e90; color: #fff; font-size: 15.0pt; padding: 8px;"><?php the_sub_field('about_title'); ?></h1>
 
 <div class="card-body">
