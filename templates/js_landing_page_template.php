@@ -14,7 +14,7 @@ get_template_part( 'parts/js_header' ); ?>
     <?php
     if ( have_rows('standard_template_blocks') == true ) { ?>
 
-        <div class="COPY_THIS_CONTAINER_TO_BLOOMREACH">
+        <div id="COPY_THIS_CONTAINER_TO_BLOOMREACH">
 
             <?php
                 while( have_rows('standard_template_blocks') ) {
@@ -44,6 +44,11 @@ get_template_part( 'parts/js_header' ); ?>
 
 
 </div> <!-- end -->
+
+
+<script>
+    let copyGfGText = document.getElementById("COPY_THIS_CONTAINER_TO_BLOOMREACH");
+</script>
 
 
 
