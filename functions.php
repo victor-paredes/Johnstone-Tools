@@ -110,7 +110,7 @@ function admin_css() {
  * @return array The array of post type names that the templates be used by
  **/
 function my_cpt_post_types( $post_types ) {
-    $post_types[] = 'landing-page';
+    //$post_types[] = 'landing-page';
     //$post_types[] = 'another-type';
     return $post_types;
 }
