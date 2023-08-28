@@ -57,7 +57,7 @@ get_template_part( 'parts/js_header' ); ?>
     
 
         var range = document.createRange();
-        range.selectNode("COPY_THIS_CONTAINER_TO_BLOOMREACH"); //changed here
+        range.selectNode( document.getElementById("COPY_THIS_CONTAINER_TO_BLOOMREACH") ); //changed here
         window.getSelection().removeAllRanges(); 
         window.getSelection().addRange(range); 
         document.execCommand("copy");
