@@ -119,7 +119,7 @@
 <style>
     @media ( max-width: 575px ) {
         .featured_product_label {
-            margin-bottom: 0 !important;
+            margin-bottom: 10px !important;
         }
     }
 </style>
