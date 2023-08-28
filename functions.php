@@ -80,8 +80,10 @@ add_action('admin_head', 'admin_css');
 
 function admin_css() {
   echo '<style>
-
-    /* ... */
+	
+	.user-description-wrap {
+		display:none;
+	}
 	
   </style>';
 }
