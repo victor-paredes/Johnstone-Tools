@@ -1,7 +1,7 @@
 <?php
 /*
 Template Name: Johnstone SANDBOX
-Template Post Type: landing-page-sandbox
+Template Post Type: landing-page
 */
 
 // echo the_content();
