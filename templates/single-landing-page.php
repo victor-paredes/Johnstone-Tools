@@ -69,6 +69,7 @@ get_template_part( 'parts/js_header' ); ?>
             const success = document.execCommand('copy');
             if (success) {
             console.log('Content and surrounding HTML copied to clipboard');
+            alert("😎 Code copied to clipboard!");
             } else {
             console.error('Copying failed');
             }
