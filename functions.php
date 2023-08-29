@@ -91,7 +91,7 @@ function admin_css() {
 	.user-url-wrap,
 	.user-description-wrap,
 	.application-passwords {
-		/* display:none; */
+		display:none;
 	}
 
 	#wpadminbar, #adminmenu li.menu-top:hover {
