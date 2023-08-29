@@ -121,16 +121,3 @@ function admin_css() {
 // add_filter( 'cpt_post_types', 'my_cpt_post_types' );
 
 
-function set_default_template_for_landing_page() {
-    $landing_pages = get_posts(array(
-        'post_type' => 'landing-page',  // Replace 'landing-page' with the actual post type slug
-        'numberposts' => -1,
-    ));
-
-    foreach ($landing_pages as $landing_page) {
-        update_post_meta($landing_page->ID, '_wp_page_template', 'single-landing-page.php');  // Updated template file name
-    }
-}
-
-// Hook the function to a WordPress action, like 'init' or any other appropriate action
-add_action('init', 'set_default_template_for_landing_page');
