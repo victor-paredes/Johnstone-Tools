@@ -65,6 +65,7 @@ h2 {
     width: 100%;
     padding: 10px;
     background: linear-gradient(0deg, hsla(208, 79%, 41%, 1) 0%, hsla(0, 0%, 100%, 0) 100%);
+    font-size: 0.9em;
 }
 #copyButton {
     color: #1970bc;
