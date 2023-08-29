@@ -59,7 +59,7 @@
 
                             <div class="addl-resources">
                                 <p style="font-family: Helvetica, Arial, sans-serif; color: #fff; padding-left: 0px;">
-                                <a class="js" href="https://www.johnstonesupply.com/mini-split-selector" target="_blank">
+                                <a class="js" href="<?php the_sub_field('resource_link')  ?>" target="_blank">
                                     <?php the_sub_field('resource_title'); ?>
                                 </a></p>
                             </div>
