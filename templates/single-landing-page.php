@@ -5,6 +5,12 @@ Template Post Type: landing-page
 */
 
 // echo the_content(); ?>
+<!doctype html>
+<html <?php language_attributes(); ?>>
+<head>
+	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<?php wp_head(); ?>
+</head>
 
 <?php wp_head(); ?>
 
