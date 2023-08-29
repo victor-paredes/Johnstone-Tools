@@ -1,6 +1,6 @@
 
 body {
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 0;
 }
 
@@ -58,7 +58,7 @@ h2 {
 
 #copyButton {
     position: fixed;
-    top: 0;
+    top: 10;
     background-color: white !important;
     color: black;
     border: 1px solid black;
