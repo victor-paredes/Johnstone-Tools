@@ -122,26 +122,3 @@ function admin_css() {
 
 
 
-/*=======================================================================
-=            force dedicated template usage for custom posts            =
-=======================================================================*/
-
-add_filter( 'template_include', 'include_template_function', 1 );
-
-function include_template_function( $template_path ) {
-    if ( get_post_type() == 'landing-page' ) {
-        if ( is_single() ) {
-            // checks if the file exists in the theme first,
-            // otherwise serve the file from the plugin
-            if ( $theme_file = locate_template( array ( 'single-landing-page.php' ) ) ) {
-                $template_path = $theme_file;
-            } else {
-                $template_path = get_stylesheet_directory_uri() . '/single-landing-page.php';
-            }
-        }
-    }
-    return $template_path;
-}
-
-
-/*-----  End of force dedicated template usage for custom posts  ------*/
