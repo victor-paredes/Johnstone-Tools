@@ -136,7 +136,7 @@ function include_template_function( $template_path ) {
             if ( $theme_file = locate_template( array ( 'single-landing-page.php' ) ) ) {
                 $template_path = $theme_file;
             } else {
-                $template_path = get_stylesheet_directory_uri() . '/single-fiche-projet.php';
+                $template_path = get_stylesheet_directory_uri();
             }
         }
     }
