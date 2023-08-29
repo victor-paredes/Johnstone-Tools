@@ -56,9 +56,12 @@ h2 {
     width: 100%;
 }
 
-#copyButton {
+#js_tools_wrap {
     position: fixed;
     bottom: 10;
+    background-color: #dddddd55;
+}
+#copyButton {
     background-color: white !important;
     color: black;
     border: 1px solid black;
