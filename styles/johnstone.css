@@ -58,9 +58,7 @@ h2 {
 
 #copyButton {
     position: fixed;
-    right: 0;
-    top: 50%;
-    transform: rotate(90deg);
+    top: 0;
     background-color: white !important;
     color: black;
     border: 1px solid black;
