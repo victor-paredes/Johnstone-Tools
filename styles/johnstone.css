@@ -1,6 +1,6 @@
 
 body {
-    margin-top: 50px;
+    margin: 0;
     padding: 0;
 }
 
@@ -51,19 +51,16 @@ h2 {
     width: 100%;
 }
 .js_bottom_wrap {
-    background-color: #e4ebf1;
     height: 150px;
     width: 100%;
+    background: linear-gradient(0deg, hsla(208, 79%, 41%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
 }
 
-#js_tools_wrap {
-    position: fixed;
-    bottom: 0;
-    padding: 10px;
-    background-color: #dddddd1e;
-    width: 100%;
-}
 #copyButton {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: rotate(90deg);
     background-color: white !important;
     color: black;
     border: 1px solid black;
@@ -73,17 +70,5 @@ h2 {
 #copybutton:hover {
     background-color: #1391ff !important;
     color: white;
-    border-color: #1f3962;
-}
-#adminmenu li.menu-top:hover, 
-#adminmenu li.opensub>a.menu-top,
-#adminmenu li>a.menu-top:focus, 
-.menu li li a:hover, 
-#adminmenu li.menu-top:hover,
-#adminmenu li.opensub>a.menu-top,
-#adminmenu li>a.menu-top:focus,
-.menu ul ul .custom-class a,
-.menu ul ul .custom-class:hover a
-{
-    background-color: #d59b54 !important;
+    border-color: #1f3962;e 
 }
