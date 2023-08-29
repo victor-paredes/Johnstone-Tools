@@ -49,7 +49,6 @@ get_template_part( 'parts/js_header' ); ?>
 
 <div id="js_tools_wrap">
     <center>
-        JS Tools: 
         <button id="copyButton">
             Copy BR Code
         </button>
