@@ -1,7 +1,7 @@
 <?php
 /*
 Template Name: Johnstone Template
-Template Post Type: landing-page
+Template Post Type: landing-pages
 */
 
 // echo the_content();
