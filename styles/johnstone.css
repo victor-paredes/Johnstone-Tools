@@ -71,7 +71,7 @@ h2 {
     border: 1px solid #1970bc;
     padding: 4px 10px;
     border-radius: 9999px;
-    transition: all 1s ease-out;
+    transition: all .25s ease-out;
 }
 #copyButton:hover {
     background-color: #1391ff !important;
