@@ -72,7 +72,7 @@ h2 {
     padding: 4px 10px;
     border-radius: 9999px;
 }
-#copybutton:hover {
+#copyButton:hover {
     background-color: #1391ff !important;
     color: white;
 }
