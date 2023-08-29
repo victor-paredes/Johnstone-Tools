@@ -4,8 +4,11 @@ Template Name: Johnstone Template
 Template Post Type: landing-page
 */
 
-// echo the_content();
+// echo the_content(); ?>
 
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<?php 
 get_template_part( 'parts/js_header' ); ?>
 
 
