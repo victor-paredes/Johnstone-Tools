@@ -75,6 +75,6 @@ h2 {
     color: white;
     border-color: #1f3962;
 }
-#adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top,#adminmenu li>a.menu-top:focus {
+#adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top,#adminmenu li>a.menu-top:focus, .menu li li a:hover {
     background-color: #103465 !important;
 }
