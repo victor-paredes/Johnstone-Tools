@@ -47,7 +47,13 @@ get_template_part( 'parts/js_header' ); ?>
 
 </div> <!-- end -->
 
-<center><button id="copyButton">Copy BR Code</button></center>
+<div id="js_tools_wrap">
+    <center>
+        <button id="copyButton">
+            Copy BR Code
+        </button>
+    </center>
+</div>
 
 <script>
     // copy content to clipboard
@@ -90,7 +96,6 @@ get_template_part( 'parts/js_header' ); ?>
 <?php
     
 get_template_part( 'parts/js_footer' );
-
 
 
 
