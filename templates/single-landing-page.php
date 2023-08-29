@@ -6,7 +6,7 @@ Template Post Type: landing-page
 
 // echo the_content(); ?>
 
-<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+<?php wp_head(); ?>
 
 <?php 
 get_template_part( 'parts/js_header' ); ?>
@@ -100,5 +100,5 @@ get_template_part( 'parts/js_header' ); ?>
     
 get_template_part( 'parts/js_footer' );
 
-
+wp_footer();
 
