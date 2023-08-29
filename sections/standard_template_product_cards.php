@@ -32,7 +32,7 @@
 
                     <div align="center" style="min-height:260px;">
                         <?php if ( get_sub_field( 'featured' ) == true) { ?>
-                            <h4 class="featured_product_label" style="background-color: #1F3962; color: #fff; margin-bottom: -25px;">
+                            <h4 class="featured_product_label" style="font-family:sans-serif;background-color: #1F3962; color: #fff; margin-bottom: -25px;">
                                 Featured Product
                             </h4>
                         <?php } ?>
@@ -93,9 +93,24 @@
 
 
 
-     
+     <A>
+
+
+
+
+     </A>
+
+
+
+
+
 
      
+     <B>
+
+
+
+     </B>
 
                 
 
