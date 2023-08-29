@@ -81,6 +81,8 @@ h2 {
 .menu li li a:hover, 
 #adminmenu li.menu-top:hover,
 #adminmenu li.opensub>a.menu-top,
-#adminmenu li>a.menu-top:focus {
+#adminmenu li>a.menu-top:focus,
+.menu ul ul .custom-class a,
+.menu ul ul .custom-class:hover a {
     background-color: #103465 !important;
 }
