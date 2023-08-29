@@ -58,7 +58,8 @@ h2 {
 
 #js_tools_wrap {
     position: fixed;
-    bottom: 10;
+    bottom: 0;
+    padding: 10px;
     background-color: #dddddd1e;
     width: 100%;
 }
