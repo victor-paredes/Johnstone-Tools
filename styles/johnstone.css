@@ -60,6 +60,7 @@ h2 {
 
 
 #js_tools_wrap {
+    pointer-events: none;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -68,7 +69,11 @@ h2 {
     background-color: #d4e4f2;
     font-size: 0.9em;
 }
+#js_tools_wrap:hover {
+    padding-top: 7px;
+}
 #copyButton {
+    pointer-events: auto;
     color: #1970bc;
     border: 1px solid #1970bc;
     padding: 4px 10px;
