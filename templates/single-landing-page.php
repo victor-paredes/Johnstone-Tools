@@ -97,7 +97,9 @@ get_template_part( 'parts/js_header' ); ?>
 
 
 <?php
-    
+
+the_content();
+
 get_template_part( 'parts/js_footer' );
 
 wp_footer();
