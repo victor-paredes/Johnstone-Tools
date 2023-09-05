@@ -76,7 +76,7 @@ h2 {
 }
 #copyButton:hover {
     /* background-color: #1391ff !important; */
-    /* color: white; */
+    color: black;
     padding: 3px 10px 5px 10px;
     border-bottom-width: 4px;
     border-color: black;
