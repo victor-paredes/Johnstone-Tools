@@ -64,7 +64,8 @@ h2 {
     bottom: 0;
     width: 100%;
     padding: 10px;
-    background: linear-gradient(0deg, hsla(208, 79%, 41%, 1) 0%, hsla(0, 0%, 100%, 0) 100%);
+    /* background: linear-gradient(0deg, hsla(208, 79%, 41%, 1) 0%, hsla(0, 0%, 100%, 0) 100%); */
+    background-color: #d4e4f2;
     font-size: 0.9em;
 }
 #copyButton {
