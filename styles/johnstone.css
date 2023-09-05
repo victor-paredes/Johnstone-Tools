@@ -67,7 +67,7 @@ h2 {
     /* background: linear-gradient(0deg, hsla(208, 79%, 41%, 1) 0%, hsla(0, 0%, 100%, 0) 100%); */
     background-color: #d4e4f2;
     font-size: 0.9em;
-    border-width: 0;
+    border: 5px;
     border-top-width: 3px;
     border-color: black;
 }
