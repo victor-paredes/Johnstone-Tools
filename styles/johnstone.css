@@ -71,7 +71,7 @@ h2 {
     transition: all .15s ease-out;
 }
 #js_tools_wrap:hover {
-    padding-top: 7px;
+    padding-top: 6px;
 }
 #copyButton {
     pointer-events: auto;
