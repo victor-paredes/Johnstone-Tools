@@ -68,6 +68,7 @@ h2 {
     /* background: linear-gradient(0deg, hsla(208, 79%, 41%, 1) 0%, hsla(0, 0%, 100%, 0) 100%); */
     background-color: #d4e4f2;
     font-size: 0.9em;
+    transition: all .15s ease-out;
 }
 #js_tools_wrap:hover {
     padding-top: 7px;
