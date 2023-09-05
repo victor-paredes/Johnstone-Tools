@@ -68,6 +68,9 @@ h2 {
     background-color: #d4e4f2;
     font-size: 0.9em;
 }
+#js_tools_wrap:hover {
+    background-color: #004990;
+}
 #copyButton {
     color: #1970bc;
     border: 1px solid #1970bc;
