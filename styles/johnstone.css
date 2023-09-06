@@ -9,7 +9,9 @@ body {
 .text-darkblue {
     color: #004a90;
 }
-
+h1 {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
 h2 {
     color: #004990;
 }
