@@ -12,7 +12,7 @@
     <div class="container js_header_container">
 
         
-        <div class="" style="position: absolute; height:100%; width: 100%; text-align: center; vertical-align: middle;">
+        <div class="js_header_container_overlay">
             test
         </div>
         
