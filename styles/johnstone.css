@@ -90,6 +90,9 @@ h2 {
     font-size: 0.9em;
     /* transition: all .15s ease-out; */
 }
+#js_tools_wrap:hover {
+    background-color: #244c6e;
+}
 #copyButton {
     pointer-events: auto;
     color: #1970bc;
