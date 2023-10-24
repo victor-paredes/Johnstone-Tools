@@ -47,6 +47,9 @@ h2 {
 .js_header_container:hover {
     background-color: #ff0000;
 }
+.js_header_container:hover img {
+    opacity: 0.6;
+}
 
 
 
