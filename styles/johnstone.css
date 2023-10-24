@@ -45,7 +45,9 @@ h2 {
     color: white;
 }
 .js_header_container:hover {
-    background-color: #ff0000;
+    background-color: #ff0000; 
+
+    
 }
 
 
