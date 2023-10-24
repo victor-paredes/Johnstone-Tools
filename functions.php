@@ -123,7 +123,7 @@ function admin_css() {
 
 
 function custom_admin_favicon() {
-    echo '<link rel="shortcut icon" href="' . esc_url( get_stylesheet_directory_uri() . '/favicon.png' ) . '" />';
+    echo '<link rel="shortcut icon" href="' . esc_url( '/wp-content/uploads/2023/10/favico.png' ) . '" />';
 }
 
 add_action('admin_head', 'custom_admin_favicon');
