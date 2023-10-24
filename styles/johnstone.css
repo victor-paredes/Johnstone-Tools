@@ -48,7 +48,7 @@ h2 {
     background-color: #ff0000;
 }
 .js_header_container:hover img {
-    opacity: 0.6;
+    filter: brightness(1.75);
 }
 
 
