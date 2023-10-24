@@ -10,5 +10,14 @@
 <div class="js_entire_wrap">
 
     <div class="container">
-        <img class="js_header_image" src="http://victorpared.es/js/wp-content/uploads/2023/08/johnstone_header_v1.png">
-</div>
+
+        <div class="" style="position: absolute;">
+            <img class="js_header_image" src="http://victorpared.es/js/wp-content/uploads/2023/08/johnstone_header_v1.png">
+        </div>
+
+        <div class="" style="position: absolute;">
+            test
+        </div>
+
+        
+    </div>
