@@ -29,7 +29,8 @@ h2 {
     width: 100%;
 }
 .js_header_container {
-    padding: 10px 0 10px 0;
+    padding: 10px 0 0 0;
+    margin-bottom: 10px;
 }
 .js_header_container:hover .js_header_container_overlay {
     opacity: 1;
