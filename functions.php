@@ -124,9 +124,9 @@ function admin_css() {
 
 
 function favicon4admin() {
-	echo '<link rel="Shortcut Icon" type="image/x-icon" href="' . get_bloginfo('wpurl') . '/wp-content/uploads/2023/10/favico.png" />';
-	}
-	add_action( 'admin_head', 'favicon4admin' );
+echo '<link rel="Shortcut Icon" type="image/x-icon" href="' . get_bloginfo('wpurl') . '/wp-content/uploads/2023/10/favico.png" />';
+}
+add_action( 'admin_head', 'favicon4admin' );
 
 
 
