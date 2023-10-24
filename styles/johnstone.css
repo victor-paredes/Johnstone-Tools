@@ -28,7 +28,8 @@ h2 {
 .js_header_image {
     width: 100%;
 }
-.js_header_container:hover {
+.js_header_container {
+    padding-bottom: 10px;
 }
 .js_header_container_overlay {
     position: absolute; 
