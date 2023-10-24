@@ -9,10 +9,10 @@
 
 <div class="js_entire_wrap">
 
-    <div class="container">
+    <div class="container js_header_container">
 
         
-        <div class="" style="position: absolute;">
+        <div class="" style="position: absolute; height:100%; width: 100%; text-align: center; vertical-align: middle;">
             test
         </div>
         
