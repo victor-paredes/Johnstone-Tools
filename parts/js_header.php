@@ -12,9 +12,9 @@
     <div class="container js_header_container">
 
         
-        <div class="js_header_container_overlay">
+        <!-- <div class="js_header_container_overlay">
             test
-        </div>
+        </div> -->
         
             <img class="js_header_image" src="http://victorpared.es/js/wp-content/uploads/2023/08/johnstone_header_v1.png">
       
