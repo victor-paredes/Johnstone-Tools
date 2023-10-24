@@ -15,9 +15,9 @@
         <div class="" style="position: absolute;">
             test
         </div>
-        <div class="">
+        
             <img class="js_header_image" src="http://victorpared.es/js/wp-content/uploads/2023/08/johnstone_header_v1.png">
-        </div>
+      
 
         
 
