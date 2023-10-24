@@ -88,7 +88,7 @@ h2 {
     padding: 10px;
     background-color: #d4e4f2;
     font-size: 0.9em;
-    /* transition: all .15s ease-out; */
+    transition: background-color .15s ease-out;
 }
 #js_tools_wrap:hover {
     background-color: #244c6e;
