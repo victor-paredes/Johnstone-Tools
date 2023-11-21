@@ -61,9 +61,16 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 			<div class="col-12 col-lg-6 mt-lg-5 mb-lg-3 pt-lg-5 pb-lg-2">
 				<h1 class="text-light mt-5 mb-4"><strong>Equipment</strong></h1>
-				<p class="lead text-light text-1rem mb-4">
+				
 					<h2 class="text-light">Technology Transition Rule: </h2>
+
+					<p class="lead text-light text-1rem mb-4">
 					The Environmental Protection Agency has issued a new rule restricting the use of High GWP refrigerants (HFCs) in HVAC and Refrigerant Equipment. This means that the current refrigerant is being phased out and replaced with two new more globally friendly substitutes. Along with the new refrigerant changes your equipment will also experience a change. Most important of the changes is there is a no sell-through date, for all regions, of current R-410A HVAC equipment. Additionally, are three important aspects that you will need to know about this new rule. 
+</p>
+
+					<p>
+					There are three important aspects of the new Technology Transition Rule:
+</p>	
 
 					<ol>
 						<li class="text-light">
@@ -76,7 +83,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 							Equipment Mitigation Requirements-No sell through R410A systems
 						</li>
 					</ol>
-				</p>
+				
 				
 
 
@@ -84,11 +91,6 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-				
-There are three important aspects of the new Technology Transition Rule:
-Refrigerant Changes-Low GWP Systems and A2L Refrigerant
-Categories-Products, Systems, Components 
-Equipment Mitigation Requirements-No sell through R410A systems
 
 
 
@@ -245,9 +247,9 @@ COUNTER
     -o-background-size: cover;
     background-size: cover;
 }
-.text-light, .text-light * {
+/* .text-light, .text-light * {
 	color: #fff !important;
-}
+} */
 	</style>
 
 
