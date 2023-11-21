@@ -182,15 +182,49 @@ get_template_part( 'parts/a2l_header' ); ?>
 										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right border-top">
 											Discarge Temperatures
 										</div>
-										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0">
+										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right border-top">
 										Lower Discharge Temperatures
 										</div>
 
-										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right">
+										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right border-top">
 										Higher Discharge Temperatures
 										</div>
-										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0">
+										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-top">
 										Lower Discharge Temperatures
+										</div>
+									</div>
+
+
+									<div class="row">
+										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right border-top">
+											Glide
+										</div>
+										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right border-top">
+										Little to no glide
+										</div>
+
+										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right border-top">
+										Little to no glide
+										</div>
+										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-top">
+										No Glide
+										</div>
+									</div>
+
+
+									<div class="row">
+										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right border-top">
+											Formula
+										</div>
+										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right border-top">
+										68.9% R-32/31.1% R-1234yf
+										</div>
+
+										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right border-top">
+										100% R-32
+										</div>
+										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-top">
+										50% R-32/50% R-125
 										</div>
 									</div>
 									
