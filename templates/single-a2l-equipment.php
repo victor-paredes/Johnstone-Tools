@@ -112,11 +112,11 @@ get_template_part( 'parts/a2l_header' ); ?>
 <h3>What are HFCs or Hydrofluorocarbons? What is GWP or Global Warming Potential?</h3>
 
 
-<p class="lead mb-1">
+<p class="mb-1">
 Hydrofluorocarbons (HFCs) are potent greenhouse gasses developed and manufactured as a replacement for ozone-depleting substances. The environmental impact of these hydrofluorocarbons is measured by GWP or its Global Warming Potential
 </p>
 
-<p class="lead mb-1">
+<p class="mb-1">
 In response to the new GWP requirements, two new refrigerants with lower than 700 GWP will take R-410A’s place for new manufactured HVAC equipment. The new refrigerant options are R-454B and R-32. See the table below for more information:
 </p>
 
