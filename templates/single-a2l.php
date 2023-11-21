@@ -144,6 +144,9 @@ COUNTER
 
 </div> <!-- end -->
 
+
+<br><br><br><br>
+
 <div id="js_tools_wrap">
     <center>
         <button id="copyButton">
