@@ -14,7 +14,7 @@ Template Post Type: landing-page
 
 <div class="">
 
-    <?php
+
 
 
         <div id="COPY_THIS_CONTAINER_TO_BLOOMREACH">
