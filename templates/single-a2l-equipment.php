@@ -179,7 +179,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 									
 
 									<div class="row">
-										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right">
+										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right border-top">
 											Discarge Temperatures
 										</div>
 										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0">
