@@ -245,7 +245,7 @@ COUNTER
     -o-background-size: cover;
     background-size: cover;
 }
-.text-light {
+.text-light * {
 	color: #fff !important;
 }
 	</style>
