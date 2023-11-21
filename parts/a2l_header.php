@@ -7,20 +7,9 @@
 
 <body>
 
-<div class="js_entire_wrap">
+<div class="a2l_entire_wrap">
 
-    <div class="container js_header_container">
-
-        
-        <div class="js_header_container_overlay">
-            Header is for position only.
-        </div>
-        
-            <img class="js_header_image" src="http://victorpared.es/js/wp-content/uploads/2023/08/johnstone_header_v1.png">
-            
-      
-
-        
+    <div class="a2l_header_container">
 
         
         
