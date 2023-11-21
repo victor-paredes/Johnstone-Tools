@@ -12,7 +12,25 @@ Template Post Type: landing-page
 // get_template_part( 'parts/js_header' ); ?>
 
 
+<div class="">
 
+
+
+
+        <div id="COPY_THIS_CONTAINER_TO_BLOOMREACH">
+
+
+            test
+
+            
+        </div> <!-- end COPY_THIS_CONTAINER_TO_BLOOMREACH -->
+
+
+        
+
+
+
+</div> <!-- end -->
 
 <div id="js_tools_wrap">
     <center>
