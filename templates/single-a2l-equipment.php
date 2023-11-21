@@ -101,8 +101,11 @@ get_template_part( 'parts/a2l_header' ); ?>
 	<div class="container">
 		<div class="row pb-5">
 			<div class="col-12 col-lg-11 pt-5">
-				<h2 class="mt-6 font-weight-bold text-darkblue hp-find-region about-seer-2" tabindex="-1">About SEER2</h2>
-				<p class="lead mb-1">“SEER2” stands for Seasonal Energy Efficiency Ratio 2. Specifically, SEER2 is the total heat removed from the conditioned space during the annual cooling season. The <a href="#" class="preventDefault" data-toggle="tooltip" data-placement="top" title="" data-original-title="The M1 testing procedure is a new method of product testing designed to better reflect current field conditions. During this test, the DOE increases systems' external static pressure from current SEER (0.1 in. of water) to SEER2 (0.5 in. of water). These pressure conditions were devised to consider ducted systems that would be seen in the field.">new M1 testing procedure <img src="img/info-circle.svg" alt="More information"></a> will increase systems' external static pressure by a factor of five to better reflect field conditions of installed equipment. With this change, new nomenclature will be used to denote M1 ratings (including <a href="#" class="preventDefault" data-toggle="tooltip" data-placement="top" title="" data-original-title="Energy Efficiency Ratio 2 (EER2) is the ratio of the average rate of space cooling delivered to the average rate of electrical energy consumed by the air conditioner or heat pump. This ratio is expressed in Btu (British Thermal Units).">EER2 <img src="img/info-circle.svg" alt="More information"></a> and <a href="#" class="preventDefault" data-toggle="tooltip" data-placement="top" title="" data-original-title="Heating Seasonal Performance Factor 2 (HSPF2) is the total space heating required in region IV (Iowa, Minnesota, Missouri, North Dakota and South Dakota) during the space heating season. HSPF2 ratings are also expressed in Btu.">HSPF2 <img src="img/info-circle.svg" alt="More information"></a>).</p>
+				<h2 class="mt-6 font-weight-bold text-darkblue hp-find-region about-seer-2" tabindex="-1">Refrigerant change and your equipment:</h2>
+				<p class="lead mb-1">
+					With the new Technology Transition Rule, the EPA has designated that refrigerants must phasedown the use of Hydrofluorocarbons (HFCs) to meet the new GWP (Global Warming Potential) level. To reduce HFCs the EPA has designated that refrigerants must meet a new GWP (Global Warming Potential) of 700. The current refrigerant R-410A has a GWP of 2088 and does not meet the new GWP level.
+
+				</p>
 				<hr class="my-5 hr-blue">
 			</div>
 			<div class="col-12 col-md-5">
