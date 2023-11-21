@@ -144,14 +144,16 @@ get_template_part( 'parts/a2l_header' ); ?>
 						<div class="card shadow my-5">
 							<div class="card-body">
 								<div class="container px-0">
+
 									<div class="row">
-										<div class="col-6 text-875rem text-center py-2 py-md-0 border-right">
+										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right">
 											<strong>&lt; 45K Btu/h</strong>
 										</div>
-										<div class="col-6 col-md-4 text-875rem text-center py-2 py-md-0">
+										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0">
 											<strong>≥ 45K Btu/h</strong>
 										</div>
 									</div>
+
 									<div class="row">
 										<div class="col-12 py-3 py-md-0">
 											<hr class="my-2 text-secondary">
@@ -163,6 +165,9 @@ get_template_part( 'parts/a2l_header' ); ?>
 											14.5 SEER
 										</div>
 									</div>
+
+									
+
 									<div class="row">
 										<div class="col-12 py-3 py-md-0">
 											<hr class="my-2 text-secondary">
@@ -172,6 +177,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 											<small class="d-block">SEER ratings sourced from Federal Register Vol. 82, No. 4 page 1615.</small>
 										</div>
 									</div>
+
 								</div>
 							</div>
 						</div>
