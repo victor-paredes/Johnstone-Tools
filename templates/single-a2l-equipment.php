@@ -84,35 +84,11 @@ get_template_part( 'parts/a2l_header' ); ?>
 						</li>
 					</ol>
 				
-				
-
-
-
-
-
-
-
-
-
-
+	
 
 				<!-- <p class="mb-2"><span class="badge badge-warning mr-2">NEW</span> <a href="about.html#inventory" class="text-light">Compliance for Existing Inventory →</a></p>
 				<p class="mb-4"><span class="badge badge-warning mr-2">NEW</span> <a href="https://web.archive.org/web/20220811051637/https://go.bluevolt.com/johnstonecontractor/s/coursedetail/386741/supplier-webinar-recording--coleman-2023-seer2-information" class="text-light" rel="noopener" target="_blank">Coleman Webinar Recording →</a></p>
 				<a href="#" id="scrollToMap" class="btn btn-lg btn-light btn-rounded text-lightblue font-weight-bolder" role="button">Find your region</a> -->
-
-
-
-
-			</div>
-			<div class="col-12 col-lg-6 mt-lg-5 mb-lg-3 pt-lg-5 pb-lg-2">
-				<div class="embed-responsive embed-responsive-16by9 mt-5">
-					<iframe class="embed-responsive-item" src="https://web.archive.org/web/20220811051637if_/https://www.youtube.com/embed/AOECX5zu7OE?rel=0" title="2023 Energy Efficiency Regulations" allowfullscreen="" data-ruffle-polyfilled=""></iframe>
-				</div>
-			</div>
-
-
-
-
 
 			
 		</div>
@@ -121,12 +97,124 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
+<div class="container-fluid bg-white">
+	<div class="container">
+		<div class="row pb-5">
+			<div class="col-12 col-lg-11 pt-5">
+				<h2 class="mt-6 font-weight-bold text-darkblue hp-find-region about-seer-2" tabindex="-1">About SEER2</h2>
+				<p class="lead mb-1">“SEER2” stands for Seasonal Energy Efficiency Ratio 2. Specifically, SEER2 is the total heat removed from the conditioned space during the annual cooling season. The <a href="#" class="preventDefault" data-toggle="tooltip" data-placement="top" title="" data-original-title="The M1 testing procedure is a new method of product testing designed to better reflect current field conditions. During this test, the DOE increases systems' external static pressure from current SEER (0.1 in. of water) to SEER2 (0.5 in. of water). These pressure conditions were devised to consider ducted systems that would be seen in the field.">new M1 testing procedure <img src="img/info-circle.svg" alt="More information"></a> will increase systems' external static pressure by a factor of five to better reflect field conditions of installed equipment. With this change, new nomenclature will be used to denote M1 ratings (including <a href="#" class="preventDefault" data-toggle="tooltip" data-placement="top" title="" data-original-title="Energy Efficiency Ratio 2 (EER2) is the ratio of the average rate of space cooling delivered to the average rate of electrical energy consumed by the air conditioner or heat pump. This ratio is expressed in Btu (British Thermal Units).">EER2 <img src="img/info-circle.svg" alt="More information"></a> and <a href="#" class="preventDefault" data-toggle="tooltip" data-placement="top" title="" data-original-title="Heating Seasonal Performance Factor 2 (HSPF2) is the total space heating required in region IV (Iowa, Minnesota, Missouri, North Dakota and South Dakota) during the space heating season. HSPF2 ratings are also expressed in Btu.">HSPF2 <img src="img/info-circle.svg" alt="More information"></a>).</p>
+				<hr class="my-5 hr-blue">
+			</div>
+			<div class="col-12 col-md-5">
+				<h3>M1 Testing Requirements</h3>
+				<p>To meet new testing requirements, manufacturers are redesigning system components. In fact, all air conditioning and heat pump systems must be renovated by January 1, 2023, even if they meet current SEER ratings. In addition, matching components such as furnaces and air handlers will be redesigned to meet changes in the airflow setpoint. Depending on your region, additional field install equipment, such as Thermal Expansion Valves (TXVs), may also be required.</p>
+			</div>
+			<div class="col-12 col-md-5 offset-md-1">
+				<h3>M1 Testing Procedures</h3>
+				<p>The goal of new SEER2 testing procedures is to better represent external conditions seen in the field. Current SEER testing does not accurately emulate the influence of ductwork and external static pressure on HVAC products. Because of this, it is not often representative of real-world applications. By increasing systems’ external static pressure from current SEER (0.1 in. of water) to SEER2 (0.5 in. of water), new M1 testing procedures more accurately reflect current field conditions.</p>
+				<p><a href="https://www.energy.gov/sites/prod/files/2016/08/f33/Central%20Air%20Conditioners%20and%20Heat%20Pumps%20TP%20SNOPR_4.pdf" target="_blank" rel="noopener">Energy.gov Test Procedures <img class="mb-1" src="img/box-arrow-up-right.svg" width="12" height="12" alt="External URL"></a></p>
+			</div>
+			<div class="col-12 pt-3 text-left">
+				<hr class="my-5 hr-blue">
+				<div class="row">
+					<div class="col-12 col-lg-6">
+						<h3 id="inventory">Inventory Compliance</h3>
+						<p>The change from SEER to SEER2 has made inventory management in the <strong>South and Southwest regions</strong> more complicated in ensuring existing inventory that is sold is compliant with the new efficiency standards. Compliance with the 2023 standards is based on the least efficient combination of indoor and outdoor units, commonly referred to as the coil-only rating. This rating is listed on the equipment's energy guide label. If a range is given, the least efficient rating should be used. See the below explanation for further information.</p>
+						<p>For split system AC equipment manufactured prior to December 31, 2022, and installed in the South or Southwest Regions after January 1, 2023:</p>
+					</div>
+					<div class="col-12 col-lg-6 text-center">
+						<img class="img-fluid" src="img/hangtag-magnified.png" alt="Hangtag example">
+					</div>
+				</div>
+				<p class="mt-5">If the model is discontinued by the OEM, the least efficiency* SEER rating, as listed on the Energy Guide label, must be greater than the following:</p>
+				<div class="row justify-content-center">
+					<div class="col-12 col-sm-12 col-md-8">
+						<div class="card shadow my-5">
+							<div class="card-body">
+								<div class="container px-0">
+									<div class="row">
+										<div class="col-6 text-875rem text-center py-2 py-md-0 border-right">
+											<strong>&lt; 45K Btu/h</strong>
+										</div>
+										<div class="col-6 col-md-4 text-875rem text-center py-2 py-md-0">
+											<strong>≥ 45K Btu/h</strong>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-12 py-3 py-md-0">
+											<hr class="my-2 text-secondary">
+										</div>
+										<div class="col-6 text-875rem text-center py-2 py-md-0 border-right">
+											15.0 SEER
+										</div>
+										<div class="col-6 col-md-4 text-875rem text-center py-2 py-md-0">
+											14.5 SEER
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-12 py-3 py-md-0">
+											<hr class="my-2 text-secondary">
+										</div>
+										<div class="col-12 text-center">
+											<small class="d-block mb-2">If the Energy Guide label includes a range for the least efficient SEER rating, the lower SEER rating should be used.</small>
+											<small class="d-block">SEER ratings sourced from Federal Register Vol. 82, No. 4 page 1615.</small>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p>In the <strong>Southwest region</strong>, the equipment must also meet the following EER requirements: </p>
+				<div class="row justify-content-center">
+					<div class="col-12 col-sm-12 col-md-8">
+						<div class="card shadow my-5">
+							<div class="card-body">
+								<div class="container px-0">
+									<div class="row">
+										<div class="col-8 text-875rem text-center py-2 py-md-0 border-right">
+											<strong>&gt; 15 but &lt; 16 SEER</strong>
+										</div>
+										<div class="col-4 text-875rem text-center py-2 py-md-0">
+											<strong>≥ 16 SEER</strong>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-12 py-3 py-md-0">
+											<hr class="my-2 text-secondary">
+										</div>
+										<div class="col-4 text-875rem text-center py-2 py-md-0">
+											&lt; 45,000 Btu
+										</div>
+										<div class="col-4 text-875rem text-center py-2 py-md-0 border-right">
+											≥ 45,000 Btu
+										</div>
+										<div class="col-4 text-875rem text-center py-2 py-md-0">
+											10.2 EER
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-4 text-875rem text-center py-2 py-md-0">
+											12.2 EER
+										</div>
+										<div class="col-4 text-875rem text-center py-2 py-md-0">
+											11.7 EER
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<small><em>*DOE Guidance from 12/16/21 requires the least efficient SEER rating (Coil-only rating) to be used in determining if the equipment meets the efficiency standard, blower-coil combinations cannot be used to meet the minimum efficiency requirement</em>.</small>
+			</div>
+		</div>
+	</div>
+</div>
 
 
 
 
-
-COUNTER
 
 
 
