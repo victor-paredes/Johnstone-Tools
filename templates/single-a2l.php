@@ -57,7 +57,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 		<div class="row">
 			<div class="col-12 col-lg-6 mt-lg-5 mb-lg-3 pt-lg-5 pb-lg-2">
 				<h1 class="text-light mt-5 mb-4"><strong>Changes are coming to <br class="d-none d-lg-block">your region.</strong></h1>
-				<p class="lead text-light text-1rem mb-4">By January 1, 2023, SEER2 product regulations will be in full effect. With new testing procedures, limited sell-through opportunities and a 1% SEER increase for northern and southern regions, it's important you stay up to date with your territory's guidelines.</p>
+				<p class="lead text-light text-1rem mb-4">Lorem ipsum...</p>
 				<p class="mb-2"><span class="badge badge-warning mr-2">NEW</span> <a href="about.html#inventory" class="text-light">Compliance for Existing Inventory →</a></p>
 				<p class="mb-4"><span class="badge badge-warning mr-2">NEW</span> <a href="https://web.archive.org/web/20220811051637/https://go.bluevolt.com/johnstonecontractor/s/coursedetail/386741/supplier-webinar-recording--coleman-2023-seer2-information" class="text-light" rel="noopener" target="_blank">Coleman Webinar Recording →</a></p>
 				<a href="#" id="scrollToMap" class="btn btn-lg btn-light btn-rounded text-lightblue font-weight-bolder" role="button">Find your region</a>
@@ -103,53 +103,6 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 COUNTER
-
-
-
-
-
-<div class="container-fluid bg-white">
-	<div class="container">
-		<div class="row">
-			<div class="col-12 pt-5 text-center">
-				<h1 id="find-region" class="mt-6 font-weight-bold text-darkblue hp-find-region">Find your region.</h1>
-				<p class="lead mb-1">SEER2 requirements vary from region to region.</p>
-				<p class="lead">Select yours to learn more.</p>
-				
-
-
-
-                
-				<hr class="my-5 hr-blue">
-				<h2 class="font-weight-bold text-secondary mb-5">The following products will be affected by SEER2 Regulations:</h2>
-				<div class="row">
-					<div class="col-12 col-md-7 text-left">
-						<ul class="list-larger text-secondary ml-lg-5">
-							<li>Air Conditioner Condensing Units</li>
-							<li>Heat Pumps</li>
-							<li>Single Packaged Units</li>
-							<li>Evaporator Coils</li>
-							<li>Gas Furnaces</li>
-						</ul>
-					</div>
-					<div class="col-12 col-md-5">
-						<img class="img-fluid" src="/web/20220811051637im_/https://seer2.com/img/product-group.png" alt="Evaporator Coil, AC/HP Unit, and Furnace grouped together">
-					</div>
-				</div>
-				<a href="about.html" class="btn btn-darkblue btn-rounded mb-5">Learn more about SEER2</a>
-			</div>
-		</div>
-	</div>
-</div>
-
-
-
-
-
-
-
-
-
 
 
 
