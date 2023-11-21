@@ -15,7 +15,7 @@ Template Post Type: landing-page
 <div class="">
 
     <?php
-    if ( have_rows('standard_template_blocks') == true ) { ?>
+
 
         <div id="COPY_THIS_CONTAINER_TO_BLOOMREACH">
 
@@ -27,10 +27,7 @@ Template Post Type: landing-page
 
 
         
-        
-    <?php } else {
-        echo 'no rows';
-    } ?>
+
 
 
 </div> <!-- end -->
