@@ -34,7 +34,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 		<div class="row">
 			<div class="col">
 				<nav class="navbar navbar-expand-lg navbar-dark pl-0" id="mainNav">
-				<a class="navbar-brand" href="index.html"><strong>A2L Equipment Information</strong> <span id="presentedBy" class="d-block mt-n1">Presented by Johnstone Supply</span></a>
+				<a class="navbar-brand" href="index.html"><strong>A2L Countdown</strong> <span id="presentedBy" class="d-block mt-n1">Presented by Johnstone Supply</span></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 					<div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
 						<ul class="navbar-nav text-right text-lg-center">
@@ -60,8 +60,33 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 			<div class="col-12 col-lg-6 mt-lg-5 mb-lg-3 pt-lg-5 pb-lg-2">
-				<h1 class="text-light mt-5 mb-4"><strong>Changes are coming to <br class="d-none d-lg-block">your region.</strong></h1>
-				<p class="lead text-light text-1rem mb-4">Lorem ipsum...</p>
+				<h1 class="text-light mt-5 mb-4"><strong>Equipment</strong></h1>
+				<p class="lead text-light text-1rem mb-4">
+					<h2>Technology Transition Rule: </h2>
+					The Environmental Protection Agency has issued a new rule restricting the use of High GWP refrigerants (HFCs) in HVAC and Refrigerant Equipment. This means that the current refrigerant is being phased out and replaced with two new more globally friendly substitutes. Along with the new refrigerant changes your equipment will also experience a change. Most important of the changes is there is a no sell-through date, for all regions, of current R-410A HVAC equipment. Additionally, are three important aspects that you will need to know about this new rule. 
+				</p>
+				<ol>
+					<li>
+						Refrigerant Changes-Low GWP Systems and A2L Refrigerant
+					</li>	
+					<li>
+						Categories-Products, Systems, Components 
+					</li>
+					<li>
+						Equipment Mitigation Requirements-No sell through R410A systems
+					</li>
+				</ol>
+
+
+
+
+
+
+				
+There are three important aspects of the new Technology Transition Rule:
+Refrigerant Changes-Low GWP Systems and A2L Refrigerant
+Categories-Products, Systems, Components 
+Equipment Mitigation Requirements-No sell through R410A systems
 
 
 
