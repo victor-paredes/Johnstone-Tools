@@ -121,28 +121,25 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 			</div>
 			<div class="col-12 col-md-5">
-				<h3>M1 Testing Requirements</h3>
+				<!-- <h3>M1 Testing Requirements</h3> -->
 				<p>To meet new testing requirements, manufacturers are redesigning system components. In fact, all air conditioning and heat pump systems must be renovated by January 1, 2023, even if they meet current SEER ratings. In addition, matching components such as furnaces and air handlers will be redesigned to meet changes in the airflow setpoint. Depending on your region, additional field install equipment, such as Thermal Expansion Valves (TXVs), may also be required.</p>
 			</div>
 			<div class="col-12 col-md-5 offset-md-1">
-				<h3>M1 Testing Procedures</h3>
+				<!-- <h3>M1 Testing Procedures</h3> -->
 				<p>The goal of new SEER2 testing procedures is to better represent external conditions seen in the field. Current SEER testing does not accurately emulate the influence of ductwork and external static pressure on HVAC products. Because of this, it is not often representative of real-world applications. By increasing systems’ external static pressure from current SEER (0.1 in. of water) to SEER2 (0.5 in. of water), new M1 testing procedures more accurately reflect current field conditions.</p>
-				<p><a href="https://www.energy.gov/sites/prod/files/2016/08/f33/Central%20Air%20Conditioners%20and%20Heat%20Pumps%20TP%20SNOPR_4.pdf" target="_blank" rel="noopener">Energy.gov Test Procedures <img class="mb-1" src="img/box-arrow-up-right.svg" width="12" height="12" alt="External URL"></a></p>
+				<!-- <p><a href="https://www.energy.gov/sites/prod/files/2016/08/f33/Central%20Air%20Conditioners%20and%20Heat%20Pumps%20TP%20SNOPR_4.pdf" target="_blank" rel="noopener">Energy.gov Test Procedures <img class="mb-1" src="img/box-arrow-up-right.svg" width="12" height="12" alt="External URL"></a></p> -->
 			</div>
+
+
+
+
+
 			<div class="col-12 pt-3 text-left">
-				<hr class="my-5 hr-blue">
-				<div class="row">
-					<div class="col-12 col-lg-6">
-						<h3 id="inventory">Inventory Compliance</h3>
-						<p>The change from SEER to SEER2 has made inventory management in the <strong>South and Southwest regions</strong> more complicated in ensuring existing inventory that is sold is compliant with the new efficiency standards. Compliance with the 2023 standards is based on the least efficient combination of indoor and outdoor units, commonly referred to as the coil-only rating. This rating is listed on the equipment's energy guide label. If a range is given, the least efficient rating should be used. See the below explanation for further information.</p>
-						<p>For split system AC equipment manufactured prior to December 31, 2022, and installed in the South or Southwest Regions after January 1, 2023:</p>
-					</div>
-					<div class="col-12 col-lg-6 text-center">
-						<img class="img-fluid" src="img/hangtag-magnified.png" alt="Hangtag example">
-					</div>
-				</div>
-				<p class="mt-5">If the model is discontinued by the OEM, the least efficiency* SEER rating, as listed on the Energy Guide label, must be greater than the following:</p>
-				<div class="row justify-content-center">
+			
+
+
+
+				<div class="row justify-content-center"> <!-- TABLE -->
 					<div class="col-12 col-sm-12 col-md-8">
 						<div class="card shadow my-5">
 							<div class="card-body">
@@ -179,7 +176,11 @@ get_template_part( 'parts/a2l_header' ); ?>
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> <!-- end TABLE -->
+
+
+
+
 				<p>In the <strong>Southwest region</strong>, the equipment must also meet the following EER requirements: </p>
 				<div class="row justify-content-center">
 					<div class="col-12 col-sm-12 col-md-8">
@@ -223,6 +224,16 @@ get_template_part( 'parts/a2l_header' ); ?>
 				</div>
 				<small><em>*DOE Guidance from 12/16/21 requires the least efficient SEER rating (Coil-only rating) to be used in determining if the equipment meets the efficiency standard, blower-coil combinations cannot be used to meet the minimum efficiency requirement</em>.</small>
 			</div>
+
+
+
+
+
+
+
+
+
+
 		</div>
 	</div>
 </div>
