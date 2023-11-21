@@ -146,40 +146,53 @@ get_template_part( 'parts/a2l_header' ); ?>
 								<div class="container px-0">
 
 									<div class="row">
-
-
 										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right">
-											<strong>&lt;</strong>
+											<strong></strong>
 										</div>
 										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0"> 
-											<strong>test</strong>
+											<strong>R-454B</strong>
 										</div>
-
-
 										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right">
-											<strong>&lt; R-454B</strong>
+											<strong>R-32</strong>
 										</div>
 										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0">
-											<strong>≥ 45K Btu/h</strong>
+											<strong>R-410A</strong>
 										</div>
-									
-										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right">
-											<strong>&lt; 45K Btu/h</strong>
-										</div>
-										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0">
-											<strong>≥ 45K Btu/h</strong>
-										</div>
-
-										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right">
-											<strong>&lt; 45K Btu/h</strong>
-										</div>
-										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0">
-											<strong>≥ 45K Btu/h</strong>
-										</div>
-
-
 									</div>
 									
+										
+									<div class="row">
+										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right">
+											<strong>GWP</strong>
+										</div>
+										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0">
+											<strong>466</strong>
+										</div>
+
+										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right">
+											<strong>675</strong>
+										</div>
+										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0">
+											<strong>2088</strong>
+										</div>
+									</div>
+									
+
+									<div class="row">
+										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right">
+											Discarge Temperatures
+										</div>
+										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0">
+										Lower Discharge Temperatures
+										</div>
+
+										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right">
+										Higher Discharge Temperatures
+										</div>
+										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0">
+										Lower Discharge Temperatures
+										</div>
+									</div>
 									
 
 
