@@ -9,10 +9,10 @@ Template Post Type: landing-page
 <?php wp_head(); ?>
 
 <?php 
-get_template_part( 'parts/js_header' ); ?>
+// get_template_part( 'parts/js_header' ); ?>
 
 
-<div class="container">
+<div class="">
 
     <?php
     if ( have_rows('standard_template_blocks') == true ) { ?>
@@ -85,7 +85,7 @@ get_template_part( 'parts/js_header' ); ?>
 
 the_content();
 
-get_template_part( 'parts/js_footer' );
+// get_template_part( 'parts/js_footer' );
 
 wp_footer();
 
