@@ -147,17 +147,17 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 									<div class="row">
 
-									
+
 										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right">
-											<strong>&lt; 45K Btu/h</strong>
+											<strong>&lt;</strong>
 										</div>
 										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0">
-											<strong>≥ 45K Btu/h</strong>
+											<strong>test</strong>
 										</div>
 
 
 										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right">
-											<strong>&lt; 45K Btu/h</strong>
+											<strong>&lt; R-454B</strong>
 										</div>
 										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0">
 											<strong>≥ 45K Btu/h</strong>
