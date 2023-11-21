@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: A2L
+Template Name: A2L Equipment
 Template Post Type: landing-page
 */
 
