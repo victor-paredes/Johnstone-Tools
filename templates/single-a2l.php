@@ -34,23 +34,18 @@ get_template_part( 'parts/a2l_header' ); ?>
 		<div class="row">
 			<div class="col">
 				<nav class="navbar navbar-expand-lg navbar-dark pl-0" id="mainNav">
-				<a class="navbar-brand" href="index.html"><strong>The SEER2 Guide</strong> <span id="presentedBy" class="d-block mt-n1">Presented by Johnstone Supply</span></a>
+				<a class="navbar-brand" href="index.html"><strong>A2L Countdown</strong> <span id="presentedBy" class="d-block mt-n1">Presented by Johnstone Supply</span></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 					<div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
 						<ul class="navbar-nav text-right text-lg-center">
-							<li class="nav-item px-4 dropdown dropdown-region">
-								<a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="d-inline d-lg-none">Select Your </span>Region<span class="d-inline d-lg-none">:</span></a>
-								<div class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-									<a class="dropdown-item" href="region-north.html">North <span class="d-inline d-lg-none">→</span></a>
-									<a class="dropdown-item" href="region-southeast.html">Southeast <span class="d-inline d-lg-none">→</span></a>
-									<a class="dropdown-item" href="region-southwest.html">Southwest <span class="d-inline d-lg-none">→</span></a>
-								</div>
-							</li>
 							<li class="nav-item px-4 active">
-								<a class="nav-link text-light" href="about.html">About</a>
+								<a class="nav-link text-light" href="about.html">Equipment</a>
 							</li>
 							<li class="nav-item px-4">
-								<a class="nav-link text-light" href="support.html">Support</a>
+								<a class="nav-link text-light" href="support.html">Refrigerant</a>
+							</li>
+							<li class="nav-item px-4">
+								<a class="nav-link text-light" href="support.html">Low Spark Tools</a>
 							</li>
 						</ul>
 					</div>
