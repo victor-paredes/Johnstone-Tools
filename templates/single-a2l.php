@@ -9,7 +9,7 @@ Template Post Type: landing-page
 <?php wp_head(); ?>
 
 <?php 
-// get_template_part( 'parts/js_header' ); ?>
+get_template_part( 'parts/a2l_header' ); ?>
 
 
 <div class="">
