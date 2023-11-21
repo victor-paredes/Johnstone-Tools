@@ -39,13 +39,13 @@ get_template_part( 'parts/a2l_header' ); ?>
 					<div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
 						<ul class="navbar-nav text-right text-lg-center">
 							<li class="nav-item px-4 active">
-								<a class="nav-link text-light" href="about.html">Equipment</a>
+								<a class="nav-link text-light" href="https://victorpared.es/js/landing-page/a2l-equipment/">Equipment</a>
 							</li>
 							<li class="nav-item px-4">
-								<a class="nav-link text-light" href="support.html">Refrigerant</a>
+								<a class="nav-link text-light" href="https://victorpared.es/js/landing-page/refrigerant/">Refrigerant</a>
 							</li>
 							<li class="nav-item px-4">
-								<a class="nav-link text-light" href="support.html">Low Spark Tools</a>
+								<a class="nav-link text-light" href="https://victorpared.es/js/landing-page/low-spark-tools/">Low Spark Tools</a>
 							</li>
 						</ul>
 					</div>
@@ -102,11 +102,26 @@ get_template_part( 'parts/a2l_header' ); ?>
 		<div class="row pb-5">
 			<div class="col-12 col-lg-11 pt-5">
 				<h2 class="mt-6 font-weight-bold text-darkblue hp-find-region about-seer-2" tabindex="-1">Refrigerant change and your equipment:</h2>
-				<p class="lead mb-1">
-					With the new Technology Transition Rule, the EPA has designated that refrigerants must phasedown the use of Hydrofluorocarbons (HFCs) to meet the new GWP (Global Warming Potential) level. To reduce HFCs the EPA has designated that refrigerants must meet a new GWP (Global Warming Potential) of 700. The current refrigerant R-410A has a GWP of 2088 and does not meet the new GWP level.
+				<p v>
+					With the new Technology Transition Rule, the EPA has designated that refrigerants must phase down the use of Hydrofluorocarbons (HFCs) to meet the new GWP (Global Warming Potential) level. To reduce HFCs the EPA has designated that refrigerants must meet a new GWP (Global Warming Potential) of 700. The current refrigerant R-410A has a GWP of 2088 and does not meet the new GWP level.
 
 				</p>
 				<hr class="my-5 hr-blue">
+
+
+<h3>What are HFCs or Hydrofluorocarbons? What is GWP or Global Warming Potential?</h3>
+
+
+<p class="lead mb-1">
+Hydrofluorocarbons (HFCs) are potent greenhouse gasses developed and manufactured as a replacement for ozone-depleting substances. The environmental impact of these hydrofluorocarbons is measured by GWP or its Global Warming Potential
+</p>
+
+<p class="lead mb-1">
+In response to the new GWP requirements, two new refrigerants with lower than 700 GWP will take R-410A’s place for new manufactured HVAC equipment. The new refrigerant options are R-454B and R-32. See the table below for more information:
+</p>
+
+
+
 			</div>
 			<div class="col-12 col-md-5">
 				<h3>M1 Testing Requirements</h3>
