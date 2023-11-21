@@ -210,6 +210,16 @@ COUNTER
 </script>
 
 
+<style>
+	.bg-darkblue-img {
+    background: #062655 url(https://seer2.com/img/bg-contractor-installing-thermostat.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+	</style>
+
 
 <?php
 
