@@ -307,8 +307,8 @@ get_template_part( 'parts/a2l_header' ); ?>
 								<img width="100%" src="https://victorpared.es/js/wp-content/uploads/2023/11/what_is_a2l_refrigerant.jpg">
 								<table class="table_noexpand">
 
-									<tr class="">
-										<td class="border-left">  
+									<tr class="border-bottom">
+										<td class="">  
 											<strong>A1- No Flame Propagation</strong>
 										</td>
 										<td class="">
