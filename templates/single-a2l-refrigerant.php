@@ -63,7 +63,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 			<div class="container">
 				<div class="row">
 					<div class="col-12 col-lg-11 pt-5 pb-4">
-						<h1 class="text-light mt-5 mb-4"><strong>Refrigerant change and your equipment:</strong></h1>
+						<h1 class="text-light mt-5 mb-4"><strong>Refrigerant Change and Your Equipment</strong></h1>
 				
 						<div class="header_block">
 							<!-- <h2 class="mt-6 font-weight-bold hp-find-region about-seer-2" tabindex="-1">Technology Transition Rule: </h2> -->

@@ -265,7 +265,9 @@ get_template_part( 'parts/a2l_header' ); ?>
 							<h3 class="">The Technology Transition Rule: New Products and Mitigation</h3>
 								<p class="">
 								Because of the low flammability of A2L refrigerants, equipment manufacturers will be re-designing their (RACHP) systems based around mitigation requirements. Mitigation is now required in the event of a refrigerant leak. To meet these new requirements manufacturers will design their systems with added mitigation leak detection systems, including leak sensors, control boards, and intrinsically safe electrical components.<br>
-								*Intrinsically safe components, contactors, capacitors, etc., are designed to be enclosed, isolating the electrical contacts form the atmosphere. 
+								<div class="a2l_note"><small>
+									*Intrinsically safe components, contactors, capacitors, etc., are designed to be enclosed, isolating the electrical contacts form the atmosphere. 
+								</small></div>
 								</p>
 						</div>
 
@@ -276,7 +278,10 @@ get_template_part( 'parts/a2l_header' ); ?>
 							<h3 class="">How do these new systems work to mitigate refrigerant leaks? </h3>
 								<p class="">
 								Although the new A2L refrigerants are difficult to ignite, mitigation is still needed. The new leak sensors and controls boards will work together to shut down the system in case of refrigerant leak. If a leak is detected the sensor will communicate with the control board to shut down the system and turn on the blower to dissipate any refrigerant, while the sensors notify the homeowner. The leak sensors will be in the indoor coil cabinet while the mitigation board will be installed in the furnace. * Mitigation components will be factory installed on new A2L refrigerant equipment, but field installed mitigation equipment will be available. <br>
-								*Designs and placement of mitigation control board and leak sensors may vary by brand, but the mitigation requirements and function are the same.
+								<div class="a2l_note"><small>
+									*Designs and placement of mitigation control board and leak sensors may vary by brand, but the mitigation requirements and function are the same.
+								</small></div>
+								
 
 								</p>
 						</div>
