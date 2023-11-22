@@ -278,7 +278,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 						</button>
 					</a>
 					<a href="https://www.achrnews.com/articles/153195-understanding-a2l-refrigerants" target="_blank">
-						<button class="btn btn-darkblue btn-rounded mb-5">
+						<button class="a2l_button">
 							The News
 						</button>
 					</a>
@@ -420,6 +420,10 @@ get_template_part( 'parts/a2l_header' ); ?>
 	border-radius: 999px;
 	border: 1px solid white;
 	color: #fff;
+	font-weight: 400;
+}
+.a2l_button:hover {
+	background: #0072c8;
 }
 
 
