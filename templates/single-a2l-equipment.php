@@ -591,6 +591,46 @@ Manufacturers and importers of products and systems that use HFCs will be subjec
 
 
 
+<!-- footer -->
+
+	<div class="container-fluid bg-darkblue">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-12 col-lg-6 py-lg-5 text-center">
+				<img id="johnstoneLogo" class="d-block mx-auto mt-5 mb-3" src="/web/20220811051637im_/https://seer2.com/img/johnstone-supply-logo-white.svg" alt="Johnstone Supply">
+				<p class="lead text-light text-1rem mb-3">At Johnstone Supply, we're proud to provide you and your team the most advanced HVAC products, tools and support.</p>
+				<a href="https://web.archive.org/web/20220811051637/https://www.johnstonesupply.com/" class="btn btn-lg btn-light btn-rounded text-lightblue font-weight-bolder mb-5" role="button" target="_blank" rel="noopener">Visit our website</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="container-fluid bg-deepblue">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-6 py-2 py-md-5">
+				<p class="text-light">© <span id="currentYear">2022</span> Johnstone Supply. All Rights Reserved.</p>
+			</div>
+			<div class="col-12 col-md-6 pt-2 pb-5 py-md-5 text-left text-md-right">
+				<a href="privacy-statement.html" class="d-block d-md-inline text-light px-1 px-md-4">Privacy Statement</a>
+				<a href="terms-of-use.html" class="d-block d-md-inline text-light px-1 px-md-4">Terms of Use</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
