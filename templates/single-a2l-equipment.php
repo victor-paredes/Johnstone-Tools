@@ -308,13 +308,13 @@ get_template_part( 'parts/a2l_header' ); ?>
 								<table class="table_noexpand">
 
 									<tr class="border-bottom">
-										<td class="">  
+										<td class="table_header">  
 											<strong>A1- No Flame Propagation</strong>
 										</td>
-										<td class="">
+										<td class="table_header">
 											<strong>A2L-Mildly Flammable</strong>
 										</td>
-										<td class="">
+										<td class="table_header">
 											<strong>A3-Higher Flammability</strong>
 										</td>
 									</tr>
