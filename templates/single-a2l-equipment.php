@@ -235,55 +235,8 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-					<p>In the <strong>Southwest region</strong>, the equipment must also meet the following EER requirements: </p>
-				<div class="row justify-content-center">
-					<div class="col-12 col-sm-12 col-md-8">
-						<div class="card shadow my-5">
-							<div class="card-body">
-								<div class="container px-0">
-									<div class="row">
-										<div class="col-8 ">
-											<strong>&gt; 15 but &lt; 16 SEER</strong>
-										</div>
-										<div class="col-4 ">
-											<strong>≥ 16 SEER</strong>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-12 py-3 py-md-0">
-											<hr class="my-2 text-secondary">
-										</div>
-										<div class="col-4 ">
-											&lt; 45,000 Btu
-										</div>
-										<div class="col-4 ">
-											≥ 45,000 Btu
-										</div>
-										<div class="col-4 ">
-											10.2 EER
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-4 ">
-											12.2 EER
-										</div>
-										<div class="col-4 ">
-											11.7 EER
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div> 
 
 
-
-
-
-
-					<small><em>*DOE Guidance from 12/16/21 requires the least efficient SEER rating (Coil-only rating) to be used in determining if the equipment meets the efficiency standard, blower-coil combinations cannot be used to meet the minimum efficiency requirement</em>.</small>
-		
 
 
 
