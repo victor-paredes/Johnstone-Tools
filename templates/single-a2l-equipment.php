@@ -212,7 +212,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 									</div>
 
 
-									<div class="row align-items-center justify-content-center">
+									<div class="row">
 										<div class="col-lg-3 col-md-6 text-875rem text-center align-middle py-2 py-md-0 border-right border-top">
 											Formula
 										</div>
