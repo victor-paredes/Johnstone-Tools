@@ -143,42 +143,42 @@ get_template_part( 'parts/a2l_header' ); ?>
 					<table class="">
 						<div class="card shadow my-5">
 							<div class="card-body">
-								<div class="container px-0">
+								<table class="px-0">
 
-									<div class="">
-										<div class="text-875rem text-center py-2 py-md-0 border-right">
+									<tr class="">
+										<td class="text-875rem text-center py-2 py-md-0 border-right">
 											<strong></strong>
-										</div>
-										<div class="text-875rem text-center py-2 py-md-0"> 
+</td>
+										<td class="text-875rem text-center py-2 py-md-0"> 
 											<strong>R-454B</strong>
-										</div>
-										<div class="text-875rem text-center py-2 py-md-0 border-right">
+</td>
+										<td class="text-875rem text-center py-2 py-md-0 border-right">
 											<strong>R-32</strong>
-										</div>
-										<div class="text-875rem text-center py-2 py-md-0">
+</td>
+										<td class="text-875rem text-center py-2 py-md-0">
 											<strong>R-410A</strong>
-										</div>
-									</div>
+</td>
+</tr>
 									
 										
-									<div class="">
-										<div class="text-875rem text-center py-2 py-md-0 border-right">
+									<tr class="">
+										<td class="text-875rem text-center py-2 py-md-0 border-right">
 											<strong>GWP</strong>
-										</div>
-										<div class="text-875rem text-center py-2 py-md-0">
+</td>
+										<td class="text-875rem text-center py-2 py-md-0">
 											<strong>466</strong>
-										</div>
+</td>
 
-										<div class="text-875rem text-center py-2 py-md-0 border-right">
+										<td class="text-875rem text-center py-2 py-md-0 border-right">
 											<strong>675</strong>
-										</div>
-										<div class="text-875rem text-center py-2 py-md-0">
+</td>
+										<td class="text-875rem text-center py-2 py-md-0">
 											<strong>2088</strong>
-										</div>
-									</div>
+</td>
+</tr>
 									
 
-									<div class="">
+									<tr class="">
 										<div class="text-875rem text-center py-2 py-md-0 border-right border-top">
 											Discarge Temperatures
 										</div>
@@ -192,10 +192,10 @@ get_template_part( 'parts/a2l_header' ); ?>
 										<div class="text-875rem text-center py-2 py-md-0 border-top">
 										Lower Discharge Temperatures
 										</div>
-									</div>
+</tr>
 
 
-									<div class="">
+									<tr class="">
 										<div class="text-875rem text-center py-2 py-md-0 border-right border-top">
 											Glide
 										</div>
@@ -209,10 +209,10 @@ get_template_part( 'parts/a2l_header' ); ?>
 										<div class="text-875rem text-center py-2 py-md-0 border-top">
 										No Glide
 										</div>
-									</div>
+</tr>
 
 
-									<div class="">
+									<tr class="">
 										<div class="text-875rem text-center align-middle py-2 py-md-0 border-right border-top">
 											Formula
 										</div>
@@ -226,7 +226,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 										<div class="text-875rem text-center py-2 py-md-0 border-top">
 										50% R-32/50% R-125
 										</div>
-									</div>
+</tr>
 									
 
 
