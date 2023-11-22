@@ -112,7 +112,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 					</div>
 					<div class="col-4 col-md-3 col-lg-2 px-1 px-md-3">
 						<div class="bg-light border-radius-sm shadow">
-							<!-- <span class="minutes d-block text-darkblue text-4rem font-weight-bold">28</span> -->
+							<!-- <span class="minutes d-block text-darkblue text-4rem font-weight-bold">28</span> --> 
 							<strong class="d-block mt-n3 pb-3 text-secondary">Minutes</strong>
 						</div>
 					</div>
