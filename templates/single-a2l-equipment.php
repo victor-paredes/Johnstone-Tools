@@ -346,7 +346,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-							<div class="col-12 col-lg-11 pt-5">
+							<div class="col-12 col-lg-11 pt-9">
 								<h3 class="">The Technology Transition Rule: Transitions and Restrictions</h3>
 								<p class="">
 									The Technology Transition’s final rule restricts the manufacture and import of certain refrigeration, air conditioning, and heat pump (RACHP) products and the installation of certain RACHP systems. There is now a full system installation prohibition after January 1, 2025, this affects all regions. Along with these restriction certain HVAC products have been regrouped into three new classifications.
@@ -371,6 +371,14 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
+
+							<div class="col-12 col-lg-11 pt-5">
+								<p class="">
+								<small>
+								*NOTE: Components are not subject to the same restrictions as “products.” Where the rules use “specified component” means condensing units, condensers, compressors, evaporator units and evaporators. Refrigerant tubing and thermal expansion valves are excluded from the requirements of the rule. Electronics, fan motors, ducts, and other parts outside the refrigerant loop are also excluded from the requirements of the rule. EPA does not restrict the manufacture, import, sale, distribution, or export of components that are used to repair existing RACHP systems.
+								</small>
+								</p>
+							</div>
 
 
 				
