@@ -366,9 +366,11 @@ get_template_part( 'parts/a2l_header' ); ?>
 									<li>
 									Components are described as pieces of equipment that must be assembled into a larger system to function. For purposes of the Technology Transitions Program, five components are specifically identified: compressors, condensing units or condensers, and evaporator units or evaporators. 
 									<br>
-									<small class="block mt-2" style="color:#9c9c9c;">
+									<div class="a2l_note">
+										<small>
 									*NOTE: Components are not subject to the same restrictions as “products.” Where the rules use “specified component” means condensing units, condensers, compressors, evaporator units and evaporators. Refrigerant tubing and thermal expansion valves are excluded from the requirements of the rule. Electronics, fan motors, ducts, and other parts outside the refrigerant loop are also excluded from the requirements of the rule. EPA does not restrict the manufacture, import, sale, distribution, or export of components that are used to repair existing RACHP systems.
-									</small>
+</small>
+									</div>
 									</li>
 								</ul>
 							</div>
@@ -522,6 +524,10 @@ get_template_part( 'parts/a2l_header' ); ?>
 }
 .a2l_button:hover {
 	background: #0072c8;
+}
+.a2l_note {
+	margin-top: 15px;
+	color: #9c9c9c;
 }
 
 
