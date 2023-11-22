@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: A2L Equipment
+Template Name: A2L Low Spark Tools
 Template Post Type: landing-page
 */
 
