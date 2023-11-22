@@ -265,22 +265,14 @@ get_template_part( 'parts/a2l_header' ); ?>
 					To find out more about each refrigerant in depth see the resources below:
 					</p>
 
-					<a href="https://www.r32reasons.com/" target="_blank">
-						<button class="a2l_button">
-							<span class="">
+					<a class="a2l_button" href="https://www.r32reasons.com/" target="_blank">
 								R32 Reasons
-							</span>
-						</button>
 					</a>
-					<a href="https://www.epa.gov/system/files/documents/2023-04/SAN%206399_Final%20SNAP%20Rule%2025_signed%20pre-publication.pdf" target="_blank">
-						<button class="a2l_button">
+					<a class="a2l_button" href="https://www.epa.gov/system/files/documents/2023-04/SAN%206399_Final%20SNAP%20Rule%2025_signed%20pre-publication.pdf" target="_blank">
 							SNAP
-						</button>
 					</a>
-					<a href="https://www.achrnews.com/articles/153195-understanding-a2l-refrigerants" target="_blank">
-						<button class="a2l_button">
+					<a class="a2l_button" href="https://www.achrnews.com/articles/153195-understanding-a2l-refrigerants" target="_blank">
 							The News
-						</button>
 					</a>
 				</div>
 
@@ -544,7 +536,7 @@ Manufacturers and importers of products and systems that use HFCs will be subjec
 								<a class="a2l_button" href="https://www.epa.gov/system/files/documents/2023-04/SAN%206399_Final%20SNAP%20Rule%2025_signed%20pre-publication.pdf" target="_blank">
 											SNAP
 								</a>
-								<a href="https://www.achrnews.com/articles/153195-understanding-a2l-refrigerants" target="_blank">
+								<a class="a2l_button" href="https://www.achrnews.com/articles/153195-understanding-a2l-refrigerants" target="_blank">
 										The News
 								</a>
 								<a class="a2l_button" href="https://www.epa.gov/climate-hfcs-reduction/frequent-questions-phasedown-hydrofluorocarbons#products" target="_blank">
