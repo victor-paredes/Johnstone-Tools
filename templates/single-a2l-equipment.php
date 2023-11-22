@@ -156,7 +156,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 											<strong>VRF/VRV AC/HP</strong>
 										</td>
 										<td class="table_header">
-											<strong>Comoponents</strong>
+											<strong>Components</strong>
 										</td>
 									</tr>
 									
@@ -221,7 +221,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 											* Chillers with no refrigerant leaving the unit are treated as a product and have a compliance deadline of January 1, 2025
 										</td>
 
-										<td class="border-right">
+										<td class="">
 											
 										</td>
 										<td class="">
