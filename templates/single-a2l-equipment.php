@@ -170,7 +170,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 										</td>
 
 										<td class="border-bottom border-right">
-											img
+											<img width="100%" src="https://victorpared.es/js/wp-content/uploads/2023/11/a2L_diagram.jpg">
 										</td>
 										<td class="border-bottom">
 										
