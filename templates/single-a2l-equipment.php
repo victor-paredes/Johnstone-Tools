@@ -393,7 +393,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-							<div class=" row table_wrap shadow" style="margin:0 auto;"><!-- wrap -->
+							<div class=" row table_wrap shadow mt-2" style="margin:0 auto;"><!-- wrap -->
 								<table class="table_noexpand">
 
 									<tr class="">
