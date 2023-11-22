@@ -150,7 +150,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 										<td class=""> 
 											<strong></strong>
 										</td>
-										<td class="cell_highlight">  
+										<td class="cell_highlight border-left">  
 											<strong>R-454B </strong>
 										</td>
 										<td class="cell_highlight">
