@@ -71,13 +71,13 @@ get_template_part( 'parts/a2l_header' ); ?>
 			<div class="col-12 col-lg-11 pt-5">
 				<h1 class="text-light mt-5 mb-4"><strong>Equipment</strong></h1>
 				
-						<div class="col-12 col-lg-11 pt-5">
+						<div class="">
 							<h2 class="mt-6 font-weight-bold text-darkblue hp-find-region about-seer-2" tabindex="-1">Refrigerant change and your equipment:</h2>
 							<p v>
 								With the new Technology Transition Rule, the EPA has designated that refrigerants must phase down the use of Hydrofluorocarbons (HFCs) to meet the new GWP (Global Warming Potential) level. To reduce HFCs the EPA has designated that refrigerants must meet a new GWP (Global Warming Potential) of 700. The current refrigerant R-410A has a GWP of 2088 and does not meet the new GWP level.
 
 							</p>
-							<hr class="my-5 hr-blue">
+							<hr class="hr-blue">
 
 
 							<h3>
