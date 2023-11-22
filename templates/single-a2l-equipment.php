@@ -439,7 +439,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-							<div class="col-12 col-lg-11 pt-5">
+							<div class="col-12 col-lg-11 pt-3">
 								<h3 class="">How do these new systems work to mitigate refrigerant leaks? </h3>
 									<p class="">
 									Although the new A2L refrigerants are difficult to ignite, mitigation is still needed. The new leak sensors and controls boards will work together to shut down the system in case of refrigerant leak. If a leak is detected the sensor will communicate with the control board to shut down the system and turn on the blower to dissipate any refrigerant, while the sensors notify the homeowner. The leak sensors will be in the indoor coil cabinet while the mitigation board will be installed in the furnace. * Mitigation components will be factory installed on new A2L refrigerant equipment, but field installed mitigation equipment will be available. <br>
@@ -449,7 +449,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 							</div>
 
 
-							<div class="col-12 col-lg-11 pt-5">
+							<div class="col-12 col-lg-11 pt-3">
 									<p class=""> 
 									Both the indoor and outdoor units will see changes: below you will see a summation of what you will need to look for. Note: You may see differences between brands.
 									</p>
