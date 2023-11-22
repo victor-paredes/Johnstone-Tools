@@ -449,12 +449,38 @@ get_template_part( 'parts/a2l_header' ); ?>
 							</div>
 
 
+
+
+
+
 							<div class="col-12 col-lg-11 pt-3">
 									<p class=""> 
 									Both the indoor and outdoor units will see changes: below you will see a summation of what you will need to look for. Note: You may see differences between brands.
 									</p>
-									<img width="100%" src="https://victorpared.es/js/wp-content/uploads/2023/11/design_changes_placeholder.jpg">
 							</div>
+
+
+
+
+							<div class=" row table_wrap shadow"><!-- wrap -->
+								<table class="table_noexpand">
+
+								<tr>
+									<td>
+									<img width="100%" src="https://victorpared.es/js/wp-content/uploads/2023/11/design_changes_placeholder.jpg">
+									</td>
+								</tr>
+
+
+
+
+							</table>
+							</div>
+
+
+
+
+							
 
 
 							
