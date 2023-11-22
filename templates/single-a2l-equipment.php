@@ -522,6 +522,58 @@ Manufacturers and importers of products and systems that use HFCs will be subjec
 
 
 
+							<div class="col-12 col-lg-11 pt-5">
+									<p class="">
+									COMING SOON: Login to see equipment release timeline by brand
+									</p>
+							</div>
+
+
+
+
+
+							<div class="col-12 col-lg-11 pt-5">
+								<h3 class="">Resources</h3>
+								<!-- <p class="">
+								Lorem
+								</p> -->
+
+								<a href="https://www.r32reasons.com/" target="_blank">
+									<button class="a2l_button">
+										<span class="">
+											R32 Reasons
+										</span>
+									</button>
+								</a>
+								<a href="https://www.epa.gov/system/files/documents/2023-04/SAN%206399_Final%20SNAP%20Rule%2025_signed%20pre-publication.pdf" target="_blank">
+									<button class="a2l_button">
+										SNAP
+									</button>
+								</a>
+								<a href="https://www.achrnews.com/articles/153195-understanding-a2l-refrigerants" target="_blank">
+									<button class="a2l_button">
+										The News
+									</button>
+								</a>
+								<a href="https://www.epa.gov/climate-hfcs-reduction/frequent-questions-phasedown-hydrofluorocarbons#products" target="_blank">
+									<button class="a2l_button">
+										EPA
+									</button>
+								</a>
+								<a href="https://hardinet.org/posts/epa-releases-final-technology-transition-rule-limiting-refrigerants" target="_blank">
+									<button class="a2l_button">
+										HARDI
+									</button>
+								</a>
+								<a href="https://hvacpartners.com/" target="_blank">
+									<button class="a2l_button">
+										Day and Night
+									</button>
+								</a>
+							</div>
+
+
+
 
 							
 
