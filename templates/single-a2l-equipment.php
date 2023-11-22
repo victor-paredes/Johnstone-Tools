@@ -68,7 +68,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-			<div class="col-12 col-lg-11 pt-5 pb-5">
+			<div class="col-12 col-lg-11 pt-5 pb-2">
 				<h1 class="text-light mt-5 mb-4"><strong>Equipment</strong></h1>
 				
 						<div class="header_block">
