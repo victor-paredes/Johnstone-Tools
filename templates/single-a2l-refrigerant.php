@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: A2L Equipment
+Template Name: A2L Refrigerant
 Template Post Type: landing-page
 */
 
