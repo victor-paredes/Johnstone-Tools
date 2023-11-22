@@ -163,68 +163,68 @@ get_template_part( 'parts/a2l_header' ); ?>
 									
 										
 									<tr class="">
-										<td class="">
+										<td class="border-bottom border-right">
 											<strong>GWP</strong>
 										</td>
-										<td class="">
+										<td class="border-bottom">
 											<strong>466</strong>
 											</td>
 
-										<td class="">
+										<td class="border-bottom">
 											<strong>675</strong>
 											</td>
-										<td class="">
+										<td class="border-bottom">
 											<strong>2088</strong>
 											</td>
 									</tr>
 									
 
 									<tr class="">
-										<td class="">
+										<td class="border-bottom border-right">
 											Discarge Temperatures
 										</td>
-										<td class="">
+										<td class="border-bottom">
 										Lower Discharge Temperatures
 										</td>
 
-										<td class="">
+										<td class="border-bottom">
 										Higher Discharge Temperatures
 										</td>
-										<td class="">
+										<td class="border-bottom">
 										Lower Discharge Temperatures
 										</td>
 									</tr>
 
 
 									<tr class="">
-										<td class="">
+										<td class="border-bottom border-right">
 											Glide
 										</td>
-										<td class="">
+										<td class="border-bottom">
 										Little to no glide
 										</td>
 
-										<td class="">
+										<td class="border-bottom">
 										Little to no glide
 										</td>
-										<td class="">
+										<td class="border-bottom">
 										No Glide
 										</td>
 									</tr>
 
 
 									<tr class="">
-										<td class="">
+										<td class="border-bottom border-right">
 											Formula
 										</td>
-										<td class="">
+										<td class="border-bottom">
 										68.9% R-32/31.1% R-1234yf
 										</td>
 
-										<td class="">
+										<td class="border-bottom">
 										100% R-32
 										</td>
-										<td class="">
+										<td class="border-bottom">
 										50% R-32/50% R-125
 										</td>
 									</tr>
