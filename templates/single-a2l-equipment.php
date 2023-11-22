@@ -638,7 +638,7 @@ Manufacturers and importers of products and systems that use HFCs will be subjec
 			<div class="col-12 col-lg-6 py-lg-5 text-center">
 				<img id="johnstoneLogo" class="d-block mx-auto mt-5 mb-3" width="400px" src="https://victorpared.es/js/wp-content/uploads/2023/11/johnstone-supply-logo-white.png" alt="Johnstone Supply">
 				<p class="lead text-light text-1rem mb-3">At Johnstone Supply, we're proud to provide you and your team the most advanced HVAC products, tools and support.</p>
-				<a href="https://web.archive.org/web/20220811051637/https://www.johnstonesupply.com/" class="btn btn-lg btn-light btn-rounded text-lightblue font-weight-bolder mb-5" role="button" target="_blank" rel="noopener">Visit our website</a>
+				<a href="https://www.johnstonesupply.com/" class="btn btn-lg btn-light btn-rounded text-lightblue font-weight-bolder mb-5" role="button" target="_blank" rel="noopener">Visit our website</a>
 			</div>
 		</div>
 	</div>
