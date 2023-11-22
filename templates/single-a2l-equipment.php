@@ -539,11 +539,15 @@ Manufacturers and importers of products and systems that use HFCs will be subjec
 								</p> -->
 
 								<a class="a2l_button" href="https://www.r32reasons.com/" target="_blank">
+									<div>
 										R32 Reasons
+									</div>
 								</a>
 								<a href="https://www.epa.gov/system/files/documents/2023-04/SAN%206399_Final%20SNAP%20Rule%2025_signed%20pre-publication.pdf" target="_blank">
 									<button class="a2l_button">
-										SNAP
+										<div>
+											SNAP
+										</div>
 									</button>
 								</a>
 								<a href="https://www.achrnews.com/articles/153195-understanding-a2l-refrigerants" target="_blank">
@@ -723,6 +727,9 @@ Manufacturers and importers of products and systems that use HFCs will be subjec
 	background: #0072c8;
 	text-decoration: none;
 	color: white;
+}
+.a2l_button div {
+	margin: 0 auto;
 }
 .a2l_note {
 	margin-top: 15px;
