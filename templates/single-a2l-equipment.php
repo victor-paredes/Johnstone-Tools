@@ -414,8 +414,8 @@ get_template_part( 'parts/a2l_header' ); ?>
 }
 
 @media (max-width: 767px) {
-	.table_wrap {
-		transform: scale(0.5);
+	.table_wrap * {
+		font-size: 10px;
 	}
 }
 
