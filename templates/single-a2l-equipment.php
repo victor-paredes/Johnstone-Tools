@@ -228,23 +228,6 @@ get_template_part( 'parts/a2l_header' ); ?>
 										50% R-32/50% R-125
 										</td>
 									</tr>
-									
-
-
-
-									
-											<!-- 
-									<div class="">
-										<div class="">
-											<hr class="my-2 text-secondary">
-										</div>
-										<div class="">
-											<small class="d-block mb-2">If the Energy Guide label includes a range for the least efficient SEER rating, the lower SEER rating should be used.</small>
-											<small class="d-block">SEER ratings sourced from Federal Register Vol. 82, No. 4 page 1615.</small>
-										</div>
-									</div> -->
-
-
 								</table>
 							</div> <!-- end wrap -->
 
