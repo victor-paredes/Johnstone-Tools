@@ -144,18 +144,18 @@ get_template_part( 'parts/a2l_header' ); ?>
 								<table class="table_noexpand">
 
 									<tr class="">
-										<td class="table_header border-left">  
+										<td class="table_header border-left" width="25%">  
 											<strong>
 												Commercial & Residential Package AC/HP
 											</strong>
 										</td>
-										<td class="table_header border-left">  
+										<td class="table_header border-left" width="25%">  
 											<strong>Residential & Commercial Split System AC/HP</strong>
 										</td>
-										<td class="table_header">
+										<td class="table_header" width="25%">
 											<strong>VRF/VRV AC/HP</strong>
 										</td>
-										<td class="table_header">
+										<td class="table_header" width="25%">
 											<strong>Components</strong>
 										</td>
 									</tr>
