@@ -140,8 +140,8 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 				<div class="row justify-content-center"> <!-- TABLE -->
-					<table class="">
-						<div class="card shadow my-5">
+					<table class="shadow ">
+						<div class="card my-5">
 							<div class="card-body">
 								<table class="px-0">
 
@@ -179,53 +179,53 @@ get_template_part( 'parts/a2l_header' ); ?>
 									
 
 									<tr class="">
-										<div class="text-875rem text-center py-2 py-md-0 border-right border-top">
+										<td class="text-875rem text-center py-2 py-md-0 border-right border-top">
 											Discarge Temperatures
-										</div>
-										<div class="text-875rem text-center py-2 py-md-0 border-right border-top">
+</td>
+										<td class="text-875rem text-center py-2 py-md-0 border-right border-top">
 										Lower Discharge Temperatures
-										</div>
+</td>
 
-										<div class="text-875rem text-center py-2 py-md-0 border-right border-top">
+										<td class="text-875rem text-center py-2 py-md-0 border-right border-top">
 										Higher Discharge Temperatures
-										</div>
-										<div class="text-875rem text-center py-2 py-md-0 border-top">
+</td>
+										<td class="text-875rem text-center py-2 py-md-0 border-top">
 										Lower Discharge Temperatures
-										</div>
+</td>
 </tr>
 
 
 									<tr class="">
-										<div class="text-875rem text-center py-2 py-md-0 border-right border-top">
+										<td class="text-875rem text-center py-2 py-md-0 border-right border-top">
 											Glide
-										</div>
-										<div class="text-875rem text-center py-2 py-md-0 border-right border-top">
+</td>
+										<td class="text-875rem text-center py-2 py-md-0 border-right border-top">
 										Little to no glide
-										</div>
+</td>
 
-										<div class="text-875rem text-center py-2 py-md-0 border-right border-top">
+										<td class="text-875rem text-center py-2 py-md-0 border-right border-top">
 										Little to no glide
-										</div>
-										<div class="text-875rem text-center py-2 py-md-0 border-top">
+</td>
+										<td class="text-875rem text-center py-2 py-md-0 border-top">
 										No Glide
-										</div>
+</td>
 </tr>
 
 
 									<tr class="">
-										<div class="text-875rem text-center align-middle py-2 py-md-0 border-right border-top">
+										<td class="text-875rem text-center align-middle py-2 py-md-0 border-right border-top">
 											Formula
-										</div>
-										<div class="text-875rem text-center py-2 py-md-0 border-right border-top">
+</td>
+										<td class="text-875rem text-center py-2 py-md-0 border-right border-top">
 										68.9% R-32/31.1% R-1234yf
-										</div>
+</td>
 
-										<div class="text-875rem text-center align-middle py-2 py-md-0 border-right border-top">
+										<td class="text-875rem text-center align-middle py-2 py-md-0 border-right border-top">
 										100% R-32
-										</div>
-										<div class="text-875rem text-center py-2 py-md-0 border-top">
+</td>
+										<td class="text-875rem text-center py-2 py-md-0 border-top">
 										50% R-32/50% R-125
-										</div>
+</td>
 </tr>
 									
 
