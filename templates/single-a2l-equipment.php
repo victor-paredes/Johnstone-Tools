@@ -377,7 +377,61 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							<div class=" row table_wrap shadow"><!-- wrap -->
+								<table class="table_noexpand">
+
+									<tr class="">
+										<td class="table_header"> 
+											Table placeholder
+										</td>
+									</tr>
+								</table>
+							</div> <!-- end wrap -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 				
 
 
