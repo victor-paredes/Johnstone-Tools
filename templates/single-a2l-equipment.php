@@ -78,7 +78,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 							</p>
 						</div>
 
-					<p class="text-light lead mb-4">
+					<p class="text-light lead mb-4 lead">
 					There are three important aspects of the new Technology Transition Rule:
 					</p>	
 
