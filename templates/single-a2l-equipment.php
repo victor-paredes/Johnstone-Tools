@@ -252,7 +252,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-					p>In the <strong>Southwest region</strong>, the equipment must also meet the following EER requirements: </p>
+					<p>In the <strong>Southwest region</strong>, the equipment must also meet the following EER requirements: </p>
 				<div class="row justify-content-center">
 					<div class="col-12 col-sm-12 col-md-8">
 						<div class="card shadow my-5">
