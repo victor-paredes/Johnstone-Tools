@@ -152,10 +152,10 @@ get_template_part( 'parts/a2l_header' ); ?>
 										<td class="table_header border-left" width="25%">  
 											<strong>Residential & Commercial Split System AC/HP</strong>
 										</td>
-										<td class="table_header" width="25%">
+										<td class="table_header border-left" width="25%">
 											<strong>VRF/VRV AC/HP</strong>
 										</td>
-										<td class="table_header" width="25%">
+										<td class="table_header border-left" width="25%">
 											<strong>Components</strong>
 										</td>
 									</tr>
