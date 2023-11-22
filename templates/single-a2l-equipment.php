@@ -291,6 +291,19 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
+						<div class="col-12 col-lg-11 pt-5">
+							<h4>The EPA also provided two additional definitions</h4>
+							<ul>
+								<li>
+								Manufacture means to complete the manufacturing and assembly processes of a product or specified component such that it is ready for initial sale, distribution, or operation.
+								</li>
+								<li>
+								Install means to complete a field-assembled system’s circuit, including charging with a full charge, such that the system can function and is ready for use for its intended purpose.
+								</li>
+							</ul>
+						</div>
+
+
 
 
 
