@@ -413,13 +413,13 @@ get_template_part( 'parts/a2l_header' ); ?>
 	padding: 15px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) { 
 	.table_wrap * {
 		font-size: 10px;
 	}
 	.table_noexpand { 
 		border-radius: 0.25rem;
-		padding: 5px;
+		padding: 5px; 
 	}
 }
 
