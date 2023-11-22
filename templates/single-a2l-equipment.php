@@ -420,7 +420,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 	border-radius: 999px;
 	border: 1px solid white;
 	color: #fff;
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 1rem;
 }
 .a2l_button:hover {
