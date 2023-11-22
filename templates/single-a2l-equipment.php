@@ -142,10 +142,10 @@ get_template_part( 'parts/a2l_header' ); ?>
 				<div class="row justify-content-center"> <!-- TABLE -->
 					<table class="">
 						<div class="card my-5">
-								<table class="p-4 shadow">
+								<table class="shadow">
 
 									<tr class="">
-										<td class="text-875rem text-center py-2 py-md-0 border-right">
+										<td class="text-875rem text-center px-2 py-md-0 border-right">
 											<strong></strong>
 										</td>
 										<td class="text-875rem text-center py-2 py-md-0"> 
