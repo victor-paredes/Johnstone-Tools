@@ -139,11 +139,94 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-						<div class="row col-12 col-lg-11 pt-5">
-								<p class="">
-								<center>[graphic placeholder]</center>
-								</p>
-						</div>
+						
+						<div class=" row table_wrap shadow"><!-- wrap -->
+								<table class="table_noexpand">
+
+									<tr class="">
+										<td class=""> 
+											<strong></strong>
+										</td>
+										<td class="table_header border-left">  
+											<strong>R-454B </strong>
+										</td>
+										<td class="table_header">
+											<strong>R-32</strong>
+										</td>
+										<td class="table_header">
+											<strong>R-410A</strong>
+										</td>
+									</tr>
+									
+										
+									<tr class="">
+										<td class="border-bottom border-right table_subheader">
+											<strong>GWP</strong>
+										</td>
+										<td class="border-bottom border-right table_subheader">
+											<strong>466</strong>
+											</td>
+
+										<td class="border-bottom border-right table_subheader">
+											<strong>675</strong>
+											</td>
+										<td class="border-bottom table_subheader">
+											<strong>2088</strong>
+											</td>
+									</tr>
+									
+
+									<tr class="">
+										<td class="border-bottom border-right">
+											Discarge Temperatures
+										</td>
+										<td class="border-bottom border-right">
+										Lower Discharge Temperatures
+										</td>
+
+										<td class="border-bottom border-right">
+										Higher Discharge Temperatures
+										</td>
+										<td class="border-bottom">
+										Lower Discharge Temperatures
+										</td>
+									</tr>
+
+
+									<tr class="">
+										<td class="border-bottom border-right">
+											Glide
+										</td>
+										<td class="border-bottom border-right">
+										Little to no glide
+										</td>
+
+										<td class="border-bottom border-right">
+										Little to no glide
+										</td>
+										<td class="border-bottom">
+										No Glide
+										</td>
+									</tr>
+
+
+									<tr class="">
+										<td class="border-right">
+											Formula
+										</td>
+										<td class="border-right">
+										68.9% R-32/31.1% R-1234yf
+										</td>
+
+										<td class="border-right">
+										100% R-32
+										</td>
+										<td class="">
+										50% R-32/50% R-125 
+										</td>
+									</tr>
+								</table>
+							</div> <!-- end wrap -->
 
 
 
