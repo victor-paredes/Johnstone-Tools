@@ -346,6 +346,33 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
+							<div class="col-12 col-lg-11 pt-5">
+								<h3 class="">The Technology Transition Rule: Transitions and Restrictions</h3>
+								<p class="">
+									The Technology Transition’s final rule restricts the manufacture and import of certain refrigeration, air conditioning, and heat pump (RACHP) products and the installation of certain RACHP systems. There is now a full system installation prohibition after January 1, 2025, this affects all regions. Along with these restriction certain HVAC products have been regrouped into three new classifications.
+								</p>
+								<p>
+									There are now three classifications of HVAC systems: Products, Systems and Components.
+								</p>
+								<ul>
+									<li>
+									A product is functional upon leaving a factory. A product is a type of appliance with a sealed refrigerant loop that simply needs to be plugged in, mounted, or hooked to a water line, to work. For example, window air conditioning units, residential dehumidifiers, packaged terminal air conditioners, commercial freezers, and vending machines are examples of products. If you need a heating, ventilation, and air conditioning technician to assemble and/or charge with refrigerant, it’s not a product. EPA is restricting the sale, distribution, and export of products containing higher-GWP HFCs three years after the manufacture/import restriction dates. Products will have a sell-through for three years until January 1, 2028.
+									</li>
+
+									<li>
+									A system is assembled from multiple components and charged on site. A system for purposes of the Technology Transitions Program is an assemblage of separate components constituting the refrigerant loop that typically are connected and charged with refrigerant in the field. If you need a heating, ventilation, and air conditioning technician to assemble and/or charge with refrigerant, it’s a system. Examples include supermarkets with centralized compressor rooms and mini-split air conditioners. Full systems have an installation prohibition after January 1, 2025.
+									</li>
+
+									<li>
+									Components are described as pieces of equipment that must be assembled into a larger system to function. For purposes of the Technology Transitions Program, five components are specifically identified: compressors, condensing units or condensers, and evaporator units or evaporators. 
+									</li>
+								</ul>
+							</div>
+
+
+
+
+
 				
  
 
