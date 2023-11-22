@@ -393,11 +393,11 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-							<div class=" row table_wrap shadow"><!-- wrap -->
+							<div class=" row table_wrap shadow" style="margin:0 auto;"><!-- wrap -->
 								<table class="table_noexpand">
 
 									<tr class="">
-										<td class="table_header"> 
+										<td class=""> 
 											Table placeholder
 										</td>
 									</tr>
