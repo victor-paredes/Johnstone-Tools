@@ -166,7 +166,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 											Packaged unit
 										</td>
 										<td class="border-bottom border-right">
-											Indoor outdoor
+											Indoor outdoor 
 										</td>
 
 										<td class="border-bottom border-right">
