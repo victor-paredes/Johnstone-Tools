@@ -144,85 +144,88 @@ get_template_part( 'parts/a2l_header' ); ?>
 								<table class="table_noexpand">
 
 									<tr class="">
-										<td class=""> 
-											<strong></strong>
+										<td class="table_header border-left">  
+											<strong>
+												Commercial & Residential Package AC/HP
+											</strong>
 										</td>
 										<td class="table_header border-left">  
-											<strong>R-454B </strong>
+											<strong>Residential & Commercial Split System AC/HP</strong>
 										</td>
 										<td class="table_header">
-											<strong>R-32</strong>
+											<strong>VRF/VRV AC/HP</strong>
 										</td>
 										<td class="table_header">
-											<strong>R-410A</strong>
+											<strong>Comoponents</strong>
 										</td>
 									</tr>
 									
 										
 									<tr class="">
-										<td class="border-bottom border-right table_subheader">
-											<strong>GWP</strong>
+										<td class="border-bottom border-right">
+											Packaged unit
 										</td>
-										<td class="border-bottom border-right table_subheader">
-											<strong>466</strong>
-											</td>
+										<td class="border-bottom border-right">
+											Indoor outdoor
+										</td>
 
-										<td class="border-bottom border-right table_subheader">
-											<strong>675</strong>
-											</td>
-										<td class="border-bottom table_subheader">
-											<strong>2088</strong>
-											</td>
+										<td class="border-bottom border-right">
+											img
+										</td>
+										<td class="border-bottom">
+										
+										</td>
 									</tr>
+
 									
 
 									<tr class="">
 										<td class="border-bottom border-right">
-											Discarge Temperatures
+											Product
 										</td>
 										<td class="border-bottom border-right">
-										Lower Discharge Temperatures
+											System
 										</td>
 
 										<td class="border-bottom border-right">
-										Higher Discharge Temperatures
+											System
 										</td>
 										<td class="border-bottom">
-										Lower Discharge Temperatures
+											Component
 										</td>
 									</tr>
 
 
 									<tr class="">
 										<td class="border-bottom border-right">
-											Glide
+											Manufacture prohibition after January 1, 2025
 										</td>
 										<td class="border-bottom border-right">
-										Little to no glide
+											Full system install prohibition after January 1, 2025
 										</td>
 
 										<td class="border-bottom border-right">
-										Little to no glide
+											Full system install prohibition after January 1, 2026
 										</td>
 										<td class="border-bottom">
-										No Glide
+											Unlimited repair/replacement of components including outdoor condensing units and evaporator units.
 										</td>
 									</tr>
 
 
 									<tr class="">
 										<td class="border-right">
-											Formula
+											Sell-through for three years until January 1, 2028
 										</td>
 										<td class="border-right">
-										68.9% R-32/31.1% R-1234yf
+											* Chillers with no refrigerant leaving the unit are treated as a product and have a compliance deadline of January 1, 2025
 										</td>
 
 										<td class="border-right">
-										100% R-32
+											
 										</td>
 										<td class="">
-										50% R-32/50% R-125 
+											
 										</td>
 									</tr>
 								</table>
