@@ -150,30 +150,30 @@ get_template_part( 'parts/a2l_header' ); ?>
 										<td class=""> 
 											<strong></strong>
 										</td>
-										<td class="cell_highlight border-left">  
+										<td class="table_header border-left">  
 											<strong>R-454B </strong>
 										</td>
-										<td class="cell_highlight">
+										<td class="table_header">
 											<strong>R-32</strong>
 										</td>
-										<td class="cell_highlight">
+										<td class="table_header">
 											<strong>R-410A</strong>
 										</td>
 									</tr>
 									
 										
 									<tr class="">
-										<td class="border-bottom border-right">
+										<td class="border-bottom border-right table_subheader">
 											<strong>GWP</strong>
 										</td>
-										<td class="border-bottom border-right">
+										<td class="border-bottom border-right table_subheader">
 											<strong>466</strong>
 											</td>
 
-										<td class="border-bottom border-right">
+										<td class="border-bottom border-right table_subheader">
 											<strong>675</strong>
 											</td>
-										<td class="border-bottom">
+										<td class="border-bottom table_subheader">
 											<strong>2088</strong>
 											</td>
 									</tr>
@@ -365,9 +365,14 @@ get_template_part( 'parts/a2l_header' ); ?>
 .table_noexpand td {
 	padding: 15px;
 }
-.cell_highlight {
-	background-color: #dfdfdf;
+.table_header {
+	background-color: #041e46;
+	color: #fff;
 }
+.table_subheader {
+	background-color: #c2e7ff;
+}
+
 
 @media (max-width: 767px) { 
 	.table_wrap * {
