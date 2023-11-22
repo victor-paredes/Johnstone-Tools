@@ -302,9 +302,9 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-				<div class=" row table_wrap shadow"><!-- wrap -->
+							<div class=" row table_wrap shadow mt-5"><!-- wrap -->
 
-				<img width="100%" src="https://victorpared.es/js/wp-content/uploads/2023/11/what_is_a2l_refrigerant.jpg">
+								<img width="100%" src="https://victorpared.es/js/wp-content/uploads/2023/11/what_is_a2l_refrigerant.jpg">
 								<table class="table_noexpand">
 
 									<tr class="">
