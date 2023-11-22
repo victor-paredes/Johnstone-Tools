@@ -143,7 +143,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-							<div class=" row pb-5 table_wrap shadow"><!-- wrap -->
+							<div class=" row table_wrap shadow"><!-- wrap -->
 								<table class="table_noexpand">
 
 									<tr class="">
@@ -402,6 +402,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 	/* margin: 0 auto; */
 	border: solid 1px #dfdfdf;
 	border-radius: .25rem;
+	padding: 0 15px 0 15px;
 }
 .table_noexpand {
 	border-radius: 0.25rem;
