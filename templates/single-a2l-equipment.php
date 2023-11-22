@@ -360,11 +360,6 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-						<div class="col-12 col-lg-11 pt-5">
-								<p class="">
-								COMING SOON: Login to see equipment release timeline by brand
-								</p>
-						</div>
 
 
 
