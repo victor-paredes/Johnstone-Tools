@@ -139,7 +139,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-				<div class="row"> 
+	
 
 
 
@@ -300,7 +300,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 					<small><em>*DOE Guidance from 12/16/21 requires the least efficient SEER rating (Coil-only rating) to be used in determining if the equipment meets the efficiency standard, blower-coil combinations cannot be used to meet the minimum efficiency requirement</em>.</small>
-				</div> 
+		
 
 
 
