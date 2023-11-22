@@ -139,8 +139,8 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-				<div class="row justify-content-center"> <!-- TABLE -->
-					<table class="shadow ">
+				<div class="row justify-content-center shadow"> <!-- TABLE -->
+					<table class="">
 						<div class="card my-5">
 							<div class="card-body">
 								<table class="px-0">
