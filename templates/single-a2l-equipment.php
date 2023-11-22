@@ -173,7 +173,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 										<td class="border-bottom border-right">
 											<strong>675</strong>
 											</td>
-										<td class="">
+										<td class="border-bottom">
 											<strong>2088</strong>
 											</td>
 									</tr>
@@ -190,7 +190,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 										<td class="border-bottom border-right">
 										Higher Discharge Temperatures
 										</td>
-										<td class="">
+										<td class="border-bottom">
 										Lower Discharge Temperatures
 										</td>
 									</tr>
@@ -207,7 +207,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 										<td class="border-bottom border-right">
 										Little to no glide
 										</td>
-										<td class="">
+										<td class="border-bottom">
 										No Glide
 										</td>
 									</tr>
@@ -217,14 +217,14 @@ get_template_part( 'parts/a2l_header' ); ?>
 										<td class="border-bottom border-right">
 											Formula
 										</td>
-										<td class="border-bottom">
+										<td class="border-bottom border-right">
 										68.9% R-32/31.1% R-1234yf
 										</td>
 
-										<td class="border-bottom">
+										<td class="border-bottom border-right">
 										100% R-32
 										</td>
-										<td class="">
+										<td class="border-bottom">
 										50% R-32/50% R-125
 										</td>
 									</tr>
