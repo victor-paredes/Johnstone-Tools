@@ -139,11 +139,11 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-				<div class="row justify-content-center shadow"> <!-- TABLE -->
+				<div class="row justify-content-center"> <!-- TABLE -->
 					<table class="">
 						<div class="card my-5">
 							<div class="card-body">
-								<table class="px-0">
+								<table class="px-0 shadow">
 
 									<tr class="">
 										<td class="text-875rem text-center py-2 py-md-0 border-right">
