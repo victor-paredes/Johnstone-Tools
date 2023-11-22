@@ -265,7 +265,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 					To find out more about each refrigerant in depth see the resources below:
 					</p>
 
-					<a href="https://www.r32reasons.com/" target="_blank">R32 Reasons</a><br>
+					<a href="https://www.r32reasons.com/" target="_blank"><button>R32 Reasons</button></a><br>
 					<a href="https://www.epa.gov/system/files/documents/2023-04/SAN%206399_Final%20SNAP%20Rule%2025_signed%20pre-publication.pdf" target="_blank">SNAP</a><br>
 					<a href="https://www.achrnews.com/articles/153195-understanding-a2l-refrigerants" target="_blank">The News</a><br>
 
