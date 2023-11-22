@@ -147,11 +147,11 @@ get_template_part( 'parts/a2l_header' ); ?>
 								<table class="table_noexpand">
 
 									<tr class="">
-										<td class="">
+										<td class=""> 
 											<strong></strong>
 										</td>
-										<td class=""> 
-											<strong>R-454B</strong>
+										<td class="">  
+											<strong>R-454B </strong>
 										</td>
 										<td class="">
 											<strong>R-32</strong>
