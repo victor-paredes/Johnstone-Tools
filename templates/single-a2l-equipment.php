@@ -421,6 +421,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 	border: 1px solid white;
 	color: #fff;
 	font-weight: 400;
+	font-size: 1rem;
 }
 .a2l_button:hover {
 	background: #0072c8;
