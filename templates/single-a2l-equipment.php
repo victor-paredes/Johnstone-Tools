@@ -541,32 +541,20 @@ Manufacturers and importers of products and systems that use HFCs will be subjec
 								<a class="a2l_button" href="https://www.r32reasons.com/" target="_blank">
 										R32 Reasons
 								</a>
-								<a href="https://www.epa.gov/system/files/documents/2023-04/SAN%206399_Final%20SNAP%20Rule%2025_signed%20pre-publication.pdf" target="_blank">
-									<button class="a2l_button">
-										<div>
+								<a class="a2l_button" href="https://www.epa.gov/system/files/documents/2023-04/SAN%206399_Final%20SNAP%20Rule%2025_signed%20pre-publication.pdf" target="_blank">
 											SNAP
-										</div>
-									</button>
 								</a>
 								<a href="https://www.achrnews.com/articles/153195-understanding-a2l-refrigerants" target="_blank">
-									<button class="a2l_button">
 										The News
-									</button>
 								</a>
-								<a href="https://www.epa.gov/climate-hfcs-reduction/frequent-questions-phasedown-hydrofluorocarbons#products" target="_blank">
-									<button class="a2l_button">
+								<a class="a2l_button" href="https://www.epa.gov/climate-hfcs-reduction/frequent-questions-phasedown-hydrofluorocarbons#products" target="_blank">
 										EPA
-									</button>
 								</a>
-								<a href="https://hardinet.org/posts/epa-releases-final-technology-transition-rule-limiting-refrigerants" target="_blank">
-									<button class="a2l_button">
+								<a class="a2l_button" href="https://hardinet.org/posts/epa-releases-final-technology-transition-rule-limiting-refrigerants" target="_blank">
 										HARDI
-									</button>
 								</a>
-								<a href="https://hvacpartners.com/" target="_blank">
-									<button class="a2l_button">
+								<a class="a2l_button" href="https://hvacpartners.com/" target="_blank">
 										Day and Night
-									</button>
 								</a>
 							</div>
 
