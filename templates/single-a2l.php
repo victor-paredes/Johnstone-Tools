@@ -422,11 +422,11 @@ get_template_part( 'parts/a2l_header' ); ?>
 			color: #9c9c9c;
 		}
 
-		.js_tools_wrap {
+		#js_tools_wrap {
 			display: none !important;
 		}
 
-
+ 
 		@media (max-width: 767px) { 
 			.table_wrap * {
 				font-size: 10px;
