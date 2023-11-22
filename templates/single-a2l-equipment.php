@@ -723,7 +723,6 @@ get_template_part( 'parts/a2l_header' ); ?>
 			background-color: #041e47;
 			padding: 10px 15px;
 			border-radius: 999px;
-			border: 1px solid white;
 			color: #fff;
 			font-weight: 700;
 			font-size: 1rem;
