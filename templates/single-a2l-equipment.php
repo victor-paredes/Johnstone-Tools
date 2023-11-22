@@ -143,7 +143,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-							<div class="justify-content-center"><!-- wrap -->
+							<div class="table_wrap"><!-- wrap -->
 								<table class="table_noexpand">
 
 									<tr class="">
@@ -414,6 +414,9 @@ get_template_part( 'parts/a2l_header' ); ?>
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+.table_wrap {
+	margin: 0 auto;
 }
 .table_noexpand {
 	border-radius: 0.25rem;
