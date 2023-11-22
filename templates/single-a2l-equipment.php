@@ -139,9 +139,12 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-				<div class="row justify-content-center"> <!-- wrap -->
+				<div class="row "> 
 
-								<table class="shadow table_noexpand">
+
+
+							<div class="justify-content-center"><!-- wrap -->
+								<table class="table_noexpand">
 
 									<tr class="">
 										<td class="">
@@ -243,12 +246,13 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 								</table>
+							</div> <!-- end wrap -->
 
 
 
 
 
-				<p>In the <strong>Southwest region</strong>, the equipment must also meet the following EER requirements: </p>
+					p>In the <strong>Southwest region</strong>, the equipment must also meet the following EER requirements: </p>
 				<div class="row justify-content-center">
 					<div class="col-12 col-sm-12 col-md-8">
 						<div class="card shadow my-5">
@@ -288,9 +292,15 @@ get_template_part( 'parts/a2l_header' ); ?>
 							</div>
 						</div>
 					</div>
-				</div>
-				<small><em>*DOE Guidance from 12/16/21 requires the least efficient SEER rating (Coil-only rating) to be used in determining if the equipment meets the efficiency standard, blower-coil combinations cannot be used to meet the minimum efficiency requirement</em>.</small>
-			</div>
+				</div> 
+
+
+
+
+
+
+					<small><em>*DOE Guidance from 12/16/21 requires the least efficient SEER rating (Coil-only rating) to be used in determining if the equipment meets the efficiency standard, blower-coil combinations cannot be used to meet the minimum efficiency requirement</em>.</small>
+				</div> 
 
 
 
