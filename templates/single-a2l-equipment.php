@@ -224,7 +224,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 										<td class="border-right">
 										100% R-32
 										</td>
-										<td class="border-bottom">
+										<td class="">
 										50% R-32/50% R-125
 										</td>
 									</tr>
