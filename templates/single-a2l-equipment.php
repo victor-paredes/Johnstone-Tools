@@ -406,7 +406,7 @@ get_template_part( 'parts/a2l_header' ); ?>
     background-size: cover;
 }
 .table_noexpand {
-	border: solid 1px collapse;
+	border-radius: 0.25rem;
 }
 .table_noexpand td {
 	padding: 10px;
