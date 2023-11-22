@@ -586,7 +586,78 @@ Manufacturers and importers of products and systems that use HFCs will be subjec
 
 
 
+	<style>
+	.bg-darkblue-img {
+    background: #062655 url(https://seer2.com/img/bg-contractor-installing-thermostat.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.table_wrap {
+	/* margin: 0 auto; */
+	border: solid 1px #dfdfdf;
+	border-radius: .25rem;
+	padding: 2vw;
+}
+.table_noexpand { 
+	border-radius: 0.25rem;
+	padding: 0 15px 0 15px;
+	width: 100%;
+}
+.table_noexpand td {
+	padding: 15px;
+}
+.table_header {
+	background-color: #041e46;
+	color: #fff;
+}
+.table_subheader {
+	background-color: #edf2fa;
+}
+.header_block * {
+	color: #fff !important;
+}
+.a2l_button {
+	background-color: #041e47;
+	padding: 10px 15px;
+	border-radius: 999px;
+	border: 1px solid white;
+	color: #fff;
+	font-weight: 700;
+	font-size: 1rem;
+	text-align: center;
+}
+.a2l_button:hover {
+	background: #0072c8;
+	text-decoration: none;
+	color: white;
+}
+.a2l_button div {
+	margin: 0 auto;
+}
+.a2l_note {
+	margin-top: 15px;
+	color: #9c9c9c;
+}
 
+
+@media (max-width: 767px) { 
+	.table_wrap * {
+		font-size: 10px;
+	}
+	.table_noexpand { 
+		border-radius: 0.25rem;
+	} 
+	.table_noexpand td { 
+		padding: 5px;
+	}
+}
+
+/* .text-light, .text-light * {
+	color: #fff !important;
+} */
+	</style>
 
 
 

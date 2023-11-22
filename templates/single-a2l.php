@@ -128,6 +128,15 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
+<style>
+	.bg-darkblue-img {
+    background: #062655 url(https://seer2.com/img/bg-darkblue-pattern.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+	</style>
 
 
 
@@ -268,15 +277,6 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-<style>
-	.bg-darkblue-img {
-    background: #062655 url(https://seer2.com/img/bg-darkblue-pattern.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-	</style>
 
 
 
