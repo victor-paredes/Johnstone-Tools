@@ -140,7 +140,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 				<div class="row justify-content-center"> <!-- TABLE -->
-					<div class="col-12">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 						<div class="card shadow my-5">
 							<div class="card-body">
 								<div class="container px-0">
