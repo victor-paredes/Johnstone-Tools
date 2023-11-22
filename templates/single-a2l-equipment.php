@@ -346,7 +346,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-							<div class="col-12 col-lg-11 pt-9">
+							<div class="col-12 col-lg-11 pt-5 mt-2">
 								<h3 class="">The Technology Transition Rule: Transitions and Restrictions</h3>
 								<p class="">
 									The Technology Transition’s final rule restricts the manufacture and import of certain refrigeration, air conditioning, and heat pump (RACHP) products and the installation of certain RACHP systems. There is now a full system installation prohibition after January 1, 2025, this affects all regions. Along with these restriction certain HVAC products have been regrouped into three new classifications.
