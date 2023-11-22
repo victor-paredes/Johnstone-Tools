@@ -139,11 +139,11 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-				<div class="row "> 
+				<div class="row"> 
 
 
 
-							<div class="table_wrap"><!-- wrap -->
+							<div class=" row pb-5 table_wrap"><!-- wrap -->
 								<table class="table_noexpand">
 
 									<tr class="">
@@ -416,7 +416,7 @@ get_template_part( 'parts/a2l_header' ); ?>
     background-size: cover;
 }
 .table_wrap {
-	margin: 0 auto;
+	/* margin: 0 auto; */
 }
 .table_noexpand {
 	border-radius: 0.25rem;
