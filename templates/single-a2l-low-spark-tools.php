@@ -168,7 +168,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 				}
 
 				.js_tools_wrap {
-					display: none;
+					display: none !important;
 				}
 
 
