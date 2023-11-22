@@ -145,7 +145,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 							<div class="card-body">
 								<div class="container px-0">
 
-									<div class="row">
+									<div class="">
 										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right">
 											<strong></strong>
 										</div>
@@ -161,7 +161,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 									</div>
 									
 										
-									<div class="row">
+									<div class="">
 										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right">
 											<strong>GWP</strong>
 										</div>
@@ -178,7 +178,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 									</div>
 									
 
-									<div class="row">
+									<div class="">
 										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right border-top">
 											Discarge Temperatures
 										</div>
@@ -195,7 +195,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 									</div>
 
 
-									<div class="row">
+									<div class="">
 										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right border-top">
 											Glide
 										</div>
@@ -212,7 +212,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 									</div>
 
 
-									<div class="row">
+									<div class="">
 										<div class="col-lg-3 col-md-6 text-875rem text-center align-middle py-2 py-md-0 border-right border-top">
 											Formula
 										</div>
@@ -233,7 +233,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 									
 
-									<div class="row">
+									<div class="">
 										<div class="col-12 py-3 py-md-0">
 											<hr class="my-2 text-secondary">
 										</div>
