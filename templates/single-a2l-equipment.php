@@ -166,14 +166,14 @@ get_template_part( 'parts/a2l_header' ); ?>
 										<td class="border-bottom border-right">
 											<strong>GWP</strong>
 										</td>
-										<td class="border-bottom">
+										<td class="border-bottom border-right">
 											<strong>466</strong>
 											</td>
 
-										<td class="border-bottom">
+										<td class="border-bottom border-right">
 											<strong>675</strong>
 											</td>
-										<td class="border-bottom">
+										<td class="border-bottom border-right">
 											<strong>2088</strong>
 											</td>
 									</tr>
@@ -183,14 +183,14 @@ get_template_part( 'parts/a2l_header' ); ?>
 										<td class="border-bottom border-right">
 											Discarge Temperatures
 										</td>
-										<td class="border-bottom">
+										<td class="border-bottom border-right">
 										Lower Discharge Temperatures
 										</td>
 
-										<td class="border-bottom">
+										<td class="border-bottom border-right">
 										Higher Discharge Temperatures
 										</td>
-										<td class="border-bottom">
+										<td class="border-bottom border-right">
 										Lower Discharge Temperatures
 										</td>
 									</tr>
@@ -200,14 +200,14 @@ get_template_part( 'parts/a2l_header' ); ?>
 										<td class="border-bottom border-right">
 											Glide
 										</td>
-										<td class="border-bottom">
+										<td class="border-bottom border-right">
 										Little to no glide
 										</td>
 
-										<td class="border-bottom">
+										<td class="border-bottom border-right">
 										Little to no glide
 										</td>
-										<td class="border-bottom">
+										<td class="border-bottom border-right">
 										No Glide
 										</td>
 									</tr>
