@@ -139,8 +139,8 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-						
-						<div class=" row table_wrap shadow"><!-- wrap -->
+						<div class="col-12 pt-3 text-left"> 
+							<div class=" row table_wrap shadow"><!-- wrap -->
 								<table class="table_noexpand">
 
 									<tr class="">
@@ -227,6 +227,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 									</tr>
 								</table>
 							</div> <!-- end wrap -->
+						</div>
 
 
 
