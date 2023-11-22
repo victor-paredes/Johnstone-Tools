@@ -402,7 +402,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 	/* margin: 0 auto; */
 	border: solid 1px #dfdfdf;
 	border-radius: .25rem;
-	padding: 3vw;
+	padding: 2vw;
 }
 .table_noexpand { 
 	border-radius: 0.25rem;
