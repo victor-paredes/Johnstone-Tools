@@ -97,7 +97,8 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 						<div class="col-12 col-lg-11 pt-5 mt-2">
-							<h3 class="">There are now three classifications of HVAC systems: Products, Systems and Components.</h3>
+							<h3 class="">There are now three classifications of HVAC systems:<br>
+							Products, Systems and Components.</h3>
 		
 							<ol>
 								<li>
