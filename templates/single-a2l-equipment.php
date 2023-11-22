@@ -150,13 +150,13 @@ get_template_part( 'parts/a2l_header' ); ?>
 										<td class=""> 
 											<strong></strong>
 										</td>
-										<td class="">  
+										<td class="cell_highlight">  
 											<strong>R-454B </strong>
 										</td>
-										<td class="">
+										<td class="cell_highlight">
 											<strong>R-32</strong>
 										</td>
-										<td class="">
+										<td class="cell_highlight">
 											<strong>R-410A</strong>
 										</td>
 									</tr>
@@ -411,6 +411,9 @@ get_template_part( 'parts/a2l_header' ); ?>
 }
 .table_noexpand td {
 	padding: 15px;
+}
+.cell_highlight {
+	background-color: #dfdfdf;
 }
 
 @media (max-width: 767px) { 
