@@ -63,12 +63,12 @@ get_template_part( 'parts/a2l_header' ); ?>
 			<div class="container">
 				<div class="row">
 					<div class="col-12 col-lg-11 pt-5 pb-4">
-						<h1 class="text-light mt-5 mb-4"><strong>Technology Transition Rule</strong></h1>
+						<h1 class="text-light mt-5 mb-4"><strong>The Technology Transition Rule: Transitions and Restrictions</strong></h1>
 				
 						<div class="header_block">
 							<!-- <h2 class="mt-6 font-weight-bold hp-find-region about-seer-2" tabindex="-1">Technology Transition Rule: </h2> -->
 							<p class="lead">
-							The Environmental Protection Agency has issued a new rule restricting the use of High GWP refrigerants (HFCs) in HVAC and Refrigerant Equipment. This means that the current refrigerant is being phased out and replaced with two new more globally friendly substitutes. Along with the new refrigerant changes your equipment will also experience a change. Most important of the changes is there is a no sell-through date, for all regions, of current R-410A HVAC equipment. Additionally, are three important aspects that you will need to know about this new rule. 
+							The Technology Transition’s final rule restricts the manufacture and import of certain refrigeration, air conditioning, and heat pump (RACHP) products and the installation of certain RACHP systems. There is now a full system installation prohibition after January 1, 2025, this affects all regions. Along with these restriction certain HVAC products have been regrouped into three new classifications.
 							</p>
 						</div>
 
@@ -111,13 +111,8 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 						<div class="col-12 col-lg-11 pt-5 mt-2">
-							<h3 class="">The Technology Transition Rule: Transitions and Restrictions</h3>
-							<p class="">
-								The Technology Transition’s final rule restricts the manufacture and import of certain refrigeration, air conditioning, and heat pump (RACHP) products and the installation of certain RACHP systems. There is now a full system installation prohibition after January 1, 2025, this affects all regions. Along with these restriction certain HVAC products have been regrouped into three new classifications.
-							</p>
-							<p>
-								There are now three classifications of HVAC systems: Products, Systems and Components.
-							</p>
+							<h3 class="">There are now three classifications of HVAC systems: Products, Systems and Components.</h3>
+		
 							<ul>
 								<li>
 								A product is functional upon leaving a factory. A product is a type of appliance with a sealed refrigerant loop that simply needs to be plugged in, mounted, or hooked to a water line, to work. For example, window air conditioning units, residential dehumidifiers, packaged terminal air conditioners, commercial freezers, and vending machines are examples of products. If you need a heating, ventilation, and air conditioning technician to assemble and/or charge with refrigerant, it’s not a product. EPA is restricting the sale, distribution, and export of products containing higher-GWP HFCs three years after the manufacture/import restriction dates. Products will have a sell-through for three years until January 1, 2028.
