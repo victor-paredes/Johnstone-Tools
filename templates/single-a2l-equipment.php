@@ -258,7 +258,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 						<div class="col-12 col-md-5">
-							<h3>Products:</h3>
+							<h3>Products</h3>
 							<ul>
 								<li>
 								Manufacturing prohibition and three-year sell-through of remaining inventory
@@ -275,7 +275,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 							</span>
 						</div>
 						<div class="col-12 col-md-5 offset-md-1">
-							<h3>Systems:</h3>
+							<h3>Systems</h3>
 							<ul>
 								<li>
 								Install date prohibition (repair and retrofit still allowed after compliance deadline)
@@ -390,7 +390,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 						<div class="col-12 col-lg-11 pt-5">
 							<h4>When do the restrictions take effect?</h4>
 								<p class="">
-								Manufacture and import compliance dates vary depending on the subsector, ranging from January 1, 2025, to January 1, 2028. Restriction on sales, distribution, and export of products apply three years after the sector/subsector manufacture and import compliance dates, to allow for a sell-through period of previously manufactured or imported products.<br>
+								Manufacture and import compliance dates vary depending on the subsector, ranging from January 1, 2025, to January 1, 2028. Restriction on sales, distribution, and export of products apply three years after the sector/subsector manufacture and import compliance dates, to allow for a sell-through period of previously manufactured or imported products.<br><br>
 								Manufacturers and importers of products and systems that use HFCs will be subject to requirements for labeling, annual reporting, and recordkeeping. The labeling requirements take effect on the same date as the manufacture and import compliance date for each subsector. The reporting and recordkeeping requirements for all subsectors covered by this rule begin on January 1, 2025. Reference the Technology Transitions HFC Restrictions by Sector and/or final rule for more detailed information.
 								</p>
 						</div>
