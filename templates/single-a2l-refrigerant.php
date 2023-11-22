@@ -85,9 +85,6 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 						<div class="col-12 col-lg-11 pt-5">
-
-
-
 							<h3>
 								What are HFCs or Hydrofluorocarbons?
 								What is GWP or Global Warming Potential?

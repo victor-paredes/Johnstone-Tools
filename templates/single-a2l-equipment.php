@@ -248,6 +248,44 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
+						<div class="col-12 col-lg-11 pt-5">
+							<h3>
+								What are HFCs or Hydrofluorocarbons?
+								What is GWP or Global Warming Potential?
+							</h3>
+						</div>
+
+
+						<div class="col-12 col-md-5">
+							<h3>Products:</h3>
+							<ul>
+								<li>
+								Manufacturing prohibition and three-year sell-through of remaining inventory
+								</li>
+								<li>
+								Manufacture prohibition after January 1, 2025
+								</li>
+								<li>
+								Sell-through for three years until January 1, 2028
+								</li>
+							</ul>
+						</div>
+						<div class="col-12 col-md-5 offset-md-1">
+							<h3>Systems:</h3>
+							<ul>
+								<li>
+								Install date prohibition (repair and retrofit still allowed after compliance deadline)
+								</li>
+								<li>
+								Full system install prohibition after January 1, 2025
+								</li>
+							</ul>
+						</div>
+
+
+
+
+
 
 
 
@@ -375,7 +413,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 									R32 Reasons
 							</a>
 							<a class="a2l_button" href="https://www.epa.gov/system/files/documents/2023-04/SAN%206399_Final%20SNAP%20Rule%2025_signed%20pre-publication.pdf" target="_blank">
-										SNAP
+									SNAP
 							</a>
 							<a class="a2l_button" href="https://www.achrnews.com/articles/153195-understanding-a2l-refrigerants" target="_blank">
 									The News
