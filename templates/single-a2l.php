@@ -93,7 +93,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 			<div class="col-12 pt-5 text-center">
-				<h1 class="text-yellow font-weight-bold">Are you ready?</h1>
+				<h1 class="text-light font-weight-bold">Are you ready?</h1>
 				<p class="text-light">All HVAC systems must be SEER2 certified in:</p>
 				<div id="countDown" class="row justify-content-center text-light">
 					<div class="col-4 col-md-3 col-lg-2 px-1 px-md-3">
