@@ -250,7 +250,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 						<div class="col-12 col-lg-11 pt-5">
 							
-							<h3>Important Dates and Definitions:</h3> 
+							<h3>Important Dates and Definitions</h3> 
 							<p>
 								EPA has defined two limitations on sales of Products and Systems.
 							</p>
