@@ -260,7 +260,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 				<div class="col-12 col-lg-11 pt-5">
-					<h3 class="">Benefits of Low Global Warming Potential Refrigerant:</h3>
+					<h3 class="">Benefits of Low Global Warming Potential Refrigerant</h3>
 					<p class="">
 					To find out more about each refrigerant in depth see the resources below:
 					</p>
@@ -282,8 +282,24 @@ get_template_part( 'parts/a2l_header' ); ?>
 							The News
 						</button>
 					</a>
-
 				</div>
+
+
+
+
+				<div class="col-12 col-lg-11 pt-5">
+					<h3 class="">Flammability Concerns</h3>
+					<p class="">
+					Additionally, these refrigerants have a new classification, A2L. The A2L classification denotes a mild flammability, which will change how these refrigerants will need to be handled.  *NOTE: A2L- Although Mildly Flammable are extremely difficult to ignite and have low flame speed. 2L refrigerants have a burning velocity of 10 cm/s (3.9 inches per second) or less, making them less likely to sustain combustion after the initial ignition source has been removed. See chart for classification definitions.
+					</p>
+				</div>
+
+
+
+
+
+
+
 
 
 
