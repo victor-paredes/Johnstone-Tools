@@ -68,10 +68,9 @@ get_template_part( 'parts/a2l_header' ); ?>
 					The Environmental Protection Agency has issued a new rule restricting the use of High GWP refrigerants (HFCs) in HVAC and Refrigerant Equipment. This means that the current refrigerant is being phased out and replaced with two new more globally friendly substitutes. Along with the new refrigerant changes your equipment will also experience a change. Most important of the changes is there is a no sell-through date, for all regions, of current R-410A HVAC equipment. Additionally, are three important aspects that you will need to know about this new rule. 
 </p>
 
-					<h3>
+					<p class="text-light text-1rem mb-4">
 					There are three important aspects of the new Technology Transition Rule:
-					</h3>
-
+</p>	
 
 					<ol>
 						<li class="text-light">
