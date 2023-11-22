@@ -297,10 +297,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-				<div class="col-12 col-lg-11">
-					<img width="100%" src="https://victorpared.es/js/wp-content/uploads/2023/11/what_is_a2l_refrigerant_lg.jpg">
-				</div>
-
+		
 
 
 
@@ -324,14 +321,14 @@ get_template_part( 'parts/a2l_header' ); ?>
 									
 										
 									<tr class="">
-										<td class="border-bottom border-right table_subheader">
+										<td class="border-bottom border-right">
 											<strong>Current refrigerants like R-410A and R-134A are classified as A1 with no ability to carry a flame.</strong>
 											</td>
 
-										<td class="border-bottom border-right table_subheader">
+										<td class="border-bottom border-right">
 											<strong>To hit the new targeted GWP levels, manufacturers are switching to A2L-classified refrigerants R-32 or R454B which are considered mildly flammable, difficult to ignite, and have a low flame speed.</strong>
 											</td>
-										<td class="border-bottom table_subheader">
+										<td class="border-bottom">
 											<strong>By comparison, propane, a gas familiar to many HVAC installers and service technicians, is classified as A3 for higher flammability and its explosion potential.</strong>
 											</td>
 									</tr>
