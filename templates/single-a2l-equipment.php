@@ -93,6 +93,17 @@ get_template_part( 'parts/a2l_header' ); ?>
 							Equipment Mitigation Requirements-No sell through R410A systems
 						</li>
 					</ol>
+
+
+
+					<p class="text-light lead lead">
+					Benefits of Low Global Warming Potential Refrigerant:
+					</p>	
+
+
+
+
+
 			</div>
 
 
@@ -127,11 +138,12 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 			<div class="col-12 col-md-5">
 				<!-- <h3>M1 Testing Requirements</h3> -->
-				<p>To meet new testing requirements, manufacturers are redesigning system components. In fact, all air conditioning and heat pump systems must be renovated by January 1, 2023, even if they meet current SEER ratings. In addition, matching components such as furnaces and air handlers will be redesigned to meet changes in the airflow setpoint. Depending on your region, additional field install equipment, such as Thermal Expansion Valves (TXVs), may also be required.</p>
+				<p>Hydrofluorocarbons (HFCs) are potent greenhouse gasses developed and manufactured as a replacement for ozone-depleting substances. The environmental impact of these hydrofluorocarbons is measured by GWP or its Global Warming Potential
+</p>
 			</div>
 			<div class="col-12 col-md-5 offset-md-1">
 				<!-- <h3>M1 Testing Procedures</h3> -->
-				<p>The goal of new SEER2 testing procedures is to better represent external conditions seen in the field. Current SEER testing does not accurately emulate the influence of ductwork and external static pressure on HVAC products. Because of this, it is not often representative of real-world applications. By increasing systems’ external static pressure from current SEER (0.1 in. of water) to SEER2 (0.5 in. of water), new M1 testing procedures more accurately reflect current field conditions.</p>
+				<p>In response to the new GWP requirements, two new refrigerants with lower than 700 GWP will take R-410A’s place for new manufactured HVAC equipment. The new refrigerant options are R-454B and R-32. See the table below for more information:</p>
 				<!-- <p><a href="https://www.energy.gov/sites/prod/files/2016/08/f33/Central%20Air%20Conditioners%20and%20Heat%20Pumps%20TP%20SNOPR_4.pdf" target="_blank" rel="noopener">Energy.gov Test Procedures <img class="mb-1" src="img/box-arrow-up-right.svg" width="12" height="12" alt="External URL"></a></p> -->
 			</div>
 
