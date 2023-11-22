@@ -417,6 +417,10 @@ get_template_part( 'parts/a2l_header' ); ?>
 	.table_wrap * {
 		font-size: 10px;
 	}
+	.table_noexpand { 
+		border-radius: 0.25rem;
+		padding: 5px;
+	}
 }
 
 /* .text-light, .text-light * {
