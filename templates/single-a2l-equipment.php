@@ -717,10 +717,12 @@ Manufacturers and importers of products and systems that use HFCs will be subjec
 	color: #fff;
 	font-weight: 700;
 	font-size: 1rem;
+	text-align: center;
 }
 .a2l_button:hover {
 	background: #0072c8;
 	text-decoration: none;
+	color: white;
 }
 .a2l_note {
 	margin-top: 15px;
