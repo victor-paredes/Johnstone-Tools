@@ -214,14 +214,14 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 									<tr class="">
-										<td class="border-bottom border-right">
+										<td class="border-right">
 											Formula
 										</td>
-										<td class="border-bottom border-right">
+										<td class="border-right">
 										68.9% R-32/31.1% R-1234yf
 										</td>
 
-										<td class="border-bottom border-right">
+										<td class="border-right">
 										100% R-32
 										</td>
 										<td class="border-bottom">
