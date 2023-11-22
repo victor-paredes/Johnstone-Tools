@@ -213,14 +213,14 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 									<div class="row">
-										<div class="col-lg-3 col-md-6 text-875rem text-center text-middle py-2 py-md-0 border-right border-top">
+										<div class="col-lg-3 col-md-6 text-875rem text-center align-middle py-2 py-md-0 border-right border-top">
 											Formula
 										</div>
 										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-right border-top">
 										68.9% R-32/31.1% R-1234yf
 										</div>
 
-										<div class="col-lg-3 col-md-6 text-875rem text-center text-middle py-2 py-md-0 border-right border-top">
+										<div class="col-lg-3 col-md-6 text-875rem text-center align-middle py-2 py-md-0 border-right border-top">
 										100% R-32
 										</div>
 										<div class="col-lg-3 col-md-6 text-875rem text-center py-2 py-md-0 border-top">
