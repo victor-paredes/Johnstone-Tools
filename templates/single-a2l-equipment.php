@@ -372,7 +372,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-							<div class="col-12 col-lg-11 pt-5">
+							<div class="col-12 col-lg-11">
 								<p class="">
 								<small>
 								*NOTE: Components are not subject to the same restrictions as “products.” Where the rules use “specified component” means condensing units, condensers, compressors, evaporator units and evaporators. Refrigerant tubing and thermal expansion valves are excluded from the requirements of the rule. Electronics, fan motors, ducts, and other parts outside the refrigerant loop are also excluded from the requirements of the rule. EPA does not restrict the manufacture, import, sale, distribution, or export of components that are used to repair existing RACHP systems.
