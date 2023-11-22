@@ -79,7 +79,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 						</div>
 
 					<p class="text-light lead lead">
-					There are three important aspects of the new Technology Transition Rule:
+					<strong>There are three important aspects of the new Technology Transition Rule:</strong>
 					</p>	
 
 					<ol>
