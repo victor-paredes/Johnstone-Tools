@@ -39,13 +39,13 @@ get_template_part( 'parts/a2l_header' ); ?>
 					<div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
 						<ul class="navbar-nav text-right text-lg-center">
 							<li class="nav-item px-4 active">
-								<a class="nav-link text-light" href="about.html">Equipment</a>
+								<a class="nav-link text-light" href="https://victorpared.es/js/landing-page/a2l-equipment/">Equipment</a>
 							</li>
 							<li class="nav-item px-4">
-								<a class="nav-link text-light" href="support.html">Refrigerant</a>
+								<a class="nav-link text-light" href="#">Refrigerant</a>
 							</li>
 							<li class="nav-item px-4">
-								<a class="nav-link text-light" href="support.html">Low Spark Tools</a>
+								<a class="nav-link text-light" href="#">Low Spark Tools</a>
 							</li>
 						</ul>
 					</div>
