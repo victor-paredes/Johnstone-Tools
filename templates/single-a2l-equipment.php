@@ -270,6 +270,9 @@ get_template_part( 'parts/a2l_header' ); ?>
 								Sell-through for three years until January 1, 2028
 								</li>
 							</ul>
+							<span>
+								Examples: appliances, foams, fully formulated polyols, self-contained fire suppression devices, aerosols, pressurized dispensers, and wipes.
+							</span>
 						</div>
 						<div class="col-12 col-md-5 offset-md-1">
 							<h3>Systems:</h3>
@@ -281,6 +284,9 @@ get_template_part( 'parts/a2l_header' ); ?>
 								Full system install prohibition after January 1, 2025
 								</li>
 							</ul>
+							<span>
+								Examples: supermarkets with a centralized compressor room, mini-split air conditioners, unitary systems
+							</span>
 						</div>
 
 
