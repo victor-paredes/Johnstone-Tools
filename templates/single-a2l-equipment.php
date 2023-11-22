@@ -669,7 +669,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
             
-        	</div> <!-- end COPY_THIS_CONTAINER_TO_BLOOMREACH -->
+        	</div> 
 
 
         
@@ -678,7 +678,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 		</div> <!-- end -->
 
-	</div>
+	</div><!-- end COPY_THIS_CONTAINER_TO_BLOOMREACH -->
 
 
 
