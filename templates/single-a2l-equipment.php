@@ -33,8 +33,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 					<div class="col">
 						<nav class="navbar navbar-expand-lg navbar-dark pl-0" id="mainNav">
 							<a class="navbar-brand" href="https://victorpared.es/js/landing-page/a2l-landing-page/">
-								<strong>A2L Countdown</strong>
-								<span id="presentedBy" class="d-block mt-n1">Presented by Johnstone Supply</span>
+								<img width="400px" src="https://victorpared.es/js/wp-content/uploads/2023/11/johnstone_logo.png">
 							</a>
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"
 								<span class="navbar-toggler-icon"></span>
