@@ -134,7 +134,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-			<div class="col-12 pt-3 text-left">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pt-3 text-left">
 			
 
 
