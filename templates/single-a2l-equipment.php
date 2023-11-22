@@ -139,9 +139,8 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-				<div class="row justify-content-center"> <!-- TABLE -->
-					<table class="">
-						<div class="card my-5">
+				<div class="row justify-content-center"> <!-- wrap -->
+
 								<table class="shadow table_noexpand">
 
 									<tr class="">
@@ -242,10 +241,9 @@ get_template_part( 'parts/a2l_header' ); ?>
 										</div>
 									</div> -->
 
-								</div>
-						</div>
-</table>
-				</div> <!-- end TABLE -->
+
+								</table>
+
 
 
 
