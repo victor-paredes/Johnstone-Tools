@@ -78,18 +78,18 @@ get_template_part( 'parts/a2l_header' ); ?>
 							</p>
 						</div>
 
-					<p class="text-light text-1rem mb-4">
+					<p class="text-light lead mb-4">
 					There are three important aspects of the new Technology Transition Rule:
 					</p>	
 
 					<ol>
-						<li class="text-light">
+						<li class="text-light lead">
 							Refrigerant Changes-Low GWP Systems and A2L Refrigerant
 						</li>	
-						<li class="text-light">
+						<li class="text-light lead">
 							Categories-Products, Systems, Components 
 						</li>
-						<li class="text-light">
+						<li class="text-light lead">
 							Equipment Mitigation Requirements-No sell through R410A systems
 						</li>
 					</ol>
