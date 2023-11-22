@@ -39,7 +39,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 								<span class="navbar-toggler-icon"></span>
 							</button> -->
 
-							<div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+							<div class="justify-content-center" id="navbarNavDropdown">
 								<ul class="navbar-nav text-right text-lg-center">
 									<li class="nav-item px-4 active">
 										<a class="nav-link text-light" href="https://victorpared.es/js/landing-page/a2l-equipment/">Equipment</a>
