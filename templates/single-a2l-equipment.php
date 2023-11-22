@@ -370,7 +370,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 	color: #fff;
 }
 .table_subheader {
-	background-color: #c2e7ff;
+	background-color: #edf2fa;
 }
 
 
