@@ -142,7 +142,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 				<div class="row justify-content-center"> <!-- TABLE -->
 					<table class="">
 						<div class="card my-5">
-								<table class="shadow">
+								<table class="shadow table_noexpand">
 
 									<tr class="">
 										<td class="text-875rem text-center px-2 py-md-0 border-right">
@@ -406,6 +406,9 @@ get_template_part( 'parts/a2l_header' ); ?>
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+.table_noexpand td {
+	padding:10px;
 }
 /* .text-light, .text-light * {
 	color: #fff !important;
