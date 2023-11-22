@@ -1,7 +1,7 @@
 <?php
 /*
 Template Name: A2L Low Spark Tools
-Template Post Type: landing-page
+Template Post Type: landing-page 
 */
 
 // echo the_content(); ?>
