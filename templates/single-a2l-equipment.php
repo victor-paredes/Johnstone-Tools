@@ -407,10 +407,12 @@ get_template_part( 'parts/a2l_header' ); ?>
 }
 .table_noexpand {
 	border-radius: 0.25rem;
+	padding: 0 5px 0 5px;
 }
 .table_noexpand td {
-	padding: 10px;
+	padding: 5px;
 }
+
 /* .text-light, .text-light * {
 	color: #fff !important;
 } */
