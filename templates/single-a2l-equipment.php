@@ -59,14 +59,32 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
+
+
+			
+
+
+
+
+
+
 			<div class="col-12 col-lg-6 mt-lg-5 mb-lg-3 pt-lg-5 pb-lg-2">
 				<h1 class="text-light mt-5 mb-4"><strong>Equipment</strong></h1>
 				
-					<h2 class="text-light">Technology Transition Rule: </h2>
+							<div class="col-12 col-lg-11 pt-5">
+							<h2 class="mt-6 font-weight-bold text-darkblue hp-find-region about-seer-2" tabindex="-1">Refrigerant change and your equipment:</h2>
+							<p v>
+								With the new Technology Transition Rule, the EPA has designated that refrigerants must phase down the use of Hydrofluorocarbons (HFCs) to meet the new GWP (Global Warming Potential) level. To reduce HFCs the EPA has designated that refrigerants must meet a new GWP (Global Warming Potential) of 700. The current refrigerant R-410A has a GWP of 2088 and does not meet the new GWP level.
 
-					<p class="lead text-light text-1rem mb-4">
-					The Environmental Protection Agency has issued a new rule restricting the use of High GWP refrigerants (HFCs) in HVAC and Refrigerant Equipment. This means that the current refrigerant is being phased out and replaced with two new more globally friendly substitutes. Along with the new refrigerant changes your equipment will also experience a change. Most important of the changes is there is a no sell-through date, for all regions, of current R-410A HVAC equipment. Additionally, are three important aspects that you will need to know about this new rule. 
-</p>
+							</p>
+							<hr class="my-5 hr-blue">
+
+
+							<h3>
+								What are HFCs or Hydrofluorocarbons?
+								What is GWP or Global Warming Potential?
+							</h3>
+						</div>
 
 					<p class="text-light text-1rem mb-4">
 					There are three important aspects of the new Technology Transition Rule:
@@ -100,6 +118,8 @@ get_template_part( 'parts/a2l_header' ); ?>
 <div class="container-fluid bg-white">
 	<div class="container">
 		<div class="row pb-5">
+
+
 			<div class="col-12 col-lg-11 pt-5">
 				<h2 class="mt-6 font-weight-bold text-darkblue hp-find-region about-seer-2" tabindex="-1">Refrigerant change and your equipment:</h2>
 				<p v>
@@ -109,17 +129,14 @@ get_template_part( 'parts/a2l_header' ); ?>
 				<hr class="my-5 hr-blue">
 
 
-<h3>
-	What are HFCs or Hydrofluorocarbons?
-	What is GWP or Global Warming Potential?
-</h3>
-
-
-
-
-
-
+				<h3>
+					What are HFCs or Hydrofluorocarbons?
+					What is GWP or Global Warming Potential?
+				</h3>
 			</div>
+
+
+
 			<div class="col-12 col-md-5">
 				<!-- <h3>M1 Testing Requirements</h3> -->
 				<p>To meet new testing requirements, manufacturers are redesigning system components. In fact, all air conditioning and heat pump systems must be renovated by January 1, 2023, even if they meet current SEER ratings. In addition, matching components such as furnaces and air handlers will be redesigned to meet changes in the airflow setpoint. Depending on your region, additional field install equipment, such as Thermal Expansion Valves (TXVs), may also be required.</p>
