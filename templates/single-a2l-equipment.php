@@ -262,7 +262,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 				<div class="col-12 col-lg-11 pt-5">
-					<h3 class="mt-6 font-weight-bold hp-find-region about-seer-2" tabindex="-1">Benefits of Low Global Warming Potential Refrigerant:</h3>
+					<h3 class="">Benefits of Low Global Warming Potential Refrigerant:</h3>
 					<p class="">
 					To find out more about each refrigerant in depth see the resources below:
 					</p>
