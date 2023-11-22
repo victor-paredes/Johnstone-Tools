@@ -86,7 +86,6 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 						<div class="col-12 col-lg-11 pt-5">
-							<h2 class="mt-6 font-weight-bold text-darkblue hp-find-region about-seer-2" tabindex="-1"></h2>
 							<p>
 								
 
@@ -279,7 +278,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 								
 									
 								<tr class="">
-									<td class="border-right" style="vertical-align:top;">
+									<td class="border-right col-12" style="vertical-align:top;">
 										Current refrigerants like R-410A and R-134A are classified as A1 with no ability to carry a flame.
 										</td>
 
