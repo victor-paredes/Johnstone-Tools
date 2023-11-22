@@ -45,7 +45,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 								<a class="nav-link text-light" href="#">Refrigerant</a>
 							</li>
 							<li class="nav-item px-4">
-								<a class="nav-link text-light" href="#">Low Spark Tools</a>
+								<a class="nav-link text-light" href="#">Low Spark Tools</a> 
 							</li>
 						</ul>
 					</div>
