@@ -724,6 +724,7 @@ Manufacturers and importers of products and systems that use HFCs will be subjec
 }
 .a2l_button:hover {
 	background: #0072c8;
+	text-decoration: none;
 }
 .a2l_note {
 	margin-top: 15px;
