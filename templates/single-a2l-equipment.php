@@ -145,84 +145,84 @@ get_template_part( 'parts/a2l_header' ); ?>
 								<table class="shadow table_noexpand">
 
 									<tr class="">
-										<td class="text-875rem text-center px-2 py-md-0 border-right">
+										<td class="">
 											<strong></strong>
 										</td>
-										<td class="text-875rem text-center px-2 py-md-0"> 
+										<td class=""> 
 											<strong>R-454B</strong>
 										</td>
-										<td class="text-875rem text-center px-2 py-md-0 border-right">
+										<td class="">
 											<strong>R-32</strong>
 										</td>
-										<td class="text-875rem text-center px-2 py-md-0">
+										<td class="">
 											<strong>R-410A</strong>
 										</td>
 									</tr>
 									
 										
 									<tr class="">
-										<td class="text-875rem text-center px-2 py-md-0 border-right">
+										<td class="">
 											<strong>GWP</strong>
 										</td>
-										<td class="text-875rem text-center px-2 py-md-0">
+										<td class="">
 											<strong>466</strong>
 											</td>
 
-										<td class="text-875rem text-center px-2 py-md-0 border-right">
+										<td class="">
 											<strong>675</strong>
 											</td>
-										<td class="text-875rem text-center px-2 py-md-0">
+										<td class="">
 											<strong>2088</strong>
 											</td>
 									</tr>
 									
 
 									<tr class="">
-										<td class="text-875rem text-center px-2 py-md-0 border-right border-top">
+										<td class="">
 											Discarge Temperatures
 										</td>
-										<td class="text-875rem text-center px-2 py-md-0 border-right border-top">
+										<td class="">
 										Lower Discharge Temperatures
 										</td>
 
-										<td class="text-875rem text-center px-2 py-md-0 border-right border-top">
+										<td class="">
 										Higher Discharge Temperatures
 										</td>
-										<td class="text-875rem text-center px-2 py-md-0 border-top">
+										<td class="">
 										Lower Discharge Temperatures
 										</td>
 									</tr>
 
 
 									<tr class="">
-										<td class="text-875rem text-center px-2 py-md-0 border-right border-top">
+										<td class="">
 											Glide
 										</td>
-										<td class="text-875rem text-center px-2 py-md-0 border-right border-top">
+										<td class="">
 										Little to no glide
 										</td>
 
-										<td class="text-875rem text-center px-2 py-md-0 border-right border-top">
+										<td class="">
 										Little to no glide
 										</td>
-										<td class="text-875rem text-center px-2 py-md-0 border-top">
+										<td class="">
 										No Glide
 										</td>
 									</tr>
 
 
 									<tr class="">
-										<td class="text-875rem text-center align-middle px-2 py-md-0 border-right border-top">
+										<td class="">
 											Formula
 										</td>
-										<td class="text-875rem text-center px-2 py-md-0 border-right border-top">
+										<td class="">
 										68.9% R-32/31.1% R-1234yf
 										</td>
 
-										<td class="text-875rem text-center align-middle px-2 py-md-0 border-right border-top">
+										<td class="">
 										100% R-32
 										</td>
-										<td class="text-875rem text-center px-2 py-md-0 border-top">
+										<td class="">
 										50% R-32/50% R-125
 										</td>
 									</tr>
@@ -257,10 +257,10 @@ get_template_part( 'parts/a2l_header' ); ?>
 							<div class="card-body">
 								<div class="container px-0">
 									<div class="row">
-										<div class="col-8 text-875rem text-center px-2 py-md-0 border-right">
+										<div class="col-8 ">
 											<strong>&gt; 15 but &lt; 16 SEER</strong>
 										</div>
-										<div class="col-4 text-875rem text-center px-2 py-md-0">
+										<div class="col-4 ">
 											<strong>≥ 16 SEER</strong>
 										</div>
 									</div>
@@ -268,21 +268,21 @@ get_template_part( 'parts/a2l_header' ); ?>
 										<div class="col-12 py-3 py-md-0">
 											<hr class="my-2 text-secondary">
 										</div>
-										<div class="col-4 text-875rem text-center px-2 py-md-0">
+										<div class="col-4 ">
 											&lt; 45,000 Btu
 										</div>
-										<div class="col-4 text-875rem text-center px-2 py-md-0 border-right">
+										<div class="col-4 ">
 											≥ 45,000 Btu
 										</div>
-										<div class="col-4 text-875rem text-center px-2 py-md-0">
+										<div class="col-4 ">
 											10.2 EER
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-4 text-875rem text-center px-2 py-md-0">
+										<div class="col-4 ">
 											12.2 EER
 										</div>
-										<div class="col-4 text-875rem text-center px-2 py-md-0">
+										<div class="col-4 ">
 											11.7 EER
 										</div>
 									</div>
@@ -408,7 +408,7 @@ get_template_part( 'parts/a2l_header' ); ?>
     background-size: cover;
 }
 .table_noexpand td {
-	padding:10px;
+	padding: 10px;
 }
 /* .text-light, .text-light * {
 	color: #fff !important;
