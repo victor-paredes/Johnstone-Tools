@@ -261,11 +261,12 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-					<div class="col-12 col-md-5 offset-md-1">
-				<!-- <h3>M1 Testing Procedures</h3> -->
-				<p>In response to the new GWP requirements, two new refrigerants with lower than 700 GWP will take R-410A’s place for new manufactured HVAC equipment. The new refrigerant options are R-454B and R-32. See the table below for more information:</p>
-				<!-- <p><a href="https://www.energy.gov/sites/prod/files/2016/08/f33/Central%20Air%20Conditioners%20and%20Heat%20Pumps%20TP%20SNOPR_4.pdf" target="_blank" rel="noopener">Energy.gov Test Procedures <img class="mb-1" src="img/box-arrow-up-right.svg" width="12" height="12" alt="External URL"></a></p> -->
-			</div>
+				<div class="header_block">
+					<h2 class="mt-6 font-weight-bold hp-find-region about-seer-2" tabindex="-1">Technology Transition Rule: </h2>
+					<p class="lead">
+					The Environmental Protection Agency has issued a new rule restricting the use of High GWP refrigerants (HFCs) in HVAC and Refrigerant Equipment. This means that the current refrigerant is being phased out and replaced with two new more globally friendly substitutes. Along with the new refrigerant changes your equipment will also experience a change. Most important of the changes is there is a no sell-through date, for all regions, of current R-410A HVAC equipment. Additionally, are three important aspects that you will need to know about this new rule. 
+					</p>
+				</div>
 
 
 
