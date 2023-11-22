@@ -593,7 +593,7 @@ Manufacturers and importers of products and systems that use HFCs will be subjec
 
 <!-- footer -->
 
-	<div class="container-fluid bg-darkblue">
+	<div class="container-fluid bg-darkblue" style="background-color: background-color: #062655;">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-12 col-lg-6 py-lg-5 text-center">
@@ -607,7 +607,7 @@ Manufacturers and importers of products and systems that use HFCs will be subjec
 
 
 
-<div class="container-fluid bg-deepblue">
+<div class="container-fluid bg-deepblue" style="background-color: #010821;">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-md-6 py-2 py-md-5">
