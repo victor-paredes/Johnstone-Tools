@@ -35,11 +35,11 @@ get_template_part( 'parts/a2l_header' ); ?>
 							<a class="navbar-brand" href="https://victorpared.es/js/landing-page/a2l-landing-page/">
 								<img width="250px" src="https://victorpared.es/js/wp-content/uploads/2023/11/johnstone_logo.png">
 							</a>
-							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"
+							<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"
 								<span class="navbar-toggler-icon"></span>
-							</button>
+							</button> -->
 
-							<div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+							<div class="collapse  justify-content-center" id="navbarNavDropdown">
 								<ul class="navbar-nav text-right text-lg-center">
 									<li class="nav-item px-4 active">
 										<a class="nav-link text-light" href="https://victorpared.es/js/landing-page/a2l-equipment/">Equipment</a>
