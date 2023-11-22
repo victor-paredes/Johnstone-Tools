@@ -556,7 +556,11 @@ Manufacturers and importers of products and systems that use HFCs will be subjec
 							
 
 
-							
+							<div class="col-12 col-lg-11 pt-5">
+									<!-- <p class="">
+									COMING SOON: Login to see equipment release timeline by brand
+									</p> -->
+							</div>
  
 
  
