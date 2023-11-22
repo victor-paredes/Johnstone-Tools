@@ -150,6 +150,11 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
+			
+
+
+
+
 
 			<div class="col-12 pt-3 text-left"> 
 			
@@ -250,6 +255,14 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
+
+
+
+							<div class="col-12 col-md-5 offset-md-1">
+				<!-- <h3>M1 Testing Procedures</h3> -->
+				<p>In response to the new GWP requirements, two new refrigerants with lower than 700 GWP will take R-410A’s place for new manufactured HVAC equipment. The new refrigerant options are R-454B and R-32. See the table below for more information:</p>
+				<!-- <p><a href="https://www.energy.gov/sites/prod/files/2016/08/f33/Central%20Air%20Conditioners%20and%20Heat%20Pumps%20TP%20SNOPR_4.pdf" target="_blank" rel="noopener">Energy.gov Test Procedures <img class="mb-1" src="img/box-arrow-up-right.svg" width="12" height="12" alt="External URL"></a></p> -->
+			</div>
 
 
 
