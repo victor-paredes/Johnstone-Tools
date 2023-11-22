@@ -540,9 +540,9 @@ Manufacturers and importers of products and systems that use HFCs will be subjec
 
 								<a href="https://www.r32reasons.com/" target="_blank">
 									<button class="a2l_button">
-										<span class="">
+										
 											R32 Reasons
-										</span>
+									
 									</button>
 								</a>
 								<a href="https://www.epa.gov/system/files/documents/2023-04/SAN%206399_Final%20SNAP%20Rule%2025_signed%20pre-publication.pdf" target="_blank">
