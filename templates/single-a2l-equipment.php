@@ -404,7 +404,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 	border-radius: .25rem;
 	padding: 0 15px 0 15px;
 }
-.table_noexpand {
+.table_noexpand { 
 	border-radius: 0.25rem;
 	padding: 0 15px 0 15px;
 	width: 100%;
