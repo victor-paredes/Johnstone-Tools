@@ -79,7 +79,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 							
 							There are three important aspects of the new Technology Transition Rule:
 
-							<h3>
+							<h3 class="mt-1 mb-2">
 								What are HFCs or Hydrofluorocarbons?
 								What is GWP or Global Warming Potential?
 							</h3>
