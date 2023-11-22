@@ -265,9 +265,9 @@ get_template_part( 'parts/a2l_header' ); ?>
 					To find out more about each refrigerant in depth see the resources below:
 					</p>
 
-					<a href="https://www.r32reasons.com/" target="_blank"><button>R32 Reasons</button></a><br>
-					<a href="https://www.epa.gov/system/files/documents/2023-04/SAN%206399_Final%20SNAP%20Rule%2025_signed%20pre-publication.pdf" target="_blank">SNAP</a><br>
-					<a href="https://www.achrnews.com/articles/153195-understanding-a2l-refrigerants" target="_blank">The News</a><br>
+					<a href="https://www.r32reasons.com/" target="_blank"><button class="a2l_button">R32 Reasons</button></a><br>
+					<a href="https://www.epa.gov/system/files/documents/2023-04/SAN%206399_Final%20SNAP%20Rule%2025_signed%20pre-publication.pdf" target="_blank"><button class="a2l_button">SNAP</button></a><br>
+					<a href="https://www.achrnews.com/articles/153195-understanding-a2l-refrigerants" target="_blank"><button class="a2l_button">The News</button></a><br>
 
 				</div>
 
@@ -399,6 +399,11 @@ get_template_part( 'parts/a2l_header' ); ?>
 }
 .header_block * {
 	color: #fff !important;
+}
+.a2l_button {
+	background-color: #041e47;
+	padding: 10px 15px;
+	border-radius: 999px;
 }
 
 
