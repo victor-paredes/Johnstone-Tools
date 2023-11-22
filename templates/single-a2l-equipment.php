@@ -96,9 +96,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-					<p class="text-light lead lead">
-					Benefits of Low Global Warming Potential Refrigerant:
-					</p>	
+				
 
 
 
