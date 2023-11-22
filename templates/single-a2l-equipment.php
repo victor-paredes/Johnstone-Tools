@@ -407,6 +407,9 @@ get_template_part( 'parts/a2l_header' ); ?>
     -o-background-size: cover;
     background-size: cover;
 }
+.table_noexpand {
+	border: solid 1px collapse;
+}
 .table_noexpand td {
 	padding: 10px;
 }
