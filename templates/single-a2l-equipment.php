@@ -298,7 +298,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 				<div class="col-12 col-lg-11 pt-5">
-					<img src="https://victorpared.es/js/wp-content/uploads/2023/11/what_is_a2l_refrigerant_lg.jpg">
+					<img width="100%" src="https://victorpared.es/js/wp-content/uploads/2023/11/what_is_a2l_refrigerant_lg.jpg">
 				</div>
 
 
