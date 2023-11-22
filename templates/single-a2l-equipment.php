@@ -142,7 +142,6 @@ get_template_part( 'parts/a2l_header' ); ?>
 				<div class="row justify-content-center"> <!-- TABLE -->
 					<table class="">
 						<div class="card my-5">
-							<div class="card-body">
 								<table class="px-0 shadow">
 
 									<tr class="">
@@ -232,7 +231,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 									
-<!-- 
+											<!-- 
 									<div class="">
 										<div class="">
 											<hr class="my-2 text-secondary">
@@ -244,7 +243,6 @@ get_template_part( 'parts/a2l_header' ); ?>
 									</div> -->
 
 								</div>
-							</div>
 						</div>
 </table>
 				</div> <!-- end TABLE -->
