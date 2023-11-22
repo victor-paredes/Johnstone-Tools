@@ -453,7 +453,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 									<p class="">
 									Both the indoor and outdoor units will see changes: below you will see a summation of what you will need to look for. Note: You may see differences between brands.
 									</p>
-									<img src="https://victorpared.es/js/wp-content/uploads/2023/11/design_changes_placeholder.jpg">
+									<img width="1000%" src="https://victorpared.es/js/wp-content/uploads/2023/11/design_changes_placeholder.jpg">
 							</div>
 
 
