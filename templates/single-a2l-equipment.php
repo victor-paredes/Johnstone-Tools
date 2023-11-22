@@ -72,21 +72,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 							</p>
 						</div>
 
-						<p class="text-light lead lead">
-						<strong>There are three important aspects of the new Technology Transition Rule:</strong>
-						</p>	
-
-						<ol>
-							<li class="text-light lead">
-								Refrigerant Changes-Low GWP Systems and A2L Refrigerant
-							</li>
-							<li class="text-light lead">
-								Categories-Products, Systems, Components 
-							</li>
-							<li class="text-light lead">
-								Equipment Mitigation Requirements-No sell through R410A systems
-							</li>
-						</ol>
+						
 					</div>
 				</div>
 			</div>
@@ -113,7 +99,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 						<div class="col-12 col-lg-11 pt-5 mt-2">
 							<h3 class="">There are now three classifications of HVAC systems: Products, Systems and Components.</h3>
 		
-							<ul>
+							<ol>
 								<li>
 								A product is functional upon leaving a factory. A product is a type of appliance with a sealed refrigerant loop that simply needs to be plugged in, mounted, or hooked to a water line, to work. For example, window air conditioning units, residential dehumidifiers, packaged terminal air conditioners, commercial freezers, and vending machines are examples of products. If you need a heating, ventilation, and air conditioning technician to assemble and/or charge with refrigerant, it’s not a product. EPA is restricting the sale, distribution, and export of products containing higher-GWP HFCs three years after the manufacture/import restriction dates. Products will have a sell-through for three years until January 1, 2028.
 								</li>
@@ -131,7 +117,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 									</small>
 								</div>
 								</li>
-							</ul>
+							</ol>
 						</div>
 
 
