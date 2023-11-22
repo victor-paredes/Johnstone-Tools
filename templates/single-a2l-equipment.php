@@ -148,85 +148,85 @@ get_template_part( 'parts/a2l_header' ); ?>
 									<tr class="">
 										<td class="text-875rem text-center py-2 py-md-0 border-right">
 											<strong></strong>
-</td>
+										</td>
 										<td class="text-875rem text-center py-2 py-md-0"> 
 											<strong>R-454B</strong>
-</td>
+										</td>
 										<td class="text-875rem text-center py-2 py-md-0 border-right">
 											<strong>R-32</strong>
-</td>
+										</td>
 										<td class="text-875rem text-center py-2 py-md-0">
 											<strong>R-410A</strong>
-</td>
-</tr>
+										</td>
+									</tr>
 									
 										
 									<tr class="">
 										<td class="text-875rem text-center py-2 py-md-0 border-right">
 											<strong>GWP</strong>
-</td>
+										</td>
 										<td class="text-875rem text-center py-2 py-md-0">
 											<strong>466</strong>
-</td>
+											</td>
 
 										<td class="text-875rem text-center py-2 py-md-0 border-right">
 											<strong>675</strong>
-</td>
+											</td>
 										<td class="text-875rem text-center py-2 py-md-0">
 											<strong>2088</strong>
-</td>
-</tr>
+											</td>
+									</tr>
 									
 
 									<tr class="">
 										<td class="text-875rem text-center py-2 py-md-0 border-right border-top">
 											Discarge Temperatures
-</td>
+										</td>
 										<td class="text-875rem text-center py-2 py-md-0 border-right border-top">
 										Lower Discharge Temperatures
-</td>
+										</td>
 
 										<td class="text-875rem text-center py-2 py-md-0 border-right border-top">
 										Higher Discharge Temperatures
-</td>
+										</td>
 										<td class="text-875rem text-center py-2 py-md-0 border-top">
 										Lower Discharge Temperatures
-</td>
-</tr>
+										</td>
+									</tr>
 
 
 									<tr class="">
 										<td class="text-875rem text-center py-2 py-md-0 border-right border-top">
 											Glide
-</td>
+										</td>
 										<td class="text-875rem text-center py-2 py-md-0 border-right border-top">
 										Little to no glide
-</td>
+										</td>
 
 										<td class="text-875rem text-center py-2 py-md-0 border-right border-top">
 										Little to no glide
-</td>
+										</td>
 										<td class="text-875rem text-center py-2 py-md-0 border-top">
 										No Glide
-</td>
-</tr>
+										</td>
+									</tr>
 
 
 									<tr class="">
 										<td class="text-875rem text-center align-middle py-2 py-md-0 border-right border-top">
 											Formula
-</td>
+										</td>
 										<td class="text-875rem text-center py-2 py-md-0 border-right border-top">
 										68.9% R-32/31.1% R-1234yf
-</td>
+										</td>
 
 										<td class="text-875rem text-center align-middle py-2 py-md-0 border-right border-top">
 										100% R-32
-</td>
+										</td>
 										<td class="text-875rem text-center py-2 py-md-0 border-top">
 										50% R-32/50% R-125
-</td>
-</tr>
+										</td>
+									</tr>
 									
 
 
