@@ -471,10 +471,53 @@ get_template_part( 'parts/a2l_header' ); ?>
 									</td>
 								</tr>
 
+								</table>
+							</div>
 
 
 
-							</table>
+
+
+
+
+							<div class="col-12 col-lg-11 pt-5">
+								<h3 class="">The Technology Transition Rule: Quick Facts</h3>
+								<h4>If I leave the existing refrigerant lines but replace the condensing unit and indoor coil, is it a new system?</h4>
+									<p class="">
+									Yes. Refrigerant lines are generally not removed when replacing the other mechanical components of a system. Therefore, even if refrigerant lines are unchanged, replacing all the other components would result in a new system for purposes of the Technology Transitions Program.
+									</p>
+							</div>
+
+
+
+
+							<div class="col-12 col-lg-11 pt-5">
+								<h4>When do the restrictions take effect?</h4>
+									<p class="">
+									Manufacture and import compliance dates vary depending on the subsector, ranging from January 1, 2025, to January 1, 2028. Restriction on sales, distribution, and export of products apply three years after the sector/subsector manufacture and import compliance dates, to allow for a sell-through period of previously manufactured or imported products.
+Manufacturers and importers of products and systems that use HFCs will be subject to requirements for labeling, annual reporting, and recordkeeping. The labeling requirements take effect on the same date as the manufacture and import compliance date for each subsector. The reporting and recordkeeping requirements for all subsectors covered by this rule begin on January 1, 2025. Reference the Technology Transitions HFC Restrictions by Sector and/or final rule for more detailed information.
+									</p>
+							</div>
+
+
+
+
+
+							<div class="col-12 col-lg-11 pt-5">
+								<h4>My R-410A unitary air conditioner condensing unit broke. Do I need to buy a whole new system with the lower GWP refrigerant, or can I replace the faulty component?</h4>
+									<p class="">
+									Homeowners can maintain and repair their systems throughout the useful life of the equipment. A homeowner can replace a faulty component (e.g., condensing unit, indoor coil, other smaller parts) with a similar R-410A component. After January 1, 2025, if a whole new system is installed it must use lower GWP refrigerant.
+									</p>
+							</div>
+
+
+
+
+							<div class="col-12 col-lg-11 pt-5">
+								<h4>What is a new system?</h4>
+									<p class="">
+									For residential air conditioner split systems, a new system would be installed in a newly constructed home. A new system would also be installed if both the condensing unit and indoor coil are replaced together. The condensing unit contains the condenser coil and compressor and the indoor coil is the evaporator.
+									</p>
 							</div>
 
 
