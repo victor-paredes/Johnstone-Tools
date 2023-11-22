@@ -68,10 +68,10 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 
-			<div class="col-12 col-lg-6 mt-lg-5 mb-lg-3 pt-lg-5 pb-lg-2">
+			<div class="col-12 col-lg-11 pt-5">
 				<h1 class="text-light mt-5 mb-4"><strong>Equipment</strong></h1>
 				
-							<div class="col-12 col-lg-11 pt-5">
+						<div class="col-12 col-lg-11 pt-5">
 							<h2 class="mt-6 font-weight-bold text-darkblue hp-find-region about-seer-2" tabindex="-1">Refrigerant change and your equipment:</h2>
 							<p v>
 								With the new Technology Transition Rule, the EPA has designated that refrigerants must phase down the use of Hydrofluorocarbons (HFCs) to meet the new GWP (Global Warming Potential) level. To reduce HFCs the EPA has designated that refrigerants must meet a new GWP (Global Warming Potential) of 700. The current refrigerant R-410A has a GWP of 2088 and does not meet the new GWP level.
@@ -88,7 +88,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 					<p class="text-light text-1rem mb-4">
 					There are three important aspects of the new Technology Transition Rule:
-</p>	
+					</p>	
 
 					<ol>
 						<li class="text-light">
@@ -101,15 +101,11 @@ get_template_part( 'parts/a2l_header' ); ?>
 							Equipment Mitigation Requirements-No sell through R410A systems
 						</li>
 					</ol>
-				
-	
+			</div>
 
-				<!-- <p class="mb-2"><span class="badge badge-warning mr-2">NEW</span> <a href="about.html#inventory" class="text-light">Compliance for Existing Inventory →</a></p>
-				<p class="mb-4"><span class="badge badge-warning mr-2">NEW</span> <a href="https://web.archive.org/web/20220811051637/https://go.bluevolt.com/johnstonecontractor/s/coursedetail/386741/supplier-webinar-recording--coleman-2023-seer2-information" class="text-light" rel="noopener" target="_blank">Coleman Webinar Recording →</a></p>
-				<a href="#" id="scrollToMap" class="btn btn-lg btn-light btn-rounded text-lightblue font-weight-bolder" role="button">Find your region</a> -->
 
-			
-		</div>
+
+
 	</div>
 </div>
 
