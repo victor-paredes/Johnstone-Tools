@@ -239,6 +239,11 @@ get_template_part( 'parts/a2l_header' ); ?>
 					.table_noexpand td { 
 						padding: 5px;
 					}
+					.countdown_class {
+					font-size: 2.5rem;
+					font-weight: 700!important;
+					color: #062655;
+					}
 				}
 
 				/* .text-light, .text-light * {
