@@ -249,7 +249,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 
 				<script>
-				const deadline = '2023-11-28';
+				const deadline = '2024-12-31';
 				initializeClock('countDown', deadline);
 
 				function getTimeRemaining(endtime) {
