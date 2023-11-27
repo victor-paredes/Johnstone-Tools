@@ -101,7 +101,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 					<div class="col-4 col-md-3 col-lg-2 px-1 px-md-3">
 						<div class="bg-light border-radius-sm shadow">
 							<span class="days d-block text-darkblue text-4rem font-weight-bold">&nbsp;</span>
-							<strong class="d-block mt-n3 pb-3 text-secondary" style="color:#5A5B64;">Days</strong>
+							<strong class="d-block mt-n3 pb-3 text-secondary countdown_class" style="color:#5A5B64;">Days</strong>
 						</div>
 					</div>
 					<div class="col-4 col-md-3 col-lg-2 px-1 px-md-3">
@@ -218,6 +218,11 @@ get_template_part( 'parts/a2l_header' ); ?>
 				.a2l_note {
 					margin-top: 15px;
 					color: #9c9c9c;
+				}
+				.countdown_class {
+					font-size: 4rem;
+					font-weight: 700!important;
+					color: #062655;
 				}
 
 
