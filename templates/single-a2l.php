@@ -100,19 +100,19 @@ get_template_part( 'parts/a2l_header' ); ?>
 				<div id="countDown" class="row justify-content-center text-light">
 					<div class="col-4 col-md-3 col-lg-2 px-1 px-md-3">
 						<div class="bg-light border-radius-sm shadow">
-							<span class="days d-block text-darkblue text-4rem font-weight-bold">&nbsp;</span>
-							<strong class="d-block mt-n3 pb-3 text-secondary countdown_class" style="color:#5A5B64;">Days</strong>
+							<span class="days d-block text-darkblue text-4rem font-weight-bold countdown_class">&nbsp;</span>
+							<strong class="d-block mt-n3 pb-3 text-secondary" style="color:#5A5B64;">Days</strong>
 						</div>
 					</div>
 					<div class="col-4 col-md-3 col-lg-2 px-1 px-md-3">
 						<div class="bg-light border-radius-sm shadow">
-							<span class="hours d-block text-darkblue text-4rem font-weight-bold">&nbsp;</span>
+							<span class="hours d-block text-darkblue text-4rem font-weight-bold countdown_class">&nbsp;</span>
 							<strong class="d-block mt-n3 pb-3 text-secondary">Hours</strong>
 						</div>
 					</div>
 					<div class="col-4 col-md-3 col-lg-2 px-1 px-md-3">
 						<div class="bg-light border-radius-sm shadow">
-							<span class="minutes d-block text-darkblue text-4rem font-weight-bold">&nbsp;</span>
+							<span class="minutes d-block text-darkblue text-4rem font-weight-bold countdown_class">&nbsp;</span>
 							<strong class="d-block mt-n3 pb-3 text-secondary">Minutes</strong>
 						</div>
 					</div>
