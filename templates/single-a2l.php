@@ -224,6 +224,9 @@ get_template_part( 'parts/a2l_header' ); ?>
 					font-weight: 700!important;
 					color: #062655;
 				}
+				.border-radius-sm {
+					border-radius: .25rem;
+				}
 
 
 				@media (max-width: 767px) { 
