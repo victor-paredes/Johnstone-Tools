@@ -689,7 +689,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 
 		<style>
 			.bg-darkblue-img {
-			background: #062655 url(https://seer2.com/img/bg-contractor-installing-thermostat.png) no-repeat center center fixed;
+			background: #062655 url(http://victorpared.es/js/wp-content/uploads/2023/12/HVAC_Technicians.jpg) no-repeat center center fixed;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
