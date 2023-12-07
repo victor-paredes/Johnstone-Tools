@@ -360,7 +360,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 				.table_subheader {
 					background-color: #edf2fa;
 				}
-				.header_block * {
+				.header_block * :not(a) {
 					color: #fff !important;
 				}
 				.a2l_button {
