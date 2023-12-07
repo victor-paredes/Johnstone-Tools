@@ -364,7 +364,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 					color: #fff !important;
 				}
 				.header_block a {
-					color: #76c3ff;
+					color: #76c3ff !important;
 					text-decoration: underline;
 				}
 				.a2l_button {
