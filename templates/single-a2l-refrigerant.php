@@ -70,11 +70,9 @@ get_template_part( 'parts/a2l_header' ); ?>
 							<p class="lead">
 								With the new Technology Transition Rule, the EPA has designated that refrigerants must phase down the use of Hydrofluorocarbons (HFCs) to meet the new GWP (Global Warming Potential) level. To reduce HFCs the EPA has designated that refrigerants must meet a new GWP (Global Warming Potential) of 700. The current refrigerant R-410A has a GWP of 2088 and does not meet the new GWP level.
 								<br><br>
-								For A2L training highlights and general information, be sure to check out our November 2023 training and Q&A sessions.
+								For A2L training highlights and general information, be sure to check out our <a style="color: #1f88d9" href="https://youtu.be/gzjlNehTdSg" target="_blank">November 2023 training</a> and <a style="color: #1f88d9" href="https://youtu.be/pI8xhNC5jNo" target="_blank">Q&A sessions</a>.
 								<br>
-								<a href="https://youtu.be/gzjlNehTdSg" target="_blank">November 2023 training</a> | 
-								<a href="https://youtu.be/pI8xhNC5jNo" target="_blank">Q&A Sessions</a>
-
+							
 
 							</p>
 						</div>
