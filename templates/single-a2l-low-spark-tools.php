@@ -48,7 +48,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 										<a class="nav-link text-light" href="https://victorpared.es/js/landing-page/a2l-refrigerant/">Refrigerant</a>
 									</li>
 									<li class="nav-item px-4">
-										<a class="nav-link text-light" href="https://victorpared.es/js/landing-page/a2l-low-spark-tools/">Low Spark Tools</a>
+										<a class="nav-link text-light" href="https://victorpared.es/js/landing-page/a2l-low-spark-tools/">A2L Compatible Tools</a>
 									</li>
 								</ul>
 							</div>
@@ -63,7 +63,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 			<div class="container">
 				<div class="row">
 					<div class="col-12 col-lg-11 pt-5 pb-4">
-						<h1 class="text-light mt-5 mb-4"><strong>Low Spark Tools</strong></h1>
+						<h1 class="text-light mt-5 mb-4"><strong>A2L Compatible Tools</strong></h1>
 				
 						<div class="header_block">
 							<!-- <h2 class="mt-6 font-weight-bold hp-find-region about-seer-2" tabindex="-1">Technology Transition Rule: </h2> -->

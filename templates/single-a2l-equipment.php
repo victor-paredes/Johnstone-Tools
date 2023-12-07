@@ -48,7 +48,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 										<a class="nav-link text-light" href="https://victorpared.es/js/landing-page/a2l-refrigerant/">Refrigerant</a>
 									</li>
 									<li class="nav-item px-4">
-										<a class="nav-link text-light" href="https://victorpared.es/js/landing-page/a2l-low-spark-tools/">Low Spark Tools</a>
+										<a class="nav-link text-light" href="https://victorpared.es/js/landing-page/a2l-low-spark-tools/">A2L Compatible Tools</a>
 									</li>
 								</ul>
 							</div>
