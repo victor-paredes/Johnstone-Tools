@@ -72,7 +72,7 @@ get_template_part( 'parts/a2l_header' ); ?>
 								<br><br>
 								For A2L training highlights and general information, be sure to check out our November 2023 training and Q&A sessions.
 								<br>
-								<a href="https://youtu.be/gzjlNehTdSg" target="_blank">November 2023 training</a>
+								<a href="https://youtu.be/gzjlNehTdSg" target="_blank">November 2023 training</a> | 
 								<a href="https://youtu.be/pI8xhNC5jNo" target="_blank">Q&A Sessions</a>
 
 
