@@ -32,7 +32,7 @@
 
 
         <?php
-            } // END while( have_rows('product_cards') )
+            } // END while( have_rows('copy') )
         ?>
 
 
