@@ -83,11 +83,12 @@
 
 
 <style>
-    @media ( max-width: 575px ) {
-        .featured_product_label {
-            margin-bottom: 0 !important;
-        }
-    }
+    .countdown_class {
+					font-size: 2.5rem;
+					font-weight: 700!important;
+					color: #062655;
+					}
+
 </style>
 
 
