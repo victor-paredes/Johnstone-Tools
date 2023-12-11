@@ -21,11 +21,9 @@
                 
                 <div class="card" style="background-color: transparent;">
 
-                    <?php if ( get_sub_field( 'column_copy' ) == true) { ?>
-                        <h4 class="featured_product_label" style="font-family:sans-serif;background-color: #1F3962; color: #fff; margin-bottom: -25px;">
-                            Featured Product
-                        </h4>
-                    <?php } ?>
+              
+                            <?php the_sub_field('column_copy'); ?>
+              
                 
 
 
