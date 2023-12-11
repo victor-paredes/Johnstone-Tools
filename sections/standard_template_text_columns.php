@@ -21,7 +21,7 @@
                 
                 <div class="card" style="background-color: transparent;">
               
-                            <?php the_sub_field('column_copy'); ?>
+                            <?php echo 'field: ' . get_sub_field('column_copy'); ?>
 
                 </div> <!-- END .card -->
 
