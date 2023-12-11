@@ -1,5 +1,5 @@
 
-<div class="standard_template_product_cards_wrap" style="margin-bottom: 25px;">
+<div class="standard_template_product_cards_wrap" style="margin-top: 25px;">
     <div class="card-deck">
 
 
