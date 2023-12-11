@@ -32,7 +32,7 @@ get_template_part( 'parts/js_header' ); ?>
                         get_template_part( 'sections/standard_template_product_cards' );
                     } elseif ( $current_layout == 'additional_resources' ) {
                         get_template_part( 'sections/standard_template_additional_resources' );
-                    } elseif ( $current_layout == 'additional_resources' ) {
+                    } elseif ( $current_layout == 'text_columns' ) {
                         get_template_part( 'sections/standard_template_text_columns' );
                     }
 
