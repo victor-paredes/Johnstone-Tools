@@ -2,8 +2,12 @@
 
 
             <div class="col-12 pt-3 text-center">
-				<h1 class="text-light font-weight-bold">Are you ready?</h1>
-				<p class="text-light">All HVAC systems must be SEER2 certified in:</p>
+				<h1 class="text-light font-weight-bold">
+                    <?php the_sub_field('title') ?>
+                </h1>
+				<p class="text-light">
+                    <?php the_sub_field('subtitle') ?>
+                </p>
 
 				<div id="countDown" class="row justify-content-center text-light">
 					<div class="col-4 col-md-3 col-lg-2 px-1 px-md-3">
