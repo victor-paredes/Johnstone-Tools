@@ -12,7 +12,7 @@ test
             while( have_rows('text_column_content') ){ 
                 the_row(); 
         ?>
-                
+                1
                 
                 <div class="card" style="background-color: transparent;">
               
