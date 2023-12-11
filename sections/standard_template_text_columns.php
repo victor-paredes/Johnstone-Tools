@@ -14,14 +14,14 @@
 
 
         <?php
-            while( have_rows('product_cards') ){ 
+            while( have_rows('text_columns') ){ 
                 the_row(); 
         ?>
                 
                 
                 <div class="card" style="background-color: transparent;">
 
-                    <?php if ( get_sub_field( 'text_columns' ) == true) { ?>
+                    <?php if ( get_sub_field( 'column_copy' ) == true) { ?>
                         <h4 class="featured_product_label" style="font-family:sans-serif;background-color: #1F3962; color: #fff; margin-bottom: -25px;">
                             Featured Product
                         </h4>
