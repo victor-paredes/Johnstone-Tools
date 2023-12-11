@@ -14,7 +14,7 @@
 
 
         <?php
-            while( have_rows('text_columns') ){ 
+            while( have_rows('copy') ){ 
                 the_row(); 
         ?>
                 
