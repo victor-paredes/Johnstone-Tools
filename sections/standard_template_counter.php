@@ -34,7 +34,7 @@
 
 
             <script>
-                const deadline = '2024-12-31';
+                const deadline = "<?php the_sub_field('date') ?>";
                 initializeClock('countDown', deadline);
 
                 function getTimeRemaining(endtime) {
