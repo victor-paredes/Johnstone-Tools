@@ -11,7 +11,7 @@
         ?>
      
                 
-                <div class="card" style="background-color: transparent;">
+                <div class="card" style="background-color: transparent; border: initial;">
               
                             <?php the_sub_field('column_copy'); ?>
 
