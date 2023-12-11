@@ -2,9 +2,9 @@
 
 
             <div class="col-12 pt-3 text-center">
-				<h1 class="font-weight-bold">
+				<h2 class="font-weight-bold">
                     <?php the_sub_field('title') ?>
-                </h1>
+                </h2>
 				<p class="">
                     <?php the_sub_field('subtitle') ?>
                 </p>
