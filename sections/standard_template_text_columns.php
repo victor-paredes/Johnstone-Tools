@@ -2,9 +2,6 @@
 <div class="standard_template_product_cards_wrap">
     <div class="card-deck">
 
-    
-
-test
 
 
 
