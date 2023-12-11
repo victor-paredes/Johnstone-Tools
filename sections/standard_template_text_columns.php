@@ -1,5 +1,5 @@
 
-<div class="standard_template_product_cards_wrap">
+<div class="standard_template_product_cards_wrap" style="margin-bottom: 25px;">
     <div class="card-deck">
 
 
@@ -13,7 +13,7 @@
                 
                 <div class="card" style="background-color: transparent;">
               
-                            <?php echo 'field: ' . get_sub_field('column_copy'); ?>
+                            <?php the_sub_field('column_copy'); ?>
 
                 </div> <!-- END .card -->
 
