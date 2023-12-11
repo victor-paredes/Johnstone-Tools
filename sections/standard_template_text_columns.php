@@ -8,29 +8,12 @@
 
 
 
-    <?php echo 'test: '; ?>
+   lorem ipsum
 
 
 
 
-        <?php
-            while( have_rows('text_column_content') ){ 
-                the_row(); 
-        ?>
-                
-                
-                <div class="card" style="background-color: transparent;">
-              
-                            <?php echo 'field: ' . get_sub_field('column_copy'); ?>
-
-                </div> <!-- END .card -->
-
-
-
-        <?php
-            } // END while( have_rows('copy') )
-        ?>
-
+        
 
             
                 
@@ -44,11 +27,7 @@
 
 
 <style>
-    @media ( max-width: 575px ) {
-        .featured_product_label {
-            margin-bottom: 0 !important;
-        }
-    }
+    
 </style>
 
 
