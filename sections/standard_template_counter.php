@@ -2,13 +2,7 @@
 
 
             <div class="col-12 pt-3 text-center">
-				<h2 class="font-weight-bold">
-                    <?php the_sub_field('title') ?>
-                </h2>
-				<p class="">
-                    <?php the_sub_field('subtitle') ?>
-                </p>
-
+                <?php the_sub_field('counter_copy') ?>
 				<div id="countDown" class="row justify-content-center text-light">
 					<div class="col-4 col-md-3 col-lg-2 px-1 px-md-3">
 						<div class="bg-light border-radius-sm shadow">
