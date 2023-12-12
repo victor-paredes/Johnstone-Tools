@@ -5,7 +5,7 @@
 
                 <?php the_sub_field('counter_copy') ?>
 
-				<div id="countDown" class="row justify-content-center text-light">
+				<div id="countDown" class="row justify-content-center text-light text-center">
 					<div class="col-4 col-md-3 col-lg-2 px-1 px-md-3">
 						<div class="bg-light border-radius-sm shadow">
 							<span class="days d-block text-darkblue text-4rem font-weight-bold countdown_class">&nbsp;</span>
