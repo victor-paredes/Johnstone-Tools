@@ -1,5 +1,5 @@
 
-<div class="standard_template_product_cards_wrap" style="margin-top: 25px;">
+<div class="" style="margin-top: 25px;">
     <div class="card-deck">
 
 
@@ -36,11 +36,6 @@
 
 
 <style>
-    @media ( max-width: 575px ) {
-        .featured_product_label {
-            margin-bottom: 0 !important;
-        }
-    }
 </style>
 
 
