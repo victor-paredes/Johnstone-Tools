@@ -1,9 +1,9 @@
 
 
 
-<div class="col-12 pt-3" style="background-color: #004a90; border-radius: .25rem;">
+<div class="col-12 pt-3" style="background-color: <?php the_sub_field('background_color'); ?>; border-radius: .25rem;">
 
-    <?php the_sub_field('counter_copy') ?>
+    <?php the_sub_field('counter_copy'); ?>
 
     <div id="countDown" class="row justify-content-center text-light text-center">
         <div class="col-4 col-md-3 col-lg-2 px-1 px-md-3">
