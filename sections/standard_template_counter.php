@@ -1,7 +1,7 @@
 
 
 
-<div class="col-12 pt-3">
+<div class="col-12 pt-3" style="background-color: #004a90;">
 
     <?php the_sub_field('counter_copy') ?>
 
