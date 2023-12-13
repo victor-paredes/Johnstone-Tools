@@ -112,7 +112,6 @@
   opacity: 0;
   height: 0;
   transform-origin: center center;
-  transform: rotate3d(-1, 0, 0, 90deg);
   transition: all 0.3s ease;
 }
 
