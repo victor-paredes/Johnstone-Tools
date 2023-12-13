@@ -59,7 +59,7 @@
 .accordion__item:before,
 .accordion__item:after {
   content: "";
-  width: 10px;
+  width: 15px;
   height: 2px;
   top: 25px;
   background-color: #c7c7c7;
