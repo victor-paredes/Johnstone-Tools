@@ -48,19 +48,27 @@ get_template_part( 'parts/js_header' ); ?>
         
         
     <?php } else {
-        echo 'no rows';
+        echo 'Nothing here...';
     } ?>
 
 
 </div> <!-- end -->
 
-<div id="js_tools_wrap">
-    <center>
-        <button id="copyButton">
-            Copy BR Code
-        </button>
-    </center>
-</div>
+
+
+
+<?php if (is_user_logged_in() == 1) { ?>
+    <div id="js_tools_wrap">
+        <center>
+            <button id="copyButton">
+                Copy BR Code
+            </button>
+        </center>
+    </div>
+<?php } ?>
+
+
+
 
 <script>
     // copy content to clipboard
