@@ -36,7 +36,7 @@ get_template_part( 'parts/js_header' ); ?>
                         get_template_part( 'sections/standard_template_text_columns' );
                     } elseif ( $current_layout == 'counter' ) {
                         get_template_part( 'sections/standard_template_counter' );
-                    } elseif ( $current_layout == 'counter' ) {
+                    } elseif ( $current_layout == 'accordion' ) {
                         get_template_part( 'sections/standard_template_accordion' );
                     }
 
