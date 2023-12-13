@@ -116,7 +116,7 @@
 
 .accordion__item:focus .accordion__content {
   height: auto;
-  padding: 0 0 30px 0;
+  /* padding: 0 0 30px 0; */
   visibility: visible;
   transform: rotate3d(0, 0, 0, 0deg);
   opacity: 1;
