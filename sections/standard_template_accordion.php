@@ -45,6 +45,8 @@
 <style>
 .accordion {
   width: 100%;
+  border-width: 0;
+  border-width-left: 1px;
 }
 
 .accordion__item {
