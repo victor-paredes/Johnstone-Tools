@@ -93,7 +93,7 @@
 }
 
 .accordion__title {
-  padding: 15px 60px 15px 30px;
+  padding: 15px 60px 15px 0;
 }
 
 .accordion__title:hover {
@@ -105,7 +105,7 @@
 }
 
 .accordion__content {
-  padding: 15px 60px 15px 30px;
+  padding: 15px 60px 15px 0;
   border-top: 1px solid #eee;
   margin: 0px 30px; 
   visibility: collapse;
@@ -117,8 +117,7 @@
 
 .accordion__item:focus .accordion__content {
   height: auto;
-  padding: 30px 0px;
-  margin: 0px 30px;
+  padding: 0 0 30px 0;
   visibility: visible;
   transform: rotate3d(0, 0, 0, 0deg);
   opacity: 1;
