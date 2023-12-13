@@ -90,6 +90,11 @@
   outline: 0;
   cursor: default;
   background: #0d60ab;
+}
+.accordion__item:focus .accordion__title {
+  color: #25aff3;
+}
+.accordion__item:focus .accordion__content {
   color: #fff;
 }
 
