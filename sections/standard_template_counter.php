@@ -1,7 +1,7 @@
 
 
 
-<div class="col-12 pt-3 pb-3" style="
+<div class="col-12 pt-3 pb-4" style="
      background-color: <?php the_sub_field('background_color'); ?>;
      border-radius: .25rem;
      background-image: url(<?php the_sub_field("background_image") ?>);
