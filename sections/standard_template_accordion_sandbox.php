@@ -54,14 +54,12 @@
             
 
 
-</div> <!-- standard_template_product_cards_wrap -->
+
 
 
 
 
 <style>
- 
-
 .accordion {
   width: 100%;
   border: 1px solid #eee;
