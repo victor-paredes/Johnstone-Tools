@@ -5,7 +5,7 @@
 
 
         <?php
-            while( have_rows('accordion_content') ){ 
+            while( have_rows('accordion') ){ 
                 the_row(); 
         ?>
      
