@@ -48,7 +48,7 @@
   border-width: 0;
   border-left: 1px solid #fafafa;
 }
-
+ 
 .accordion__item {
   position: relative;
   width: 100%;
