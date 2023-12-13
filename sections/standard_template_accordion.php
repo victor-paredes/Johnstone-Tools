@@ -90,6 +90,7 @@
   outline: 0;
   cursor: default;
   background: #0d60ab;
+  color: #fff;
 }
 
 .accordion__title {
