@@ -12,7 +12,7 @@
                 
                 <div class="" style="background-color: transparent; border: initial;">
               
-                            <?php the_sub_field('accordion_item'); ?>
+                            <b><?php the_sub_field('accordion_item'); ?></b>
                             <br>
                             <?php the_sub_field('accordion_item_content'); ?>
 
