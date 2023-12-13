@@ -29,7 +29,7 @@
                 <strong class="d-block mt-n2 pb-3 text-secondary">Minutes</strong>
             </div>
         </div>
-    </div>
+    </div> 
 
     <p>&nbsp;</p>
 
