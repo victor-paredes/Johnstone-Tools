@@ -53,6 +53,7 @@
   cursor: pointer;
   border-bottom: 1px solid #eee;
   overflow: hidden;
+  border-radius: .25rem;
 }
 
 .accordion__item:before,
