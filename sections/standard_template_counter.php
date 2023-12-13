@@ -1,7 +1,7 @@
 
 
 
-<div class="col-12 pt-3" style="
+<div class="col-12 pt-3 pb-3" style="
      background-color: <?php the_sub_field('background_color'); ?>;
      border-radius: .25rem;
      background-image: url(<?php the_sub_field("background_image") ?>);
@@ -27,7 +27,6 @@
                 <span class="minutes d-block text-darkblue text-4rem font-weight-bold countdown_class">&nbsp;</span>
                 <strong class="d-block mt-n3 pb-3 text-secondary">Minutes</strong>
             </div>
-            <br>
         </div>
     </div>
 
