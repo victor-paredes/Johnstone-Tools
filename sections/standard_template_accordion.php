@@ -46,7 +46,7 @@
 .accordion {
   width: 100%;
   border-width: 0;
-  border-left: 1px solid;
+  border-left: 1px solid #fafafa;
 }
 
 .accordion__item {
