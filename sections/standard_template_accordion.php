@@ -93,6 +93,7 @@
 
 .accordion__title {
   padding: 15px 60px 15px 15px;
+  transition: all 0.5s ease;
 }
 
 .accordion__title:hover {
