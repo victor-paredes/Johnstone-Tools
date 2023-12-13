@@ -100,6 +100,9 @@
 .accordion__title:hover {
   background: #fafafa;
 }
+.accordion__title:focus:hover {
+  background: #ff0000;
+}
 
 .accordion__item:focus .accordion__title {
   /* font-weight: 600; */
