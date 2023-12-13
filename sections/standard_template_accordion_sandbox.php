@@ -5,7 +5,7 @@
 
 
   
-        <div class="accordion">
+<div class="accordion">
 
 
 
@@ -31,17 +31,14 @@
 
 
 
-                        <div class="section">
-                        <input type="radio" name="accordion-1" id="section-1" checked="checked"/>
-                        <label for="section-1"><span>Messages</span></label>
-                        <div class="content">
-                            <ul>
-                            <li><i class="fa fa-inbox"></i><span>Inbox</span></li>
-                            <li><i class="fa fa-share"></i><span>Sent    </span></li>
-                            <li><i class="fa fa-archive"></i><span>Archive</span></li>
-                            </ul>
-                        </div>
-                 
+                       
+
+    <div class="accordion__item" tabindex="1">
+      <div class="accordion__title">Title</div>
+      <div class="accordion__content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum mauris, laoreet in ipsum          vitae, efficitur dapibus lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus.        Duis tempus quam dolor, sagittis finibus velit auctor sed. Proin a ipsum id leo accumsan              laoreet. Nulla suscipit elit non risus tincidunt, 
+      </div>
+
                         
                     
 
@@ -52,9 +49,8 @@
             ?>
 
 
-
-        </div>
-    </div>
+</div>
+ 
             
 
 
