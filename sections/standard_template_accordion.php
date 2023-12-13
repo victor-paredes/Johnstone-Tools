@@ -67,7 +67,7 @@
   transition: all 0.5s ease;
 }
 
-.accordion__item:before {
+.accordion__item:before { 
   right: 20px;
   transform: rotate(-45deg);
 }
