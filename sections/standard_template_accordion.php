@@ -1,6 +1,5 @@
 
 <div class="<?php the_sub_field('css_classes'); ?>" style="margin-top: 25px;">
-    <div class="card-deck">
 
 
 
@@ -11,7 +10,7 @@
         ?>
      
                 
-                <div class="card" style="background-color: transparent; border: initial;">
+                <div class="" style="background-color: transparent; border: initial;">
               
                             <?php the_sub_field('accordion_item'); ?>
                             <br>
@@ -22,7 +21,7 @@
 
 
         <?php
-            } // END while( have_rows('copy') )
+            } // END while( have_rows('accordion_content') )
         ?>
 
 
@@ -37,16 +36,18 @@
 
 
 
+
+
+
+
+
+
+</div> <!-- standard_template_product_cards_wrap -->
+
+
+
+
 <style>
 </style>
-
-
-
-
-
-
-
-    </div> <!-- card-deck -->
-</div> <!-- standard_template_product_cards_wrap -->
 
 
