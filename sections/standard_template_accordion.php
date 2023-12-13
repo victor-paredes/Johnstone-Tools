@@ -45,7 +45,6 @@
 <style>
 .accordion {
   width: 100%;
-  /* border: 1px solid #eee; */
 }
 
 .accordion__item {
