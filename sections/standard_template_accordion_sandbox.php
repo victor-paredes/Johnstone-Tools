@@ -4,7 +4,7 @@
 
 
 
-    <div class="left-menu">
+  
         <div class="accordion">
 
 
@@ -41,7 +41,7 @@
                             <li><i class="fa fa-archive"></i><span>Archive</span></li>
                             </ul>
                         </div>
-                        </div>
+                 
                         
                     
 
