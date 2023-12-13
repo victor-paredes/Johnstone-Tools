@@ -14,19 +14,19 @@
         <div class="col-4 col-md-3 col-lg-2 px-1 px-md-3">
             <div class="bg-light border-radius-sm shadow" style="border-radius: .25rem;">
                 <span class="days d-block text-darkblue text-4rem countdown_class">&nbsp;</span>
-                <strong class="d-block mt-n2 pb-3 text-secondary">Days</strong>
+                <span class="d-block mt-n2 pb-3 text-secondary">Days</span>
             </div> 
         </div>
         <div class="col-4 col-md-3 col-lg-2 px-1 px-md-3"> 
             <div class="bg-light border-radius-sm shadow" style="border-radius: .25rem;">
                 <span class="hours d-block text-darkblue text-4rem countdown_class">&nbsp;</span>
-                <strong class="d-block mt-n2 pb-3 text-secondary">Hours</strong>
+                <span class="d-block mt-n2 pb-3 text-secondary">Hours</span>
             </div>
         </div> 
         <div class="col-4 col-md-3 col-lg-2 px-1 px-md-3">
             <div class="bg-light border-radius-sm shadow" style="border-radius: .25rem;">
                 <span class="minutes d-block text-darkblue text-4rem countdown_class">&nbsp;</span>
-                <strong class="d-block mt-n2 pb-3 text-secondary">Minutes</strong>
+                <span class="d-block mt-n2 pb-3 text-secondary">Minutes</span>
             </div>
         </div>
     </div> 
