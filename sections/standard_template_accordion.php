@@ -92,7 +92,7 @@
 }
 
 .accordion__title {
-  padding: 15px 60px 15px 0;
+  padding: 15px 60px 15px 15px;
 }
 
 .accordion__title:hover {
@@ -104,7 +104,7 @@
 }
 
 .accordion__content {
-  padding: 0 60px 0 0;
+  padding: 0 60px 0 15px;
   /* border-top: 1px solid #eee; */
   /* margin: 0px 30px;  */
   visibility: collapse;
