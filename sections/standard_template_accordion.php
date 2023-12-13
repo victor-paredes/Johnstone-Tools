@@ -93,8 +93,7 @@
 }
 
 .accordion__title {
-  width: 85%;
-  padding: 15px 0 15px 30px;
+  padding: 15px 15% 15px 30px;
 }
 
 .accordion__title:hover {
