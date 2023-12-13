@@ -49,6 +49,7 @@
   border-top: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+  border-radius: .25rem;
 }
  
 .accordion__item {
