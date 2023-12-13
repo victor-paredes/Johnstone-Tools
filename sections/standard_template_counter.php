@@ -5,6 +5,7 @@
      background-color: <?php the_sub_field('background_color'); ?>;
      border-radius: .25rem;
      background-image: url(<?php the_sub_field("background_image") ?>);
+     background-size: cover;
      ">
  
     <?php the_sub_field('counter_copy'); ?>
