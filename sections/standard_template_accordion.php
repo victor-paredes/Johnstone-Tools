@@ -61,7 +61,7 @@
   content: "";
   width: 15px;
   height: 3px;
-  top: 30px;
+  top: 10px;
   background-color: #c7c7c7;
   border-radius: 50px;
   position: absolute;
