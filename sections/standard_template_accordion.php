@@ -97,6 +97,9 @@
 .accordion__item:focus .accordion__content {
   color: #fff;
 }
+.accordion__item:focus .accordion__content a {
+  color: #25aff3;
+}
 
 .accordion__title {
   padding: 15px 60px 15px 15px;
