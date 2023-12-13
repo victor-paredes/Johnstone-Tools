@@ -5,7 +5,7 @@
      background-color: <?php the_sub_field('background_color'); ?>;
      border-radius: .25rem;
      <?php if(the_sub_field('background_image')) {
-        echo 'background-image: url(' . the_sub_field("background_image") . ';' 
+        echo 'background-image: url(' . the_sub_field("background_image") . ';';
         } ?> 
      ">
 
