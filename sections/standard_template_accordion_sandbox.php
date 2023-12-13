@@ -14,35 +14,14 @@
                     the_row(); 
             ?>
 
-
-            
-
-     
-                
-                <div class="" style="background-color: transparent; border: initial;">
-              
-                            <b><?php the_sub_field('accordion_item'); ?></b>
-                            <br>
-                            <?php the_sub_field('accordion_item_content'); ?>
-
-                </div> <!-- END .card -->
-
-
-
-
-
-                       
-
-    <div class="accordion__item" tabindex="1">
-      <div class="accordion__title">Title</div>
-      <div class="accordion__content">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum mauris, laoreet in ipsum          vitae, efficitur dapibus lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus.        Duis tempus quam dolor, sagittis finibus velit auctor sed. Proin a ipsum id leo accumsan              laoreet. Nulla suscipit elit non risus tincidunt, 
-      </div>
-
-                        
-                    
-
-
+              <div class="accordion__item" tabindex="1">
+                <div class="accordion__title">
+                  <b><?php the_sub_field('accordion_item'); ?></b>
+                </div>
+                <div class="accordion__content">
+                  <?php the_sub_field('accordion_item_content'); ?>
+                </div>
+              </div>
 
             <?php
                 } // END while( have_rows('accordion_content') )
