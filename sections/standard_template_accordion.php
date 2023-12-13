@@ -98,7 +98,7 @@
   color: #fff;
 }
 .accordion__item:focus .accordion__content a {
-  color: #25aff3;
+  color: #25aff3 !important;
 }
 
 .accordion__title {
