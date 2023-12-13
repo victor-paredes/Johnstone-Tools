@@ -105,6 +105,7 @@
 }
 
 .accordion__content {
+  padding: 15px 60px 15px 30px;
   border-top: 1px solid #eee;
   margin: 0px 30px; 
   visibility: collapse;
