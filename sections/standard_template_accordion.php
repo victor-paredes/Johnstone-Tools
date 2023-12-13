@@ -88,7 +88,7 @@
 .accordion__item:focus {
   outline: 0;
   cursor: default;
-  background: #fafafa;
+  background: #0d60ab;
 }
 
 .accordion__title {
