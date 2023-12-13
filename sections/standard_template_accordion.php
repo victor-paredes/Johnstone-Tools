@@ -106,7 +106,7 @@
 
 .accordion__content {
   border-top: 1px solid #eee;
-  margin: 0px 30px;
+  margin: 0px 30px; 
   visibility: collapse;
   opacity: 0;
   height: 0;
