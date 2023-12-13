@@ -4,10 +4,19 @@
 
 
 
-        <?php
-            while( have_rows('accordion_content') ){ 
-                the_row(); 
-        ?>
+    <div class="left-menu">
+        <div class="accordion">
+
+
+
+            <?php
+                while( have_rows('accordion_content') ){ 
+                    the_row(); 
+            ?>
+
+
+            
+
      
                 
                 <div class="" style="background-color: transparent; border: initial;">
@@ -22,15 +31,30 @@
 
 
 
-                
+                        <div class="section">
+                        <input type="radio" name="accordion-1" id="section-1" checked="checked"/>
+                        <label for="section-1"><span>Messages</span></label>
+                        <div class="content">
+                            <ul>
+                            <li><i class="fa fa-inbox"></i><span>Inbox</span></li>
+                            <li><i class="fa fa-share"></i><span>Sent    </span></li>
+                            <li><i class="fa fa-archive"></i><span>Archive</span></li>
+                            </ul>
+                        </div>
+                        </div>
+                        
+                    
 
 
 
-        <?php
-            } // END while( have_rows('accordion_content') )
-        ?>
+            <?php
+                } // END while( have_rows('accordion_content') )
+            ?>
 
 
+
+        </div>
+    </div>
             
 
 
