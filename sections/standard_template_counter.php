@@ -4,9 +4,10 @@
 <div class="col-12 pt-3" style="
      background-color: <?php the_sub_field('background_color'); ?>;
      border-radius: .25rem;
+     background-image: url(
      <?php if(the_sub_field('background_image')) {
-        echo 'background-image: url(' . get_sub_field("background_image") . ';';
-        } ?> 
+        echo '' . get_sub_field("background_image") . '';
+        } ?> ;
      ">
  
     <?php the_sub_field('counter_copy'); ?>
