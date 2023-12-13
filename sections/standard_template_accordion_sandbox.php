@@ -67,7 +67,7 @@
     .left-menu {
   background: #222;
   width: 100%;
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   bottom: 0;
 }
