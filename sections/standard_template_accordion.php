@@ -89,7 +89,7 @@
 .accordion__item:focus {
   outline: 0;
   cursor: default;
-  background: #00498f;
+  background: #003363;
 } 
 .accordion__item:focus .accordion__title {
   color: #25aff3;
