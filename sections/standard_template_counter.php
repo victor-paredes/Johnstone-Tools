@@ -8,7 +8,7 @@
         echo 'background-image: url(' . get_sub_field("background_image") . ';';
         } ?> 
      ">
-
+ 
     <?php the_sub_field('counter_copy'); ?>
 
     <div id="countDown" class="row justify-content-center text-light text-center">
