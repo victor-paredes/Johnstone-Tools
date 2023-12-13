@@ -27,6 +27,7 @@
                 <span class="minutes d-block text-darkblue text-4rem font-weight-bold countdown_class">&nbsp;</span>
                 <strong class="d-block mt-n3 pb-3 text-secondary">Minutes</strong>
             </div>
+            <br>
         </div>
     </div>
 
