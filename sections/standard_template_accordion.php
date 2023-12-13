@@ -95,6 +95,7 @@
   cursor: default;
   background: #003363;
   background-image: url(https://victorpared.es/js/wp-content/uploads/2023/12/blue_bg_dark.jpg);
+  background-size: cover;
 } 
 .accordion__item:focus .accordion__title {
   color: #25aff3;
