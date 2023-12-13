@@ -124,6 +124,7 @@
   height: 0;
   transform-origin: center center;
   transition: all 0.3s ease;
+  font-weight: initial;
 }
 
 .accordion__item:focus .accordion__content {
