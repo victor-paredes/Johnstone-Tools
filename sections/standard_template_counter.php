@@ -6,7 +6,7 @@
      border-radius: .25rem;
      background-image: url(
      <?php if(the_sub_field('background_image')) {
-        echo '' . get_sub_field("background_image") . '';
+        echo get_sub_field("background_image");
         } ?> ;
      ">
  
