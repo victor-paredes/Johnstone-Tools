@@ -11,7 +11,7 @@
                     <div class="text_columns_header_textcard p-5">
                         <span class="smalltext pb-2" style="text-transform: uppercase;">
                             <?php the_sub_field('subheader'); ?>
-                        </span>
+                        </span><br>
                         <?php the_sub_field('text_content'); ?>
                     </div>
                 </div> <!-- END .card -->
