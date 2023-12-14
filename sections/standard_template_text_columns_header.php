@@ -38,7 +38,7 @@
 <style>
     .text_columns_header_wrap {
         background-color: #113464;
-        color: #fff ; 
+        color: #fff !important; 
         border-radius: .25rem;
     }
     .text_columns_header_wrap h1 {
