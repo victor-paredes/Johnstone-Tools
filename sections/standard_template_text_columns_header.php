@@ -50,6 +50,9 @@
         padding-bottom: 20px;
 
     }
+    .smalltext {
+        font-size: 1rem;
+    }
 </style>
 
 
