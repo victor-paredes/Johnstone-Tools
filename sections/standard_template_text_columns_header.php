@@ -51,7 +51,7 @@
         display: block;
         height: 1px;
         width: 100% !important;
-        border-top: 1px solid linear-gradient(to right, #25aff3, #0071B9);
+        border-top: 1px solid #fff;
         margin: 1em 0; 
         padding: 0;
     }
