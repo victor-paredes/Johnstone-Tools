@@ -14,8 +14,9 @@
                 </div> <!-- END .card -->
 
                 <div class="card" style="background-color: transparent; border: initial;">
-              
-                            <img src="<?php the_sub_field('featured_image'); ?>">
+                    <div class="text_columns_header_textcard p-5">
+                        <img src="<?php the_sub_field('featured_image'); ?>">
+                    </div>
 
                 </div> <!-- END .card -->
 
