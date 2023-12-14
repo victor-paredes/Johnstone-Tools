@@ -50,7 +50,7 @@
     .table_wrap {
         /* margin: 0 auto; */
         border-radius: .25rem;
-        padding: 2vw;
+        padding: 10px;
     }
     .table_noexpand { 
         padding: 0 15px 0 15px;
