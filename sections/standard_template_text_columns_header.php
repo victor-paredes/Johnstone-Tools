@@ -39,6 +39,7 @@
     .text_columns_header_wrap {
         background-color: #113464;
         color: #fff; 
+        border-radius: .25rem;
     }
     .text_columns_header_textcard {
         display: flex;
