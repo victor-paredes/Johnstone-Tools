@@ -64,4 +64,16 @@
         background-color: #041e46;
         color: #fff;
     }
+
+    @media (max-width: 767px) { 
+        .table_wrap * {
+            font-size: 10px;
+        }
+        .table_noexpand { 
+            border-radius: 0.25rem;
+        } 
+        .table_noexpand td { 
+            padding: 5px;
+        }
+    }
 </style>
