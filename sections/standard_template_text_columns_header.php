@@ -34,7 +34,7 @@
 <style>
     .text_columns_header_wrap {
         background-color: #113464;
-        color: #fff;
+        color: #fff; 
     }
     .text_columns_header_textcard {
         
