@@ -3,7 +3,7 @@
     <div class=" row table_wrap shadow"><!-- wrap -->
 
 
-test
+        <?php the_sub_field('table_intro'); ?>
 
         <table class="table_noexpand">
 
