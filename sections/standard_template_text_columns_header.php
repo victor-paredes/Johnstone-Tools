@@ -9,7 +9,9 @@
                 
                 <div class="card" style="background-color: transparent; border: initial;">
                     <div class="text_columns_header_textcard p-5">
-                        <span class="smalltext" style="text-transform: uppercase;"><?php the_sub_field('subheader'); ?>
+                        <span class="smalltext" style="text-transform: uppercase;">
+                            <?php the_sub_field('subheader'); ?>
+                        </span>
                         <?php the_sub_field('text_content'); ?>
                     </div>
                 </div> <!-- END .card -->
