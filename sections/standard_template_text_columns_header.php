@@ -9,7 +9,7 @@
                 
                 <div class="card" style="background-color: transparent; border: initial;">
                     <div class="text_columns_header_textcard p-5">
-                        <div class="smalltext pb-2 w-100" style="text-transform: uppercase;">
+                        <div class="smalltext py-2 w-100" style="text-transform: uppercase;">
                             <?php the_sub_field('subheader'); ?>
                         </div>
                         <?php the_sub_field('text_content'); ?>
@@ -45,7 +45,6 @@
         height: 100%;
         flex-wrap: wrap;
         align-content: flex-start;
-        padding-top: 30px;
     }
     .text_columns_header_textcard h1 { 
         font-weight: 900;
