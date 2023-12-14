@@ -18,7 +18,7 @@
 
                 <div class="card" style="background-color: transparent; border: initial;">
                     <div class="py-5 text-center">
-                        <img src="<?php the_sub_field('featured_image'); ?>">
+                        <img src="<?php the_sub_field('featured_image'); ?>" style="width:100%;">
                     </div>
 
                 </div> <!-- END .card -->
