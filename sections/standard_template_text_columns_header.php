@@ -8,7 +8,7 @@
      
                 
                 <div class="card" style="background-color: transparent; border: initial;">
-                    <div class="text_columns_header_textcard">
+                    <div class="text_columns_header_textcard p-5">
                         <?php the_sub_field('text_content'); ?>
                     </div>
                 </div> <!-- END .card -->
@@ -36,8 +36,7 @@
         background-color: #113464;
         color: #fff; 
     }
-    .text_columns_header_textcard {
-        
+    .text_columns_header_textcard {        
     }
 </style>
 
