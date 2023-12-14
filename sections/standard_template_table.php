@@ -25,7 +25,7 @@
                         the_row(); 
                     ?>
 
-                        <td class="table_subheader" style="background-color: <?php the_sub_field('bg_color'); ?>; color: <?php the_sub_field('text_color'); ?>;">
+                        <td class="table_subheader" style="background-color: <?php the_sub_field('bg_color'); ?>; color: <?php the_sub_field('text_color'); ?>; border-color: <?php the_sub_field('border_color'); ?>;">
                             <?php the_sub_field('cell_content'); ?>
                         </td>
 
