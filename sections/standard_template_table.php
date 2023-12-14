@@ -5,7 +5,7 @@
 
         <?php the_sub_field('table_intro'); ?>
 
-        <table class="table_noexpand">
+        <table class="table_noexpand" style="table-layout: fixed;">
 
 
 
