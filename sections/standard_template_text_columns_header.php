@@ -39,10 +39,10 @@
         color: #fff; 
     }
     .text_columns_header_textcard {
-        justify-content: space-evenly;
         display: flex;
         height: 100%;
         flex-wrap: wrap;
+        align-content: center;
     }
     .text_columns_header_textcard h1 { 
         font-weight: 900;
