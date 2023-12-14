@@ -2,8 +2,12 @@
 			
     <div class=" row table_wrap shadow"><!-- wrap -->
 
-
-        <?php the_sub_field('table_intro'); ?>
+        
+        <?php
+            if ( the_sub_field('intro_content') == 'Yes' ) {
+                the_sub_field('table_intro');
+            }
+        ?>
 
         <table class="table_noexpand" style="table-layout: <?php the_sub_field('column_layout'); ?>;">
 
