@@ -59,6 +59,7 @@
     .table_noexpand td {
         padding: 15px;
         border: 1px solid #eee;
+        vertical-align: top;
     }
     .table_header {
         background-color: #041e46;
