@@ -45,12 +45,10 @@
 <style>
     .table_wrap {
         /* margin: 0 auto; */
-        border: solid 1px #dfdfdf;
         border-radius: .25rem;
         padding: 2vw;
     }
     .table_noexpand { 
-        border-radius: 0.25rem;
         padding: 0 15px 0 15px;
         width: 100%;
     }
