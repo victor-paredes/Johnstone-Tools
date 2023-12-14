@@ -7,28 +7,30 @@
   
 
 
-<div class="accordion">
+  <div class="accordion">
 
 
 
-            <?php
-                while( have_rows('accordion_content') ){ 
-                    the_row(); 
-            ?>
+              <?php
+                  while( have_rows('accordion_content') ){ 
+                      the_row(); 
+              ?>
 
-              <div class="accordion__item" tabindex="1">
-                <div class="accordion__title">
-                  <b><?php the_sub_field('accordion_item'); ?></b>
+                <div class="accordion__item" tabindex="1">
+                  <div class="accordion__title">
+                    <b><?php the_sub_field('accordion_item'); ?></b>
+                  </div>
+                  <div class="accordion__content">
+                    <?php the_sub_field('accordion_item_content'); ?>
+                  </div>
                 </div>
-                <div class="accordion__content">
-                  <?php the_sub_field('accordion_item_content'); ?>
-                </div>
-              </div>
 
-            <?php
-                } // END while( have_rows('accordion_content') )
-            ?>
+              <?php
+                  } // END while( have_rows('accordion_content') )
+              ?>
 
+
+  </div>
 
 </div>
 
