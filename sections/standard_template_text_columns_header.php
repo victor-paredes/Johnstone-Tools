@@ -17,7 +17,7 @@
                 </div> <!-- END .card -->
 
                 <div class="card" style="background-color: transparent; border: initial;">
-                    <div class="py-5">
+                    <div class="py-5 text-center">
                         <img src="<?php the_sub_field('featured_image'); ?>">
                     </div>
 
