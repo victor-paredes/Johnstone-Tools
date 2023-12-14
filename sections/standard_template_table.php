@@ -4,7 +4,7 @@
 
         
         <?php
-            if ( the_sub_field('intro_content') == 'Yes' ) {
+            if ( get_sub_field('intro_content') == 'Yes' ) {
                 the_sub_field('table_intro');
             }
         ?>
