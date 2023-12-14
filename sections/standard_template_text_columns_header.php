@@ -50,7 +50,7 @@
     .text_columns_header_wrap hr {
         display: block;
         height: 1px;
-        width: 100% !important;
+        width: 60px !important;
         border-top: 1px solid #fff;
         margin: 1em 0; 
         padding: 0;
