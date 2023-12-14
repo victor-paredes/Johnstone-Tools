@@ -44,7 +44,8 @@
         display: flex;
         height: 100%;
         flex-wrap: wrap;
-        align-content: center;
+        align-content: flex-start;
+        padding-top: 30px;
     }
     .text_columns_header_textcard h1 { 
         font-weight: 900;
