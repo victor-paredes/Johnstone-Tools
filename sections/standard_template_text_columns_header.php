@@ -37,7 +37,9 @@
         background-color: #113464;
         color: #fff; 
     }
-    .text_columns_header_textcard {        
+    .text_columns_header_textcard h1 { 
+        font-weight: 600;
+        padding-bottom: 20px;
     }
 </style>
 
