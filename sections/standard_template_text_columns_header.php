@@ -5,26 +5,16 @@
 
 
 
-        <?php
-            while( have_rows('text_column_content') ){ 
-                the_row(); 
-        ?>
      
                 
                 <div class="card" style="background-color: transparent; border: initial;">
               
-                            <?php the_sub_field('column_copy'); ?>
+                            <?php the_sub_field('text_content'); ?>
 
                 </div> <!-- END .card -->
 
 
 
-        <?php
-            } // END while( have_rows('copy') )
-        ?>
-
-
-            
                 
              
                     
