@@ -54,7 +54,6 @@
     } 
     .table_noexpand td {
         padding: 15px;
-        border-radius: .25rem;
         border: 1px solid #eee;
     }
     .table_header {
