@@ -1,5 +1,5 @@
 
-<div class="text_columns_header_wrap" style="margin-top: 25px;">
+<div class="text_columns_header_wrap" style="margin-top: 25px; margin-bottom: 10px;">
     <div class="card-deck">
 
 
