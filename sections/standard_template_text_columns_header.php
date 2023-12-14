@@ -38,8 +38,11 @@
 <style>
     .text_columns_header_wrap {
         background-color: #113464;
-        color: #fff; 
+        color: #fff ; 
         border-radius: .25rem;
+    }
+    .text_columns_header_wrap h1 {
+        color: #fff !important;
     }
     .text_columns_header_wrap a {
         color: #25aff3 !important;
