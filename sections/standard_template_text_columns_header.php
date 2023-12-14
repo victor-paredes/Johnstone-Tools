@@ -8,9 +8,9 @@
      
                 
                 <div class="card" style="background-color: transparent; border: initial;">
-              
-                            <?php the_sub_field('text_content'); ?>
-
+                    <div class="text_columns_header_textcard">
+                        <?php the_sub_field('text_content'); ?>
+                    </div>
                 </div> <!-- END .card -->
 
                 <div class="card" style="background-color: transparent; border: initial;">
@@ -34,6 +34,9 @@
 <style>
     .text_columns_header_wrap {
         background-color: #113464;
+    }
+    .text_columns_header_textcard {
+        
     }
 </style>
 
