@@ -40,7 +40,6 @@
     .text_columns_header_textcard {
         justify-content: space-evenly;
         display: flex;
-        align-content: center;
         height: 100%;
         flex-wrap: wrap;
     }
