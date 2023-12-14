@@ -14,7 +14,7 @@
                 </div> <!-- END .card -->
 
                 <div class="card" style="background-color: transparent; border: initial;">
-                    <div class="text_columns_header_textcard p-5">
+                    <div class="p-5">
                         <img src="<?php the_sub_field('featured_image'); ?>">
                     </div>
 
@@ -36,10 +36,13 @@
     .text_columns_header_wrap {
         background-color: #113464;
         color: #fff; 
-        display: flex;
     }
     .text_columns_header_textcard {
-        justify-content: center;
+        justify-content: space-evenly;
+        display: flex;
+        align-content: center;
+        height: 100%;
+        flex-wrap: wrap;
     }
     .text_columns_header_textcard h1 { 
         font-weight: 900;
