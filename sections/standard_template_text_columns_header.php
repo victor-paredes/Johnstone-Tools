@@ -36,11 +36,16 @@
     .text_columns_header_wrap {
         background-color: #113464;
         color: #fff; 
+        display: flex;
+    }
+    .text_columns_header_textcard {
+        justify-content: center;
     }
     .text_columns_header_textcard h1 { 
         font-weight: 900;
         font-size: 2rem;
         padding-bottom: 20px;
+
     }
 </style>
 
