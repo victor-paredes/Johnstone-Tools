@@ -38,7 +38,8 @@
         color: #fff; 
     }
     .text_columns_header_textcard h1 { 
-        font-weight: 600;
+        font-weight: 900;
+        font-size: 2rem;
         padding-bottom: 20px;
     }
 </style>
