@@ -53,6 +53,7 @@
         border-radius: 0.25rem;
         padding: 0 15px 0 15px;
         width: 100%;
+        border-radius: .25rem;
     }
     .table_noexpand td {
         padding: 15px;
