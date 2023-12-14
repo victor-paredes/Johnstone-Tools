@@ -47,6 +47,9 @@
     .text_columns_header_wrap a {
         color: #25aff3 !important;
     }
+    .text_columns_header_wrap {
+        border: 2px #fff;
+    }
     .text_columns_header_textcard {
         display: flex;
         height: 100%;
