@@ -2,22 +2,35 @@
 			
     <div class=" row table_wrap shadow"><!-- wrap -->
         <table class="table_noexpand">
-                
-            <tr class="">
-                <td class="border-bottom border-right table_subheader">
-                    <strong>GWP</strong>
-                </td>
-                <td class="border-bottom border-right table_subheader">
-                    <strong>466</strong>
-                    </td>
 
-                <td class="border-bottom border-right table_subheader">
-                    <strong>675</strong>
-                    </td>
-                <td class="border-bottom table_subheader">
-                    <strong>2088</strong>
-                    </td>
-            </tr>
+
+
+            <?php
+                while( have_rows('table_rows') ){ 
+                the_row(); 
+            ?>
+                <tr class="">
+
+
+                    <?php
+                        while( have_rows('row_content') ){ 
+                        the_row(); 
+                    ?>
+
+                        <td class="border-bottom border-right table_subheader">
+                            <?php the_sub_field('cell_content'); ?>
+                        </td>
+
+                    <?php
+                        } // END while( have_rows('accordion_content') )
+                    ?>  
+
+
+
+                </tr>
+            <?php
+                } // END while( have_rows('accordion_content') )
+            ?>
             
 
         </table>
