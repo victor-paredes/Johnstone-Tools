@@ -46,9 +46,15 @@
     }
     .text_columns_header_wrap a {
         color: #25aff3 !important;
-    } 
+    }
     .text_columns_header_wrap hr {
-        
+        display: block;
+        height: 1px;
+        width: 100%;
+        border: 0;
+        border-top: 1px solid linear-gradient(24deg, rgba(63,153,243,1) 0%, rgba(255,255,255,0) 100%);;
+        margin: 1em 0; 
+        padding: 0;
     }
     .text_columns_header_textcard {
         display: flex;
