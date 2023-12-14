@@ -50,7 +50,8 @@
 
     }
     .smalltext {
-        font-size: 1rem;
+        font-size: .5rem;
+        text-transform: uppercase;
     }
 </style>
 
