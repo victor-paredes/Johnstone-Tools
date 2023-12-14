@@ -52,7 +52,7 @@
         height: 1px;
         width: 100% !important;
         border: 0;
-        border-top: 1px solid linear-gradient(to right, rgba(63,153,243,1) 0%, rgba(255,255,255,0) 100%);;
+        border-top: 1px solid linear-gradient(to right, white, #0071B9, #26ABFF, #0071B9, white);
         margin: 1em 0; 
         padding: 0;
     }
