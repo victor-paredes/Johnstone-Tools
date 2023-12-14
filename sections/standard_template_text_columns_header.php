@@ -47,7 +47,7 @@
     .text_columns_header_wrap a {
         color: #25aff3 !important;
     }
-    .text_columns_header_wrap {
+    .text_columns_header_wrap hr {
         border: 2px #fff;
     }
     .text_columns_header_textcard {
