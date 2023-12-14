@@ -46,7 +46,7 @@
     }
     .text_columns_header_wrap a {
         color: #25aff3 !important;
-    }
+    } 
     .text_columns_header_wrap hr {
         
     }
