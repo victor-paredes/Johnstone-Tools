@@ -3,7 +3,7 @@
 
 
             <div class="mobile_menu_icon">
-                <svg viewBox="0 0 125 55" width="40" height="40">
+                <svg viewBox="0 0 125 50" width="40" height="40">
                 <rect></rect>
                 <rect y="25"></rect>
                 <rect y="50"></rect>
