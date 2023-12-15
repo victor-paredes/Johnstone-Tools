@@ -48,7 +48,8 @@ get_template_part( 'parts/js_header' ); ?>
             ?>
 
             <style>
-                
+                <?php the_field('additional_css'); ?>
+
                 .narrow_only {
                     display: none;
                 }
