@@ -49,7 +49,10 @@ get_template_part( 'parts/js_header' ); ?>
 
             <style>
                 <?php the_field('additional_css'); ?>
-
+                
+                .small_only {
+                    display: none;
+                }
                 .narrow_only {
                     display: none;
                 }
@@ -71,7 +74,9 @@ get_template_part( 'parts/js_header' ); ?>
 
 
                 @media screen and (max-width: 576px) {
-                    
+                    .small_only {
+                        display: initial;
+                    }
                 }
                 @media screen and (max-width: 992px) {
                     .narrow_only {
