@@ -76,7 +76,7 @@
         width: 70px;
     }
     .menu-item {
-        py-2
+        padding: 10px 5px;
     }
 
     @media screen and (max-width: 576px) {
