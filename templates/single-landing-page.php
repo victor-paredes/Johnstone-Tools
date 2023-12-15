@@ -42,6 +42,8 @@ get_template_part( 'parts/js_header' ); ?>
                         get_template_part( 'sections/standard_template_accordion' );
                     } elseif ( $current_layout == 'table' ) {
                         get_template_part( 'sections/standard_template_table' );
+                    } elseif ( $current_layout == 'menu' ) {
+                        get_template_part( 'sections/standard_template_menu' );
                     } 
 
                 }
