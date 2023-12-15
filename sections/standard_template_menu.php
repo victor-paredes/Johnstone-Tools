@@ -11,7 +11,7 @@
         ?>
      
                 
-            <a href="<?php the_sub_field('link'); ?>">
+            <a class="menu_item" href="<?php the_sub_field('link'); ?>">
                 <div class="w-100">
                     <div class="w-100">
                         <?php the_sub_field('label'); ?> <br>
@@ -51,5 +51,8 @@
         display: flex;
         border-radius: .25rem;
         justify-content: space-evenly;
+    }
+    .menu_menu {
+        display: inline-block;
     }
 </style>
