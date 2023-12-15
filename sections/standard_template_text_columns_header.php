@@ -83,6 +83,9 @@
             position: initial !important;
             opacity: initial !important;
         }
+        .text_columns_header_textcard {
+            padding: 0 30px !important;
+        }
     }
     @media screen and (max-width: 992px) {
         .text_columns_header_image_card {
