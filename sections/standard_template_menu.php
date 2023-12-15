@@ -75,6 +75,9 @@
         height: 10px;
         width: 70px;
     }
+    .menu-item {
+        py-2
+    }
 
     @media screen and (max-width: 576px) {
 
