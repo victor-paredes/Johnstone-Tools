@@ -52,7 +52,7 @@
     }
 
     @media screen and (max-width: 992px) {
-        #countdown {
+        #countDown {
             width: 100% !important;
             padding-top: 0;
         }
