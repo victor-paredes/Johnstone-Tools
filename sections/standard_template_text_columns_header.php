@@ -17,7 +17,7 @@
                 </div> <!-- END .card -->
 
                 <div class="card" style="background-color: transparent; border: initial;">
-                    <div class="py-5 pr-5 text-center">
+                    <div class="padding_mobile py-5 pr-5 text-center">
                         <img src="<?php the_sub_field('featured_image'); ?>" style="width:100%; border-radius: .25rem;">
                     </div>
 

@@ -55,18 +55,18 @@ get_template_part( 'parts/js_header' ); ?>
                 .columnsCollectionContainer .col-md {
                     padding: 0 !important;
                 }
-                h2 {
+                .columnsCollectionContainer h2 {
                     font-size: 1.9rem !important;
                     padding-bottom: 10px !important;
                     font-weight: 900 !important;
                     font-size: 2rem !important;
                 }
-
+                
                 @media screen and (max-width: 576px) {
                     .text_columns_header_textcard {
                         padding: 0 30px !important;
                     }
-                    .text_padding_mobile {
+                    .padding_mobile {
                         padding: 0 30px !important;
                     } 
                 }
