@@ -2,7 +2,13 @@
 <div class="menu_wrap" style="background-color: #72aab3; border: 1px solid #b7ccd0;">
 
 
-        
+            <div class="mobile_menu_icon">
+                <svg viewBox="0 0 100 80" width="40" height="40">
+                <rect width="100" height="20"></rect>
+                <rect y="30" width="100" height="20"></rect>
+                <rect y="60" width="100" height="20"></rect>
+                </svg>
+            </div>
 
 
         <?php
@@ -10,13 +16,7 @@
                 the_row(); 
         ?>
      
-            <div>
-                <svg viewBox="0 0 100 80" width="40" height="40">
-                <rect width="100" height="20"></rect>
-                <rect y="30" width="100" height="20"></rect>
-                <rect y="60" width="100" height="20"></rect>
-                </svg>
-            </div>
+            
             
 
             <a class="menu_item" href="<?php the_sub_field('link'); ?>">
@@ -65,6 +65,12 @@
     }
     .menu_menu {
         display: inline-block;
+    }
+    .mobile_menu_icon {
+        width: 50px;
+    }
+    .mobile_menu_icon * {
+        color: #fff;
     }
 
     @media screen and (max-width: 576px) {
