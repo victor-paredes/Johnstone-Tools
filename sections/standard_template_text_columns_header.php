@@ -4,9 +4,12 @@
 
 
 
-
+                <div class="card narrow_only" style="background-color: transparent; border: initial;">
+                    <div class="padding_mobile py-5 pr-5 text-center">
+                        <img class="pb-5" src="<?php the_sub_field('featured_image'); ?>" style="width:100%; border-radius: .25rem;">
+                    </div>
+                </div> <!-- END .card -->
      
-                
                 <div class="card" style="background-color: transparent; border: initial;">
                     <div class="text_columns_header_textcard pl-5 py-5">
                         <div class="smalltext w-100" style="padding-top: 30px; padding-bottom: 15px; text-transform: uppercase;">
@@ -16,11 +19,10 @@
                     </div>
                 </div> <!-- END .card -->
 
-                <div class="card" style="background-color: transparent; border: initial;">
+                <div class="card wide_only" style="background-color: transparent; border: initial;">
                     <div class="padding_mobile py-5 pr-5 text-center">
                         <img class="pb-5" src="<?php the_sub_field('featured_image'); ?>" style="width:100%; border-radius: .25rem;">
                     </div>
-
                 </div> <!-- END .card -->
 
 

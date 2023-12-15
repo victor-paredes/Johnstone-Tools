@@ -48,7 +48,13 @@ get_template_part( 'parts/js_header' ); ?>
             ?>
 
             <style>
-
+                
+                .narrow_only {
+                    display: none;
+                }
+                .wide_only {
+                    display: initial;
+                }
                 .columnsCollectionContainer {
                     padding: 0;
                 }
@@ -62,7 +68,14 @@ get_template_part( 'parts/js_header' ); ?>
                     font-size: 2rem !important;
                 }
 
+
                 @media screen and (max-width: 576px) {
+                    .narrow_only {
+                        display: initial;
+                    }
+                    .wide_only {
+                        display: none;
+                    }
                     .text_columns_header_textcard {
                         padding: 0 30px !important;
                     }
