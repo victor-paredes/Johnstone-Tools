@@ -71,7 +71,7 @@ get_template_part( 'parts/js_header' ); ?>
             </button>
         </center>
     </div>
-<?php } ?>
+<?php } ?> 
 
 
 
