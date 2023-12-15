@@ -90,6 +90,9 @@
         .menu_wrap .menu_item {
             display: none;
         }
+        .menu_wrap:hover .menu_item {
+            display: initial;
+        }
         .menu_wrap a {
             text-align: center;
             border: 1px solid #fff;
