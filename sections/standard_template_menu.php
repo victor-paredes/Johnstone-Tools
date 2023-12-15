@@ -93,6 +93,8 @@
         }
         .menu_wrap a {
             text-align: center;
+            border: 1px solid #fff;
+            border-width: 0 0 1px 0;
         }
         .menu_wrap:hover a:not(:first-child) {
             height: initial;
