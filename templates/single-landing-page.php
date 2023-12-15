@@ -70,12 +70,6 @@ get_template_part( 'parts/js_header' ); ?>
 
 
                 @media screen and (max-width: 576px) {
-                    .narrow_only {
-                        display: initial;
-                    }
-                    .wide_only {
-                        display: none;
-                    }
                     .text_columns_header_textcard {
                         padding: 0 30px !important;
                     }
@@ -85,8 +79,10 @@ get_template_part( 'parts/js_header' ); ?>
                 }
                 @media screen and (max-width: 992px) {
                     .narrow_only {
+                        display: initial;
                     }
                     .wide_only {
+                        display: none;
                     }
                 }
                 /* @media screen and (min-width: 1200px) {
