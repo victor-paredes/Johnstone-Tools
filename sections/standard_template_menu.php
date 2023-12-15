@@ -6,7 +6,7 @@
 
 
         <?php
-            while( have_rows('menu') ){ 
+            while( have_rows('menu_items') ){ 
                 the_row(); 
         ?>
      
