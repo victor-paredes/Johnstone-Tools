@@ -75,6 +75,19 @@ get_template_part( 'parts/js_header' ); ?>
 
 
 
+<script>
+
+    .columnsCollectionContainer {
+        padding: 0;
+    }
+    .columnsCollectionContainer .col-md {
+        padding: 0 !important;
+    }
+
+</script>
+
+
+
 
 <script>
     // copy content to clipboard
