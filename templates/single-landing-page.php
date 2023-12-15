@@ -69,8 +69,11 @@ get_template_part( 'parts/js_header' ); ?>
                 .columnsCollectionContainer .col-md {
                     padding: 0 !important;
                 }
+                h1 {
+                    font-size: 1.8rem;
+                }
                 h2 {
-                    font-size: 1.9rem !important;
+                    font-size: 1.8rem !important;
                     padding-bottom: 10px !important;
                     font-weight: 900 !important;
                     font-size: 2rem !important;
