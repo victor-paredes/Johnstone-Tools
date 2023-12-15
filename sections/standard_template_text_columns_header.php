@@ -6,7 +6,7 @@
 
                 <div class="card narrow_only" style="background-color: transparent; border: initial;">
                     <div class="padding_mobile py-5 pr-5 text-center">
-                        <img class="pt-5" src="<?php the_sub_field('featured_image'); ?>" style="width:100%; border-radius: .25rem;">
+                        <img class="" src="<?php the_sub_field('featured_image'); ?>" style="width:100%; border-radius: .25rem;">
                     </div>
                 </div> <!-- END .card -->
      
@@ -70,6 +70,13 @@
     }
     .smalltext {
         font-size: .7rem;
+    }
+
+    @media screen and (max-width: 576px) {
+        .text_columns_header_wrap {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
     }
 </style>
 
