@@ -10,26 +10,28 @@
  
     <?php the_sub_field('counter_copy'); ?>
 
-    <div id="countDown" class="row justify-content-center text-light text-center">
-        <div class="col-4 col-md-3 col-lg-2 px-1 px-md-3">
-            <div class="bg-light border-radius-sm shadow" style="border-radius: .25rem;">
-                <span class="days d-block text-darkblue text-4rem countdown_class">&nbsp;</span>
-                <span class="d-block mt-n2 pb-3 text-secondary">Days</span>
+    <center>
+        <div id="countDown" class="row justify-content-center text-light text-center">
+            <div class="col-4 col-md-3 col-lg-2 px-1 px-md-3">
+                <div class="bg-light border-radius-sm shadow" style="border-radius: .25rem;">
+                    <span class="days d-block text-darkblue text-4rem countdown_class">&nbsp;</span>
+                    <span class="d-block mt-n2 pb-3 text-secondary">Days</span>
+                </div> 
+            </div>
+            <div class="col-4 col-md-3 col-lg-2 px-1 px-md-3"> 
+                <div class="bg-light border-radius-sm shadow" style="border-radius: .25rem;">
+                    <span class="hours d-block text-darkblue text-4rem countdown_class">&nbsp;</span>
+                    <span class="d-block mt-n2 pb-3 text-secondary">Hours</span>
+                </div>
             </div> 
-        </div>
-        <div class="col-4 col-md-3 col-lg-2 px-1 px-md-3"> 
-            <div class="bg-light border-radius-sm shadow" style="border-radius: .25rem;">
-                <span class="hours d-block text-darkblue text-4rem countdown_class">&nbsp;</span>
-                <span class="d-block mt-n2 pb-3 text-secondary">Hours</span>
+            <div class="col-4 col-md-3 col-lg-2 px-1 px-md-3">
+                <div class="bg-light border-radius-sm shadow" style="border-radius: .25rem;">
+                    <span class="minutes d-block text-darkblue text-4rem countdown_class">&nbsp;</span>
+                    <span class="d-block mt-n2 pb-3 text-secondary">Minutes</span>
+                </div>
             </div>
-        </div> 
-        <div class="col-4 col-md-3 col-lg-2 px-1 px-md-3">
-            <div class="bg-light border-radius-sm shadow" style="border-radius: .25rem;">
-                <span class="minutes d-block text-darkblue text-4rem countdown_class">&nbsp;</span>
-                <span class="d-block mt-n2 pb-3 text-secondary">Minutes</span>
-            </div>
-        </div>
-    </div>  
+        </div>  
+    </center>
 
     <p>&nbsp;</p>
 
