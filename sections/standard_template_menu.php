@@ -59,4 +59,16 @@
     .menu_menu {
         display: inline-block;
     }
+
+    @media screen and (max-width: 576px) {
+
+    }
+    @media screen and (max-width: 992px) {
+        .menu_wrap a {
+            width: 100%;
+        }
+    }
+    @media screen and (min-width: 1200px) {
+
+    }
 </style>
