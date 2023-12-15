@@ -88,7 +88,7 @@
             flex-direction: column;
         }
         .menu_wrap a:not(.mobile_menu_icon), .menu_wrap div:not(.mobile_menu_icon) {
-            height: 0;
+            height: 0; 
             display: none;
         }
         .menu_wrap a {
