@@ -12,8 +12,8 @@
      
                 
             <a href="<?php the_sub_field('link'); ?>">
-                <div>
-                    <div>
+                <div class="w-100">
+                    <div class="w-100">
                         <?php the_sub_field('label'); ?> <br>
                     </div>
                 </div>
