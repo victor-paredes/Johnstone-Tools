@@ -81,7 +81,7 @@ get_template_part( 'parts/js_header' ); ?>
                     }
                     .padding_mobile {
                         padding: 0 30px !important;
-                    } 
+                    }  
                 } 
                 /* @media screen and (min-width: 1200px) {
 
