@@ -58,6 +58,8 @@ get_template_part( 'parts/js_header' ); ?>
                 .columnsCollectionContainer .h2 {
                     font-size: 1.9rem !important;
                     padding-bottom: 10px !important;
+                    font-weight: 900;
+                    font-size: 2rem;
                 }
 
                 @media screen and (max-width: 576px) {
