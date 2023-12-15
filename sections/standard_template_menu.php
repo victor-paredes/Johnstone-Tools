@@ -10,7 +10,10 @@
                 the_row(); 
         ?>
      
-                
+            <div>
+                A2L Home
+            </div>
+
             <a class="menu_item" href="<?php the_sub_field('link'); ?>">
                 <div class="w-100">
                     <div class="w-100 p-3">
@@ -50,9 +53,9 @@
     .menu_wrap {
         display: flex;
         border-radius: .25rem;
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
-    .menu_wrap a, .menu_wrap a:hover { 
+    .menu_wrap, .menu_wrap a, .menu_wrap a:hover { 
         color: #fff;
     }
     .menu_menu {
