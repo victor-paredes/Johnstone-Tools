@@ -65,7 +65,10 @@
     }
     @media screen and (max-width: 992px) {
         .menu_wrap {
-            flex-direction: column !important;
+            flex-direction: column;
+        }
+        .menu_wrap a:not(:first-child) {
+            height: 0;
         }
     }
     @media screen and (min-width: 1200px) {
