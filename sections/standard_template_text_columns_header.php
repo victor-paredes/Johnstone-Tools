@@ -21,7 +21,7 @@
 
                 <div class="card wide_only" style="background-color: transparent; border: initial;">
                     <div class="padding_mobile py-5 pr-5 text-center">
-                        <img class="" src="<?php the_sub_field('featured_image'); ?>" style="width:100%; border-radius: .25rem;">
+                        <img class="" src="<?php the_sub_field('featured_image'); ?>" style="width:100%; border-radius: .25rem; padding-left: 10px;">
                     </div>
                 </div> <!-- END .card -->
 
