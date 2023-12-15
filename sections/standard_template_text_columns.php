@@ -44,8 +44,3 @@
 
     </div> <!-- card-deck -->
 </div> <!-- standard_template_product_cards_wrap -->
-
-
-
-<style>
-</style>
