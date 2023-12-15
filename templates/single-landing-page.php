@@ -70,13 +70,12 @@ get_template_part( 'parts/js_header' ); ?>
                     padding: 0 !important;
                 }
                 h1 {
-                    font-size: 1.8rem;
+                    font-size: 1.9rem;
                 }
                 h2 {
-                    font-size: 1.8rem !important;
                     padding-bottom: 10px !important;
                     font-weight: 900 !important;
-                    font-size: 2rem !important; 
+                    font-size: 1.9rem !important;
                 }
 
 
