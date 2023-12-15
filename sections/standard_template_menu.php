@@ -1,5 +1,5 @@
 
-<div class="menu_wrap" style="background-color: #72aab3;">
+<div class="menu_wrap" style="background-color: b7ccd0; border: 1px solid #72aab3;">
 
 
 
