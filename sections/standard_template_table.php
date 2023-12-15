@@ -19,7 +19,7 @@
                 the_row(); 
             ?>
                 <tr class="">
-
+ 
 
                     <?php
                         while( have_rows('row_content') ){ 
