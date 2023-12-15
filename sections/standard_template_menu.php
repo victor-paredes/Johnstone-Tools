@@ -90,7 +90,7 @@
         .menu_wrap:focus .menu_wrap a:not(:first-child) {
             height: initial;
             display: initial;
-        }
+        } 
     }
     @media screen and (min-width: 1200px) {
 
