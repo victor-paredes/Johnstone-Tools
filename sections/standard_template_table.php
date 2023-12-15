@@ -6,7 +6,7 @@
         <?php
             if ( get_sub_field('intro_content') == 'Yes' ) {
                 // the_sub_field('table_intro');
-                echo '<img src="' . the_sub_field('intro_image'); . '">';
+                echo '<img src="' . the_sub_field('intro_image') . '">';
             }
         ?>
 
