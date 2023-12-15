@@ -69,6 +69,7 @@
     .mobile_menu_icon {
         padding-left: 19px;
         fill: #fff;
+        text-align: center;
     }
     .mobile_menu_icon rect {
         height: 10px;
