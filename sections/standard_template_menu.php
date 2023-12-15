@@ -5,8 +5,8 @@
             <div class="mobile_menu_icon">
                 <svg viewBox="0 0 100 80" width="40" height="40">
                 <rect></rect>
-                <rect y="30"></rect>
-                <rect y="60"></rect>
+                <rect y="25"></rect>
+                <rect y="50"></rect>
                 </svg>
             </div>
 
@@ -71,7 +71,7 @@
     }
     .mobile_menu_icon rect {
         height: 10px;
-        width: 50px;
+        width: 70px;
     }
 
     @media screen and (max-width: 576px) {
