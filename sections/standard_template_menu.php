@@ -87,7 +87,7 @@
             height: 0;
             display: none;
         }
-        .menu_wrap:hover .menu_wrap a:not(:first-child) {
+        .menu_wrap:hover a:not(:first-child) {
             height: initial;
             display: initial;
         } 
