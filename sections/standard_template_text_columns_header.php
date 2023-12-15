@@ -95,7 +95,6 @@
         .text_columns_header_wrap {
             background-image: url('<?php the_sub_field('featured_image'); ?>');
             background-size: cover;
-            opacity: 0.1;
         }
     }
 </style> 
