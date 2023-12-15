@@ -22,7 +22,7 @@
             <a class="menu_item" href="<?php the_sub_field('link'); ?>">
                 <div class="p-1 px-2">
                     <div class="p-2">
-                        <?php the_sub_field('label'); ?> <br>
+                        <?php the_sub_field('label'); ?>
                     </div>
                 </div>
             </a>
