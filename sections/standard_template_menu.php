@@ -50,5 +50,6 @@
     .menu_wrap {
         display: flex;
         border-radius: .25rem;
+        justify-content: space-evenly;
     }
 </style>
