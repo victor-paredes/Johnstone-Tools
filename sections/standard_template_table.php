@@ -71,6 +71,7 @@
     }
     .table_wrap img {
         aspect-ratio: initial !important;
+        width: 100%;
     }
 
     @media (max-width: 767px) { 
