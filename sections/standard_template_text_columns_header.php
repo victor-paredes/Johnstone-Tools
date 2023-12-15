@@ -41,7 +41,7 @@
         background-color: #002b67;
         color: #fff !important; 
         border-radius: .25rem;
-        padding-bottom: 55px;
+        padding-bottom: 10px;
     }
     .text_columns_header_wrap h1 {
         color: #fff !important;
