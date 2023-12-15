@@ -4,9 +4,10 @@
 
 
             <div class="mobile_menu_icon narrow_only">
-                <div>
+                <div class="menu_label smalltext">
                     <?php the_sub_field('menu_label'); ?>
                 </div>
+
                 <svg viewBox="0 0 125 50" width="40" height="40">
                     <rect></rect>
                     <rect y="25"></rect>
@@ -74,6 +75,11 @@
         fill: #fff;
         text-align: center;
         cursor: pointer;
+    }
+    .menu_label {
+        display: inline-block;
+        vertical-align: middle;
+        padding-right: 10px;
     }
     .mobile_menu_icon rect {
         height: 10px;
