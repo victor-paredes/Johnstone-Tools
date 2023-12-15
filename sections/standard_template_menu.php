@@ -4,9 +4,9 @@
 
             <div class="mobile_menu_icon">
                 <svg viewBox="0 0 125 50" width="40" height="40">
-                <rect></rect>
-                <rect y="25"></rect>
-                <rect y="50"></rect>
+                    <rect></rect>
+                    <rect y="25"></rect>
+                    <rect y="50"></rect>
                 </svg>
             </div>
 
@@ -67,6 +67,7 @@
         display: inline-block;
     }
     .mobile_menu_icon {
+        padding-left: 19px;
         fill: #fff;
     }
     .mobile_menu_icon rect {
