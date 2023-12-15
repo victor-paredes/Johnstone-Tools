@@ -1,5 +1,5 @@
 
-<div class="menu_wrap" style="background-color: b7ccd0; border: 1px solid #72aab3;">
+<div class="menu_wrap" style="background-color: #72aab3; border: 1px solid #b7ccd0;">
 
 
 
@@ -42,5 +42,6 @@
 <style>
     .menu_wrap {
         border-radius: .25rem;
+        border-width: 1px 1px 5px 1px;
     }
 </style>
