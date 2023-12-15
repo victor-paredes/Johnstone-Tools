@@ -56,6 +56,18 @@ get_template_part( 'parts/js_header' ); ?>
                     padding: 0 !important;
                 }
 
+                @media screen and (max-width: 576px) {
+                    .text_columns_header_textcard {
+                        padding: 0 30px;
+                    }
+                }
+                @media screen and (max-width: 992px) {
+
+                }
+                /* @media screen and (min-width: 1200px) {
+
+                } */
+
             </style>
             
         </div> <!-- end COPY_THIS_CONTAINER_TO_BLOOMREACH -->
