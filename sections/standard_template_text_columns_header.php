@@ -88,9 +88,8 @@
         }
     }
     @media screen and (max-width: 992px) {
-        .text_columns_header_image_card {
-            position: absolute;
-            opacity: 0.1;
+        .text_columns_header_wrap {
+            background-image: url('<?php the_sub_field('featured_image'); ?>');
         }
     }
 </style> 
