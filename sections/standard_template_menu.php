@@ -10,7 +10,10 @@
                 the_row(); 
         ?>
      
+                
+            <div>
                 <?php the_sub_field('label'); ?> <br>
+            </div>
                
 
 
@@ -28,7 +31,7 @@
 
 
 
-
+ 
 
 
 
@@ -41,7 +44,7 @@
 
 <style>
     .menu_wrap {
+        display: flex;
         border-radius: .25rem;
-        border-width: 1px 1px 5px 1px;
     }
 </style>
