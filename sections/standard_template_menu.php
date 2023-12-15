@@ -75,7 +75,7 @@
         height: 10px;
         width: 70px;
     }
-    .menu-item {
+    .menu_item { 
         padding: 10px 5px; 
     }
 
