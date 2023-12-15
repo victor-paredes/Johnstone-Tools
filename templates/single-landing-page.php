@@ -84,7 +84,7 @@ get_template_part( 'parts/js_header' ); ?>
                     .wide_only {
                         display: none;
                     }
-                }
+                } 
                 /* @media screen and (min-width: 1200px) {
 
                 } */
