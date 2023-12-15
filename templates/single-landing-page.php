@@ -67,7 +67,7 @@ get_template_part( 'parts/js_header' ); ?>
                     font-weight: 900 !important;
                     font-size: 2rem !important;
                 }
-
+ 
 
                 @media screen and (max-width: 576px) {
                     /* .narrow_only {
