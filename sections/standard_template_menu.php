@@ -87,8 +87,7 @@
         .menu_wrap {
             flex-direction: column;
         }
-        .menu_wrap a:not(.mobile_menu_icon), .menu_wrap div:not(.mobile_menu_icon) {
-            height: 0; 
+        .menu_wrap .menu_item {
             display: none;
         }
         .menu_wrap a {
