@@ -23,10 +23,10 @@ h1 {
 }
 h2 {
     color: #004990;
-    padding-top: 30px;
+    /* padding-top: 30px; */
 }
 h4 {
-    padding-top: 30px;
+    /* padding-top: 30px; */
 }
 /* .card-deck .card {
     margin-right: 0 !important;
