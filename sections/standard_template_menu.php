@@ -104,7 +104,7 @@
             height: initial;
             display: initial;
         } 
-        .menu_wrap:hover a:not(.mobile_menu_icon) {
+        .menu_wrap:hover a:not(.mobile_menu_icon), .menu_wrap:hover .menu_wrap div:not(.mobile_menu_icon) {
             padding-top: 10px;
             padding-bottom: 10px;
         }
