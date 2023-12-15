@@ -70,12 +70,6 @@ get_template_part( 'parts/js_header' ); ?>
 
 
                 @media screen and (max-width: 576px) {
-                    .text_columns_header_textcard {
-                        padding: 0 30px !important;
-                    }
-                    .padding_mobile {
-                        padding: 0 30px !important;
-                    } 
                 }
                 @media screen and (max-width: 992px) {
                     .narrow_only {
@@ -84,6 +78,12 @@ get_template_part( 'parts/js_header' ); ?>
                     .wide_only {
                         display: none;
                     }
+                    .text_columns_header_textcard {
+                        padding: 0 30px !important;
+                    }
+                    .padding_mobile {
+                        padding: 0 30px !important;
+                    } 
                 } 
                 /* @media screen and (min-width: 1200px) {
 
