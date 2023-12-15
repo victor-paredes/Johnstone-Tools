@@ -18,7 +18,7 @@
 
                 <div class="card" style="background-color: transparent; border: initial;">
                     <div class="padding_mobile py-5 pr-5 text-center">
-                        <img class="pb-3" src="<?php the_sub_field('featured_image'); ?>" style="width:100%; border-radius: .25rem;">
+                        <img class="pb-5" src="<?php the_sub_field('featured_image'); ?>" style="width:100%; border-radius: .25rem;">
                     </div>
 
                 </div> <!-- END .card -->
