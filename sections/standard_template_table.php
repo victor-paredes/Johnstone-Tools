@@ -84,5 +84,5 @@
         .table_noexpand td { 
             padding: 5px;
         }
-    }
+    } 
 </style>
