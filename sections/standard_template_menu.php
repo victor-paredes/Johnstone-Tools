@@ -10,8 +10,7 @@
                 the_row(); 
         ?>
      
-                .<br>
-                .
+                <?php the_sub_field('label'); ?> <br>
                
 
 
