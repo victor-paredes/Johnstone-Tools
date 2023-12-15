@@ -52,6 +52,9 @@
         border-radius: .25rem;
         justify-content: space-evenly;
     }
+    .menu_wrap a, .menu_wrap a:hover { 
+        color: #fff;
+    }
     .menu_menu {
         display: inline-block;
     }
