@@ -4,7 +4,7 @@
 
 
 
-                <div class="card narrow_only" style="background-color: transparent; border: initial;">
+                <div class="text_columns_header_image_card card narrow_only" style="background-color: transparent; border: initial;">
                     <div class="padding_mobile pr-5 text-center">
                         <img class="" src="<?php the_sub_field('featured_image'); ?>" style="width:100%; border-radius: .25rem;">
                     </div>
@@ -19,7 +19,7 @@
                     </div>
                 </div> <!-- END .card -->
 
-                <div class="text_columns_header_image_card card wide_only" style="background-color: transparent; border: initial;">
+                <div class="card wide_only" style="background-color: transparent; border: initial;">
                     <div class="padding_mobile py-5 pr-5 text-center">
                         <img class="" src="<?php the_sub_field('featured_image'); ?>" style="width:100%; border-radius: .25rem;">
                     </div>
