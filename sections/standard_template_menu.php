@@ -2,9 +2,7 @@
 <div class="menu_wrap" style="background-color: #72aab3; border: 1px solid #b7ccd0;">
 
 
-        <div class="menu_item p-3">
-            A2L Home
-        </div>
+        
 
 
         <?php
@@ -15,8 +13,8 @@
             
 
             <a class="menu_item" href="<?php the_sub_field('link'); ?>">
-                <div class="w-100">
-                    <div class="w-100 p-3">
+                <div class="w-100 p-1">
+                    <div class="w-100 p-2">
                         <?php the_sub_field('label'); ?> <br>
                     </div>
                 </div>
