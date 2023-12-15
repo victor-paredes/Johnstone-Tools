@@ -1,6 +1,6 @@
 
-<div class="padding_mobile <?php the_sub_field('css_classes'); ?>" style="margin-top: 25px;">
-    <div class="card-deck">
+<div class="" style="">
+
 
 
 
@@ -35,10 +35,7 @@
 
 
 
-
-
-    </div> <!-- card-deck -->
-</div> <!-- standard_template_product_cards_wrap -->
+</div> 
 
 
 
