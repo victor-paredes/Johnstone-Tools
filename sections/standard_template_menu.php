@@ -65,7 +65,7 @@
     }
     @media screen and (max-width: 992px) {
         .menu_wrap {
-            flex-direction: column;
+            flex-direction: column !important;
         }
     }
     @media screen and (min-width: 1200px) {
