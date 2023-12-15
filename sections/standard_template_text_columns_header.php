@@ -87,7 +87,7 @@
             padding: 0 30px !important;
         }
         .text_columns_header_wrap {
-            background-image: none;
+            background-image: none !important;
         }
     }
     @media screen and (max-width: 992px) {
