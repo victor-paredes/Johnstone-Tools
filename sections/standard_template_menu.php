@@ -68,7 +68,7 @@
             flex-direction: column;
         }
         .menu_wrap a:not(:first-child) {
-            height: 0;
+            display: none;
         }
     }
     @media screen and (min-width: 1200px) {
