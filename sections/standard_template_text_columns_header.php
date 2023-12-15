@@ -11,7 +11,7 @@
                 </div> <!-- END .card -->
      
                 <div class="card" style="background-color: transparent; border: initial;">
-                    <div class="text_columns_header_textcard pl-5">
+                    <div class="text_columns_header_text_card pl-5">
                         <div class="smalltext w-100" style="padding-top: 30px; padding-bottom: 15px; text-transform: uppercase;">
                             <?php the_sub_field('subheader'); ?>
                         </div>
@@ -19,7 +19,7 @@
                     </div>
                 </div> <!-- END .card -->
 
-                <div class="card wide_only" style="background-color: transparent; border: initial;">
+                <div class="text_columns_header_image_card card wide_only" style="background-color: transparent; border: initial;">
                     <div class="padding_mobile py-5 pr-5 text-center">
                         <img class="" src="<?php the_sub_field('featured_image'); ?>" style="width:100%; border-radius: .25rem;">
                     </div>
@@ -57,14 +57,14 @@
         margin: 1em 0; 
         padding: 0;
     }
-    .text_columns_header_textcard {
+    .text_columns_header_text_card {
         display: flex;
         height: 100%;
         flex-wrap: wrap;
         align-content: flex-start;
         padding-top: 15px;
     }
-    .text_columns_header_textcard h1 { 
+    .text_columns_header_text_card h1 { 
         font-weight: 900;
         font-size: 2rem;
         padding-bottom: 20px;
@@ -78,6 +78,12 @@
         .text_columns_header_wrap {
             padding-top: 40px;
             padding-bottom: 40px;
+        }
+    }
+    @media screen and (max-width: 992px) {
+        .text_columns_header_image_card {
+            position: absolute;
+            opacity: 0.1;
         }
     }
 </style>
