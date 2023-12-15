@@ -8,10 +8,11 @@
      background-size: cover;
      ">
  
+    
     <?php the_sub_field('counter_copy'); ?>
 
     <center>
-        <div id="countDown" class="row justify-content-center text-light text-center">
+        <div id="countDown" class="pt-3 row justify-content-center text-light text-center">
             <div class="col-4 col-md-3 col-lg-2 px-1 px-md-3">
                 <div class="bg-light border-radius-sm shadow" style="border-radius: .25rem;">
                     <span class="days d-block text-darkblue text-4rem countdown_class">&nbsp;</span>
@@ -54,6 +55,7 @@
     @media screen and (max-width: 992px) {
         #countdown {
             width: 100% !important;
+            padding-top: 0;
         }
     }
 </style>
