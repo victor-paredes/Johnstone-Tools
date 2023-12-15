@@ -80,8 +80,8 @@
             padding-bottom: 40px;
         }
         .text_columns_header_image_card {
-            position: initial;
-            opacity: initial;
+            position: initial !important;
+            opacity: initial !important;
         }
     }
     @media screen and (max-width: 992px) {
