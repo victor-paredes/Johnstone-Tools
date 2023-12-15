@@ -11,9 +11,13 @@
         ?>
      
                 
-            <div>
-                <?php the_sub_field('label'); ?> <br>
-            </div>
+            <a href="<?php the_sub_field('link'); ?>">
+                <div>
+                    <div>
+                        <?php the_sub_field('label'); ?> <br>
+                    </div>
+                </div>
+            </a>
                
 
 
