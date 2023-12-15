@@ -55,6 +55,10 @@ get_template_part( 'parts/js_header' ); ?>
                 .columnsCollectionContainer .col-md {
                     padding: 0 !important;
                 }
+                .columnsCollectionContainer .h2 {
+                    font-size: 1.9rem !important;
+                    padding-bottom: 10px !important;
+                }
 
                 @media screen and (max-width: 576px) {
                     .text_columns_header_textcard {
