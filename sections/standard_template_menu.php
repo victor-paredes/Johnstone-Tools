@@ -3,7 +3,10 @@
 
 
 
-            <div class="mobile_menu_icon narrow_only">test
+            <div class="mobile_menu_icon narrow_only">
+                <div>
+                    <?php the_sub_field('menu_label'); ?>
+                </div>
                 <svg viewBox="0 0 125 50" width="40" height="40">
                     <rect></rect>
                     <rect y="25"></rect>
