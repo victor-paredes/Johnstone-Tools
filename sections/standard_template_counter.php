@@ -32,7 +32,7 @@
     </div>  
 
     <p>&nbsp;</p>
-
+.text_columns_header_wrap {
 </div>
 
 

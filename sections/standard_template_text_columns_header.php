@@ -5,7 +5,7 @@
 
 
                 <div class="card narrow_only" style="background-color: transparent; border: initial;">
-                    <div class="padding_mobile py-5 pr-5 text-center">
+                    <div class="padding_mobile pr-5 text-center">
                         <img class="" src="<?php the_sub_field('featured_image'); ?>" style="width:100%; border-radius: .25rem;">
                     </div>
                 </div> <!-- END .card -->
@@ -41,6 +41,7 @@
         background-color: #002b67;
         color: #fff !important; 
         border-radius: .25rem;
+        padding-bottom: 55px;
     }
     .text_columns_header_wrap h1 {
         color: #fff !important;
