@@ -1,14 +1,13 @@
 
 
 
-<div class="counter_wrap col-12 pt-3 pb-4" style="
+<div class="counter_wrap col-12 pt-5 pb-4" style="
      background-color: <?php the_sub_field('background_color'); ?>;
      border-radius: .25rem;
      background-image: url(<?php the_sub_field("background_image") ?>);
      background-size: cover;
      ">
  
-    
     <?php the_sub_field('counter_copy'); ?>
 
     <center>
