@@ -55,7 +55,7 @@ get_template_part( 'parts/js_header' ); ?>
                 .columnsCollectionContainer .col-md {
                     padding: 0 !important;
                 }
-                #COPY_THIS_CONTAINER_TO_BLOOMREACH .h2 {
+                .h2 {
                     font-size: 1.9rem !important;
                     padding-bottom: 10px !important;
                     font-weight: 900 !important;
