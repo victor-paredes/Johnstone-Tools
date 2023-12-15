@@ -69,6 +69,9 @@
         background-color: #041e46;
         color: #fff;
     }
+    .table_wrap img {
+        aspect-ratio: initial !important;
+    }
 
     @media (max-width: 767px) { 
         .table_wrap * {
