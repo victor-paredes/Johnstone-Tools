@@ -2,7 +2,7 @@
 <div class="menu_wrap" style="background-color: #72aab3; border: 1px solid #b7ccd0;">
 
 
-            <div class="mobile_menu_icon">
+            <div class="mobile_menu_ico narrow_only">
                 <svg viewBox="0 0 125 50" width="40" height="40">
                     <rect></rect>
                     <rect y="25"></rect>
