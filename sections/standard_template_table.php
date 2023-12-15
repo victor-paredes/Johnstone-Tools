@@ -2,7 +2,11 @@
 			
     <div class=" row table_wrap shadow"><!-- wrap -->
 
-
+        
+        <?php
+            if ( get_sub_field('intro_content') == 'Yes' ) { ?>
+                <img src="<?php the_sub_field('intro_image'); ?>">
+        <?php } ?>
 
         <table class="table_noexpand" style="table-layout: <?php the_sub_field('column_layout'); ?>;">
 
