@@ -70,6 +70,7 @@
         padding-left: 19px;
         fill: #fff;
         text-align: center;
+        cursor: pointer;
     }
     .mobile_menu_icon rect {
         height: 10px;
@@ -87,7 +88,7 @@
             height: 0;
             display: none;
         }
-        .menu_wrap:hover a:not(:first-child) {
+        .menu_wrap:focus a:not(:first-child) {
             height: initial;
             display: initial;
         } 
