@@ -32,8 +32,34 @@
     </div>  
 
     <p>&nbsp;</p>
-.text_columns_header_wrap {
+
 </div>
+
+
+
+
+
+
+
+
+<style>
+    .countdown_class {
+        font-size: 2.5rem;
+        font-weight: 700!important;
+        color: #062655;
+    }
+
+    @media screen and (max-width: 992px) {
+        #countdown {
+            width: 100%;
+        }
+    }
+</style>
+
+
+
+
+
 
 
 <script>
@@ -84,14 +110,6 @@
 
 
 
-
-<style>
-    .countdown_class {
-        font-size: 2.5rem;
-        font-weight: 700!important;
-        color: #062655;
-    }
-</style>
 
 
 
