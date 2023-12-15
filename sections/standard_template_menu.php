@@ -100,7 +100,7 @@
             padding-top: 0;
             padding-bottom: 0;
         }
-        .menu_wrap:hover * {
+        .menu_wrap:hover *:not(.mobile_menu_icon), .menu_wrap div:not(.mobile_menu_icon) {
             height: initial;
             display: initial;
         } 
