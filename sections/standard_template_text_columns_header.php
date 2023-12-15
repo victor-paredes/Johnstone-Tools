@@ -37,7 +37,7 @@
 
 <style>
     .text_columns_header_wrap {
-        background-color: #003379;
+        background-color: #002b67;
         color: #fff !important; 
         border-radius: .25rem;
     }
