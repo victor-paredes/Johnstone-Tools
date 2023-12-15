@@ -2,7 +2,7 @@
 <div class="menu_wrap" style="background-color: #72aab3; border: 1px solid #b7ccd0;">
 
 
-        <div>
+        <div class="menu_item">
             A2L Home
         </div>
 
