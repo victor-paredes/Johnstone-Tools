@@ -10,6 +10,7 @@
                 the_row(); 
         ?>
      
+            <span class="navbar-toggler-icon"></span>
             
 
             <a class="menu_item" href="<?php the_sub_field('link'); ?>">
