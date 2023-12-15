@@ -6,7 +6,7 @@
 
                 <div class="card narrow_only" style="background-color: transparent; border: initial;">
                     <div class="padding_mobile py-5 pr-5 text-center">
-                        <img class="pt-4" src="<?php the_sub_field('featured_image'); ?>" style="width:100%; border-radius: .25rem;">
+                        <img class="pt-5" src="<?php the_sub_field('featured_image'); ?>" style="width:100%; border-radius: .25rem;">
                     </div>
                 </div> <!-- END .card -->
      
