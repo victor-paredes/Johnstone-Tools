@@ -104,6 +104,10 @@
             height: initial;
             display: initial;
         } 
+        .menu_wrap:hover a:not(.mobile_menu_icon) {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
     }
     @media screen and (min-width: 1200px) {
 
