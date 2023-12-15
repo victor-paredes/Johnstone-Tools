@@ -60,6 +60,9 @@
         border-radius: .25rem;
         justify-content: space-around;
     }
+    .menu_wrap a {
+        transition: all 0.5s ease;
+    }
     .menu_wrap, .menu_wrap a, .menu_wrap a:hover { 
         color: #fff;
     }
