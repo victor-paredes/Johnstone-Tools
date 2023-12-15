@@ -87,7 +87,7 @@
         .menu_wrap {
             flex-direction: column;
         }
-        .menu_wrap a:not(:first-child) {
+        .menu_wrap *:not(:first-child) {
             height: 0;
             display: none;
         }
