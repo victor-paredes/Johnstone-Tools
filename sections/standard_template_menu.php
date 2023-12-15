@@ -88,8 +88,8 @@
             display: none;
         }
         .menu_wrap:focus .menu_wrap a:not(:first-child) {
-            height: 0;
-            display: none;
+            height: initial;
+            display: initial;
         }
     }
     @media screen and (min-width: 1200px) {
