@@ -30,12 +30,12 @@
                 
              
                        
-   
+    
   
  
 
 
-
+ 
 <style>
     .text_columns_header_wrap {
         background-color: #002b67;
