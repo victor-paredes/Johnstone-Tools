@@ -2,7 +2,7 @@
 			
     <div class=" row table_wrap shadow"><!-- wrap -->
 
-        <img src="https://victorpared.es/js/wp-content/uploads/2023/11/what_is_a2l_refrigerant.jpg">
+
 
         <table class="table_noexpand" style="table-layout: <?php the_sub_field('column_layout'); ?>;">
 
