@@ -4,7 +4,7 @@
 
 
             <div class="mobile_menu_icon narrow_only">
-                <div class="menu_label smalltext">
+                <div class="menu_label">
                     <?php the_sub_field('menu_label'); ?>
                 </div>
 
@@ -80,6 +80,8 @@
         display: inline-block;
         vertical-align: middle;
         padding-right: 10px;
+        font-size: .7rem;
+        font-weight: 900;
     }
     .mobile_menu_icon rect {
         height: 10px;
