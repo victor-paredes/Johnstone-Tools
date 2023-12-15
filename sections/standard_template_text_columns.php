@@ -1,5 +1,5 @@
 
-<div class="<?php the_sub_field('css_classes'); ?>" style="margin-top: 25px;">
+<div class="text_padding_mobile <?php the_sub_field('css_classes'); ?>" style="margin-top: 25px;">
     <div class="card-deck">
 
 

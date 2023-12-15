@@ -60,6 +60,9 @@ get_template_part( 'parts/js_header' ); ?>
                     .text_columns_header_textcard {
                         padding: 0 30px !important;
                     }
+                    .text_padding_mobile {
+                        padding: 0 30px !important;
+                    }
                 }
                 @media screen and (max-width: 992px) {
 
