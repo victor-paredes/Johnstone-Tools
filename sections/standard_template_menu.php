@@ -90,7 +90,7 @@
         .menu_wrap .menu_item {
             display: none;
         }
-        .menu_wrap:hover .menu_item {
+        .menu_wrap:hover * {
             display: initial;
         }
         .menu_wrap a {
