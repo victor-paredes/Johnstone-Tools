@@ -91,6 +91,9 @@
             height: 0;
             display: none;
         }
+        .menu_wrap a {
+            text-align: center;
+        }
         .menu_wrap:hover a:not(:first-child) {
             height: initial;
             display: initial;
