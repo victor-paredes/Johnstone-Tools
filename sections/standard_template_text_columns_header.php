@@ -93,7 +93,7 @@
     @media screen and (max-width: 992px) { 
         
         .text_columns_header_wrap {
-            background-image: url('<?php the_sub_field('featured_image'); ?>');
+            background-image: url('<?php the_sub_field('alt_image'); ?>');
             background-size: cover;
         }
     }
