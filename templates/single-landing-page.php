@@ -47,6 +47,16 @@ get_template_part( 'parts/js_header' ); ?>
                 }
             ?>
 
+            <style>
+
+                .columnsCollectionContainer {
+                    padding: 0;
+                }
+                .columnsCollectionContainer .col-md {
+                    padding: 0 !important;
+                }
+
+            </style>
             
         </div> <!-- end COPY_THIS_CONTAINER_TO_BLOOMREACH -->
 
@@ -75,16 +85,7 @@ get_template_part( 'parts/js_header' ); ?>
 
 
 
-<script>
 
-    .columnsCollectionContainer {
-        padding: 0;
-    }
-    .columnsCollectionContainer .col-md {
-        padding: 0 !important;
-    }
-
-</script>
 
 
 
