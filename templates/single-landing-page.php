@@ -44,8 +44,8 @@ get_template_part( 'parts/js_header' ); ?>
                         get_template_part( 'sections/standard_template_table' );
                     } elseif ( $current_layout == 'menu' ) {
                         get_template_part( 'sections/standard_template_menu' );
-                    } elseif ( $current_layout == 'image' ) {
-                        get_template_part( 'sections/standard_template_image' );
+                    } elseif ( $current_layout == 'image_figure' ) {
+                        get_template_part( 'sections/standard_template_image_figure' );
                     } 
 
                 }
