@@ -87,7 +87,7 @@
         .menu_wrap {
             flex-direction: column;
         }
-        .menu_wrap *:not(:first-child) {
+        .menu_wrap a:not(.mobile_menu_icon) {
             height: 0;
             display: none;
         }
@@ -100,7 +100,7 @@
             padding-top: 0;
             padding-bottom: 0;
         }
-        .menu_wrap:hover a:not(:first-child) {
+        .menu_wrap:hover a:not(.mobile_menu_icon) {
             height: initial;
             display: initial;
         } 
