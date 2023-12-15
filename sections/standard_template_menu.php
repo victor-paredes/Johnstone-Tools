@@ -13,7 +13,7 @@
                 
             <a class="menu_item" href="<?php the_sub_field('link'); ?>">
                 <div class="w-100">
-                    <div class="w-100">
+                    <div class="w-100 p-3">
                         <?php the_sub_field('label'); ?> <br>
                     </div>
                 </div>
