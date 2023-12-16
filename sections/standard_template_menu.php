@@ -24,7 +24,7 @@
             
             
 
-            <a class="menu_item" href="<?php the_sub_field('link'); ?>">
+            <a class="menu_item <?php the_sub_field('menu_label'); ?>" href="<?php the_sub_field('link'); ?>">
                         <?php the_sub_field('label'); ?>
             </a>
                
