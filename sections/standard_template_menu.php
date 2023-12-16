@@ -40,8 +40,6 @@
 
 
             
-                background-color: #4a6b70;
-             
                 
 
  
