@@ -129,7 +129,7 @@
 }
 
 .accordion__content {
-  padding: 0 60px 0 30px;
+  padding: 0 60px 0 50px;
   /* border-top: 1px solid #eee; */
   /* margin: 0px 30px;  */
   visibility: collapse;
@@ -155,8 +155,10 @@
   .accordion__title {
     padding: 10px 60px 10px 30px;
   } 
+  .accordion__content {
+    padding: 0 60px 0 30px;
+  }
 }
-
 </style>
 
 
