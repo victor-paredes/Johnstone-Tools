@@ -88,11 +88,10 @@
         width: 70px;
     }
     .menu_item { 
+        padding: 10px 15px 10px 15px; 
         background-color: #4a6b70;
         border-radius: .25rem .25rem 0 0;
-        padding-left: 15px;
         margin: 5px 0 1px 0;
-        padding-right: 15px;
     }
 
     @media screen and (max-width: 576px) {
