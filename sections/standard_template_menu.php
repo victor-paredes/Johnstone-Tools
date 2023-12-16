@@ -8,7 +8,7 @@
 
 
             <div class="mobile_menu_icon narrow_only">
-                <div class="<?php echo $menu_label_underscores ?> menu_label">
+                <div class="menu_label">
                     <?php the_sub_field('menu_label'); ?>
                 </div>
 
@@ -28,7 +28,7 @@
             
             
 
-            <a class="menu_item" href="<?php the_sub_field('link'); ?>">
+            <a class="menu_item <?php echo $menu_label_underscores; ?>" href="<?php the_sub_field('link'); ?>">
                         <?php the_sub_field('label'); ?>
             </a>
                
