@@ -84,6 +84,9 @@ get_template_part( 'parts/js_header' ); ?>
                     .small_only {
                         display: initial;
                     }
+                    .columnsCollectionContainer .col-md {
+                        padding: 0 !important;
+                    }
                 }
                 @media screen and (max-width: 992px) {
                     .narrow_only {
