@@ -1,5 +1,5 @@
 
-<div class="padding_mobile <?php the_sub_field('css_classes'); ?>" style="margin-top: 25px;">
+<div class="text_columns_wrap padding_mobile <?php the_sub_field('css_classes'); ?>">
     <div class="card-deck">
 
 
@@ -26,7 +26,13 @@
 
             
                 
-             
+        <style>
+            .text_columns_wrap {
+                margin-top: 25px;
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+        </style>
                     
 
 
