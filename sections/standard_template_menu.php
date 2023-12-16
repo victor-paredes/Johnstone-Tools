@@ -3,14 +3,6 @@
 
 
 
-            <?php
-                $string = the_sub_field('label');
-                $string = str_replace(' ', '_', $string);
-            ?>
-
-
-
-
             <div class="mobile_menu_icon narrow_only">
                 <div class="menu_label">
                     <?php the_sub_field('menu_label'); ?>
@@ -32,7 +24,7 @@
             
             
 
-            <a class="menu_item <?php echo $label_underscores; ?>" href="<?php the_sub_field('link'); ?>">
+            <a class="menu_item" href="<?php the_sub_field('link'); ?>">
                         <?php the_sub_field('label'); ?>
             </a>
                
@@ -96,12 +88,7 @@
         width: 70px;
     }
     .menu_item { 
-        padding: 10px 15px 10px 15px; 
-        background-color: #4a6b70;
-        border-radius: .25rem .25rem 0 0;
-        padding-left: 15px;
-        margin: 5px 0 1px 0;
-        padding-right: 15px;
+        padding: 10px 5px; 
     }
 
     @media screen and (max-width: 576px) {
