@@ -94,6 +94,8 @@
 }
 
 .accordion__item:focus {
+  padding-top: 30px;
+  padding-bottom: 30px;
   outline: 0;
   cursor: default;
   background: #003363;
