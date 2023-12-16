@@ -2,10 +2,6 @@
 <div class="menu_wrap" style="background-color: #72aab3; border: 1px solid #b7ccd0;">
 
 
-            <?php
-                $menu_label_underscores = str_replace(' ', '_', the_sub_field('menu_label'));
-            ?>
-
 
             <div class="mobile_menu_icon narrow_only">
                 <div class="menu_label">
@@ -28,11 +24,11 @@
             
             
 
-            <a class="menu_item <?php the_sub_field('menu_label'); ?>" href="<?php the_sub_field('link'); ?>">
+            <a class="menu_item" href="<?php the_sub_field('link'); ?>">
                         <?php the_sub_field('label'); ?>
             </a>
                
- 
+
 
         <?php
             } // END while( have_rows('copy') )
@@ -41,6 +37,8 @@
 
             
                 
+             
+                    
 
  
  
@@ -91,8 +89,11 @@
     }
     .menu_item { 
         padding: 10px 15px 10px 15px; 
+        background-color: #4a6b70;
         border-radius: .25rem .25rem 0 0;
+        padding-left: 15px;
         margin: 5px 0 1px 0;
+        padding-right: 15px;
     }
 
     @media screen and (max-width: 576px) {
