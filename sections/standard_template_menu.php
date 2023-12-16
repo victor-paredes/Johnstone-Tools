@@ -4,7 +4,8 @@
 
 
             <?php
-                $label_underscores = str_replace(' ', '_', the_sub_field('label'));
+                $string = the_sub_field('label');
+                $string = str_replace(' ', '_', $string);
             ?>
 
 
