@@ -2,9 +2,13 @@
 <div class="menu_wrap" style="background-color: #72aab3; border: 1px solid #b7ccd0;">
 
 
+            <?php
+                $menu_label_underscores = str_replace(' ', '_', the_sub_field('menu_label'));
+            ?>
+
 
             <div class="mobile_menu_icon narrow_only">
-                <div class="menu_label">
+                <div class="<?php echo $menu_label_underscores ?> menu_label">
                     <?php the_sub_field('menu_label'); ?>
                 </div>
 
@@ -36,9 +40,9 @@
 
 
             
-                
+                background-color: #4a6b70;
              
-                    
+                
 
  
  
@@ -89,7 +93,6 @@
     }
     .menu_item { 
         padding: 10px 15px 10px 15px; 
-        background-color: #4a6b70;
         border-radius: .25rem .25rem 0 0;
         margin: 5px 0 1px 0;
     }
