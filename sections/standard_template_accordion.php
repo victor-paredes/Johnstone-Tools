@@ -114,7 +114,7 @@
 }
 
 .accordion__title {
-  padding: 15px 60px 15px 30px;
+  padding: 20px 60px 20px 50px;
   transition: all 0.5s ease;
   line-height: 1.4rem;
 } 
@@ -146,6 +146,15 @@
   visibility: visible;
   transform: rotate3d(0, 0, 0, 0deg);
   opacity: 1;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+  .accordion__title {
+    padding: 10px 60px 10px 30px;
+  } 
 }
 
 </style>
