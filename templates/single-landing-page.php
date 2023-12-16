@@ -77,7 +77,7 @@ get_template_part( 'parts/js_header' ); ?>
                 }
                 h2 {
                     padding-top: 30px;
-                    padding-bottom: 10px !important;
+                    padding-bottom: 18px !important;
                     font-weight: 900 !important;
                     font-size: 1.9rem !important;
                 }
