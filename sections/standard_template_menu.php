@@ -3,6 +3,13 @@
 
 
 
+            <?php
+                $label_underscores = str_replace(' ', '_', the_sub_field('label'));
+            ?>
+
+
+
+
             <div class="mobile_menu_icon narrow_only">
                 <div class="menu_label">
                     <?php the_sub_field('menu_label'); ?>
@@ -24,7 +31,7 @@
             
             
 
-            <a class="menu_item <?php the_sub_field('label'); ?>" href="<?php the_sub_field('link'); ?>">
+            <a class="menu_item <?php echo $label_underscores; ?>" href="<?php the_sub_field('link'); ?>">
                         <?php the_sub_field('label'); ?>
             </a>
                
