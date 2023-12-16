@@ -61,6 +61,7 @@
   border-bottom: 1px solid #eee;
   overflow: hidden;
   border-radius: .25rem;
+  transition: all 0.5s ease;
 }
 
 .accordion__item:before,
