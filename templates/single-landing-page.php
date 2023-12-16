@@ -81,6 +81,9 @@ get_template_part( 'parts/js_header' ); ?>
                     font-weight: 900 !important;
                     font-size: 1.9rem !important;
                 }
+                p {
+                    line-height: 1.4rem;
+                }
 
 
                 @media screen and (max-width: 576px) {
