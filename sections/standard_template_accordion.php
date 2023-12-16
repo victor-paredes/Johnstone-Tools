@@ -102,7 +102,7 @@
 } 
 .accordion__item:focus .accordion__title {
   color: #25aff3;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 .accordion__item:focus .accordion__content {
   color: #fff;
@@ -114,6 +114,7 @@
 .accordion__title {
   padding: 15px 60px 15px 30px;
   transition: all 0.5s ease;
+  line-height: 1.4rem;
 } 
 
 /* .accordion__title:hover {
