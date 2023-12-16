@@ -111,7 +111,7 @@
 }
 
 .accordion__title {
-  padding: 15px 60px 15px 15px;
+  padding: 15px 60px 15px 30px;
   transition: all 0.5s ease;
 }
 
