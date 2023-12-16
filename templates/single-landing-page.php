@@ -70,7 +70,7 @@ get_template_part( 'parts/js_header' ); ?>
                     /* padding: 0 !important; */
                 }
                 h1, h2 {
-                    line-height: 1.4rem;
+                    line-height: 2.12rem;
                 }
                 h1 {
                     font-size: 1.9rem;
