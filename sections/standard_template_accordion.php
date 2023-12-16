@@ -125,7 +125,7 @@
 }
 
 .accordion__content {
-  padding: 0 60px 0 15px;
+  padding: 0 60px 0 30px;
   /* border-top: 1px solid #eee; */
   /* margin: 0px 30px;  */
   visibility: collapse;
