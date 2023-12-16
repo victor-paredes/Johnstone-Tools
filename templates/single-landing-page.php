@@ -67,7 +67,7 @@ get_template_part( 'parts/js_header' ); ?>
                     padding: 0;
                 }
                 .columnsCollectionContainer .col-md {
-                    padding: 0 !important;
+                    /* padding: 0 !important; */
                 }
                 h1 {
                     font-size: 1.9rem;
