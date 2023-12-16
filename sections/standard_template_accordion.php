@@ -102,6 +102,7 @@
 } 
 .accordion__item:focus .accordion__title {
   color: #25aff3;
+  font-size: 2rem;
 }
 .accordion__item:focus .accordion__content {
   color: #fff;
