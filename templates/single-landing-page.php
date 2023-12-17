@@ -84,11 +84,11 @@ get_template_part( 'parts/js_header' ); ?>
                 h2:before {
                     display: block;
                     position: absolute;
-                    margin: 0 0 0 -10px;
+                    margin: 5px 0 0 -15px;
                     content: ".";
-                    background-color: #fff;
-                    color: #fff;
-                    box-shadow: -10px 0 0 0 #ef3f42;
+                    background-color: transparent;
+                    color: transparent;
+                    box-shadow: -10px 0 0 0 #72aab4;
                 }
                 p {
                     line-height: 1.4rem;
