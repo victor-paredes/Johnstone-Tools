@@ -20,7 +20,7 @@
                         the_row(); 
                     ?>
 
-                        <td class="table_subheader" style="background-color: <?php the_sub_field('bg_color'); ?>; color: <?php the_sub_field('text_color'); ?>; border-color: <?php the_sub_field('border_color'); ?>;">
+                        <td class="table_cell" style="background-color: <?php the_sub_field('bg_color'); ?>; color: <?php the_sub_field('text_color'); ?>; border-color: <?php the_sub_field('border_color'); ?>;">
                             <?php the_sub_field('cell_content'); ?>
                         </td>
 
@@ -64,10 +64,7 @@
         background-color: #041e46;
         color: #fff;
     }
-    .table_wrap img {
-        aspect-ratio: initial !important;
-        width: 100%;
-    }
+    
 
     @media (max-width: 767px) { 
         .standard_template_table_wrap {
@@ -81,6 +78,9 @@
         } 
         .table_noexpand td { 
             padding: 5px;
+        }
+        .table_cell {
+            line-height: 1rem;
         }
     } 
 </style>
