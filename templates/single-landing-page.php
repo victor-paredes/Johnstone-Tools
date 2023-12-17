@@ -63,6 +63,15 @@ get_template_part( 'parts/js_header' ); ?>
                 .wide_only {
                     display: initial;
                 }
+                .columnsCollectionContainer h2:before {
+                    display: block;
+                    position: absolute;
+                    margin: 0 0 0 -10px;
+                    content: ".";
+                    background-color: #fff;
+                    color: #fff;
+                    box-shadow: -10px 0 0 0 #ef3f42;
+                }
                 .columnsCollectionContainer {
                     padding: 0;
                 }
