@@ -1,4 +1,4 @@
-<div class="col-12 pt-3 text-left <?php the_sub_field('css_classes'); ?>"> <!-- start table -->
+<div class="standard_template_table_wrap col-12 pt-3 text-left <?php the_sub_field('css_classes'); ?>"> <!-- start table -->
 			
     <div class=" row table_wrap shadow"><!-- wrap -->
 
@@ -70,6 +70,9 @@
     }
 
     @media (max-width: 767px) { 
+        .standard_template_table_wrap {
+            margin-top: -20px;
+        }
         .table_wrap * {
             font-size: 10px;
         }
