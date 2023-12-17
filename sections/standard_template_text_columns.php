@@ -7,10 +7,10 @@
                 echo '
                     <style>
                         .' . $text_columns_card_deck_class . ' .card:first-child {
-                            padding-right: 15px;
+                            padding-right: 45px;
                         }
                         .' . $text_columns_card_deck_class . ' .card:last-child {
-                            padding-left: 15px;
+                            padding-left: 45px;
                         }
                     </style>
                 ';
@@ -50,9 +50,15 @@
                 padding-left: 50px;
                 padding-right: 50px;
             }
+
+            @media screen and (max-width: 576px) {
+                .<?php echo $text_columns_card_deck_class; ?> .card:first-child, .<?php echo $text_columns_card_deck_class; ?> .card:last-child {
+                    padding: initial;
+                }
+            }
         </style>
                      
-
+               
 
 
 
