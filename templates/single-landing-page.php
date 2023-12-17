@@ -89,7 +89,7 @@ get_template_part( 'parts/js_header' ); ?>
                     content: ".";
                     background-color: transparent;
                     color: transparent;
-                    box-shadow: -10px 0 0 0 #72aab4;
+                    box-shadow: -10px 0 0 0 #ef3f42;
                 }
                 p {
                     line-height: 1.4rem;
