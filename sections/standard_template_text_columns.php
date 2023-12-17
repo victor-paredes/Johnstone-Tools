@@ -6,11 +6,11 @@
             if ( $text_columns_row_count >= 2 ) {
                 echo '
                     <style>
-                        .' . $text_columns_card_deck_class . ' card:first-child {
-                            padding-right: 10px;
+                        .' . $text_columns_card_deck_class . ' .card:first-child {
+                            padding-right: 15px;
                         }
-                        .' . $text_columns_card_deck_class . ' card:last-child {
-                            padding-left: 10px;
+                        .' . $text_columns_card_deck_class . ' .card:last-child {
+                            padding-left: 15px;
                         }
                     </style>
                 ';
