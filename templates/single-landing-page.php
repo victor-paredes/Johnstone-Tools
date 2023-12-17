@@ -63,15 +63,6 @@ get_template_part( 'parts/js_header' ); ?>
                 .wide_only {
                     display: initial;
                 }
-                h2:before {
-                    display: block;
-                    position: absolute;
-                    margin: 0 0 0 -10px;
-                    content: ".";
-                    background-color: #fff;
-                    color: #fff;
-                    box-shadow: -10px 0 0 0 #ef3f42;
-                }
                 .columnsCollectionContainer {
                     padding: 0;
                 }
@@ -89,6 +80,15 @@ get_template_part( 'parts/js_header' ); ?>
                     padding-bottom: 18px !important;
                     font-weight: 900 !important;
                     font-size: 1.9rem !important;
+                }
+                h2:before {
+                    display: block;
+                    position: absolute;
+                    margin: 0 0 0 -10px;
+                    content: ".";
+                    background-color: #fff;
+                    color: #fff;
+                    box-shadow: -10px 0 0 0 #ef3f42;
                 }
                 p {
                     line-height: 1.4rem;
