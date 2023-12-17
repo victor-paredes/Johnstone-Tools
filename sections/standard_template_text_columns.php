@@ -6,6 +6,14 @@
 
 
         <?php
+            $text_columns_row_count = count(get_sub_field('text_column_content'));
+
+            if ( $text_columns_row_count == 2 ) {
+                echo '2? Count: ' . $text_columns_row_count;
+            } else {
+                echo 'Count: ' . $text_columns_row_count;
+            }
+
             while( have_rows('text_column_content') ){ 
                 the_row(); 
         ?>
