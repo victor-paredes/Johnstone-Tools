@@ -1,19 +1,28 @@
 
+<?php
+    $text_columns_card_deck_class = 'card-' . rand(100, 1000);
+    $text_columns_row_count = count(get_sub_field('text_column_content'));
+
+            if ( $text_columns_row_count >= 2 ) {
+                echo '
+                    <style>
+                        .' . $text_columns_card_class . ' {
+                            
+                        }
+                    </style>
+                ';
+            } else {
+                echo 'Count: ' . $text_columns_row_count;
+            }
+?>
+
 <div class="text_columns_wrap padding_mobile <?php the_sub_field('css_classes'); ?>">
-    <div class="card-deck">
+    <div class="card-deck <?php echo $text_columns_card_deck_class; ?>">
 
 
 
 
         <?php
-            $text_columns_row_count = count(get_sub_field('text_column_content'));
-
-            if ( $text_columns_row_count == 2 ) {
-                echo '2? Count: ' . $text_columns_row_count;
-            } else {
-                echo 'Count: ' . $text_columns_row_count;
-            }
-
             while( have_rows('text_column_content') ){ 
                 the_row(); 
         ?>
