@@ -80,7 +80,7 @@
             padding: 5px;
         }
         .table_cell {
-            line-height: 1rem;
+            line-height: 0.85rem !important;
         }
     } 
 </style>
