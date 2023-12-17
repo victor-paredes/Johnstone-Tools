@@ -95,7 +95,7 @@ get_template_part( 'parts/js_header' ); ?>
                     line-height: 1.4rem;
                 }
 
-
+ 
                 @media screen and (max-width: 576px) {
                     .small_only {
                         display: initial;
