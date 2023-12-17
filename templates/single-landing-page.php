@@ -63,7 +63,7 @@ get_template_part( 'parts/js_header' ); ?>
                 .wide_only {
                     display: initial;
                 }
-                .columnsCollectionContainer h2:before {
+                h2:before {
                     display: block;
                     position: absolute;
                     margin: 0 0 0 -10px;
