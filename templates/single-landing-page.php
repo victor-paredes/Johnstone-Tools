@@ -84,6 +84,7 @@ get_template_part( 'parts/js_header' ); ?>
                 h2:before {
                     display: block;
                     position: absolute;
+                    height: 25px;
                     margin: 5px 0 0 -15px;
                     content: ".";
                     background-color: transparent;
