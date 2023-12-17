@@ -71,7 +71,7 @@
             margin-top: -20px;
         }
         .table_wrap * {
-            font-size: 10px;
+            font-size: 10px; 
         }
         .table_noexpand { 
             border-radius: 0.25rem;
