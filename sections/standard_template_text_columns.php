@@ -6,8 +6,11 @@
             if ( $text_columns_row_count >= 2 ) {
                 echo '
                     <style>
-                        .' . $text_columns_card_class . ' {
-                            
+                        .' . $text_columns_card_class . ':first-child {
+                            padding-right: 10px;
+                        }
+                        .' . $text_columns_card_class . ':last-child {
+                            padding-left: 10px;
                         }
                     </style>
                 ';
