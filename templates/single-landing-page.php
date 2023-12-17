@@ -81,7 +81,7 @@ get_template_part( 'parts/js_header' ); ?>
                     font-weight: 900 !important;
                     font-size: 1.9rem !important;
                 }
-                h2:before {
+                .text_columns_wrap h2:before {
                     display: block;
                     position: absolute;
                     height: 25px;
