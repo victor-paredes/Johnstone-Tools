@@ -14,8 +14,6 @@
                         }
                     </style>
                 ';
-            } else {
-                echo 'Count: ' . $text_columns_row_count;
             }
 ?>
 
