@@ -35,7 +35,7 @@
 
                 </div> <!-- END .card -->
 
-
+ 
 
         <?php
             } // END while( have_rows('copy') )
