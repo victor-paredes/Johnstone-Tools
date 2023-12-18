@@ -124,6 +124,7 @@ h4 {
 .tools_button:hover {
     color: black;
     padding: 3px 10px 5px 10px;
+    border-top-width: 0px;
     border-bottom-width: 4px;
     border-color: black;
 }
