@@ -27,6 +27,9 @@
             <a class="menu_item" href="<?php the_sub_field('link'); ?>">
                         <?php the_sub_field('label'); ?>
             </a>
+            <a class="menu_item menu_item_local_link" href="<?php the_sub_field('local_link'); ?>">
+                        <?php the_sub_field('label'); ?>
+            </a>
                
 
 
@@ -89,6 +92,9 @@
     }
     .menu_item { 
         padding: 10px 5px; 
+    }
+    .menu_item_local_link {
+        display: none;
     }
 
     @media screen and (max-width: 576px) {
