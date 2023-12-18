@@ -1,6 +1,6 @@
 
 <?php
-    $text_columns_header_image_class = 'text_columns_header_wrap_' . rand(500-1000);
+    $text_columns_header_image_class = 'text_columns_header_wrap_' . rand(500, 1000);
 ?>
 
 <div class="text_columns_header_wrap <?php echo $text_columns_header_image_class; ?>" style="margin-bottom: 10px;">
