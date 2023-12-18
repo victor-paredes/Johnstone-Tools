@@ -142,7 +142,7 @@ get_template_part( 'parts/js_header' ); ?>
             <button id="copyButton">
                 Copy BR Code
             </button>
-            <span class="link_toggle">
+            <span id="link_toggle">
                 test
             </span>
         </center>
@@ -213,7 +213,7 @@ get_template_part( 'parts/js_header' ); ?>
     }
 
     // Add event listener to links that should trigger the function
-    document.getElementByClass('link_toggle').addEventListener('click', function() {
+    document.getElementById('link_toggle').addEventListener('click', function() {
             addDisplayPropertyToMenuItems();
         });
 
