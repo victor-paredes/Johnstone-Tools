@@ -213,7 +213,7 @@ get_template_part( 'parts/js_header' ); ?>
     }
 
     // Add event listener to links that should trigger the function
-    document.querySelectorAll('.link_toggle').addEventListener('click', function() {
+    document.getElementByClass('link_toggle').addEventListener('click', function() {
             addDisplayPropertyToMenuItems();
         });
 
