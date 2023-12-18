@@ -160,36 +160,36 @@ get_template_part( 'parts/js_header' ); ?>
 <script>
     // copy content to clipboard
     document.addEventListener('DOMContentLoaded', function() {
-    const copyButton = document.getElementById('copyButton');
-    const container = document.getElementById('COPY_THIS_CONTAINER_TO_BLOOMREACH');
+        const copyButton = document.getElementById('copyButton');
+        const container = document.getElementById('COPY_THIS_CONTAINER_TO_BLOOMREACH');
 
-    copyButton.addEventListener('click', function() {
-        if (container) {
-        const htmlContent = container.outerHTML;
+        copyButton.addEventListener('click', function() {
+            if (container) {
+            const htmlContent = container.outerHTML;
 
-        const tempTextArea = document.createElement('textarea');
-        tempTextArea.value = htmlContent;
+            const tempTextArea = document.createElement('textarea');
+            tempTextArea.value = htmlContent;
 
-        document.body.appendChild(tempTextArea);
-        tempTextArea.select();
+            document.body.appendChild(tempTextArea);
+            tempTextArea.select();
 
-        try {
-            const success = document.execCommand('copy');
-            if (success) {
-            console.log('Content and surrounding HTML copied to clipboard');
-            alert("😎 Code copied to clipboard!");
-            } else {
-            console.error('Copying failed');
+            try {
+                const success = document.execCommand('copy');
+                if (success) {
+                console.log('Content and surrounding HTML copied to clipboard');
+                alert("😎 Code copied to clipboard!");
+                } else {
+                console.error('Copying failed');
+                }
+            } catch (err) {
+                console.error('Error copying to clipboard:', err);
             }
-        } catch (err) {
-            console.error('Error copying to clipboard:', err);
-        }
 
-        document.body.removeChild(tempTextArea);
-        } else {
-        console.error('Container element not found');
-        }
-    });
+            document.body.removeChild(tempTextArea);
+            } else {
+            console.error('Container element not found');
+            }
+        });
     });
 
 
@@ -213,11 +213,9 @@ get_template_part( 'parts/js_header' ); ?>
     }
 
     // Add event listener to links that should trigger the function
-    document.querySelectorAll('.link_toggle').forEach(function(link) {
-        link.addEventListener('click', function() {
+    document.querySelectorAll('.link_toggle').addEventListener('click', function() {
             addDisplayPropertyToMenuItems();
         });
-    });
 
 
 
