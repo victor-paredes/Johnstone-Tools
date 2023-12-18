@@ -112,23 +112,19 @@ h4 {
 #js_tools_wrap:hover {
     /* background-color: #244c6e; */
 }
-#copyButton {
-    pointer-events: auto;
+.tools_button {
     color: #1970bc;
     border: 1px solid #1970bc;
     padding: 4px 10px;
     border-radius: 9999px;
     transition: all .15s ease-out;
 }
-#copyButton:hover {
-    /* background-color: #1391ff !important; */
+.tools_button:hover {
     color: black;
     padding: 3px 10px 5px 10px;
     border-bottom-width: 4px;
     border-color: black;
 }
-
-
 
 
 
