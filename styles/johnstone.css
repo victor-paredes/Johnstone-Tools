@@ -113,16 +113,16 @@ h4 {
 .tools_button {
     display: inline-block;
     z-index: 999999;
-    color: #1970bc;
-    border: 1px solid #1970bc;
+    color: #7ec3ff;
+    border: 1px solid #7ec3ff;
     padding: 4px 10px;
     border-radius: 9999px;
     transition: all .15s ease-out;
     cursor: pointer;
 }
 .tools_button:hover {
-    color: black; 
-    border-color: black;
+    color: #fff; 
+    border-color: #fff;
 }
 
 
