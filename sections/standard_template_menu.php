@@ -94,7 +94,7 @@
         padding: 10px 5px; 
     }
     .menu_item_local_link {
-        display: none;
+        /* display: none; */
     }
 
     @media screen and (max-width: 576px) {
