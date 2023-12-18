@@ -100,7 +100,7 @@ h4 {
 
 
 #js_tools_wrap {
-    pointer-events: none;
+    
     position: fixed;
     z-index: 1000;
     bottom: 0;
@@ -109,9 +109,6 @@ h4 {
     background-color: #d4e4f2;
     font-size: 0.9em;
     transition: background-color .15s ease-out;
-}
-#js_tools_wrap:hover {
-    /* background-color: #244c6e; */
 }
 .tools_button {
     display: inline-block;
