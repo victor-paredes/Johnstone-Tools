@@ -139,9 +139,12 @@ get_template_part( 'parts/js_header' ); ?>
 <?php if (is_user_logged_in() == 1) { ?>
     <div id="js_tools_wrap">
         <center>
-            <button id="">
+            <button id="copyButton">
                 Copy BR Code
             </button>
+            <div style="display: inline-block;" id="link_toggle">
+                test
+            </div>
         </center>
     </div>
 <?php } ?> 
