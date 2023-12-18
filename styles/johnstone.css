@@ -113,6 +113,7 @@ h4 {
     /* background-color: #244c6e; */
 }
 .tools_button {
+    display: inline-block;
     color: #1970bc;
     border: 1px solid #1970bc;
     padding: 4px 10px;

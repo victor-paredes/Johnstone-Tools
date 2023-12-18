@@ -142,10 +142,10 @@ get_template_part( 'parts/js_header' ); ?>
             <!-- <button id="copyButton">
                 Copy BR Code
             </button> -->
-            <div style="display: inline-block;" id="copyButton">
+            <div id="copyButton" class="tools_button">
                 Copy
             </div>
-            <div style="display: inline-block;" id="link_toggle">
+            <div id="link_toggle" class="tools_button">
                 test
             </div>
         </center>
