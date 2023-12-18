@@ -220,7 +220,7 @@ get_template_part( 'parts/js_header' ); ?>
                 menuItem.style.display = 'none';
             });
             $link_toggle_button.innerHTML = 'Menu Links: Local'
-            $menu_links_state = 'remote';
+            $menu_links_state = 'local';
         }
 
 
