@@ -57,7 +57,7 @@
                         <?php the_sub_field('product_description'); ?>
                         
                         <a class="btn btn-primary mt-auto" href="<?php the_sub_field('product_link'); ?>" role="button" target="_blank">
-                            Learn More 
+                            <?php the_sub_field('button_label'); ?>
                         </a>
                     </div>
 
