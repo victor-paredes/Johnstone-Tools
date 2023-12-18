@@ -141,7 +141,7 @@ get_template_part( 'parts/js_header' ); ?>
             <div style="color: #fff; display: inline-block;">
                 Tools >>  
             </div>
-            <div id="copyButton" class="tools_button" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+            <div id="copyButton" class="tools_button">
                 Copy Code
             </div>
             <div id="link_toggle" class="tools_button">
@@ -158,11 +158,6 @@ get_template_part( 'parts/js_header' ); ?>
 
 
 <script>
-
-    $(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-    })
- 
 
     // copy content to clipboard
     document.addEventListener('DOMContentLoaded', function() { 
