@@ -137,7 +137,7 @@ get_template_part( 'parts/js_header' ); ?>
 
 
 <?php if (is_user_logged_in() == 1) { ?>
-    <div id="js_tools_wrap">
+    <!-- <div id="js_tools_wrap"> -->
         <center>
             <!-- <button id="copyButton">
                 Copy BR Code
@@ -149,7 +149,7 @@ get_template_part( 'parts/js_header' ); ?>
                 test
             </div>
         </center>
-    </div>
+    <!-- </div> -->
 <?php } ?> 
 
 
