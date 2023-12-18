@@ -205,7 +205,7 @@ get_template_part( 'parts/js_header' ); ?>
 
         if ($menu_links_state == 'local') {
             menuItems_local.forEach(function(menuItem) {
-            menuItem.style.display = 'none';
+                menuItem.style.display = 'none';
             });
             menuItems_remote.forEach(function(menuItem) {
                 menuItem.style.display = 'initial';
@@ -214,7 +214,7 @@ get_template_part( 'parts/js_header' ); ?>
             $menu_links_state = 'local';
         } else {
             menuItems_local.forEach(function(menuItem) {
-            menuItem.style.display = 'initial';
+                menuItem.style.display = 'initial';
             });
             menuItems_remote.forEach(function(menuItem) {
                 menuItem.style.display = 'none';
