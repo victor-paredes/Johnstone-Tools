@@ -51,7 +51,7 @@
 
  
 <style>
-    .<?php echo $text_columns_header_image_class; ?> {
+    .text_columns_header_wrap {
         background-color: #002b67;
         color: #fff !important; 
         border-radius: .25rem;
@@ -106,7 +106,7 @@
     }
     @media screen and (max-width: 992px) { 
         
-        .text_columns_header_wrap {
+        <?php echo '.' . $text_columns_header_image_class; ?> {
             background-image: url('<?php the_sub_field('alt_image_remote_url'); ?>');
             background-size: cover;
         }
