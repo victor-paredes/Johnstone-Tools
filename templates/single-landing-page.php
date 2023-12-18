@@ -139,7 +139,7 @@ get_template_part( 'parts/js_header' ); ?>
 <?php if (is_user_logged_in() == 1) { ?>
     <div id="js_tools_wrap">
             <div style="color: #fff; display: inline-block;">
-                Toolbox - 
+                Tools >>  
             </div>
             <div id="copyButton" class="tools_button">
                 Copy Code
