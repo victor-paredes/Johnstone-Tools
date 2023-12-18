@@ -1,5 +1,11 @@
 
-<div class="text_columns_header_wrap" style="margin-bottom: 10px;">
+<div class="text_columns_header_wrap" style="margin-bottom: 10px; background-image: url('
+                                            <?php 
+                                            if ( get_sub_field('alt_image_remote_url') ) { 
+                                                the_sub_field('alt_image_remote_url'); 
+                                            } else { 
+                                                the_sub_field('alt_image'); 
+                                            } ?>');">
     <div class="card-deck">
 
 
@@ -26,7 +32,12 @@
 
                 <div class="card wide_only" style="background-color: transparent; border: initial;">
                     <div class="padding_mobile py-5 pr-5 text-center">
-                        <img class="" src="<?php the_sub_field('featured_image'); ?>" style="width:100%; border-radius: .25rem; padding-left: 10px;">
+                        <img class="" src="<?php 
+                                            if ( get_sub_field('featured_image_remote_url') ) { 
+                                                the_sub_field('featured_image_remote_url'); 
+                                            } else { 
+                                                the_sub_field('featured_image'); 
+                                            } ?>" style="width:100%; border-radius: .25rem; padding-left: 10px;">
                     </div>
                 </div> <!-- END .card -->
 
