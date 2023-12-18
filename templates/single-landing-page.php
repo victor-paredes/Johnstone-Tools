@@ -142,9 +142,9 @@ get_template_part( 'parts/js_header' ); ?>
             <button id="copyButton">
                 Copy BR Code
             </button>
-            <div>
-        test
-    </div>
+            <span>
+                test
+</span>
         </center>
     </div>
     
