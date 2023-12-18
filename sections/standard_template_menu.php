@@ -24,7 +24,7 @@
             
             
 
-            <a class="menu_item" href="<?php the_sub_field('link'); ?>">
+            <a class="menu_item menu_item_remote_link" href="<?php the_sub_field('link'); ?>">
                         <?php the_sub_field('label'); ?>
             </a>
             <a class="menu_item menu_item_local_link" href="<?php the_sub_field('local_link'); ?>">
