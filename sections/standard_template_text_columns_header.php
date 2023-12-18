@@ -107,7 +107,13 @@
     @media screen and (max-width: 992px) { 
         
         <?php echo '.' . $text_columns_header_image_class; ?> {
-            background-image: url('<?php the_sub_field('alt_image_remote_url'); ?>');
+            background-image: url('<?php 
+                                            if ( get_sub_field('featured_image_remote_url') ) { 
+                                                the_sub_field('featured_image_remote_url'); 
+                                            } else { 
+                                                the_sub_field('featured_image'); 
+                                            } ?>
+                                        ');
             background-size: cover;
         }
     }
