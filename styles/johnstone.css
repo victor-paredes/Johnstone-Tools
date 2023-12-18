@@ -102,6 +102,7 @@ h4 {
 #js_tools_wrap {
     pointer-events: none;
     position: fixed;
+    z-index: -2000;
     bottom: 0;
     width: 100%;
     padding: 10px;
