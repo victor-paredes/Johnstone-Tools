@@ -142,11 +142,13 @@ get_template_part( 'parts/js_header' ); ?>
             <button id="copyButton">
                 Copy BR Code
             </button>
-            <span id="link_toggle">
-                test
-            </span>
+            
         </center>
     </div>
+
+    <span id="link_toggle">
+                test
+            </span>
     
 <?php } ?> 
 
