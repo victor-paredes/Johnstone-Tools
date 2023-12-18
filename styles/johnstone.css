@@ -110,7 +110,7 @@ h4 {
     transition: background-color .15s ease-out;
 }
 #js_tools_wrap:hover {
-    background-color: #244c6e;
+    /* background-color: #244c6e; */
 }
 #copyButton {
     pointer-events: auto;
