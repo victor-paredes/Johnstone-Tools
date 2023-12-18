@@ -142,9 +142,9 @@ get_template_part( 'parts/js_header' ); ?>
             <button id="copyButton">
                 Copy BR Code
             </button>
-            <span>
+            <span class="link_toggle">
                 test
-</span>
+            </span>
         </center>
     </div>
     
@@ -191,6 +191,39 @@ get_template_part( 'parts/js_header' ); ?>
         }
     });
     });
+
+
+
+
+
+    // Function to add CSS property to elements with a specific class
+    function addDisplayPropertyToMenuItems() {
+        // Select all elements with the class '.menu_item_remote_link'
+        var menuItems_local = document.querySelectorAll('.menu_item_local_link');
+        var menuItems_remote = document.querySelectorAll('.menu_item_remote_link');
+
+        // Iterate over each element and set the display property
+        menuItems_local.forEach(function(menuItem) {
+            menuItem.style.display = 'none';
+        });
+        menuItems_remote.forEach(function(menuItem) {
+            menuItem.style.display = 'initial';
+        });
+    }
+
+    // Add event listener to links that should trigger the function
+    document.querySelectorAll('.link_toggle').forEach(function(link) {
+        link.addEventListener('click', function() {
+            addDisplayPropertyToMenuItems();
+        });
+    });
+
+
+
+
+
+
+
 </script>
 
 
