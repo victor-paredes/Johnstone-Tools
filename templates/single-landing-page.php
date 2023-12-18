@@ -162,7 +162,7 @@ get_template_part( 'parts/js_header' ); ?>
     $(function () {
     $('[data-toggle="tooltip"]').tooltip()
     })
-
+ 
 
     // copy content to clipboard
     document.addEventListener('DOMContentLoaded', function() { 
