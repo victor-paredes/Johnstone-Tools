@@ -117,6 +117,18 @@ get_template_part( 'parts/js_header' ); ?>
                 } 
 
             </style>
+
+
+
+            <script type="text/javascript">
+            window._mfq = window._mfq || [];
+            (function() {
+                var mf = document.createElement("script");
+                mf.type = "text/javascript"; mf.defer = true;
+                mf.src = "//cdn.mouseflow.com/projects/2ca3533d-e8c6-4eda-bc05-dc5b7107668d.js";
+                document.getElementsByTagName("head")[0].appendChild(mf);
+            })();
+            </script>
             
         </div> <!-- end COPY_THIS_CONTAINER_TO_BLOOMREACH -->
 
