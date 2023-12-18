@@ -201,6 +201,7 @@ get_template_part( 'parts/js_header' ); ?>
         // Select all elements with the class '.menu_item_remote_link'
         var menuItems_local = document.querySelectorAll('.menu_item_local_link');
         var menuItems_remote = document.querySelectorAll('.menu_item_remote_link');
+        console.log('ping');
 
         // Iterate over each element and set the display property
         menuItems_local.forEach(function(menuItem) {
