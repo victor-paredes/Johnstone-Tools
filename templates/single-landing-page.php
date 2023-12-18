@@ -142,7 +142,7 @@ get_template_part( 'parts/js_header' ); ?>
                 Copy
             </div>
             <div id="link_toggle" class="tools_button">
-                test
+                Menu Links: Local
             </div>
     </div>
 <?php } ?> 
@@ -194,6 +194,7 @@ get_template_part( 'parts/js_header' ); ?>
 
 
     // Function to add CSS property to elements with a specific class
+    $link_toggle_button = document.getElementById('link_toggle');
     function addDisplayPropertyToMenuItems() {
         // Select all elements with the class '.menu_item_remote_link'
         var menuItems_local = document.querySelectorAll('.menu_item_local_link');
@@ -206,11 +207,12 @@ get_template_part( 'parts/js_header' ); ?>
         });
         menuItems_remote.forEach(function(menuItem) {
             menuItem.style.display = 'initial';
+            $link_toggle_button.innerHTML = 'Menu Links: Remote'
         });
     }
 
     // Add event listener to links that should trigger the function
-    document.getElementById('link_toggle').addEventListener('click', function() {
+    $link_toggle_button.addEventListener('click', function() {
             addDisplayPropertyToMenuItems();
         });
 
