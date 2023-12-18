@@ -30,8 +30,6 @@ get_template_part( 'parts/js_header' ); ?>
                         get_template_part( 'sections/standard_template_about_section' );
                     } elseif ( $current_layout == 'standard_template_product_cards' ) {
                         get_template_part( 'sections/standard_template_product_cards' );
-                    } elseif ( $current_layout == 'additional_resources' ) {
-                        get_template_part( 'sections/standard_template_additional_resources' );
                     } elseif ( $current_layout == 'text_columns' ) {
                         get_template_part( 'sections/standard_template_text_columns' );
                     } elseif ( $current_layout == 'text_columns_header' ) {
