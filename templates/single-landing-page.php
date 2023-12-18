@@ -161,7 +161,7 @@ get_template_part( 'parts/js_header' ); ?>
 
 <script>
     // copy content to clipboard
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function() { 
         const copyButton = document.getElementById('copyButton');
         const container = document.getElementById('COPY_THIS_CONTAINER_TO_BLOOMREACH');
 
