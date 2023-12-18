@@ -1,11 +1,5 @@
 
-<div class="text_columns_header_wrap" style="margin-bottom: 10px; background-image: url('
-                                            <?php 
-                                            if ( get_sub_field('alt_image_remote_url') ) { 
-                                                the_sub_field('alt_image_remote_url'); 
-                                            } else { 
-                                                the_sub_field('alt_image'); 
-                                            } ?>');">
+<div class="text_columns_header_wrap" style="margin-bottom: 10px;">
     <div class="card-deck">
 
 
@@ -109,7 +103,7 @@
     @media screen and (max-width: 992px) { 
         
         .text_columns_header_wrap {
-            background-image: url('<?php the_sub_field('alt_image'); ?>');
+            background-image: url('<?php the_sub_field('alt_image_remote_url'); ?>');
             background-size: cover;
         }
     }
