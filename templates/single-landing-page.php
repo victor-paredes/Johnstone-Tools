@@ -139,7 +139,7 @@ get_template_part( 'parts/js_header' ); ?>
 <?php if (is_user_logged_in() == 1) { ?>
     <div id="js_tools_wrap">
             <div id="copyButton" class="tools_button">
-                Copy
+                Copy Code
             </div>
             <div id="link_toggle" class="tools_button">
                 Menu Links: Local
