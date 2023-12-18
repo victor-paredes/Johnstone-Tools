@@ -118,6 +118,7 @@ h4 {
     padding: 4px 10px;
     border-radius: 9999px;
     transition: all .15s ease-out;
+    cursor: pointer;
 }
 .tools_button:hover {
     color: black; 
