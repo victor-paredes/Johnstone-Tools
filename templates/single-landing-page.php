@@ -211,7 +211,7 @@ get_template_part( 'parts/js_header' ); ?>
                 menuItem.style.display = 'initial';
             });
             $link_toggle_button.innerHTML = 'Menu Links: Remote'
-            $menu_links_state = 'local';
+            $menu_links_state = 'remote';
         } else {
             menuItems_local.forEach(function(menuItem) {
                 menuItem.style.display = 'initial';
