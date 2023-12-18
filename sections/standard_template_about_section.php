@@ -14,7 +14,7 @@
 <div class="card" style="">
 <div>
     
-<h1 style="background-color: <?php the_sub_field('title_background_color'); ?>; color: #fff; font-size: 15.0pt; padding: 15px 1.25rem 0 1.25rem; margin-bottom: 0;">
+<h1 style="background-color: <?php the_sub_field('title_background_color'); ?>; color: #fff; font-size: 15.0pt; padding: 20px 1.25rem 0 1.25rem; margin-bottom: 0;">
     <?php the_sub_field('about_title'); ?>
 </h1>
 
