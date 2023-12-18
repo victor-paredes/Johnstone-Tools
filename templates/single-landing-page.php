@@ -141,7 +141,7 @@ get_template_part( 'parts/js_header' ); ?>
             <div style="color: #fff; display: inline-block;">
                 Tools >>  
             </div>
-            <div id="copyButton" class="tools_button">
+            <div id="copyButton" class="tools_button" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
                 Copy Code
             </div>
             <div id="link_toggle" class="tools_button">
