@@ -93,7 +93,7 @@
     .menu_item { 
         padding: 10px 5px; 
     }
-    .menu_item_local_link {
+    .menu_item_remote_link {
         display: none;
     }
 
