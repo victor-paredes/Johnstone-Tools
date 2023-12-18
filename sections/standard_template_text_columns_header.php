@@ -6,7 +6,12 @@
 
                 <div class="text_columns_header_image_card card small_only" style="background-color: transparent; border: initial;">
                     <div class="padding_mobile pr-5 text-center">
-                        <img class="" src="" style="width:100%; border-radius: .25rem;">
+                        <img class="" src="<?php 
+                                            if ( get_sub_field('featured_image_remote_url') ) { 
+                                                the_sub_field('featured_image_remote_url'); 
+                                            } else { 
+                                                the_sub_field('featured_image'); 
+                                            } ?>" style="width:100%; border-radius: .25rem;">
                     </div>
                 </div> <!-- END .card -->
      
