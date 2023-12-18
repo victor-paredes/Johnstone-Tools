@@ -204,13 +204,13 @@ get_template_part( 'parts/js_header' ); ?>
         console.log('ping');
 
         // Iterate over each element and set the display property
-    //     menuItems_local.forEach(function(menuItem) {
-    //         menuItem.style.display = 'none';
-    //     });
-    //     menuItems_remote.forEach(function(menuItem) {
-    //         menuItem.style.display = 'initial';
-    //     });
-    // }
+        // menuItems_local.forEach(function(menuItem) {
+        //     menuItem.style.display = 'none';
+        // });
+        // menuItems_remote.forEach(function(menuItem) {
+        //     menuItem.style.display = 'initial';
+        // });
+    }
 
     // Add event listener to links that should trigger the function
     document.getElementById('link_toggle').addEventListener('click', function() {
