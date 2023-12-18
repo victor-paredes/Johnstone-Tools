@@ -142,7 +142,7 @@ get_template_part( 'parts/js_header' ); ?>
             <button id="copyButton">
                 Copy BR Code
             </button>
-            <div id="link_toggle">
+            <div style="z-index: 1000;" id="link_toggle">
                 test
             </div>
         </center>
