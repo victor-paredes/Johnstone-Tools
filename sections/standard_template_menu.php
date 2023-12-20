@@ -107,7 +107,7 @@
         .menu_wrap .menu_item {
             display: none;
         }
-        .menu_wrap:hover * {
+        .menu_wrap:hover .menu_item_remote_link {
             display: initial !important;
         }
         .menu_wrap a {
