@@ -106,6 +106,9 @@ get_template_part( 'parts/js_header' ); ?>
                     display: inline-block;
                     content: counter(item);
                     font-weight: 900;
+                    margin-right: 10px;
+                    width: 1.2em;
+                    text-align: center;
                 }
 
  
