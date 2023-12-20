@@ -98,6 +98,9 @@
         .text_columns_header_textcard {
             padding: 0 30px !important;
         }
+        .text_columns_header_textcard h1 {
+            padding-top: 30px;
+        }
         .text_columns_header_wrap {
             background-image: none !important;
         } 
