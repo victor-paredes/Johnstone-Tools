@@ -122,7 +122,7 @@
         .menu_item_local_link {
             display: none !important;
         }
-        .menu_item_local_link {
+        .menu_item_remote_link {
             display: none;
         }
     }
