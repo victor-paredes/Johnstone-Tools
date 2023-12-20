@@ -104,6 +104,7 @@ get_template_part( 'parts/js_header' ); ?>
                 }
                 li:before {
                     display: inline-block;
+                    margin-left: -1.8rem;
                     content: counter(item);
                     font-weight: 900;
                     margin-right: 1.8rem;
