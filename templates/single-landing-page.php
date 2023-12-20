@@ -94,8 +94,16 @@ get_template_part( 'parts/js_header' ); ?>
                 p {
                     line-height: 1.4rem;
                 }
+                ol {
+                    list-style: none;
+                    counter-reset: item;
+                }
                 li {
+                    counter-increment: item;
                     padding-bottom: 10px;
+                }
+                li:before {
+                    font-weight: 900;
                 }
 
  
