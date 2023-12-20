@@ -217,7 +217,7 @@ get_template_part( 'parts/js_header' ); ?>
 
 
     // Function to add CSS property to elements with a specific class
-    $menu_links_state = 'local';
+    $menu_links_state = 'remote';
     $link_toggle_button = document.getElementById('link_toggle');
     function addDisplayPropertyToMenuItems() {
         // Select all elements with the class '.menu_item_remote_link'
