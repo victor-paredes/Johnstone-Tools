@@ -107,7 +107,6 @@ get_template_part( 'parts/js_header' ); ?>
                     margin-left: -1.8rem;
                     content: counter(item);
                     font-weight: 900;
-                    margin-right: 1.8rem;
                     width: 1.8rem;
                     text-align: center;
                 }
