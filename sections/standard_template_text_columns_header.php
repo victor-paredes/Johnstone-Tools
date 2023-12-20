@@ -102,7 +102,7 @@
         } 
     }
     @media screen and (max-width: 992px) { 
-        .text_columns_header_text card h1 {
+        .text_columns_header_text_card h1 {
             padding-top: 30px;
         }
         <?php echo '.' . $text_columns_header_image_class; ?> {
