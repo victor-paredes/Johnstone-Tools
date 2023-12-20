@@ -77,6 +77,7 @@
         flex-wrap: wrap;
         align-content: flex-start;
         padding-top: 15px;
+        padding-right: 10px;
     }
     .text_columns_header_text_card h1 { 
         font-weight: 900;
