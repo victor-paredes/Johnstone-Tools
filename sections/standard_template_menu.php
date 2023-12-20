@@ -94,7 +94,7 @@
         padding: 10px 5px; 
     }
     .menu_item_remote_link {
-        display: none !important;
+        display: none;
     }
 
     @media screen and (max-width: 576px) {
@@ -108,7 +108,7 @@
             display: none;
         }
         .menu_wrap:hover * {
-            display: block !important;
+            display: initial !important;
         }
         .menu_wrap a {
             text-align: center;
