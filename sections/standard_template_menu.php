@@ -108,7 +108,7 @@
             display: none;
         }
         .menu_wrap:hover * {
-            display: initial !important;
+            display: block !important;
         }
         .menu_wrap a {
             text-align: center;
