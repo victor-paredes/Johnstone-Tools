@@ -94,15 +94,15 @@ get_template_part( 'parts/js_header' ); ?>
                 p {
                     line-height: 1.4rem;
                 }
-                ol {
+                .columnsCollectionContainer ol {
                     list-style: none;
                     counter-reset: item;
                 }
-                li {
+                .columnsCollectionContainer li {
                     counter-increment: item;
                     padding-bottom: 10px;
                 }
-                li:before {
+                .columnsCollectionContainer li:before {
                     display: inline-block;
                     margin-left:calc(-1.8rem - 10px);
                     content: counter(item);
