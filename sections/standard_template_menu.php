@@ -27,10 +27,7 @@
             <a class="menu_item menu_item_remote_link" href="<?php the_sub_field('link'); ?>">
                         <?php the_sub_field('label'); ?>
             </a>
-            <a class="menu_item menu_item_remote_link_mobile" href="<?php the_sub_field('link'); ?>">
-                        <?php the_sub_field('label'); ?>
-            </a>
-            <a class="menu_item menu_item_local_link" href="<?php the_sub_field('local_link'); ?>">
+            <a class="menu_item menu_item_local_link" href="<?php the_sub_field('link'); ?>">
                         <?php the_sub_field('label'); ?>
             </a>
                
@@ -97,9 +94,6 @@
         padding: 10px 5px; 
     }
     .menu_item_remote_link {
-        display: none;
-    }
-    .menu_item_remote_link_mobile {
         display: none;
     }
 
