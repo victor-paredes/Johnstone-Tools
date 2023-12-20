@@ -79,7 +79,7 @@
     .text_columns_header_text_card h1 { 
         font-weight: 900;
         font-size: 2rem;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
 
     }
     .smalltext {
