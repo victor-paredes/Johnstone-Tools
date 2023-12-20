@@ -95,16 +95,14 @@
             position: initial !important;
             opacity: initial !important; 
         }
-        .text_columns_header_textcard {
-            padding: 0 30px !important;
-        }
+   
         
         .text_columns_header_wrap {
             background-image: none !important;
         } 
     }
     @media screen and (max-width: 992px) { 
-        .text_columns_header_textcard h1 {
+        .text_columns_header_text card h1 {
             padding-top: 30px;
         }
         <?php echo '.' . $text_columns_header_image_class; ?> {
