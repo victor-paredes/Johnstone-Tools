@@ -94,15 +94,15 @@ get_template_part( 'parts/js_header' ); ?>
                 p {
                     line-height: 1.4rem;
                 }
-                #COPY_THIS_CONTAINER_TO_BLOOMREACH ol {
+                .text_columns_header_text_card ol {
                     list-style: none;
                     counter-reset: item;
                 }
-                #COPY_THIS_CONTAINER_TO_BLOOMREACH li {
+                .text_columns_header_text_card li {
                     counter-increment: item;
                     padding-bottom: 10px;
                 }
-                #COPY_THIS_CONTAINER_TO_BLOOMREACH li:before {
+                .text_columns_header_text_card li:before {
                     display: inline-block;
                     margin-left:calc(-1.8rem - 10px);
                     content: counter(item);
