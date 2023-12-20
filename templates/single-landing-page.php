@@ -103,6 +103,8 @@ get_template_part( 'parts/js_header' ); ?>
                     padding-bottom: 10px;
                 }
                 li:before {
+                    display: inline-block;
+                    content: counter(item);
                     font-weight: 900;
                 }
 
