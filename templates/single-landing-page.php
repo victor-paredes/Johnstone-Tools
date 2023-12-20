@@ -94,12 +94,15 @@ get_template_part( 'parts/js_header' ); ?>
                 p {
                     line-height: 1.4rem;
                 }
+                li {
+                    padding-bottom: 10px;
+                }
 
  
                 @media screen and (max-width: 576px) {
                     .small_only {
                         display: initial;
-                    }
+                    } 
                     .columnsCollectionContainer .col-md {
                         padding: 0 !important;
                     }
