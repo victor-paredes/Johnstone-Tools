@@ -119,6 +119,9 @@
             padding-top: 0;
             padding-bottom: 0;
         }
+        .menu_item_remote_link {
+            display: none;
+        }
     }
     @media screen and (min-width: 1200px) {
 
