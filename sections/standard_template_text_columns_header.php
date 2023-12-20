@@ -21,9 +21,8 @@
      
                 <div class="card" style="background-color: transparent; border: initial;">
                     <div class="padding_mobile text_columns_header_text_card pl-5">
-                        <div class="smalltext w-100" style="padding-bottom: 15px; padding-top: 30px; text-transform: uppercase;">
-                            <?php the_sub_field('subheader'); ?>
-                        </div>
+                        <!-- <div class="smalltext w-100" style="padding-bottom: 15px; padding-top: 30px; text-transform: uppercase;">
+                        </div> -->
                         <?php the_sub_field('text_content'); ?>
                     </div>
                 </div> <!-- END .card -->
