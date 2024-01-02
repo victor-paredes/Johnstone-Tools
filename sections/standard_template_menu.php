@@ -97,9 +97,6 @@
         border: 1px solid;
         border-color: transparent;
     }
-    .menu_item:active, .menu_item:focus { 
-        background-color: #85d3e0 !important;
-    }
     .menu_item:hover { 
         text-decoration: none;
         border-color: #85d3e0;
