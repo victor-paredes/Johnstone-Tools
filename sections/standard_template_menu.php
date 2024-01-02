@@ -91,7 +91,7 @@
         width: 70px;
     }
     .menu_item { 
-        padding: 5px 10px 10px 10px;
+        padding: 5px 10px;
         margin: 5px 0;
         border-radius: .25rem;
     }
