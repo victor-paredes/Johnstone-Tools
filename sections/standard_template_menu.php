@@ -99,7 +99,7 @@
     }
     .menu_item:hover { 
         text-decoration: none;
-        border-color: red;
+        border-color: #85d3e0;
     }
     .menu_item_remote_link {
         display: none;
