@@ -56,7 +56,7 @@
 
                         <?php the_sub_field('product_description'); ?>
                         
-                        <a class="btn btn-primary mt-auto" href="<?php the_sub_field('product_link'); ?>" role="button" target="_blank">
+                        <a class="btn btn-primary mt-auto" href="<?php echo get_sub_field('product_link'); ?>" role="button" target="_blank">
                             <?php the_sub_field('button_label'); ?>
                         </a>
                     </div>
