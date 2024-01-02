@@ -92,6 +92,8 @@
     }
     .menu_item { 
         padding: 10px 5px; 
+        border-top-left-radius: .25rem;
+        border-top-right-radius: .25rem;
     }
     .menu_item_remote_link {
         display: none;
