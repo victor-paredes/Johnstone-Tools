@@ -114,6 +114,7 @@
         }
         .menu_wrap .menu_item {
             display: none;
+            margin: 0;
         }
         .menu_wrap:hover .menu_item_remote_link {
             display: initial !important;
