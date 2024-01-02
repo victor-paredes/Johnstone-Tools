@@ -97,8 +97,8 @@
         border: 1px solid;
         border-color: transparent;
     }
-    .menu_item:active { 
-        background-color: #85d3e0 !important;
+    .menu_item:active, .menu_item:focus { 
+        background-color: #ef3e42 !important;
     }
     .menu_item:hover { 
         text-decoration: none;
