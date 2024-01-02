@@ -1,6 +1,6 @@
 
 <div class="<?php the_sub_field('css_classes') ?>">
-    <a href="<?php if ( get_sub_field('link') ) { the_sub_field('llink'); } ?>" target="_blank">
+    <?php if ( get_sub_field('link') ) { ?> <a href="<?php the_sub_field('llink'); ?>" target="_blank"> <?php } ?>
         <img style="width: 100%;" src="
                                         <?php 
                                         if ( get_sub_field('image_remote_url') ) { 
@@ -9,7 +9,7 @@
                                             the_sub_field('image_file'); 
                                         } ?>
                                     ">
-    </a>
+    <?php if ( get_sub_field('link') ) { ?> </a> <?php } ?>
 </div>
 
 
