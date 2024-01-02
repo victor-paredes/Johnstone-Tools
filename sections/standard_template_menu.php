@@ -94,6 +94,12 @@
         padding: 5px 10px;
         margin: 5px 0;
         border-radius: .25rem;
+        border: 1px;
+        border-color: transparent;
+    }
+    .menu_item:hover { 
+        text-decoration: none;
+        border-color: red;
     }
     .menu_item_remote_link {
         display: none;
