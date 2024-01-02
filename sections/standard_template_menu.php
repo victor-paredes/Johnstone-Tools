@@ -24,7 +24,7 @@
             
             
 
-            <a class="menu_item menu_item_remote_link" href="<?php the_sub_field('link'); ?>">
+            <a class="menu_item menu_item_remote_link" href="<?php the_sub_field('link'); ?>" style="<?php if (get_sub_field('highlighted') == 'highlighted' ) { ?>background-color: #002b67;<?php } ?>">
                         <?php the_sub_field('label'); ?>
             </a>
             <a class="menu_item menu_item_local_link" href="<?php the_sub_field('link'); ?>">
