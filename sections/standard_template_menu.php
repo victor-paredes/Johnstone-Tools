@@ -92,9 +92,8 @@
     }
     .menu_item { 
         padding: 5px 10px 10px 10px;
-        margin: 5px 0 0 0;
-        border-top-left-radius: .25rem;
-        border-top-right-radius: .25rem;
+        margin: 5px 0;
+        border-radius: .25rem;
     }
     .menu_item_remote_link {
         display: none;
