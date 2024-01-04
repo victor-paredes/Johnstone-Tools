@@ -61,6 +61,7 @@
         display: flex;
         border-radius: .25rem;
         justify-content: space-around;
+        z-index: 999;
     }
     .menu_wrap a {
         transition: all 0.5s ease;
