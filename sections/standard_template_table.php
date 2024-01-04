@@ -73,7 +73,7 @@
 
     @media (max-width: 576px) {
         .table_cell img {
-            width: 100%;
+            width: 75%;
             padding-top: 5px;
             padding-bottom: 0;
         }
