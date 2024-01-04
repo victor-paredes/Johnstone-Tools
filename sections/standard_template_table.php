@@ -64,6 +64,21 @@
         background-color: #041e46;
         color: #fff;
     }
+    .table_cell img {
+        width: 60%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+
+    @media (max-width: 576px) {
+        .table_cell img {
+            width: 100%;
+            padding-top: 5px;
+            padding-bottom: 0;
+        }
+
+    }
     
 
     @media (max-width: 767px) { 
