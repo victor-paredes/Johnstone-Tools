@@ -125,7 +125,7 @@
         .menu_wrap a div div {
             padding-top: 0;
             padding-bottom: 0;
-        }
+        } 
         .menu_item_local_link {
             display: none !important;
         }
