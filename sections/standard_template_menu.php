@@ -27,9 +27,7 @@
             <a class="menu_item menu_item_remote_link" href="<?php the_sub_field('link'); ?>" style="background-color: <?php echo get_sub_field('highlight') ?>;">
                         <?php the_sub_field('label'); ?>
             </a>
-            <a class="menu_item menu_item_local_link" href="<?php the_sub_field('link'); ?>" style="background-color: <?php echo get_sub_field('highlight') ?>;">
-                        <?php the_sub_field('label'); ?>
-            </a>
+   
                
 
 
