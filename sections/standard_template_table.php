@@ -20,7 +20,7 @@
                         the_row(); 
                     ?>
 
-                        <td class="table_cell" style="background-color: <?php the_sub_field('bg_color'); ?>; color: <?php the_sub_field('text_color'); ?>; border-color: <?php the_sub_field('border_color'); ?>;">
+                        <td class="table_cell" style="background-color: <?php the_sub_field('bg_color'); ?>; color: <?php the_sub_field('text_color'); ?>; border-color: <?php the_sub_field('border_color'); ?>; text-align: <?php the_sub_field('text_align'); ?>;">
                             <?php the_sub_field('cell_content'); ?>
                         </td>
 
