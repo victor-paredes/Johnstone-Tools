@@ -114,7 +114,7 @@
             display: none;
             margin: 0;
         }
-        .menu_wrap:hover .menu_item_local_link, .menu_wrap:focus .menu_item_local_link {
+        .menu_wrap:hover .menu_item_local_link {
             display: initial !important;
         }
         .menu_wrap a {
