@@ -6,7 +6,7 @@
     <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<body onclick>
 
 <div class="js_entire_wrap">
 
