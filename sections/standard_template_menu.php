@@ -124,8 +124,6 @@
         }
         .menu_wrap a {
             text-align: center;
-            border: 1px solid #fff;
-            
         }
         /* .menu_wrap a div div {
             padding-top: 0;
