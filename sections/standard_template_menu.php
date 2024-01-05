@@ -152,11 +152,8 @@
             border-color: #fff !important;
             background-color: #fff !important;
         }
-        .menu_item_selected {
+        .menu_item_selected, .menu_item_selected:hover  {
             background-color: var(--js_red) !important;
-        }
-        .menu_item_selected:hover {
-            background-color: #002b67 !important;
         }
     }
     @media screen and (min-width: 1200px) {
