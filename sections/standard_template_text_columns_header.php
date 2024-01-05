@@ -10,7 +10,7 @@
 
                 <div class="text_columns_header_image_card card small_only" style="background-color: transparent; border: initial;">
                     <div class="padding_mobile pr-5 text-center">
-                        <img class="" src="<?php 
+                        <img class="shadow" src="<?php 
                                             if ( get_sub_field('featured_image_remote_url') ) { 
                                                 the_sub_field('featured_image_remote_url'); 
                                             } else { 
@@ -27,7 +27,7 @@
 
                 <div class="card wide_only" style="background-color: transparent; border: initial;">
                     <div class="padding_mobile py-5 pr-5 text-center">
-                        <img class="" src="<?php 
+                        <img class="shadow" src="<?php 
                                             if ( get_sub_field('featured_image_remote_url') ) { 
                                                 the_sub_field('featured_image_remote_url');  
                                             } else {  
