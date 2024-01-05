@@ -130,7 +130,7 @@
             padding-bottom: 0;
         }  */
         .menu_item {
-            border-bottom-width: 1px;
+            border-width: 1px;
             border-color: #d4e0e9;
             padding-top: 5px;
             padding-bottom: 5px;
@@ -142,8 +142,6 @@
             display: none;
         } 
         .menu_item:hover { 
-            border-color: #0000ff;
-            border-width: 1px;
         }
     }
     @media screen and (min-width: 1200px) {
