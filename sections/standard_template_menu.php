@@ -75,8 +75,8 @@
         fill: var(--dark_blue);
         text-align: center;
         cursor: pointer;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding-top: 3px;
+        padding-bottom: 4px;
     }
     .menu_label {
         display: inline-block;
