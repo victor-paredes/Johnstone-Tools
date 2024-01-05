@@ -17,7 +17,7 @@
 
 
         <?php
-            while( have_rows('menu_items') ){ 
+            while( have_rows('menu_items') ){  
                 the_row(); 
         ?>
      
