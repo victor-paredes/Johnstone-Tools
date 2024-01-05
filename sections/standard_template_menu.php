@@ -100,7 +100,7 @@
         border-radius: initial;
         border-bottom-width: 5px;
         text-decoration: none;
-        border-bottom-color: var(--dark_blue);
+        border-bottom-color: #ef3f42;
     }
     .menu_item_selected {
         border-radius: .25rem !important;
