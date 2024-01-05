@@ -72,7 +72,7 @@
     }
     .mobile_menu_icon {
         padding-left: 19px;
-        fill: #fff;
+        fill: var(--dark_blue);
         text-align: center;
         cursor: pointer;
     }
@@ -82,6 +82,7 @@
         padding-right: 10px;
         font-size: .7rem;
         font-weight: 900;
+        color: var(--dark_blue);
     }
     .mobile_menu_icon rect {
         height: 10px;
