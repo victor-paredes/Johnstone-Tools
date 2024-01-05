@@ -105,6 +105,9 @@
     .menu_item_selected {
         border-radius: .25rem !important;
     }
+    .menu_item_selected:hover {
+        border-bottom-color: #002b67;
+    }
     .menu_item_remote_link {
         display: none;
     } 
