@@ -139,6 +139,9 @@
         .menu_item_remote_link {
             display: none;
         } 
+        .menu_item:hover { 
+            border-color: #0000ff;
+        }
     }
     @media screen and (min-width: 1200px) {
 
