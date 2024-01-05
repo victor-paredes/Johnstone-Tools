@@ -108,7 +108,7 @@
 
     @media screen and (max-width: 576px) {
  
-    }
+    } 
     @media screen and (max-width: 992px) {
         .menu_wrap {
             flex-direction: column;
