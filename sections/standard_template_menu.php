@@ -132,8 +132,8 @@
         .menu_item {
             border-width: 1px;
             border-color: #d4e0e9;
-            padding-top: 5px;
-            padding-bottom: 5px;
+            padding-top: 10px;
+            padding-bottom: 10px;
         }
         .menu_item_local_link {
             display: none !important;
@@ -143,6 +143,7 @@
         } 
         .menu_item:hover { 
             border-width: 1px !important;
+            border-color: transparent !important;
         }
     }
     @media screen and (min-width: 1200px) {
