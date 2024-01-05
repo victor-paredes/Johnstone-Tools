@@ -142,7 +142,7 @@
             display: none;
         } 
         .menu_item:hover { 
-            border-width: 1px;
+            border-width: 1px !important;
         }
     }
     @media screen and (min-width: 1200px) {
