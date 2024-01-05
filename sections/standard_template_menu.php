@@ -131,6 +131,9 @@
             padding-top: 0;
             padding-bottom: 0;
         } 
+        .menu_item {
+            border-bottom-width: 5px;
+        }
         .menu_item_local_link {
             display: none !important;
         }
