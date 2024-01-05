@@ -125,15 +125,12 @@
         .menu_wrap a {
             text-align: center;
             border: 1px solid #fff;
-            border-width: 1px 0 0 0;
+            
         }
         .menu_wrap a div div {
             padding-top: 0;
             padding-bottom: 0;
         } 
-        .menu_item {
-            border-bottom-width: 5px;
-        }
         .menu_item_local_link {
             display: none !important;
         }
