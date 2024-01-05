@@ -143,6 +143,7 @@
         } 
         .menu_item:hover { 
             border-color: #0000ff;
+            border-width: 1px;
         }
     }
     @media screen and (min-width: 1200px) {
