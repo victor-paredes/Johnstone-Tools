@@ -65,9 +65,7 @@
     }
     .menu_wrap a {
         transition: all 0.5s ease;
-    }
-    .menu_wrap, .menu_wrap a, .menu_wrap a:hover { 
-        color: #fff;
+        color: #002b67;
     }
     .menu_menu {
         display: inline-block;
