@@ -130,7 +130,8 @@
             padding-bottom: 0;
         }  */
         .menu_item {
-            border-bottom-width: 5px;
+            border-width: 1px;
+            border-color: #ff0000;
         }
         .menu_item_local_link {
             display: none !important;
