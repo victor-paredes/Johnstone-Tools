@@ -91,6 +91,7 @@
         padding: 5px 10px;
         margin: 5px 0;
         border-radius: .25rem;
+        border: 0 solid;
         border-color: transparent;
     }
     .menu_item:hover { 
