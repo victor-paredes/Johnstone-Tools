@@ -32,7 +32,7 @@
                                                 the_sub_field('featured_image_remote_url'); 
                                             } else { 
                                                 the_sub_field('featured_image'); 
-                                            } ?>" style="width:100%; border-radius: .25rem; padding-left: 10px;">
+                                            } ?>" style="width:100%; border-radius: .25rem; margin-left: 10px;">
                     </div>
                 </div> <!-- END .card -->
 
