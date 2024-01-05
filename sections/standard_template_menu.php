@@ -131,7 +131,7 @@
         }  */
         .menu_item {
             border-width: 0;
-            border-bottom-width: 1px
+            border-bottom-width: 1px;
             border-color: #fff;
             padding-top: 10px;
             padding-bottom: 10px;
