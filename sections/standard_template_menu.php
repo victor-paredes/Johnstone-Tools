@@ -96,7 +96,6 @@
     }
     .menu_item:hover { 
         text-decoration: none;
-        border-color: #dc3545;
         border-radius: initial;
         border-bottom-width: 5px;
         text-decoration: none;
