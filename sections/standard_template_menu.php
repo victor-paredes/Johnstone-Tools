@@ -131,7 +131,7 @@
         }  */
         .menu_item {
             border-width: 0;
-            border-bottom-width: 1px !important;
+            border-top-width: 1px !important;
             border-color: #fff;
             padding-top: 10px;
             padding-bottom: 10px;
@@ -144,7 +144,7 @@
         } 
         .menu_item:hover { 
             border-width: 0 !important;
-            border-bottom-width: 1px !important;
+            border-top-width: 1px !important;
             border-color: #fff !important;
         }
     }
