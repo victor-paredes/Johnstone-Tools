@@ -25,7 +25,7 @@
             
 
         
-            <a class="menu_item menu_item_local_link" href="<?php the_sub_field('link'); ?>" style="background-color: <?php echo get_sub_field('highlight') ?>; color: <?php echo get_sub_field('label_color') ?>;">
+            <a class="menu_item menu_item_local_link <?php if (get_sub_field('highlight') != 'transparent') { echo 'menu_item_selected'; } ?>" href="<?php the_sub_field('link'); ?>" style="background-color: <?php echo get_sub_field('highlight') ?>; color: <?php echo get_sub_field('label_color') ?>;">
                         <?php the_sub_field('label'); ?>
             </a>
                
@@ -100,6 +100,9 @@
         border-bottom-width: 5px;
         text-decoration: none;
         border-bottom-color: var(--dark_blue);
+    }
+    .menu_item_selected {
+        border-radius: .25rem !important;
     }
     .menu_item_remote_link {
         display: none;
