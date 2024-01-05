@@ -96,6 +96,11 @@
     }
     .menu_item:hover { 
         text-decoration: none;
+        border-color: #dc3545;
+        border-width: 0;
+        border-radius: initial;
+        border-bottom-width: 5px;
+        text-decoration: none;
         border-color: #85d3e0;
     }
     .menu_item_remote_link {
