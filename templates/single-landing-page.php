@@ -55,6 +55,7 @@ get_template_part( 'parts/js_header' ); ?>
                 <?php the_field('additional_css'); ?>
                 #COPY_THIS_CONTAINER_TO_BLOOMREACH {
                     --dark_blue: #002b67;
+                    --js_red: #ef3f42;
                 }
                 .bg-gradient {
                     background: rgba(228,235,241,1);
