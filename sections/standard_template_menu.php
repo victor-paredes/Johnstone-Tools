@@ -130,8 +130,9 @@
             padding-bottom: 0;
         }  */
         .menu_item {
-            border-width: 1px;
-            border-color: #d4e0e9;
+            border-width: 0;
+            border-bottom-width: 1px
+            border-color: #fff;
             padding-top: 10px;
             padding-bottom: 10px;
         }
@@ -142,8 +143,9 @@
             display: none;
         } 
         .menu_item:hover { 
-            border-width: 1px !important;
-            border-color: transparent !important;
+            border-width: 0 !important;
+            border-bottom-width: 1px !important;
+            border-color: #fff !important;
         }
     }
     @media screen and (min-width: 1200px) {
