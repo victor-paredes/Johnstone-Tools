@@ -53,6 +53,16 @@ get_template_part( 'parts/js_header' ); ?>
 
             <style>
                 <?php the_field('additional_css'); ?>
+                .bg-gradient {
+                    background: rgba(228,235,241,1);
+                    background: -moz-linear-gradient(top, rgba(228,235,241,1) 0%, rgba(199,215,227,1) 100%);
+                    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(228,235,241,1)), color-stop(100%, rgba(199,215,227,1)));
+                    background: -webkit-linear-gradient(top, rgba(228,235,241,1) 0%, rgba(199,215,227,1) 100%);
+                    background: -o-linear-gradient(top, rgba(228,235,241,1) 0%, rgba(199,215,227,1) 100%);
+                    background: -ms-linear-gradient(top, rgba(228,235,241,1) 0%, rgba(199,215,227,1) 100%);
+                    background: linear-gradient(to bottom, rgba(228,235,241,1) 0%, rgba(199,215,227,1) 100%);
+                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4ebf1', endColorstr='#c7d7e3', GradientType=0 );
+                }
                 
                 .small_only {
                     display: none;
