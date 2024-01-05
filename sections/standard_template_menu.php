@@ -147,6 +147,7 @@
             border-width: 0 !important;
             border-top-width: 1px !important;
             border-color: #fff !important;
+            background-color: #fff;
         }
     }
     @media screen and (min-width: 1200px) {
