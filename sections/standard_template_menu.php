@@ -25,7 +25,7 @@
             
 
         
-            <a class="menu_item menu_item_local_link" href="<?php the_sub_field('link'); ?>" style="background-color: <?php echo get_sub_field('highlight') ?>;">
+            <a class="menu_item menu_item_local_link" href="<?php the_sub_field('link'); ?>" style="background-color: <?php echo get_sub_field('highlight') ?>; color: <?php echo get_sub_field('label-color') ?>;">
                         <?php the_sub_field('label'); ?>
             </a>
                
