@@ -130,8 +130,10 @@
             padding-bottom: 0;
         }  */
         .menu_item {
-            border-width: 1px;
-            border-color: #ff0000;
+            border-bottom-width: 1px;
+            border-color: #d4e0e9;
+            padding-top: 5px;
+            padding-bottom: 5px;
         }
         .menu_item_local_link {
             display: none !important;
