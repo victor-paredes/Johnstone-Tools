@@ -128,8 +128,9 @@ get_template_part( 'parts/js_header' ); ?>
                     border-radius: 999px;
                     margin-right: 10px;
                 }
-                .js-rounded img, .js-rounded {
+                .js-rounded img {
                     border-radius: .25rem;
+                    border: 1px solid white;
                 }
 
  
