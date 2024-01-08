@@ -99,8 +99,8 @@ get_template_part( 'parts/js_header' ); ?>
                 .text_columns_wrap h2:before {
                     display: block;
                     position: absolute;
-                    height: 21px;
-                    margin: 8px 0 0 -15px;
+                    height: 1.37rem;
+                    margin: 7.2px 0 0 -15px;
                     content: ".";
                     background-color: transparent;
                     color: transparent;
