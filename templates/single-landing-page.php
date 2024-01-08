@@ -182,9 +182,6 @@ get_template_part( 'parts/js_header' ); ?>
             <div id="copyButton" class="tools_button">
                 Copy Code
             </div>
-            <div id="link_toggle" class="tools_button">
-                Menu Links: Local
-            </div>
     </div>
 <?php } ?> 
 
