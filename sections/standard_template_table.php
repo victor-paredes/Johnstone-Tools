@@ -1,6 +1,6 @@
 <div class="standard_template_table_wrap col-12 pt-3 text-left <?php the_sub_field('css_classes'); ?>"> <!-- start table -->
 			
-    <div class=" row table_wrap shadow"><!-- wrap -->
+    <div class=" row table_wrap"><!-- wrap -->
 
 
 
