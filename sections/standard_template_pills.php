@@ -93,6 +93,7 @@ margin-bottom: 60px;
 @media screen and (max-width: 576px) {
   .pills_wrapper {
     grid-template-columns: 1fr 1fr; 
+    grid-gap: 10px;
   }
 }
 
