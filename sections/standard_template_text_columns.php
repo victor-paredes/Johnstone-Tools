@@ -71,6 +71,9 @@
                     .<?php echo $text_columns_card_deck_class; ?> .card img {
                         width: 30%;
                     } 
+                    .<?php echo $text_columns_card_deck_class; ?> .card p {
+                        margin: 0;
+                    } 
             <?php } ?>
 
 
