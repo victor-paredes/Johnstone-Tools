@@ -37,8 +37,7 @@
                             <?php the_sub_field('column_copy'); ?>
 
                             <br> 
-                            <?php the_sub_field('css_classes'); ?><br>
-                            Card Style: <?php the_sub_field('card_style'); ?><br>                            
+                            <?php the_sub_field('css_classes'); ?><br>                        
                             
 
  
