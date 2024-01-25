@@ -83,17 +83,17 @@
 
 
 
-@media screen and (max-width: 576px) {
-  .pills_wrapper {
-    grid-template-columns: 1fr 1fr; 
-  }
-  
-}
+
 @media screen and (max-width: 992px) {
   .pills_wrapper {
     grid-template-columns: 1fr 1fr 1fr; 
   }
 } 
+@media screen and (max-width: 576px) {
+  .pills_wrapper {
+    grid-template-columns: 1fr 1fr; 
+  }
+}
 
 
 
