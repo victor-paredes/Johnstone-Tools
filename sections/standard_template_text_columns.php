@@ -32,7 +32,9 @@
                 <div class="card" style="background-color: transparent; border: initial;">
               
                             <?php the_sub_field('column_copy'); ?>
+
                             <br> 
+                            <?php the_sub_field('css_classes'); ?><br>
                             Card Style: <?php the_sub_field('card_style'); ?><br>
                             Test: <?php the_sub_field('test'); ?><br>
                             
