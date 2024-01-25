@@ -40,6 +40,9 @@
 
  
 <style>
+
+
+
 .pills_wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr; 
@@ -72,6 +75,33 @@
   text-align: center;
   color: #000; 
 }
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+  .pills_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px;
+  }
+  
+}
+@media screen and (max-width: 992px) {
+  .pills_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 20px;
+  }
+} 
+
+
+
+
+
 
 
 </style> 
