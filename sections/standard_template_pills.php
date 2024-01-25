@@ -18,7 +18,7 @@
                 <div class="pill_image_wrapper" style="background-color:<?php echo get_sub_field('pill_image_background'); ?>">
                     <img src="<?php echo get_sub_field('pill_image'); ?>">
                 </div>
-                
+
                 <div class="pill_copy">
                     <div class="pill_label">
                         <?php echo get_sub_field('pill_label'); ?>
@@ -66,6 +66,7 @@ margin-bottom: 60px;
 .pill_card_wrapper:hover {
   border-color: #bbb;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  text-decoration: none;
 }
 .pill_image_wrapper {
     margin-bottom: 10px;
