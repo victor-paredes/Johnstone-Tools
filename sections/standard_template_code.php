@@ -1,3 +1,3 @@
 
-<?php the_sub_field('code_content'); ?>
+<?php echo get_sub_field('code_content'); ?>
 
