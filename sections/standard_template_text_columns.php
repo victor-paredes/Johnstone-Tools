@@ -35,7 +35,7 @@
 
                             <br> 
                             <?php the_sub_field('css_classes'); ?><br>
-                            Card Style: <?php the_sub_field('card_style'); ?><br>
+                            
                             Test: <?php the_sub_field('test'); ?><br>
                             
 
@@ -50,6 +50,7 @@
 
 
 Test: <?php the_sub_field('test'); ?><br>
+Card Style: <?php the_sub_field('card_style'); ?><br>
 
 
 
