@@ -54,7 +54,7 @@
 $cardStyle: <?php echo $cardStyle; ?><br>
 Card Style: <?php the_sub_field('card_style'); ?><br>
 
-<?php if ( get_sub_field('card_style' == 'pill') ) { ?>
+<?php if ( $cardStyle == 'pill' ) { ?>
     yes
         <style>
             * {
