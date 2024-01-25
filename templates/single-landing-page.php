@@ -47,7 +47,10 @@ get_template_part( 'parts/js_header' ); ?>
                         get_template_part( 'sections/standard_template_image_figure' );
                     } elseif ( $current_layout == 'code' ) {
                         get_template_part( 'sections/standard_template_code' );
+                    } elseif ( $current_layout == 'pills' ) {
+                        get_template_part( 'sections/standard_template_pills' );
                     } 
+                    
 
                 }
             ?>
