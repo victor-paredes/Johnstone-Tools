@@ -1,9 +1,11 @@
 
+
+
 <?php
     $text_columns_card_deck_class = 'card_group_' . rand(100, 1000);
     $text_columns_row_count = count(get_sub_field('text_column_content'));
 
-            if ( $text_columns_row_count >= 2 ) {
+            if (  get_sub_field('card_style') == 'text' && $text_columns_row_count >= 2 ) {
                 echo '
                     <style>
                         .' . $text_columns_card_deck_class . ' .card:first-child {
