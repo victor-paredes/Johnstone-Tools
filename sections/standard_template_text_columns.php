@@ -68,6 +68,9 @@
                     .<?php echo $text_columns_card_deck_class; ?> .card {
                         border: 1px solid #ddd !important;
                     } 
+                    .<?php echo $text_columns_card_deck_class; ?> .card img {
+                        width: 30%;
+                    } 
             <?php } ?>
 
 
