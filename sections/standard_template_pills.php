@@ -11,9 +11,9 @@
     ?>
 
 
-        <div class="pill_card_wrapper" style="background-color:<?php echo get_sub_field('pill_image'); ?>">
+        <div class="pill_card_wrapper">
         <div class="pill_card">
-            <div class="pill_image_wrapper">
+            <div class="pill_image_wrapper" style="background-color:<?php echo get_sub_field('pill_image_background'); ?>">
                 <img src="<?php echo get_sub_field('pill_image'); ?>">
             </div>
             <div class="pill_copy">
