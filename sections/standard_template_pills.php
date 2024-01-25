@@ -11,7 +11,7 @@
     ?>
 
 
-        <div class="pill_card_wrapper">
+        <div class="pill_card_wrapper shadow">
             <div class="pill_card">
                 <?php echo get_sub_field('pill_label'); ?>
             </div>
