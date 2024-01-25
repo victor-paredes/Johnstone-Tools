@@ -36,6 +36,7 @@
                             <br> 
                             <?php the_sub_field('css_classes'); ?><br>
                             Card Style: <?php the_sub_field('card_style'); ?><br>
+                            Card Style: <?php get_post_meta($post_id, 'card_style', true); ?><br>
                             
                             Test: <?php the_sub_field('test'); ?><br>
                             
