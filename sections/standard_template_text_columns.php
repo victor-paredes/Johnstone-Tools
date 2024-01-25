@@ -58,7 +58,7 @@ Card Style: <?php the_sub_field('card_style'); ?><br>
     yes<br>
     <?php echo $text_columns_card_deck_class; ?>
         <style>
-            <?php echo $text_columns_card_deck_class; ?> {
+            .<?php echo $text_columns_card_deck_class; ?> {
                 background-color: #ddd !important;
             } 
         </style> 
