@@ -133,7 +133,7 @@ get_template_part( 'parts/js_header' ); ?>
                 }
                 .js-rounded img {
                     border-radius: .25rem;
-                    border: 1px solid white;
+                    border: 1px solid #ddd;
                 }
 
  
