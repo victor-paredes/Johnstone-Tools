@@ -4,7 +4,7 @@
 
 
 <?php
-    while( have_rows('text_column_content') ){ 
+    while( have_rows('pills_reapeater') ){ 
         the_row(); 
 ?>
 
