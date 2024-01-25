@@ -12,8 +12,7 @@
 
 
         <div class="pill_card_wrapper">
-
-        <a class="pill_card" href="<?php echo get_sub_field('pill_link'); ?>" target="_blank">
+            <a class="pill_card" href="<?php echo get_sub_field('pill_link'); ?>" target="_blank">
 
                 <div class="pill_image_wrapper" style="background-color:<?php echo get_sub_field('pill_image_background'); ?>">
                     <img src="<?php echo get_sub_field('pill_image'); ?>">
@@ -25,7 +24,8 @@
                     </div>
                 </div>
          
-        </a>
+            </a>
+        </div>
 
 
     <?php
