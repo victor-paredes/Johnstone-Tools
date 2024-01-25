@@ -58,7 +58,7 @@
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 .pill_image_wrapper {
-    margin: 10px;
+    padding: 10px;
     text-align: center;
     border: 1px solid #ddd;
 }
