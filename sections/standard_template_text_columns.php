@@ -47,7 +47,7 @@
         ?>
 
 
-
+Test: <?php the_sub_field('test'); ?><br>
 
 
 
