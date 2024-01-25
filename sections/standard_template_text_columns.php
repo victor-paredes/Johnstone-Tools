@@ -32,7 +32,7 @@
         ?>
      
                 
-                <div class="card" style="background-color: transparent; border: initial;">
+                <div class="card">
               
                             <?php the_sub_field('column_copy'); ?>
 
@@ -62,11 +62,16 @@
                 padding-right: 50px;
             }
 
+
+            .<?php echo $text_columns_card_deck_class; ?> .card {
+                background-color: transparent;
+                border: initial;
+            }
             
 
             <?php if ( get_sub_field('card_style') == 'pill' ) { ?>
                     .<?php echo $text_columns_card_deck_class; ?> .card {
-                        border: 1px solid #ddd !important;
+                        border: 1px solid #ddd;
                     } 
                     .<?php echo $text_columns_card_deck_class; ?> .card img {
                         width: 30%;
