@@ -32,11 +32,17 @@
  
 <style>
     .pills_wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+        grid-gap: 10px;
     }
-    .pills_wrapper div {
-        width: 25%;
+    .pill_card_wrapper {
+    
+    }
+    .pill_card_wrapper {
+        padding: 10px;
+        background-color: #000;
+        color: #fff;
+        border-radius: .25rem;
     }
 </style>
