@@ -21,6 +21,13 @@
     <div class="card-deck <?php echo $text_columns_card_deck_class; ?>">
 
 
+    <?php if ( get_sub_field('card_style' == 'pill') ) { ?>
+                .<?php echo $text_columns_card_deck_class; ?> * {
+                    background-color: #ddd;
+                } 
+            <?php } ?>
+
+
 
 
         <?php
@@ -69,11 +76,7 @@ Card Style: <?php the_sub_field('card_style'); ?><br>
                 }
             }
 
-            <?php if ( get_sub_field('card_style' == 'pill') ) { ?>
-                .<?php echo $text_columns_card_deck_class; ?> * {
-                    background-color: #ddd;
-                } 
-            <?php } ?>
+            
         </style>
                       
                
