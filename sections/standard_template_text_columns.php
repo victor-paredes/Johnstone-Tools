@@ -47,7 +47,7 @@
         ?>
 
 
-Ping: <?php the_field('ping'); ?><br>
+
 
 
 
