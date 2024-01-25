@@ -33,7 +33,7 @@
               
                             <?php the_sub_field('column_copy'); ?>
                             <br> 
-                            Card Style: <?php the_sub_field('cards_style'); ?>
+                            Card Style: <?php the_sub_field('new_style'); ?>
 
 
                 </div> <!-- END .card -->
