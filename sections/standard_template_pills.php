@@ -12,9 +12,16 @@
 
 
         <div class="pill_card_wrapper shadow">
-            <div class="pill_card">
-                <?php echo get_sub_field('pill_label'); ?>
+        <div class="pill_card">
+            <div class="pill_image_wrapper">
+            <img src="https://www.epa.gov/themes/epa_theme/images/epa-seal.svg">
             </div>
+            <div class="pill_copy">
+            <div class="pill_label">
+                Lorem Ipsum
+            </div>
+            </div>
+        </div>
         </div>
 
 
@@ -33,20 +40,33 @@
 
  
 <style>
-        .pills_wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr; 
-        grid-gap: 10px;
-    }
-    .pill_card_wrapper {
-    
-    }
-    .pill_card_wrapper {
-        padding: 10px;
-        border: 1px solid #000;
-        background-color: #555;
-        color: #fff;
-        border-radius: .25rem;
-    }
+.pills_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-gap: 20px;
+}
+.pill_card_wrapper {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #fff;
+  border-radius: .25rem;
+  transition: .3s;
+}
+.pill_card_wrapper:hover {
+  border-color: #bbb;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+.pill_image_wrapper {
+  text-align: center;
+}
+.pill_image_wrapper img {
+    height: 100px;
+}
+.pill_copy {
+  text-align: center;
+  color: #000;
+}
+
 
 </style>
