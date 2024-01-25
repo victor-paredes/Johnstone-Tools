@@ -2,8 +2,6 @@
 <?php
     $text_columns_card_deck_class = 'card_group_' . rand(100, 1000);
     $text_columns_row_count = count(get_sub_field('text_column_content'));
-    $field = get_field_object( 'card_style' );
-    $value = $field['value'];
 
             if ( $text_columns_row_count >= 2 ) {
                 echo '
@@ -35,7 +33,7 @@
               
                             <?php the_sub_field('column_copy'); ?>
                             <br>
-                            Card Style: <?php echo $value; ?>
+                            Card Style: <?php echo get_sub_field('card_style'); ?>
 
 
                 </div> <!-- END .card -->
