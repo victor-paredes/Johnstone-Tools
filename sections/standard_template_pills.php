@@ -14,11 +14,11 @@
         <div class="pill_card_wrapper">
         <div class="pill_card">
             <div class="pill_image_wrapper">
-            <img src="https://www.epa.gov/themes/epa_theme/images/epa-seal.svg">
+                <img src="<?php echo get_sub_field('pill_image'); ?>">
             </div>
             <div class="pill_copy">
             <div class="pill_label">
-                Lorem Ipsum
+                <?php echo get_sub_field('pill_label'); ?>
             </div>
             </div>
         </div>
