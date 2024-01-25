@@ -66,7 +66,7 @@
 
             <?php if ( get_sub_field('card_style') == 'pill' ) { ?>
                     .<?php echo $text_columns_card_deck_class; ?> .card {
-                        background-color: #ddd !important;
+                        border: 1px solid #ddd !important;
                     } 
             <?php } ?>
 
