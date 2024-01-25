@@ -58,7 +58,6 @@ margin-bottom: 60px;
   padding: 10px;
   border: 1px solid #ddd;
   background-color: #fff;
-  color: #fff;
   border-radius: .25rem;
   transition: .3s;
   cursor: pointer;
@@ -85,7 +84,9 @@ margin-bottom: 60px;
   text-align: center;
   color: #000; 
 }
-
+.pill_copy a {
+    color: #000; 
+}
 
 
 
