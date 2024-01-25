@@ -54,16 +54,6 @@
 $cardStyle: <?php echo $cardStyle; ?><br>
 Card Style: <?php the_sub_field('card_style'); ?><br>
 
-<?php if ( $cardStyle == 'pill' ) { ?>
-    yes<br>
-    <?php echo $text_columns_card_deck_class; ?>
-        <style>
-            .<?php echo $text_columns_card_deck_class; ?> .card {
-                background-color: #ddd !important;
-            } 
-        </style> 
-<?php } ?>
- 
 
 
              
@@ -74,6 +64,19 @@ Card Style: <?php the_sub_field('card_style'); ?><br>
                 padding-left: 50px;
                 padding-right: 50px;
             }
+
+            
+
+            <?php if ( get_sub_field('card_style') == 'pill' ) { ?>
+                    .<?php echo $text_columns_card_deck_class; ?> .card {
+                        background-color: #ddd !important;
+                    } 
+            <?php } ?>
+
+
+
+
+
 
             @media screen and (max-width: 576px) {
                 .<?php echo $text_columns_card_deck_class; ?> .card:first-child, .<?php echo $text_columns_card_deck_class; ?> .card:last-child {
