@@ -124,6 +124,7 @@ h4 {
     color: #ff0000; 
     border-color: #ef3e42;
     background-color: #372828;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.585);
 }
 
  
