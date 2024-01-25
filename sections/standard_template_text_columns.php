@@ -45,7 +45,8 @@
         ?>
 
 Card Style: <?php the_sub_field('new_style'); ?><br>
-test: <?php the_sub_field('text_column_content'); ?>
+Test: <?php the_sub_field('new_style'); ?><br>
+text_column_content: <?php the_sub_field('text_column_content'); ?><br>
 
 
             
