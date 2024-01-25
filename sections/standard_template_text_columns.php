@@ -22,9 +22,10 @@
 
 
     <?php if ( get_sub_field('card_style' == 'pill') ) { ?>
+        yes
         <style>
                 .<?php echo $text_columns_card_deck_class; ?> * {
-                    background-color: #ddd;
+                    background-color: #ddd !important;
                 } 
                 </style>
             <?php } ?>
