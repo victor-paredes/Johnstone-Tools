@@ -45,7 +45,7 @@
         ?>
 
 Card Style: <?php the_sub_field('new_style'); ?><br>
-Ping: <?php the_sub_field('ping'); ?><br>
+Ping: <?php the_field('ping'); ?><br>
 Test: <?php the_sub_field('test'); ?><br>
 text_column_content: <?php the_sub_field('text_column_content'); ?><br>
 
