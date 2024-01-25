@@ -61,7 +61,7 @@
   text-align: center;
 }
 .pill_image_wrapper img {
-    height: 100px;
+    height: 75px;
     margin-bottom: 15px;
 }
 .pill_copy {
