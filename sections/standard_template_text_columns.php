@@ -41,7 +41,7 @@
  
 
         <?php
-            } // END while( have_rows('copy') )
+            } // END while( have_rows('copy') ) 
         ?>
 
 
