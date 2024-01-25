@@ -33,7 +33,7 @@
               
                             <?php the_sub_field('column_copy'); ?>
                             <br> 
-                            Card Style: <?php the_sub_field('new_style'); ?>
+                            
 
 
                 </div> <!-- END .card -->
@@ -43,6 +43,8 @@
         <?php
             } // END while( have_rows('text_column_content') ) 
         ?>
+
+Card Style: <?php the_sub_field('new_style'); ?>
 
 
             
