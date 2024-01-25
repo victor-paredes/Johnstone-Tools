@@ -49,8 +49,8 @@ Ping: <?php the_field('ping'); ?><br>
 text_column_content: <?php the_sub_field('text_column_content'); ?><br>
 
 
-            
-                
+             
+                 
         <style>
             .text_columns_wrap {
                 margin-top: 25px;
