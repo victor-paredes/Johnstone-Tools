@@ -71,6 +71,7 @@
                         border: 1px solid #ddd;
                         text-align: center;
                         padding: 10px;
+                        transition: .5s;
                     } 
                     .<?php echo $text_columns_card_deck_class; ?> .card:hover{
                         border: 1px solid var(--dark_blue);
