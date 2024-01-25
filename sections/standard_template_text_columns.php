@@ -60,7 +60,7 @@
 
             <?php if ( get_sub_field('card_style' == 'pill') ) { ?>
                 .<?php echo $text_columns_card_deck_class; ?> {
-                    background-color: #ddd;
+                    background-color: #ddd !important;
                 }
             <?php } ?>
         </style>
