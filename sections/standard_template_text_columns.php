@@ -69,6 +69,9 @@
             
 
             <?php if ( get_sub_field('card_style') == 'pill' ) { ?>
+                    .text_columns_wrap {
+                        padding: 10px;
+                    }
                     .<?php echo $text_columns_card_deck_class; ?> {
                         display: flex;
                         justify-content: space-around;
@@ -77,7 +80,7 @@
                     .<?php echo $text_columns_card_deck_class; ?> .card {
                         border: 1px solid #ddd;
                         text-align: center;
-                        padding: 10px;
+                        /* padding: 10px; */
                         transition: .3s;
                     } 
                     .<?php echo $text_columns_card_deck_class; ?> .card:hover{
