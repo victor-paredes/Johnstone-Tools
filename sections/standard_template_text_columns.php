@@ -53,11 +53,13 @@
              
                  
         <style>
-            .text_columns_wrap {
-                margin-top: 25px;
-                padding-left: 50px;
-                padding-right: 50px;
-            }
+            <?php if ( get_sub_field('card_style') == 'text' ) { ?>
+                .text_columns_wrap {
+                    margin-top: 25px;
+                    padding-left: 50px;
+                    padding-right: 50px;
+                }
+            <?php } ?>
 
 
             .<?php echo $text_columns_card_deck_class; ?> .card {
