@@ -69,7 +69,7 @@
     border-radius: .25rem;
 }
 .pill_image_wrapper img {
-    width: 100%;
+    max-width: 100%;
     max-height: 75px;
 }
 .pill_copy {
