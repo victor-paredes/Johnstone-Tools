@@ -11,7 +11,7 @@
     ?>
 
 
-        <div class="pill_card_wrapper shadow">
+        <div class="pill_card_wrapper">
         <div class="pill_card">
             <div class="pill_image_wrapper">
             <img src="https://www.epa.gov/themes/epa_theme/images/epa-seal.svg">
