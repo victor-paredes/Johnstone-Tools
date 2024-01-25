@@ -61,6 +61,7 @@
     padding: 10px;
     text-align: center;
     border: 1px solid #ddd;
+    border-radius: .25rem;
 }
 .pill_image_wrapper img {
     height: 75px;
