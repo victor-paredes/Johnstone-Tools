@@ -21,7 +21,6 @@
                     <div class="pill_label">
                         <?php echo get_sub_field('pill_label'); ?>
                     </div>
-                    </div>
                 </div>
          
             </a>
