@@ -32,6 +32,9 @@
                 <div class="card" style="background-color: transparent; border: initial;">
               
                             <?php the_sub_field('column_copy'); ?>
+                            <br>
+                            <?php the_sub_field('card_style'); ?>
+
 
                 </div> <!-- END .card -->
 
@@ -54,7 +57,6 @@
             @media screen and (max-width: 576px) {
                 .<?php echo $text_columns_card_deck_class; ?> .card:first-child, .<?php echo $text_columns_card_deck_class; ?> .card:last-child {
                     padding: initial;  
-                    background-color: #ff0000 !important; 
                 }
             }
 
