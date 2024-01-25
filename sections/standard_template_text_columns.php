@@ -67,9 +67,11 @@
             <?php if ( get_sub_field('card_style') == 'pill' ) { ?>
                     .<?php echo $text_columns_card_deck_class; ?> {
                         display: flex;
+                        flex-wrap: wrap;
                     }
                     .<?php echo $text_columns_card_deck_class; ?> .card {
                         display: flex;
+                        width: 25%;
                         justify-content: space-between;
                         border: 1px solid #ddd;
                         text-align: center;
