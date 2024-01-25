@@ -68,7 +68,7 @@
 }
 .pill_copy {
   text-align: center;
-  color: #000;
+  color: #000; 
 }
 
 
