@@ -54,7 +54,7 @@
             @media screen and (max-width: 576px) {
                 .<?php echo $text_columns_card_deck_class; ?> .card:first-child, .<?php echo $text_columns_card_deck_class; ?> .card:last-child {
                     padding: initial;
-                    background-color: #ff0000;
+                    background-color: #ff0000; 
                 }
             }
 
