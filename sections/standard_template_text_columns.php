@@ -19,7 +19,7 @@
             }
 ?>
 
-<div class="text_columns_wrap padding_mobile <?php the_sub_field('css_classes'); ?>">
+<div class="<?php if ( get_sub_field('card_style') == 'text' ) { ?>text_columns_wrap padding_mobile<?php } ?> <?php the_sub_field('css_classes'); ?>">
     <div class="card-deck <?php echo $text_columns_card_deck_class; ?>">
 
 
