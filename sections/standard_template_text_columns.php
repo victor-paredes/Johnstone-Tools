@@ -59,7 +59,7 @@ Card Style: <?php the_sub_field('card_style'); ?><br>
         <style>
             * {
                 background-color: #ddd !important;
-            } 
+            }  
         </style>
 <?php } ?>
 
