@@ -56,6 +56,12 @@
                     padding: initial;
                 }
             }
+
+            <?php if ( get_sub_field('card-style' == 'pill' ) ) { ?>
+                <?php echo '.' . $text_columns_card_deck_class . ' ' ?> {
+                    background-color: #ddd;
+                }
+            <?php } ?>
         </style>
                      
                
