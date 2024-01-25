@@ -51,7 +51,7 @@
 
 
 <?php $cardStyle = get_sub_field('card_style'); ?>
-$cardStyle: <?php echo 'cardStyle' . $cardStyle; ?><br>
+$cardStyle: <?php echo $cardStyle; ?><br>
 Card Style: <?php the_sub_field('card_style'); ?><br>
 
 <?php if ( get_sub_field('card_style' == 'pill') ) { ?>
