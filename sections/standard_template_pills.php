@@ -58,11 +58,12 @@
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 .pill_image_wrapper {
-  text-align: center;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
 }
 .pill_image_wrapper img {
     height: 75px;
-    margin-bottom: 15px;
 }
 .pill_copy {
   text-align: center;
