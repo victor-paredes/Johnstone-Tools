@@ -52,6 +52,7 @@
   color: #fff;
   border-radius: .25rem;
   transition: .3s;
+  cursor: pointer;
 }
 .pill_card_wrapper:hover {
   border-color: #bbb;
