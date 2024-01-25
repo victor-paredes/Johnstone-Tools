@@ -70,7 +70,7 @@
 
             <?php if ( get_sub_field('card_style') == 'pill' ) { ?>
                     .text_columns_wrap {
-                        padding: 10px;
+                        padding: 10px !important;
                     }
                     .<?php echo $text_columns_card_deck_class; ?> { 
                         display: flex;
