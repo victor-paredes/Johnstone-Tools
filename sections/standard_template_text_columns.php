@@ -44,7 +44,8 @@
             } // END while( have_rows('text_column_content') ) 
         ?>
 
-Card Style: <?php the_sub_field('new_style'); ?>
+Card Style: <?php the_sub_field('new_style'); ?><br>
+test: <?php the_sub_field('text_column_content'); ?>
 
 
             
