@@ -72,9 +72,6 @@
                         flex-wrap: wrap;
                     }
                     .<?php echo $text_columns_card_deck_class; ?> .card {
-                        display: flex;
-                        width: 25%;
-                        justify-content: space-between;
                         border: 1px solid #ddd;
                         text-align: center;
                         padding: 10px;
@@ -84,7 +81,7 @@
                         border: 1px solid var(--dark_blue);
                     } 
                     .<?php echo $text_columns_card_deck_class; ?> .card img {
-                        margin-bottom: 5px;
+                        margin-bottom: 10px;
                     } 
                     .<?php echo $text_columns_card_deck_class; ?> .card p {
                         margin-bottom: 0;
