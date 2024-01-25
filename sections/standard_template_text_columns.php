@@ -77,7 +77,6 @@
                         border: 1px solid var(--dark_blue);
                     } 
                     .<?php echo $text_columns_card_deck_class; ?> .card img {
-                        width: 30%;
                         margin-bottom: 5px;
                     } 
                     .<?php echo $text_columns_card_deck_class; ?> .card p {
