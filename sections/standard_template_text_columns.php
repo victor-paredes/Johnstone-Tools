@@ -72,7 +72,7 @@
                     .text_columns_wrap {
                         padding: 10px;
                     }
-                    .<?php echo $text_columns_card_deck_class; ?> {
+                    .<?php echo $text_columns_card_deck_class; ?> { 
                         display: flex;
                         justify-content: space-around;
                         flex-wrap: wrap;
