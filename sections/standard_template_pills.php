@@ -10,11 +10,11 @@
             the_row(); 
     ?>
 
-        <div class="">
-            <?php echo get_sub_field('pill_label'); ?>
+    <div class="pill_card_wrapper">
+        <div class="pill_card">
+            test
         </div>
-
-
+    </div>
 
     <?php
         } // END while( have_rows('copy') )
