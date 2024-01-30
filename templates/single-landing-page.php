@@ -111,7 +111,7 @@ get_template_part( 'parts/js_header' ); ?>
                         font-size: 1.9rem;
                     }
                     h2 {
-                        padding-top: 30px;
+                        padding-top: 50px;
                         padding-bottom: 18px !important;
                         font-weight: 900 !important;
                         font-size: 1.9rem !important;
@@ -126,7 +126,7 @@ get_template_part( 'parts/js_header' ); ?>
                         color: transparent;
                         box-shadow: -10px 0 0 0 var(--js_red);
                     }
-                    p {
+                    p:not(:last-child) {
                         line-height: 1.4rem;
                     }
                     .text_columns_header_text_card li:before {
