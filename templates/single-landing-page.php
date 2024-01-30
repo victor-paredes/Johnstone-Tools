@@ -136,7 +136,7 @@ get_template_part( 'parts/js_header' ); ?>
                         font-weight: 900;
                         width: 1.8rem;
                         text-align: center;
-                        border: 1px solid #fff; 
+                        border: 1px solid #fff;  
                         border-radius: 999px;
                         margin-right: 10px;
                     }
