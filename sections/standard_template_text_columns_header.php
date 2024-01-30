@@ -30,7 +30,7 @@
                                 <?php } elseif ( get_sub_field('notice_type') == 'page' ) { ?>
                                     <span class="material-symbols-outlined">description</span>
                                 <?php } ?>
-                                <?php echo '&nbsp;' . get_sub_field('notice_copy'); ?>
+                                <?php echo '' . get_sub_field('notice_copy'); ?>
                             </div>
                         <?php } ?>
 
