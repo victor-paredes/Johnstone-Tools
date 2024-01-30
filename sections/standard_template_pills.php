@@ -59,7 +59,7 @@
   border: 1px solid #ddd;
   background-color: #fff;
   border-radius: .25rem;
-  transition: .5s;
+  transition: .4s;
   cursor: pointer;
 }
 .pill_card_wrapper:hover {
