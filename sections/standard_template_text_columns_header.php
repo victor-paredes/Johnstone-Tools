@@ -99,6 +99,7 @@
     }
     .notice_wrapper span {
         vertical-align: top;
+        font-size: 1rem;
     }
     .smalltext {
         font-size: .7rem;
