@@ -126,8 +126,11 @@ get_template_part( 'parts/js_header' ); ?>
                         color: transparent;
                         box-shadow: -10px 0 0 0 var(--js_red);
                     }
-                    p:not(:last-child) {
+                    p {
                         line-height: 1.4rem;
+                    }
+                    p:last-child {
+                        margin-bottom: 0;
                     }
                     .text_columns_header_text_card li:before {
                         display: inline-block;
