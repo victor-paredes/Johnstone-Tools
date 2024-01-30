@@ -98,6 +98,7 @@
         padding-bottom: 20px;
     }
     .notice_wrapper {
+        width: 100%;
         margin-bottom: 15px;
         color: #569DFF !important;
     }
