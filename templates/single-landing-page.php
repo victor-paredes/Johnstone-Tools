@@ -55,6 +55,9 @@ get_template_part( 'parts/js_header' ); ?>
             ?>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+                <?php echo get_field('headers_style'); ?>
  
             <style>
                 <?php the_field('additional_css'); ?>
@@ -98,6 +101,9 @@ get_template_part( 'parts/js_header' ); ?>
                 .columnsCollectionContainer .col-md {
                     /* padding: 0 !important; */
                 }
+
+
+                
                 h1, h2 {
                     line-height: 2.12rem;
                 }
@@ -120,6 +126,10 @@ get_template_part( 'parts/js_header' ); ?>
                     color: transparent;
                     box-shadow: -10px 0 0 0 var(--js_red);
                 }
+
+
+
+
                 p {
                     line-height: 1.4rem;
                 }
