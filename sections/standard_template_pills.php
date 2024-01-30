@@ -59,13 +59,13 @@
   border: 1px solid #ddd;
   background-color: #fff;
   border-radius: .25rem;
-  transition: .1s;
+  transition: .4s;
   cursor: pointer;
 }
 .pill_card_wrapper:hover {
   border-color: #bbb;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
-  transition: .4s;
+  transition: .1s;
 }
 .pill_card_wrapper:hover * {
     text-decoration: none !important;
