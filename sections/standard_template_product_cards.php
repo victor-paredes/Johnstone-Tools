@@ -37,27 +37,27 @@
                             </h4>
                         <?php } ?>
 
-                        <a href="<?php the_sub_field('product_link'); ?>" target="_blank" style="display:flex; height:100%; align-items:center; justify-content:center; position:relative; z-index: -1;padding-top: 10px;">
-                            <img src="<?php the_sub_field('image_url'); ?>" style="width: 80%;" /> 
+                        <a href="<?php echo get_sub_field('product_link'); ?>" target="_blank" style="display:flex; height:100%; align-items:center; justify-content:center; position:relative; z-index: -1;padding-top: 10px;">
+                            <img src="<?php echo get_sub_field('image_url'); ?>" style="width: 80%;" /> 
                         </a>
                     </div>
 
 
                     <div class="card-body d-flex flex-column">
                         <h5 class="text-darkblue" style="text-align: center;">
-                            <?php the_sub_field('product_title'); ?>
+                            <?php echo get_sub_field('product_title'); ?>
                         </h5>
                         
                         <?php if ( get_sub_field('product_subtitle') ) { ?>
                             <h6>
-                                <?php the_sub_field('product_subtitle'); ?>
+                                <?php echo get_sub_field('product_subtitle'); ?>
                             </h6>
                         <?php } ?>
 
-                        <?php the_sub_field('product_description'); ?>
+                        <?php echo get_sub_field('product_description'); ?>
                         
                         <a class="btn btn-primary mt-auto" href="<?php echo get_sub_field('product_link'); ?>" role="button" target="_blank">
-                            <?php the_sub_field('button_label'); ?>
+                            <?php echo get_sub_field('button_label'); ?>
                         </a>
                     </div>
 
