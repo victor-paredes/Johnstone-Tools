@@ -66,6 +66,8 @@ get_template_part( 'parts/js_header' ); ?>
                     --dark_blue: #002b67;
                     --js_grey: #eee;
                     --js_dark_grey: #67696b;
+                    --js_link_blue: #007bff;
+                    --js_link_light_blue: #25aff3;
 
                     --js_rounded: .25rem;
                 }
