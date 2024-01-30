@@ -100,6 +100,9 @@ function admin_css() {
 	.edit-post-fullscreen-mode-close.components-button {
 		background: #004990;
 	}
+	.edit-post-fullscreen-mode-close.components-button:before {
+		box-shadow: none;
+	}
 	#adminmenu, #adminmenuback, #adminmenuwrap, #adminmenu .wp-submenu {
 		background: #05588f;
 	}
