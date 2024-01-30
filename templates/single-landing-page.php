@@ -61,6 +61,8 @@ get_template_part( 'parts/js_header' ); ?>
                 #COPY_THIS_CONTAINER_TO_BLOOMREACH {
                     --js_blue: #004990;
                     --js_red: #ef3f42;
+                    --js_teal: #72aab3;
+                    --js_dark_teal: #016373;
                     --dark_blue: #002b67;
 
                     --js_rounded: .25rem;
@@ -78,7 +80,7 @@ get_template_part( 'parts/js_header' ); ?>
                 
                 .small_only {
                     display: none;
-                }
+                } 
                 .narrow_only {
                     display: none;
                 }
