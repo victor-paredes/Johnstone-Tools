@@ -103,6 +103,9 @@ function admin_css() {
 	.edit-post-fullscreen-mode-close.components-button:before {
 		box-shadow: none;
 	}
+	#wpadminbar #wp-admin-bar-my-account.with-avatar>a img {
+		border-radius: 999px;
+	}
 	#adminmenu, #adminmenuback, #adminmenuwrap, #adminmenu .wp-submenu {
 		background: #05588f;
 	}
