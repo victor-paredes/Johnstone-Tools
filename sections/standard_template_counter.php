@@ -2,13 +2,13 @@
 
 
 <div class="counter_wrap col-12 pt-5 pb-4" style="
-     background-color: <?php the_sub_field('background_color'); ?>;
+     background-color: <?php echo get_sub_field('background_color'); ?>;
      border-radius: .25rem;
-     background-image: url(<?php the_sub_field("background_image") ?>);
+     background-image: url(<?php echo get_sub_field("background_image") ?>);
      background-size: cover;
      ">
  
-    <?php the_sub_field('counter_copy'); ?>
+    <?php echo get_sub_field('counter_copy'); ?>
 
     <center>
         <div id="countDown" class="pt-3 row justify-content-center text-light text-center">
@@ -66,7 +66,7 @@
 
 
 <script>
-    const deadline = "<?php the_sub_field('date') ?>";
+    const deadline = "<?php echo get_sub_field('date') ?>";
     initializeClock('countDown', deadline);
 
     function getTimeRemaining(endtime) {
