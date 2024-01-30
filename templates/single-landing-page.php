@@ -111,7 +111,7 @@ get_template_part( 'parts/js_header' ); ?>
                         font-size: 1.9rem;
                     }
                     h2 {
-                        padding-top: 50px;
+                        padding-top: 60px;
                         padding-bottom: 18px !important;
                         font-weight: 900 !important;
                         font-size: 1.9rem !important;
