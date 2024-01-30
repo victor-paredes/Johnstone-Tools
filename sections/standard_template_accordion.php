@@ -1,5 +1,5 @@
 
-<div class="<?php the_sub_field('css_classes'); ?>" style="margin-top: 25px;">
+<div class="<?php the_sub_field('css_classes'); ?>">
 
 
 
