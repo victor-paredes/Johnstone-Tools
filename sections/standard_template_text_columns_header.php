@@ -98,6 +98,11 @@
         padding-bottom: 20px;
     }
     .notice_wrapper span {
+        margin-bottom: 10px;
+        font-weight: 200;
+        color: #569DFF;
+    }
+    .notice_wrapper span {
         vertical-align: top;
         font-size: 1rem;
     }
