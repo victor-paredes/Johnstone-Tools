@@ -99,7 +99,6 @@
     }
     .notice_wrapper {
         margin-bottom: 10px;
-        font-weight: 200;
         color: #569DFF !important;
     }
     .notice_wrapper span {
