@@ -85,7 +85,7 @@
   text-align: center;
   color: #000; 
 }
-.pill_copy a {
+.pill_copy a { 
     color: #000; 
 }
 
