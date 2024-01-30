@@ -1,4 +1,4 @@
-<div class="standard_template_table_wrap col-12 pt-3 text-left <?php echo get_sub_field('css_classes'); ?>"> <!-- start table -->
+<div class="standard_template_table_wrap col-12 text-left <?php echo get_sub_field('css_classes'); ?>"> <!-- start table -->
 			
     <div class="row table_wrap" style="border: 1px solid #ddd;"><!-- wrap -->
 
