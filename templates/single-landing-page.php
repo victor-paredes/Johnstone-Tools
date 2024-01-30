@@ -64,6 +64,8 @@ get_template_part( 'parts/js_header' ); ?>
                     --js_teal: #72aab3;
                     --js_dark_teal: #016373;
                     --dark_blue: #002b67;
+                    --js_grey: #eee;
+                    --js_dark_grey: #67696b;
 
                     --js_rounded: .25rem;
                 }
