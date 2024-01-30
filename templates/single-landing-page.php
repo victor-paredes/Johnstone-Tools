@@ -62,7 +62,6 @@ get_template_part( 'parts/js_header' ); ?>
                 #COPY_THIS_CONTAINER_TO_BLOOMREACH {
                     --dark_blue: #002b67;
                     --js_red: #ef3f42;
-                    margin-top: -10px;
                 }
                 .bg-gradient {
                     background: rgba(228,235,241,1);
@@ -146,6 +145,9 @@ get_template_part( 'parts/js_header' ); ?>
                     } 
                     .columnsCollectionContainer .col-md {
                         padding: 0 !important;
+                    }
+                    #COPY_THIS_CONTAINER_TO_BLOOMREACH {
+                        margin-top: -10px;
                     }
                 }
                 @media screen and (max-width: 992px) {
