@@ -13,7 +13,13 @@
 
         <div class="pill_card_wrapper">
 
-            <a class="pill_card" href="<?php echo get_sub_field('pill_link'); ?>" target="_blank">
+            <?php if ( get_sub_field('pill_link') != '' ) { ?>
+              <a class="pill_card" href="<?php echo get_sub_field('pill_link'); ?>" target="_blank">
+            <?php } else { ?>
+              <div class="pill_card">
+            <?php } ?>
+
+            
 
                 <div class="pill_image_wrapper" style="background-color:<?php echo get_sub_field('pill_image_background'); ?>">
                     <img src="<?php echo get_sub_field('pill_image'); ?>">
@@ -24,8 +30,12 @@
                         <?php echo get_sub_field('pill_label'); ?>
                     </div>
                 </div>
-         
-            </a>
+              
+            <?php if ( get_sub_field('pill_link') != '' ) { ?>
+              </a>
+            <?php } else { ?>
+              </div>
+            <?php } ?>
 
         </div>
 
