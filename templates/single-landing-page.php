@@ -61,6 +61,7 @@ get_template_part( 'parts/js_header' ); ?>
                 #COPY_THIS_CONTAINER_TO_BLOOMREACH {
                     --js_blue: #004990;
                     --js_red: #ef3f42;
+                    --js_dark_red: #c82333;
                     --js_teal: #72aab3;
                     --js_dark_teal: #016373;
                     --dark_blue: #002b67;
