@@ -65,10 +65,10 @@
 .pill_card_wrapper:hover {
   border-color: #bbb;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  transition: .4s;
 }
 .pill_card_wrapper:hover * {
     text-decoration: none !important;
-    transition: .4s;
 }
 .pill_image_wrapper {
     margin-bottom: 10px;
