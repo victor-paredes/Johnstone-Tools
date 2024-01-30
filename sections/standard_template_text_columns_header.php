@@ -131,7 +131,7 @@
         }
         .notice_wrapper {
             margin-top: 25px;
-            margin-bottom: -20px;
+            margin-bottom: -15px;
         }
         <?php echo '.' . $text_columns_header_image_class; ?> {
             background-image: url('<?php 
