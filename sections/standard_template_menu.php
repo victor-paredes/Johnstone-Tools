@@ -65,14 +65,14 @@
     }
     .menu_wrap a {
         transition: all 0.5s ease;
-        color: #002b67;
+        color: var(--dark_blue);
     }
     .menu_menu {
         display: inline-block;
     }
     .mobile_menu_icon {
         padding-left: 19px;
-        fill: #0f3465;
+        fill: var(--dark_blue);
         text-align: center;
         cursor: pointer;
         padding-top: 3px;
@@ -84,7 +84,7 @@
         padding-right: 10px;
         font-size: .7rem;
         font-weight: 900;
-        color: #0f3465;
+        color: var(--dark_blue);
     }
     .mobile_menu_icon rect {
         height: 10px;
@@ -102,7 +102,7 @@
         border-radius: initial;
         border-bottom-width: 5px;
         text-decoration: none;
-        border-bottom-color: #ef3f42;
+        border-bottom-color: var(--js_red);
     }
     .menu_item_selected {
         border-radius: .25rem !important;
@@ -156,7 +156,6 @@
         }
         .menu_item_selected, .menu_item_selected:hover  {
             background-color: var(--js_red) !important;
-            background-color: #ef3e42 !important;
         }
     }
     @media screen and (min-width: 1200px) {
