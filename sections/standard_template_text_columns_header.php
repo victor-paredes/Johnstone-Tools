@@ -12,9 +12,9 @@
                     <div class="padding_mobile pr-5 text-center">
                         <img class="shadow" src="<?php 
                                             if ( get_sub_field('featured_image_remote_url') ) { 
-                                                the_sub_field('featured_image_remote_url'); 
+                                                echo get_sub_field('featured_image_remote_url'); 
                                             } else { 
-                                                the_sub_field('featured_image'); 
+                                                echo get_sub_field('featured_image'); 
                                             } ?>" style="width:100%; border-radius: .25rem;">
                     </div>
                 </div> <!-- END .card -->
@@ -35,7 +35,7 @@
                         <?php } ?>
 
 
-                        <?php the_sub_field('text_content'); ?>
+                        <?php echo get_sub_field('text_content'); ?>
 
 
                     </div>
@@ -45,9 +45,9 @@
                     <div class="padding_mobile py-5 pr-5 text-center">
                         <img class="shadow" src="<?php 
                                             if ( get_sub_field('featured_image_remote_url') ) { 
-                                                the_sub_field('featured_image_remote_url');  
+                                                echo get_sub_field('featured_image_remote_url');  
                                             } else {  
-                                                the_sub_field('featured_image'); 
+                                                echo get_sub_field('featured_image'); 
                                             } ?>" style="width:100%; border-radius: .25rem; margin-left: 10px;">
                     </div>
                 </div> <!-- END .card -->
@@ -136,9 +136,9 @@
         <?php echo '.' . $text_columns_header_image_class; ?> {
             background-image: url('<?php 
                     if ( get_sub_field('alt_image_remote_url') ) { 
-                        the_sub_field('alt_image_remote_url'); 
+                        echo get_sub_field('alt_image_remote_url'); 
                     } else { 
-                        the_sub_field('alt_image'); 
+                        echo get_sub_field('alt_image'); 
                     } ?>
                 ');
             background-size: cover;
