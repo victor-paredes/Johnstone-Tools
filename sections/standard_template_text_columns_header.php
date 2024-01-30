@@ -128,6 +128,10 @@
         .text_columns_header_text_card h1 {
             padding-top: 30px;
         }
+        .notice_wrapper {
+            margin-top: 15px;
+            margin-bottom: 0;
+        }
         <?php echo '.' . $text_columns_header_image_class; ?> {
             background-image: url('<?php 
                                             if ( get_sub_field('alt_image_remote_url') ) { 
