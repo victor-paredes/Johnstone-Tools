@@ -89,6 +89,7 @@
         height: 100%;
         flex-wrap: wrap;
         align-content: flex-start;
+        margin-bottom: 30px;
         padding-top: 15px;
         padding-right: 5px;
     }
