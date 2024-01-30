@@ -12,7 +12,6 @@ Template Post Type: landing-page
 get_template_part( 'parts/js_header' ); ?>
 
 
-
 <div class="container">
 
     <?php
