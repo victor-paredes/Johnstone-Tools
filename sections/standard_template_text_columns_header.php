@@ -97,7 +97,7 @@
         font-size: 2rem;
         padding-bottom: 20px;
     }
-    .notice_wrapper span {
+    .notice_wrapper {
         margin-bottom: 10px;
         font-weight: 200;
         color: #569DFF;
