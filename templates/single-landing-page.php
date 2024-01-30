@@ -57,7 +57,7 @@ get_template_part( 'parts/js_header' ); ?>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-                <?php echo get_field('headers_style'); ?>
+
  
             <style>
                 <?php the_field('additional_css'); ?>
@@ -103,29 +103,30 @@ get_template_part( 'parts/js_header' ); ?>
                 }
 
 
-                
-                h1, h2 {
-                    line-height: 2.12rem;
-                }
-                h1 {
-                    font-size: 1.9rem;
-                }
-                h2 {
-                    padding-top: 30px;
-                    padding-bottom: 18px !important;
-                    font-weight: 900 !important;
-                    font-size: 1.9rem !important;
-                }
-                .text_columns_wrap h2:before {
-                    display: block;
-                    position: absolute;
-                    height: 1.37rem;
-                    margin: 7.2px 0 0 -15px;
-                    content: ".";
-                    background-color: transparent;
-                    color: transparent;
-                    box-shadow: -10px 0 0 0 var(--js_red);
-                }
+                <?php if (get_field('headers_style') == 'a2l' ) { ?>
+                    h1, h2 {
+                        line-height: 2.12rem;
+                    }
+                    h1 {
+                        font-size: 1.9rem;
+                    }
+                    h2 {
+                        padding-top: 30px;
+                        padding-bottom: 18px !important;
+                        font-weight: 900 !important;
+                        font-size: 1.9rem !important;
+                    }
+                    .text_columns_wrap h2:before {
+                        display: block;
+                        position: absolute;
+                        height: 1.37rem;
+                        margin: 7.2px 0 0 -15px;
+                        content: ".";
+                        background-color: transparent;
+                        color: transparent;
+                        box-shadow: -10px 0 0 0 var(--js_red);
+                    }
+                <?php } ?>
 
 
 
