@@ -21,12 +21,18 @@
      
                 <div class="card" style="background-color: transparent; border: initial;">
                     <div class="padding_mobile text_columns_header_text_card pt-5 pl-5">
-                        <?php if ( get_sub_field('notice_type') == 'information' ) { ?>
-                            <span class="material-symbols-outlined">info</span>
-                        <?php } elseif ( get_sub_field('notice_type') == 'page' ) { ?>
-                            <span class="material-symbols-outlined">description</span>
+
+
+                        <?php if ( get_sub_field('notice_type') != 'none' ) { ?>
+                            <div class="notice_wrapper">
+                                <?php if ( get_sub_field('notice_type') == 'information' ) { ?>
+                                    <span class="material-symbols-outlined">info</span>
+                                <?php } elseif ( get_sub_field('notice_type') == 'page' ) { ?>
+                                    <span class="material-symbols-outlined">description</span>
+                                <?php } ?>
+                                <?php echo '&nbsp;' . get_sub_field('notice_copy'); ?>
+                            </div>
                         <?php } ?>
-                        <?php echo '&nbsp;&nbsp;' . get_sub_field('notice_copy'); ?>
 
                         <?php the_sub_field('text_content'); ?>
                     </div>
