@@ -11,7 +11,7 @@ Template Post Type: landing-page
 <?php 
 get_template_part( 'parts/js_header' ); ?>
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 
 <div class="container">
 
@@ -19,6 +19,8 @@ get_template_part( 'parts/js_header' ); ?>
     if ( have_rows('standard_template_blocks') == true ) { ?>
 
         <div id="COPY_THIS_CONTAINER_TO_BLOOMREACH">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
             <?php
                 while( have_rows('standard_template_blocks') ) {
