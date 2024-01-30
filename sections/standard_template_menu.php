@@ -5,7 +5,7 @@
 
             <div class="mobile_menu_icon narrow_only">
                 <div class="menu_label">
-                    <?php the_sub_field('menu_label'); ?>
+                    <?php echo get_sub_field('menu_label'); ?>
                 </div>
 
                 <svg viewBox="0 0 125 50" width="40" height="40">
@@ -25,8 +25,8 @@
             
 
         
-            <a class="menu_item menu_item_local_link <?php if (get_sub_field('highlight') != 'transparent') { echo 'menu_item_selected'; } ?>" href="<?php the_sub_field('link'); ?>" style="background-color: <?php echo get_sub_field('highlight') ?>; color: <?php echo get_sub_field('label_color') ?>;">
-                        <?php the_sub_field('label'); ?>
+            <a class="menu_item menu_item_local_link <?php if (get_sub_field('highlight') != 'transparent') { echo 'menu_item_selected'; } ?>" href="<?php echo get_sub_field('link'); ?>" style="background-color: <?php echo get_sub_field('highlight') ?>; color: <?php echo get_sub_field('label_color') ?>;">
+                        <?php echo get_sub_field('label'); ?>
             </a>
                
 
