@@ -1,5 +1,5 @@
-<div class="my-2 columnsCollectionContainer">
-    <div class="my-3">
+<div class="columnsCollectionContainer">
+    <div class="">
         <div class="row">
                 <div class="col-md">
 
