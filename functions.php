@@ -97,6 +97,9 @@ function admin_css() {
 	#wpadminbar, #adminmenu li.menu-top:hover {
 		background: #0f3465;
 	}
+	.edit-post-fullscreen-mode-close.components-button {
+		background: #004990;
+	}
 	#adminmenu, #adminmenuback, #adminmenuwrap, #adminmenu .wp-submenu {
 		background: #05588f;
 	}
