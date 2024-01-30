@@ -155,6 +155,7 @@
             background-color: #fff !important;
         }
         .menu_item_selected, .menu_item_selected:hover  {
+            background-color: var(--js_red) !important;
             background-color: #ef3e42 !important;
         }
     }
