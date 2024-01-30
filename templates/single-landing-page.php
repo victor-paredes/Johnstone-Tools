@@ -126,14 +126,15 @@ get_template_part( 'parts/js_header' ); ?>
                         color: transparent;
                         box-shadow: -10px 0 0 0 var(--js_red);
                     }
+                    p {
+                        line-height: 1.4rem;
+                    }
                 <?php } ?>
 
 
 
 
-                p {
-                    line-height: 1.4rem;
-                }
+                
                 .text_columns_header_text_card ol {
                     list-style: none;
                     counter-reset: item;
