@@ -20,8 +20,6 @@ get_template_part( 'parts/js_header' ); ?>
 
         <div id="COPY_THIS_CONTAINER_TO_BLOOMREACH">
 
-        
-
             <?php
                 while( have_rows('standard_template_blocks') ) {
                     the_row();
