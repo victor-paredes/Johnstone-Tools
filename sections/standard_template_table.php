@@ -1,10 +1,10 @@
-<div class="standard_template_table_wrap col-12 pt-3 text-left <?php the_sub_field('css_classes'); ?>"> <!-- start table -->
+<div class="standard_template_table_wrap col-12 pt-3 text-left <?php echo get_sub_field('css_classes'); ?>"> <!-- start table -->
 			
     <div class="row table_wrap" style="border: 1px solid #ddd;"><!-- wrap -->
 
 
 
-        <table class="table_noexpand" style="table-layout: <?php the_sub_field('column_layout'); ?>;">
+        <table class="table_noexpand" style="table-layout: <?php echo get_sub_field('column_layout'); ?>;">
 
 
 
@@ -20,8 +20,8 @@
                         the_row(); 
                     ?>
 
-                        <td class="table_cell" style="background-color: <?php the_sub_field('bg_color'); ?>; color: <?php the_sub_field('text_color'); ?>; border-color: <?php the_sub_field('border_color'); ?>; text-align: <?php the_sub_field('text_align'); ?>; vertical-align: <?php the_sub_field('vertical_align'); ?>;">
-                            <?php the_sub_field('cell_content'); ?>
+                        <td class="table_cell" style="background-color: <?php echo get_sub_field('bg_color'); ?>; color: <?php echo get_sub_field('text_color'); ?>; border-color: <?php echo get_sub_field('border_color'); ?>; text-align: <?php echo get_sub_field('text_align'); ?>; vertical-align: <?php echo get_sub_field('vertical_align'); ?>;">
+                            <?php echo get_sub_field('cell_content'); ?>
                         </td>
 
                     <?php
