@@ -129,17 +129,17 @@
             padding-top: 30px;
         }
         .notice_wrapper {
-            margin-top: 15px;
-            margin-bottom: 0;
+            margin-top: 25px;
+            margin-bottom: -20px;
         }
         <?php echo '.' . $text_columns_header_image_class; ?> {
             background-image: url('<?php 
-                                            if ( get_sub_field('alt_image_remote_url') ) { 
-                                                the_sub_field('alt_image_remote_url'); 
-                                            } else { 
-                                                the_sub_field('alt_image'); 
-                                            } ?>
-                                        ');
+                    if ( get_sub_field('alt_image_remote_url') ) { 
+                        the_sub_field('alt_image_remote_url'); 
+                    } else { 
+                        the_sub_field('alt_image'); 
+                    } ?>
+                ');
             background-size: cover;
         }
     }
