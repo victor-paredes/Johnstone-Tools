@@ -129,6 +129,17 @@ get_template_part( 'parts/js_header' ); ?>
                     p {
                         line-height: 1.4rem;
                     }
+                    .text_columns_header_text_card li:before {
+                        display: inline-block;
+                        margin-left:calc(-1.8rem - 10px);
+                        content: counter(item);
+                        font-weight: 900;
+                        width: 1.8rem;
+                        text-align: center;
+                        border: 1px solid #fff; 
+                        border-radius: 999px;
+                        margin-right: 10px;
+                    }
                 <?php } ?>
 
 
@@ -142,17 +153,6 @@ get_template_part( 'parts/js_header' ); ?>
                 .text_columns_header_text_card li {
                     counter-increment: item;
                     padding-bottom: 10px;
-                }
-                .text_columns_header_text_card li:before {
-                    display: inline-block;
-                    margin-left:calc(-1.8rem - 10px);
-                    content: counter(item);
-                    font-weight: 900;
-                    width: 1.8rem;
-                    text-align: center;
-                    border: 1px solid #fff; 
-                    border-radius: 999px;
-                    margin-right: 10px;
                 }
                 .js-rounded img {
                     border-radius: .25rem;
