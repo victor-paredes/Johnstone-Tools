@@ -34,7 +34,10 @@
                             </div>
                         <?php } ?>
 
+
                         <?php the_sub_field('text_content'); ?>
+
+
                     </div>
                 </div> <!-- END .card -->
 
@@ -93,7 +96,12 @@
         font-weight: 900;
         font-size: 2rem;
         padding-bottom: 20px;
-
+    }
+    .notice_wrapper {
+        font-size: .7rem;
+    }
+    .notice_wrapper span {
+        vertical-align: top;
     }
     .smalltext {
         font-size: .7rem;
