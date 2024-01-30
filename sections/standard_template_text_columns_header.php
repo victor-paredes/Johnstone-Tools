@@ -98,7 +98,7 @@
         padding-bottom: 20px;
     }
     .notice_wrapper {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
         color: #569DFF !important;
     }
     .notice_wrapper span {
