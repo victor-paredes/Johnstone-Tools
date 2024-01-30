@@ -46,7 +46,7 @@
                 
         <style>
             .text_columns_wrap {
-                margin-top: 25px;
+                /* margin-top: 25px; */
                 padding-left: 50px;
                 padding-right: 50px;
             }

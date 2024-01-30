@@ -19,7 +19,6 @@
               <div class="pill_card">
             <?php } ?>
 
-            
 
                 <div class="pill_image_wrapper" style="background-color:<?php echo get_sub_field('pill_image_background'); ?>">
                     <img src="<?php echo get_sub_field('pill_image'); ?>">
@@ -31,6 +30,7 @@
                     </div>
                 </div>
               
+                
             <?php if ( get_sub_field('pill_link') != '' ) { ?>
               </a>
             <?php } else { ?>
