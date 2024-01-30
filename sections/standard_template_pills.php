@@ -49,7 +49,7 @@
 
 
 .pills_wrapper {
-margin-bottom: 60px;
+  margin-bottom: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr; 
   grid-gap: 20px;
@@ -59,7 +59,7 @@ margin-bottom: 60px;
   border: 1px solid #ddd;
   background-color: #fff;
   border-radius: .25rem;
-  transition: .3s;
+  transition: .1s;
   cursor: pointer;
 }
 .pill_card_wrapper:hover {
@@ -68,6 +68,7 @@ margin-bottom: 60px;
 }
 .pill_card_wrapper:hover * {
     text-decoration: none !important;
+    transition: .4s;
 }
 .pill_image_wrapper {
     margin-bottom: 10px;
