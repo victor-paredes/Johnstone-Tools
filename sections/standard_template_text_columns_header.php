@@ -113,7 +113,7 @@
     @media screen and (max-width: 576px) {
         .text_columns_header_wrap {
             padding-top: 35px;
-            padding-bottom: 40px;
+            padding-bottom: 20px;
         }
         .text_columns_header_image_card {
             position: initial !important;
