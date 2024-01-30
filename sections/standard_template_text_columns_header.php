@@ -21,6 +21,11 @@
      
                 <div class="card" style="background-color: transparent; border: initial;">
                     <div class="padding_mobile text_columns_header_text_card pt-5 pl-5">
+                        <?php if ( get_sub_field('notice_type') == 'information' ) { ?>
+                            <span class="material-symbols-outlined">
+                                info
+                            </span>
+                        <?php } ?>
                         <?php the_sub_field('text_content'); ?>
                     </div>
                 </div> <!-- END .card -->
