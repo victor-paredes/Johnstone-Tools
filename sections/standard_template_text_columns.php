@@ -17,7 +17,7 @@
             }
 ?>
 
-<div class="text_columns_wrap padding_mobile <?php the_sub_field('css_classes'); ?>">
+<div class="text_columns_wrap padding_mobile <?php echo get_sub_field('css_classes'); ?>">
     <div class="card-deck <?php echo $text_columns_card_deck_class; ?>">
 
 
@@ -31,7 +31,7 @@
                 
                 <div class="card" style="background-color: transparent; border: initial;">
               
-                            <?php the_sub_field('column_copy'); ?>
+                            <?php echo get_sub_field('column_copy'); ?>
 
                 </div> <!-- END .card -->
 
