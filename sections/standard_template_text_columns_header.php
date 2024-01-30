@@ -106,7 +106,7 @@
         vertical-align: top;
         font-size: 1rem;
     }
-    .smalltext {
+    .smalltext { 
         font-size: .7rem;
     }
 
