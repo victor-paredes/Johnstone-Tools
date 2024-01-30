@@ -24,7 +24,7 @@
 
 
                         <?php if ( get_sub_field('notice_type') != 'none' ) { ?>
-                            <div class="notice_wrapper">
+                            <div class="notice_wrapper smalltext">
                                 <?php if ( get_sub_field('notice_type') == 'information' ) { ?>
                                     <span class="material-symbols-outlined">info</span>
                                 <?php } elseif ( get_sub_field('notice_type') == 'page' ) { ?>
@@ -96,9 +96,6 @@
         font-weight: 900;
         font-size: 2rem;
         padding-bottom: 20px;
-    }
-    .notice_wrapper {
-        font-size: .7rem;
     }
     .notice_wrapper span {
         vertical-align: top;
