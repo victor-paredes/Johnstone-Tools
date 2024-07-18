@@ -30,7 +30,7 @@ get_template_part( 'parts/js_header' ); ?>
                         get_template_part( 'sections/standard_template_about_section' );
                     } elseif ( $current_layout == 'product_cards' ) {
                         get_template_part( 'sections/standard_template_product_cards' );
-                    } elseif ( $current_layout == 'product_cards' ) {
+                    } elseif ( $current_layout == 'product_cards_v2' ) {
                         get_template_part( 'sections/standard_template_product_cards_v2' );
                     } elseif ( $current_layout == 'text_columns' ) {
                         get_template_part( 'sections/standard_template_text_columns' );
