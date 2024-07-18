@@ -1,3 +1,5 @@
+ping
+
 <?php
             while( have_rows('product_cards_v2') ){ 
                 the_row(); 
