@@ -1,4 +1,4 @@
-ping
+pings
 
 <?php
             while( have_rows('product_cards_v2') ){ 
@@ -6,81 +6,10 @@ ping
         ?>
 
 
+<?php echo get_sub_field('test_field'); ?>
 
 
-
-
-
-
-
-<!-- TABS NAV -->
-<ul class="nav nav-tabs" role="tablist">
-    <?php
-            while( have_rows('tabs') ){ 
-                the_row(); 
-        ?>
-
-
-    <li class="nav-item" role="presentation">
-        <a class="nav-link active" id="js_tab_0" data-bs-toggle="tab" href="#js_tabpanel_0" role="tab"
-            aria-controls="js_tabpanel_0" aria-selected="true">
-
-            <?php if ( get_sub_field('tab_label') ) { ?>
-            <h6>
-                <?php echo get_sub_field('tab_label'); ?>
-            </h6>
-            <?php } ?>
-
-        </a>
-    </li>
-
-    <?php
-            } // END while( have_rows('tabs') )
-        ?>
-
-
-</ul>
-
-
-
-
-
-
-
-
-
-
-
-<!-- TABS CONTENT -->
-<div class="js_product_tabs_content_wrapper tab-content" id="js_tab-content">
-
-    <div class="tab-pane active" id="js_tabpanel_0" role="tabpanel">
-        <h3>
-            Residential
-        </h3>
-        <div class="js_product_card_wrapper">
-            <?php include 'part_card.php';?>
-            <?php include 'part_card.php';?>
-            <?php include 'part_card.php';?>
-            <?php include 'part_card.php';?>
-            <?php include 'part_card.php';?>
-        </div>
-    </div>
-
-    <div class="tab-pane" id="js_tabpanel_1" role="tabpanel">
-        <h3>
-            Commercial
-        </h3>
-        <div class="js_product_card_wrapper">
-            <?php include 'part_card.php';?>
-            <?php include 'part_card.php';?>
-            <?php include 'part_card.php';?>
-            <?php include 'part_card.php';?>
-        </div>
-    </div>
-
-</div>
-
+<br>pong
 
 
 
